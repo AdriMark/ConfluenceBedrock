@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:lava_moss",
+            "menu_category": {
+                "category": "nature",
+                "group": "confluence:itemGroup.name.moss"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:lava_moss_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:lava_moss.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:lava_moss",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

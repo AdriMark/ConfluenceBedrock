@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:desert_grass",
+            "menu_category": {
+                "category": "nature",
+                "group": "confluence:itemGroup.name.desert"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:desert_grass_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:desert_grass.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:desert_grass",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

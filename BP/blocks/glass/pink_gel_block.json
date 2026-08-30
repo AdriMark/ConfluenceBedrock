@@ -5,7 +5,7 @@
             "identifier": "confluence:pink_gel_block",
             "menu_category": {
                 "category": "construction",
-                "group": "minecraft:itemGroup.name.glass"
+                "group": "minecraft:itemGroup.name.stone"
             }
         },
         "components": {

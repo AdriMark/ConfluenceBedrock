@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "confluence:falcon_blade",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/attachables/falcon_blade",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.falcon_blade"
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ],
+      "animations": {
+        "thirdperson_main_hand": "animation.falcon_blade.thirdperson_main_hand",
+        "thirdperson_off_hand": "animation.falcon_blade.thirdperson_off_hand",
+        "firstperson_main_hand": "animation.falcon_blade.firstperson_main_hand",
+        "firstperson_off_hand": "animation.falcon_blade.firstperson_off_hand"
+      },
+      "scripts": {
+        "pre_animation": [
+          "v.main_hand = c.item_slot == 'main_hand';",
+          "v.off_hand = c.item_slot == 'off_hand';"
+        ],
+        "animate": [
+          {
+            "thirdperson_main_hand": "v.main_hand && !c.is_first_person"
+          },
+          {
+            "thirdperson_off_hand": "v.off_hand && !c.is_first_person"
+          },
+          {
+            "firstperson_main_hand": "v.main_hand && c.is_first_person"
+          },
+          {
+            "firstperson_off_hand": "v.off_hand && c.is_first_person"
+          }
+        ]
+      }
+    }
+  }
+}

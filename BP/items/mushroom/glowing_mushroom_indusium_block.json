@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:glowing_mushroom_indusium_block",
+            "menu_category": {
+                "category": "nature",
+                "group": "confluence:itemGroup.name.mushroom"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:glowing_mushroom_indusium_block_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:glowing_mushroom_indusium_block.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:glowing_mushroom_indusium_block",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

@@ -4,8 +4,8 @@
         "description": {
             "identifier": "confluence:cold_crystal_ore",
             "menu_category": {
-                "category": "construction",
-                "group": "minecraft:itemGroup.name.glass"
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.ore"
             }
         },
         "components": {

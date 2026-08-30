@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:platinum_coin",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.coins"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:platinum_coin_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:platinum_coin.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:platinum_coin",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

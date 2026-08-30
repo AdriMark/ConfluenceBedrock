@@ -17,8 +17,8 @@
                     "texture": "confluence:cobblestone",
                     "render_method": "alpha_test"
                 },
-                "enchanted_sword": {
-                    "texture": "confluence:enchanted_sword",
+                "sword_enchanted_sword": {
+                    "texture": "confluence:sword_enchanted_sword",
                     "render_method": "alpha_test"
                 },
                 "*": {

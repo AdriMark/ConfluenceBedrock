@@ -1,0 +1,207 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.zombie_arm.thirdperson_main_hand": {
+      "loop": true,
+      "bones": {
+        "zombie_arm": {
+          "rotation": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            13.0,
+            -3.0
+          ]
+        },
+        "zombie_arm_x": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "zombie_arm_y": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "zombie_arm_z": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.zombie_arm.thirdperson_off_hand": {
+      "loop": true,
+      "bones": {
+        "zombie_arm": {
+          "rotation": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            13.0,
+            -3.0
+          ]
+        },
+        "zombie_arm_x": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "zombie_arm_y": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "zombie_arm_z": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.zombie_arm.firstperson_main_hand": {
+      "loop": true,
+      "bones": {
+        "zombie_arm": {
+          "rotation": [
+            90.0,
+            60.0,
+            -40.0
+          ],
+          "position": [
+            4.0,
+            10.0,
+            4.0
+          ],
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ]
+        },
+        "zombie_arm_x": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "zombie_arm_y": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "zombie_arm_z": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.zombie_arm.firstperson_off_hand": {
+      "loop": true,
+      "bones": {
+        "zombie_arm": {
+          "rotation": [
+            90.0,
+            60.0,
+            -40.0
+          ],
+          "position": [
+            4.0,
+            10.0,
+            4.0
+          ],
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ]
+        },
+        "zombie_arm_x": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "zombie_arm_y": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "zombie_arm_z": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

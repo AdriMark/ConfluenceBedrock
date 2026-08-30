@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:heart_lantern",
+            "menu_category": {
+                "category": "construction",
+                "group": "confluence:itemGroup.name.misc_functional"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:heart_lantern_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:heart_lantern.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:heart_lantern",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

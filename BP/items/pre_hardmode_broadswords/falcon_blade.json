@@ -1,0 +1,34 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:falcon_blade",
+            "menu_category": {
+                "category": "equipment",
+                "group": "confluence:itemGroup.name.pre_hardmode_broadswords"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:falcon_blade"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:falcon_blade.name"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:damage": 5,
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 18
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_sword"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:jungle_drooping_vine",
+            "menu_category": {
+                "category": "nature",
+                "group": "confluence:itemGroup.name.jungle"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:jungle_drooping_vine_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:jungle_drooping_vine.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:jungle_drooping_vine",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

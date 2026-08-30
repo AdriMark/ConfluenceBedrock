@@ -1,0 +1,207 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.falcon_blade.thirdperson_main_hand": {
+      "loop": true,
+      "bones": {
+        "falcon_blade": {
+          "rotation": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            13.0,
+            -3.0
+          ]
+        },
+        "falcon_blade_x": {
+          "rotation": [
+            -45.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            4.0,
+            2.0
+          ],
+          "scale": [
+            0.85,
+            0.85,
+            0.85
+          ]
+        },
+        "falcon_blade_y": {
+          "rotation": [
+            0.0,
+            270.0,
+            0.0
+          ]
+        },
+        "falcon_blade_z": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.falcon_blade.thirdperson_off_hand": {
+      "loop": true,
+      "bones": {
+        "falcon_blade": {
+          "rotation": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            13.0,
+            -3.0
+          ]
+        },
+        "falcon_blade_x": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.0,
+            4.0,
+            2.0
+          ],
+          "scale": [
+            0.85,
+            0.85,
+            0.85
+          ]
+        },
+        "falcon_blade_y": {
+          "rotation": [
+            0.0,
+            -270.0,
+            0.0
+          ]
+        },
+        "falcon_blade_z": {
+          "rotation": [
+            0.0,
+            0.0,
+            -45.0
+          ]
+        }
+      }
+    },
+    "animation.falcon_blade.firstperson_main_hand": {
+      "loop": true,
+      "bones": {
+        "falcon_blade": {
+          "rotation": [
+            90.0,
+            60.0,
+            -40.0
+          ],
+          "position": [
+            4.0,
+            10.0,
+            4.0
+          ],
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ]
+        },
+        "falcon_blade_x": {
+          "rotation": [
+            -67.5,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -2.0,
+            2.0,
+            2.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "falcon_blade_y": {
+          "rotation": [
+            0.0,
+            270.0,
+            0.0
+          ]
+        },
+        "falcon_blade_z": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.falcon_blade.firstperson_off_hand": {
+      "loop": true,
+      "bones": {
+        "falcon_blade": {
+          "rotation": [
+            90.0,
+            60.0,
+            -40.0
+          ],
+          "position": [
+            4.0,
+            10.0,
+            4.0
+          ],
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ]
+        },
+        "falcon_blade_x": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "falcon_blade_y": {
+          "rotation": [
+            0.0,
+            -270.0,
+            0.0
+          ]
+        },
+        "falcon_blade_z": {
+          "rotation": [
+            0.0,
+            0.0,
+            -67.5
+          ]
+        }
+      }
+    }
+  }
+}

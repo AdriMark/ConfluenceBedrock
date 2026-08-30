@@ -734,6 +734,66 @@
 		"confluence:wooden_hammer": {
 			"textures": "textures/items/confluence/wooden_hammer"
 		},
+		"confluence:umbrella": {
+			"textures": "textures/items/umbrella"
+		},
+		"confluence:tragic_umbrella": {
+			"textures": "textures/items/tragic_umbrella"
+		},
+		"confluence:falcon_blade": {
+			"textures": "textures/items/falcon_blade"
+		},
+		"confluence:exotic_scimitar": {
+			"textures": "textures/items/exotic_scimitar"
+		},
+		"confluence:purple_clubberfish": {
+			"textures": "textures/items/purple_clubberfish"
+		},
+		"confluence:lights_bane": {
+			"textures": "textures/items/lights_bane"
+		},
+		"confluence:blood_butcherer": {
+			"textures": "textures/items/blood_butcherer"
+		},
+		"confluence:volcano": {
+			"textures": "textures/items/volcano"
+		},
+		"confluence:bat_bat": {
+			"textures": "textures/items/bat_bat"
+		},
+		"confluence:tentacle_mace": {
+			"textures": "textures/items/tentacle_mace"
+		},
+		"confluence:bee_keeper": {
+			"textures": "textures/items/bee_keeper"
+		},
+		"confluence:ice_blade": {
+			"textures": "textures/items/ice_blade"
+		},
+		"confluence:starfury": {
+			"textures": "textures/items/starfury"
+		},
+		"confluence:enchanted_sword": {
+			"textures": "textures/items/enchanted_sword"
+		},
+		"confluence:blade_of_grass": {
+			"textures": "textures/items/blade_of_grass"
+		},
+		"confluence:nights_edge": {
+			"textures": "textures/items/nights_edge"
+		},
+		"confluence:waffles_iron": {
+			"textures": "textures/items/waffles_iron"
+		},
+		"confluence:developer_sword": {
+			"textures": "textures/items/developer_sword"
+		},
+		"confluence:broken_sweet_sword": {
+			"textures": "textures/items/broken_sweet_sword"
+		},
+		"confluence:sweet_sword": {
+			"textures": "textures/items/sweet_sword"
+		},
 		"confluence:amber_chain_icon": {
 			"textures": "textures/items/blocks/amber_chain_icon"
 		},

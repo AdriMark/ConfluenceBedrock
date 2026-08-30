@@ -859,9 +859,6 @@
 		"confluence:enchanted_blue_bricks": {
 			"textures": "textures/blocks/confluence/enchanted_blue_bricks"
 		},
-		"confluence:enchanted_sword": {
-			"textures": "textures/blocks/confluence/enchanted_sword"
-		},
 		"confluence:evaporative_cloud_block": {
 			"textures": "textures/blocks/confluence/evaporative_cloud_block"
 		},
@@ -2310,6 +2307,9 @@
 		},
 		"confluence:sun_plate": {
 			"textures": "textures/blocks/confluence/sun_plate"
+		},
+		"confluence:sword_enchanted_sword": {
+			"textures": "textures/blocks/confluence/sword_enchanted_sword"
 		},
 		"confluence:t_statue": {
 			"textures": "textures/blocks/confluence/t_statue"

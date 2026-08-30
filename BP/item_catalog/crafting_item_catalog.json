@@ -3,6 +3,155 @@
 	"minecraft:crafting_items_catalog": {
 		"categories": [
 			{
+				"category_name": "construction",
+				"groups": [
+					{
+						"group_identifier": {
+							"icon": "confluence:ever_powered_rail",
+							"name": "confluence:itemGroup.name.redstone_circuit_traps"
+						},
+						"items": [
+							"confluence:ever_powered_rail"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:life_campfire",
+							"name": "confluence:itemGroup.name.misc_functional"
+						},
+						"items": [
+							"confluence:life_campfire",
+							"confluence:heart_lantern",
+							"confluence:star_in_a_bottle"
+						]
+					}
+				]
+			},
+			{
+				"category_name": "nature",
+				"groups": [
+					{
+						"group_identifier": {
+							"icon": "confluence:ruby_sapling",
+							"name": "confluence:itemGroup.name.stone_tree"
+						},
+						"items": [
+							"confluence:ruby_sapling",
+							"confluence:amber_sapling",
+							"confluence:topaz_sapling",
+							"confluence:jade_sapling",
+							"confluence:diamond_sapling",
+							"confluence:sapphire_sapling",
+							"confluence:amethyst_sapling"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:forest_drooping_vine",
+							"name": "confluence:itemGroup.name.natural_environment"
+						},
+						"items": [
+							"confluence:forest_drooping_vine",
+							"confluence:granite_tapered_block",
+							"confluence:marble_tapered_block"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:corrupt_grass",
+							"name": "confluence:itemGroup.name.corruption"
+						},
+						"items": [
+							"confluence:corrupt_grass",
+							"confluence:corrupt_tapered_block",
+							"confluence:corrupt_drooping_vine"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:hallow_grass",
+							"name": "confluence:itemGroup.name.hallow"
+						},
+						"items": [
+							"confluence:hallow_grass",
+							"confluence:hallow_tapered_block",
+							"confluence:hallow_drooping_vine"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:crimson_grass",
+							"name": "confluence:itemGroup.name.crimson"
+						},
+						"items": [
+							"confluence:crimson_grass",
+							"confluence:crimson_tapered_block",
+							"confluence:crimson_drooping_vine"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:glowing_mushroom_indusium_block",
+							"name": "confluence:itemGroup.name.mushroom"
+						},
+						"items": [
+							"confluence:glowing_mushroom_indusium_block",
+							"confluence:life_mushroom_indusium_block",
+							"confluence:hanging_mycelium",
+							"confluence:glowing_mushroom_vine"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:desert_tapered_block",
+							"name": "confluence:itemGroup.name.desert"
+						},
+						"items": [
+							"confluence:desert_tapered_block",
+							"confluence:desert_grass"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:ice_tapered_block",
+							"name": "confluence:itemGroup.name.snow"
+						},
+						"items": [
+							"confluence:ice_tapered_block"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:jungle_rose",
+							"name": "confluence:itemGroup.name.jungle"
+						},
+						"items": [
+							"confluence:jungle_rose",
+							"confluence:jungle_drooping_vine"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:ash_grass",
+							"name": "confluence:itemGroup.name.nether"
+						},
+						"items": [
+							"confluence:ash_grass"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:lava_moss",
+							"name": "confluence:itemGroup.name.moss"
+						},
+						"items": [
+							"confluence:lava_moss",
+							"confluence:xenon_moss"
+						]
+					}
+				]
+			},
+			{
 				"category_name": "equipment",
 				"groups": [
 					{
@@ -137,6 +286,18 @@
 					},
 					{
 						"group_identifier": {
+							"icon": "confluence:rope",
+							"name": "confluence:itemGroup.name.ropes"
+						},
+						"items": [
+							"confluence:rope",
+							"confluence:vine_rope",
+							"confluence:silk_rope",
+							"confluence:web_rope"
+						]
+					},
+					{
+						"group_identifier": {
 							"icon": "confluence:copper_short_sword",
 							"name": "confluence:itemGroup.name.short_swords"
 						},
@@ -172,14 +333,33 @@
 							"confluence:platinum_broadsword",
 							"confluence:fake_sword",
 							"confluence:candy_cane_sword",
+							"confluence:falcon_blade",
 							"confluence:zombie_arm",
 							"confluence:mandible_blade",
 							"confluence:bone_sword",
 							"confluence:stylish_scissors",
+							"confluence:exotic_scimitar",
 							"confluence:breathing_reed",
+							"confluence:umbrella",
+							"confluence:tragic_umbrella",
 							"confluence:katana",
 							"confluence:terragrim",
-							"confluence:muramasa"
+							"confluence:purple_clubberfish",
+							"confluence:lights_bane",
+							"confluence:blood_butcherer",
+							"confluence:volcano",
+							"confluence:bat_bat",
+							"confluence:tentacle_mace",
+							"confluence:bee_keeper",
+							"confluence:ice_blade",
+							"confluence:starfury",
+							"confluence:enchanted_sword",
+							"confluence:blade_of_grass",
+							"confluence:nights_edge",
+							"confluence:broken_sweet_sword",
+							"confluence:sweet_sword",
+							"confluence:muramasa",
+							"confluence:developer_sword"
 						]
 					},
 					{
@@ -194,7 +374,8 @@
 							"confluence:orichalcum_sword",
 							"confluence:adamantite_sword",
 							"confluence:titanium_sword",
-							"confluence:breaker_blade"
+							"confluence:breaker_blade",
+							"confluence:waffles_iron"
 						]
 					}
 				]
@@ -380,6 +561,18 @@
 							"confluence:vial_of_venom",
 							"confluence:bell",
 							"confluence:harp"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:copper_coin",
+							"name": "confluence:itemGroup.name.coins"
+						},
+						"items": [
+							"confluence:copper_coin",
+							"confluence:silver_coin",
+							"confluence:gold_coin",
+							"confluence:platinum_coin"
 						]
 					}
 				]
