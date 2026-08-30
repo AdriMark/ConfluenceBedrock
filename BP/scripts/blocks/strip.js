@@ -6,6 +6,7 @@ const AXE_TAG = "minecraft:is_axe";
 const TOOL_TAG = "confluence:is_tool";
 const BREAK_SOUND = "random.break";
 
+/** @type { (player: import("@minecraft/server").Player) => { equippable: import("@minecraft/server").Equippable, stack: import("@minecraft/server").ItemStack } | undefined } */
 function heldTool(player) {
 	try {
 		const equippable = player.getComponent("minecraft:equippable");
@@ -19,6 +20,7 @@ function heldTool(player) {
 	}
 }
 
+/** @type { (player: import("@minecraft/server").Player) => boolean } */
 function isCreative(player) {
 	try {
 		return String(player.getGameMode()).toLowerCase() === "creative";
@@ -27,6 +29,7 @@ function isCreative(player) {
 	}
 }
 
+/** @type { (stack: import("@minecraft/server").ItemStack, durability: import("@minecraft/server").DurabilityComponent) => boolean } */
 function damageIsSpent(stack, durability) {
 	let level = 0;
 	try {
@@ -40,6 +43,7 @@ function damageIsSpent(stack, durability) {
 	return Math.random() * 100 < chance;
 }
 
+/** @type { (player: import("@minecraft/server").Player) => void } */
 function wearDown(player) {
 	if (isCreative(player)) return;
 
@@ -68,6 +72,7 @@ function wearDown(player) {
 	} catch {}
 }
 
+/** @type { (block: import("@minecraft/server").Block, intoId: string) => import("@minecraft/server").BlockPermutation | undefined } */
 function strippedPermutation(block, intoId) {
 	let next;
 	try {
@@ -92,6 +97,7 @@ function strippedPermutation(block, intoId) {
 }
 
 // Strip And Sound
+/** @type { (player: import("@minecraft/server").Player, block: import("@minecraft/server").Block, sourceId: string, intoId: string) => void } */
 function applyStrip(player, block, sourceId, intoId) {
 	if (!block.isValid) return;
 
@@ -115,6 +121,7 @@ function applyStrip(player, block, sourceId, intoId) {
 }
 
 // Swing Animation
+/** @type { (itemComponentRegistry: import("@minecraft/server").ItemComponentRegistry) => void } */
 export function registerStripper(itemComponentRegistry) {
 	itemComponentRegistry.registerCustomComponent(COMPONENT_ID, {
 		onUseOn() {}

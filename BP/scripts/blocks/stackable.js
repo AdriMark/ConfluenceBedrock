@@ -2,6 +2,7 @@ import { STACK_STATE, STACK_LIMIT } from "../data/multiblock.js";
 
 const COMPONENT_ID = "confluence:stackable";
 
+/** @type { (block: import("@minecraft/server").Block) => number } */
 function heapsOn(block) {
 	try {
 		return block.permutation.getState(STACK_STATE) ?? 1;
@@ -10,6 +11,7 @@ function heapsOn(block) {
 	}
 }
 
+/** @type { (player: import("@minecraft/server").Player) => { container: import("@minecraft/server").Container, slot: number } | null } */
 function heldSlot(player) {
 	const container = player?.getComponent("minecraft:inventory")?.container;
 	if (!container) return null;
@@ -20,6 +22,7 @@ function heldSlot(player) {
 }
 
 // Survival Cost
+/** @type { (player: import("@minecraft/server").Player) => void } */
 function consumeHeldCoin(player) {
 	let mode;
 	try {
@@ -43,6 +46,7 @@ function consumeHeldCoin(player) {
 	}
 }
 
+/** @type { (blockComponentRegistry: import("@minecraft/server").BlockComponentRegistry) => void } */
 export function registerStackable(blockComponentRegistry) {
 	blockComponentRegistry.registerCustomComponent(COMPONENT_ID, {
 		onPlayerInteract(event) {

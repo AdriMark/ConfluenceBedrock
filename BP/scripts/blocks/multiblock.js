@@ -6,6 +6,7 @@ const AIR = "minecraft:air";
 
 const FACING_STATE = "minecraft:cardinal_direction";
 
+/** @type { (offset: [number, number, number], degrees: number) => [number, number, number] } */
 function turnOffset(offset, degrees) {
 	const [x, y, z] = offset;
 	switch (((degrees % 360) + 360) % 360) {
@@ -16,6 +17,7 @@ function turnOffset(offset, degrees) {
 	}
 }
 
+/** @type { (permutation: import("@minecraft/server").BlockPermutation) => number } */
 function facingTurn(permutation) {
 	try {
 		return -(FACING_TURN[permutation?.getState(FACING_STATE)] ?? 0);
@@ -24,11 +26,13 @@ function facingTurn(permutation) {
 	}
 }
 
+/** @type { (origin: import("@minecraft/server").Vector3, offset: [number, number, number], degrees: number) => import("@minecraft/server").Vector3 } */
 function partLocation(origin, offset, degrees) {
 	const turned = turnOffset(offset, degrees);
 	return { x: origin.x + turned[0], y: origin.y + turned[1], z: origin.z + turned[2] };
 }
 
+/** @type { (permutation: import("@minecraft/server").BlockPermutation) => number } */
 function partIndex(permutation) {
 	try {
 		return permutation?.getState(PART_STATE) ?? 0;
@@ -37,6 +41,7 @@ function partIndex(permutation) {
 	}
 }
 
+/** @type { (location: import("@minecraft/server").Vector3, typeId: string, permutation: import("@minecraft/server").BlockPermutation) => import("@minecraft/server").Vector3 | null } */
 function rootOf(location, typeId, permutation) {
 	const offsets = MULTIBLOCK_PARTS[typeId];
 	if (!offsets) return null;
@@ -56,6 +61,7 @@ const REPLACEABLE = new Set([
 	"minecraft:warped_roots", "minecraft:nether_sprouts", "minecraft:glow_lichen", "minecraft:sculk_vein"
 ]);
 
+/** @type { (dimension: import("@minecraft/server").Dimension, location: import("@minecraft/server").Vector3) => boolean } */
 function isClear(dimension, location) {
 	try {
 		const block = dimension.getBlock(location);
@@ -68,7 +74,9 @@ function isClear(dimension, location) {
 	}
 }
 
+/** @type { (block: import("@minecraft/server").Block) => import("@minecraft/server").Block[] } */
 function placeParts(block) {
+	/** @type { number[][] } */
 	const offsets = MULTIBLOCK_PARTS[block.typeId];
 	if (!offsets) return;
 
@@ -94,7 +102,9 @@ function placeParts(block) {
 
 const clearing = new Set();
 
+/** @type { (dimension: import("@minecraft/server").Dimension, location: import("@minecraft/server").Vector3, typeId: string, permutation: import("@minecraft/server").BlockPermutation) => void } */
 function clearParts(dimension, location, typeId, permutation) {
+	/** @type { number[][] } */
 	const offsets = MULTIBLOCK_PARTS[typeId];
 	if (!offsets) return;
 
@@ -118,6 +128,7 @@ function clearParts(dimension, location, typeId, permutation) {
 	}
 }
 
+/** @type { (blockComponentRegistry: import("@minecraft/server").BlockComponentRegistry) => void } */
 export function registerMultiblock(blockComponentRegistry) {
 	blockComponentRegistry.registerCustomComponent(COMPONENT_ID, {
 		onPlace(event) {

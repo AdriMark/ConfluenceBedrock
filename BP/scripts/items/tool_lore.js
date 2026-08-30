@@ -10,7 +10,9 @@ function loreFor(entry) {
 	return GRAY + LABEL[entry.kind] + ": " + entry.power + "%";
 }
 
+/** @type { (container: import("@minecraft/server").Container, slot: number) => void } */
 function stampSlot(container, slot) {
+	/** @type { import("@minecraft/server").ItemStack | undefined } */
 	let stack;
 	try {
 		stack = container.getItem(slot);
@@ -37,6 +39,7 @@ function stampSlot(container, slot) {
 	} catch {}
 }
 
+/** @type { (player: import("@minecraft/server").Player) => void } */
 function stampInventory(player) {
 	const container = player.getComponent("minecraft:inventory")?.container;
 	if (!container) return;

@@ -4,6 +4,7 @@ const COMPONENT_ID = "confluence:slab";
 const DOUBLE_STATE = "confluence:double";
 const HALF_STATE = "minecraft:vertical_half";
 
+/** @type { (block: import("@minecraft/server").Block, face: import("@minecraft/server").Direction) => import("@minecraft/server").Block | undefined } */
 function neighbourForFace(block, face) {
 	try {
 		if (face === "Up") return block.below();
@@ -18,6 +19,7 @@ function neighbourForFace(block, face) {
 	return undefined;
 }
 
+/** @type { (existing: import("@minecraft/server").Block | undefined, typeId: string, face: import("@minecraft/server").Direction, placingHalf: "top" | "bottom" | undefined) => boolean } */
 function canMerge(existing, typeId, face, placingHalf) {
 	if (!existing || existing.typeId !== typeId) return false;
 	if (existing.permutation.getState(DOUBLE_STATE) === true) return false;
@@ -29,6 +31,7 @@ function canMerge(existing, typeId, face, placingHalf) {
 }
 
 // Survival Cost
+/** @type { (player: import("@minecraft/server").Player) => void } */
 function consumeHeldSlab(player) {
 	if (!player) return;
 
@@ -55,6 +58,7 @@ function consumeHeldSlab(player) {
 	}
 }
 
+/** @type { (blockComponentRegistry: import("@minecraft/server").BlockComponentRegistry) => void } */
 export function registerSlabMerge(blockComponentRegistry) {
 	blockComponentRegistry.registerCustomComponent(COMPONENT_ID, {
 		beforeOnPlayerPlace(event) {
