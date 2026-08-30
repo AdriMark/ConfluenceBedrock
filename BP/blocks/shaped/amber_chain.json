@@ -3,9 +3,6 @@
     "minecraft:block": {
         "description": {
             "identifier": "confluence:amber_chain",
-            "menu_category": {
-                "category": "construction"
-            },
             "traits": {
                 "minecraft:placement_position": {
                     "enabled_states": [
@@ -109,17 +106,6 @@
                     16,
                     2.1213
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:amber_chain",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         },
         "permutations": [

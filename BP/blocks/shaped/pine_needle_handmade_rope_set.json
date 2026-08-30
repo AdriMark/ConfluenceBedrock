@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:pine_needle_handmade_rope_set",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:pine_needle_handmade_rope_set"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:pine_needle_handmade_rope_set.name",
@@ -56,17 +53,6 @@
                     4,
                     3
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:pine_needle_handmade_rope_set",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

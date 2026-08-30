@@ -2,11 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:natures_gift",
-            "menu_category": {
-                "category": "nature",
-                "group": "minecraft:itemGroup.name.flower"
-            }
+            "identifier": "confluence:natures_gift"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:natures_gift.name",
@@ -44,17 +40,6 @@
                     16,
                     12
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:natures_gift",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

@@ -2,11 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:pine_sapling",
-            "menu_category": {
-                "category": "nature",
-                "group": "minecraft:itemGroup.name.flower"
-            }
+            "identifier": "confluence:pine_sapling"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:pine_sapling.name",
@@ -89,17 +85,6 @@
                     16,
                     12
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:pine_sapling",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

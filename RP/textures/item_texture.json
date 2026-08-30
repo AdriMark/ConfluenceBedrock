@@ -733,6 +733,216 @@
 		},
 		"confluence:wooden_hammer": {
 			"textures": "textures/items/confluence/wooden_hammer"
+		},
+		"confluence:amber_chain_icon": {
+			"textures": "textures/items/blocks/amber_chain_icon"
+		},
+		"confluence:amber_sapling_icon": {
+			"textures": "textures/items/blocks/amber_sapling_icon"
+		},
+		"confluence:amethyst_chain_icon": {
+			"textures": "textures/items/blocks/amethyst_chain_icon"
+		},
+		"confluence:amethyst_sapling_icon": {
+			"textures": "textures/items/blocks/amethyst_sapling_icon"
+		},
+		"confluence:ash_grass_icon": {
+			"textures": "textures/items/blocks/ash_grass_icon"
+		},
+		"confluence:bone_chain_icon": {
+			"textures": "textures/items/blocks/bone_chain_icon"
+		},
+		"confluence:christmas_pine_door_icon": {
+			"textures": "textures/items/blocks/christmas_pine_door_icon"
+		},
+		"confluence:copper_coin_icon": {
+			"textures": "textures/items/blocks/copper_coin_icon"
+		},
+		"confluence:corrupt_drooping_vine_icon": {
+			"textures": "textures/items/blocks/corrupt_drooping_vine_icon"
+		},
+		"confluence:corrupt_grass_icon": {
+			"textures": "textures/items/blocks/corrupt_grass_icon"
+		},
+		"confluence:corrupt_tapered_block_icon": {
+			"textures": "textures/items/blocks/corrupt_tapered_block_icon"
+		},
+		"confluence:crimson_drooping_vine_icon": {
+			"textures": "textures/items/blocks/crimson_drooping_vine_icon"
+		},
+		"confluence:crimson_grass_icon": {
+			"textures": "textures/items/blocks/crimson_grass_icon"
+		},
+		"confluence:crimson_heart_icon": {
+			"textures": "textures/items/blocks/crimson_heart_icon"
+		},
+		"confluence:crimson_tapered_block_icon": {
+			"textures": "textures/items/blocks/crimson_tapered_block_icon"
+		},
+		"confluence:desert_grass_icon": {
+			"textures": "textures/items/blocks/desert_grass_icon"
+		},
+		"confluence:desert_tapered_block_icon": {
+			"textures": "textures/items/blocks/desert_tapered_block_icon"
+		},
+		"confluence:diamond_chain_icon": {
+			"textures": "textures/items/blocks/diamond_chain_icon"
+		},
+		"confluence:diamond_sapling_icon": {
+			"textures": "textures/items/blocks/diamond_sapling_icon"
+		},
+		"confluence:dungeon_door_icon": {
+			"textures": "textures/items/blocks/dungeon_door_icon"
+		},
+		"confluence:ever_powered_rail_icon": {
+			"textures": "textures/items/blocks/ever_powered_rail_icon"
+		},
+		"confluence:forest_drooping_vine_icon": {
+			"textures": "textures/items/blocks/forest_drooping_vine_icon"
+		},
+		"confluence:glowing_mushroom_icon": {
+			"textures": "textures/items/blocks/glowing_mushroom_icon"
+		},
+		"confluence:glowing_mushroom_indusium_block_icon": {
+			"textures": "textures/items/blocks/glowing_mushroom_indusium_block_icon"
+		},
+		"confluence:glowing_mushroom_vine_icon": {
+			"textures": "textures/items/blocks/glowing_mushroom_vine_icon"
+		},
+		"confluence:gold_coin_icon": {
+			"textures": "textures/items/blocks/gold_coin_icon"
+		},
+		"confluence:granite_tapered_block_icon": {
+			"textures": "textures/items/blocks/granite_tapered_block_icon"
+		},
+		"confluence:hallow_drooping_vine_icon": {
+			"textures": "textures/items/blocks/hallow_drooping_vine_icon"
+		},
+		"confluence:hallow_grass_icon": {
+			"textures": "textures/items/blocks/hallow_grass_icon"
+		},
+		"confluence:hallow_tapered_block_icon": {
+			"textures": "textures/items/blocks/hallow_tapered_block_icon"
+		},
+		"confluence:hanging_mycelium_icon": {
+			"textures": "textures/items/blocks/hanging_mycelium_icon"
+		},
+		"confluence:heart_lantern_icon": {
+			"textures": "textures/items/blocks/heart_lantern_icon"
+		},
+		"confluence:ice_tapered_block_icon": {
+			"textures": "textures/items/blocks/ice_tapered_block_icon"
+		},
+		"confluence:jade_chain_icon": {
+			"textures": "textures/items/blocks/jade_chain_icon"
+		},
+		"confluence:jade_sapling_icon": {
+			"textures": "textures/items/blocks/jade_sapling_icon"
+		},
+		"confluence:jungle_drooping_vine_icon": {
+			"textures": "textures/items/blocks/jungle_drooping_vine_icon"
+		},
+		"confluence:jungle_rose_icon": {
+			"textures": "textures/items/blocks/jungle_rose_icon"
+		},
+		"confluence:lava_moss_icon": {
+			"textures": "textures/items/blocks/lava_moss_icon"
+		},
+		"confluence:life_campfire_icon": {
+			"textures": "textures/items/blocks/life_campfire_icon"
+		},
+		"confluence:life_mushroom_icon": {
+			"textures": "textures/items/blocks/life_mushroom_icon"
+		},
+		"confluence:life_mushroom_indusium_block_icon": {
+			"textures": "textures/items/blocks/life_mushroom_indusium_block_icon"
+		},
+		"confluence:marble_tapered_block_icon": {
+			"textures": "textures/items/blocks/marble_tapered_block_icon"
+		},
+		"confluence:natures_gift_icon": {
+			"textures": "textures/items/blocks/natures_gift_icon"
+		},
+		"confluence:pine_drooping_vine_icon": {
+			"textures": "textures/items/blocks/pine_drooping_vine_icon"
+		},
+		"confluence:pine_needle_handmade_rope_set_icon": {
+			"textures": "textures/items/blocks/pine_needle_handmade_rope_set_icon"
+		},
+		"confluence:pine_sapling_icon": {
+			"textures": "textures/items/blocks/pine_sapling_icon"
+		},
+		"confluence:platinum_coin_icon": {
+			"textures": "textures/items/blocks/platinum_coin_icon"
+		},
+		"confluence:poo_icon": {
+			"textures": "textures/items/blocks/poo_icon"
+		},
+		"confluence:pruned_pine_sapling_icon": {
+			"textures": "textures/items/blocks/pruned_pine_sapling_icon"
+		},
+		"confluence:rope_icon": {
+			"textures": "textures/items/blocks/rope_icon"
+		},
+		"confluence:ruby_chain_icon": {
+			"textures": "textures/items/blocks/ruby_chain_icon"
+		},
+		"confluence:ruby_sapling_icon": {
+			"textures": "textures/items/blocks/ruby_sapling_icon"
+		},
+		"confluence:sapphire_chain_icon": {
+			"textures": "textures/items/blocks/sapphire_chain_icon"
+		},
+		"confluence:sapphire_sapling_icon": {
+			"textures": "textures/items/blocks/sapphire_sapling_icon"
+		},
+		"confluence:shadow_orb_icon": {
+			"textures": "textures/items/blocks/shadow_orb_icon"
+		},
+		"confluence:silk_chain_icon": {
+			"textures": "textures/items/blocks/silk_chain_icon"
+		},
+		"confluence:silk_rope_icon": {
+			"textures": "textures/items/blocks/silk_rope_icon"
+		},
+		"confluence:silver_coin_icon": {
+			"textures": "textures/items/blocks/silver_coin_icon"
+		},
+		"confluence:skyware_door_icon": {
+			"textures": "textures/items/blocks/skyware_door_icon"
+		},
+		"confluence:skyware_glass_door_icon": {
+			"textures": "textures/items/blocks/skyware_glass_door_icon"
+		},
+		"confluence:star_in_a_bottle_icon": {
+			"textures": "textures/items/blocks/star_in_a_bottle_icon"
+		},
+		"confluence:topaz_chain_icon": {
+			"textures": "textures/items/blocks/topaz_chain_icon"
+		},
+		"confluence:topaz_sapling_icon": {
+			"textures": "textures/items/blocks/topaz_sapling_icon"
+		},
+		"confluence:traditional_dynasty_door_icon": {
+			"textures": "textures/items/blocks/traditional_dynasty_door_icon"
+		},
+		"confluence:vicious_mushroom_icon": {
+			"textures": "textures/items/blocks/vicious_mushroom_icon"
+		},
+		"confluence:vile_mushroom_icon": {
+			"textures": "textures/items/blocks/vile_mushroom_icon"
+		},
+		"confluence:vine_rope_icon": {
+			"textures": "textures/items/blocks/vine_rope_icon"
+		},
+		"confluence:web_rope_icon": {
+			"textures": "textures/items/blocks/web_rope_icon"
+		},
+		"confluence:xenon_moss_icon": {
+			"textures": "textures/items/blocks/xenon_moss_icon"
+		},
+		"confluence:yellow_willow_drooping_leaves_icon": {
+			"textures": "textures/items/blocks/yellow_willow_drooping_leaves_icon"
 		}
 	}
 }

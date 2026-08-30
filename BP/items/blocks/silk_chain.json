@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:silk_chain",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:silk_chain_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:silk_chain.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:silk_chain",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

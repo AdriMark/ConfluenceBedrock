@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:ever_powered_rail",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:ever_powered_rail"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:ever_powered_rail.name",
@@ -101,17 +98,6 @@
                     11.3137,
                     16
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:powered_rail_on",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

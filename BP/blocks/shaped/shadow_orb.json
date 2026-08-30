@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:shadow_orb",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:shadow_orb"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:shadow_orb.name",
@@ -56,17 +53,6 @@
                     12,
                     12
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:shadow_orb",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

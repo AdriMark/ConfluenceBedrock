@@ -3,9 +3,6 @@
     "minecraft:block": {
         "description": {
             "identifier": "confluence:glowing_mushroom_vine",
-            "menu_category": {
-                "category": "construction"
-            },
             "states": {
                 "confluence:part": [
                     0,
@@ -75,18 +72,7 @@
                     14.1421
                 ]
             },
-            "confluence:multiblock": {},
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:glowing_mushroom_vine_1",
-                        "render_method": "alpha_test"
-                    }
-                }
-            }
+            "confluence:multiblock": {}
         },
         "permutations": [
             {

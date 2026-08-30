@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:silver_coin",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:silver_coin_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:silver_coin.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:silver_coin",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

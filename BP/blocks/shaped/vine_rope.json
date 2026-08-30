@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:vine_rope",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:vine_rope"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:vine_rope.name",
@@ -56,17 +53,6 @@
                     4,
                     3
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:vine_rope",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

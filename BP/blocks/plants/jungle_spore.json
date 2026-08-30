@@ -2,11 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:jungle_spore",
-            "menu_category": {
-                "category": "nature",
-                "group": "minecraft:itemGroup.name.flower"
-            }
+            "identifier": "confluence:jungle_spore"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:jungle_spore.name",
@@ -45,18 +41,7 @@
                     12
                 ]
             },
-            "minecraft:loot": "loot_tables/blocks/jungle_spore.json",
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:materials_jungle_spore",
-                        "render_method": "alpha_test"
-                    }
-                }
-            }
+            "minecraft:loot": "loot_tables/blocks/jungle_spore.json"
         }
     }
 }

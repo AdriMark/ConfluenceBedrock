@@ -28,9 +28,6 @@
 		"confluence:amber_branches": {
 			"textures": "textures/blocks/confluence/amber_branches"
 		},
-		"confluence:amber_chain": {
-			"textures": "textures/blocks/confluence/amber_chain"
-		},
 		"confluence:amber_ore": {
 			"textures": "textures/blocks/confluence/amber_ore"
 		},
@@ -42,9 +39,6 @@
 		},
 		"confluence:amethyst_branches": {
 			"textures": "textures/blocks/confluence/amethyst_branches"
-		},
-		"confluence:amethyst_chain": {
-			"textures": "textures/blocks/confluence/amethyst_chain"
 		},
 		"confluence:amethyst_ore": {
 			"textures": "textures/blocks/confluence/amethyst_ore"
@@ -75,9 +69,6 @@
 		},
 		"confluence:ash_block": {
 			"textures": "textures/blocks/confluence/ash_block"
-		},
-		"confluence:ash_grass": {
-			"textures": "textures/blocks/confluence/ash_grass"
 		},
 		"confluence:ash_grass_0": {
 			"textures": "textures/blocks/confluence/ash_grass_0"
@@ -174,9 +165,6 @@
 		},
 		"confluence:blue_pure_glass_connected": {
 			"textures": "textures/blocks/confluence/blue_pure_glass_connected"
-		},
-		"confluence:bone_chain": {
-			"textures": "textures/blocks/confluence/bone_chain"
 		},
 		"confluence:boreal_crate_bottom": {
 			"textures": "textures/blocks/confluence/boreal_crate_bottom"
@@ -361,9 +349,6 @@
 		"confluence:chlorophyte_ore": {
 			"textures": "textures/blocks/confluence/chlorophyte_ore"
 		},
-		"confluence:christmas_pine_door": {
-			"textures": "textures/blocks/confluence/christmas_pine_door"
-		},
 		"confluence:christmas_pine_door_bottom": {
 			"textures": "textures/blocks/confluence/christmas_pine_door_bottom"
 		},
@@ -415,9 +400,6 @@
 		"confluence:copper_bricks": {
 			"textures": "textures/blocks/confluence/copper_bricks"
 		},
-		"confluence:copper_coin": {
-			"textures": "textures/blocks/confluence/copper_coin"
-		},
 		"confluence:copper_coins": {
 			"textures": "textures/blocks/confluence/copper_coins"
 		},
@@ -448,9 +430,6 @@
 		"confluence:corrupt_drooping_vine_1": {
 			"textures": "textures/blocks/confluence/corrupt_drooping_vine_1"
 		},
-		"confluence:corrupt_grass": {
-			"textures": "textures/blocks/confluence/corrupt_grass"
-		},
 		"confluence:corrupt_grass_0": {
 			"textures": "textures/blocks/confluence/corrupt_grass_0"
 		},
@@ -465,9 +444,6 @@
 		},
 		"confluence:corrupt_tapered_block_base": {
 			"textures": "textures/blocks/confluence/corrupt_tapered_block_base"
-		},
-		"confluence:corrupt_tapered_block_tip_single": {
-			"textures": "textures/blocks/confluence/corrupt_tapered_block_tip_single"
 		},
 		"confluence:corruption_amber_ore": {
 			"textures": "textures/blocks/confluence/corruption_amber_ore"
@@ -592,9 +568,6 @@
 		"confluence:crimson_drooping_vine_1": {
 			"textures": "textures/blocks/confluence/crimson_drooping_vine_1"
 		},
-		"confluence:crimson_grass": {
-			"textures": "textures/blocks/confluence/crimson_grass"
-		},
 		"confluence:crimson_grass_0": {
 			"textures": "textures/blocks/confluence/crimson_grass_0"
 		},
@@ -603,9 +576,6 @@
 		},
 		"confluence:crimson_grass_block_top": {
 			"textures": "textures/blocks/confluence/crimson_grass_block_top"
-		},
-		"confluence:crimson_heart": {
-			"textures": "textures/blocks/confluence/crimson_heart"
 		},
 		"confluence:crimson_heart_1": {
 			"textures": "textures/blocks/confluence/crimson_heart_1"
@@ -624,9 +594,6 @@
 		},
 		"confluence:crimson_tapered_block_base": {
 			"textures": "textures/blocks/confluence/crimson_tapered_block_base"
-		},
-		"confluence:crimson_tapered_block_tip_single": {
-			"textures": "textures/blocks/confluence/crimson_tapered_block_tip_single"
 		},
 		"confluence:crimson_thorn_center": {
 			"textures": "textures/blocks/confluence/crimson_thorn_center"
@@ -787,14 +754,8 @@
 		"confluence:desert_tapered_block_base": {
 			"textures": "textures/blocks/confluence/desert_tapered_block_base"
 		},
-		"confluence:desert_tapered_block_tip_single": {
-			"textures": "textures/blocks/confluence/desert_tapered_block_tip_single"
-		},
 		"confluence:diamond_branches": {
 			"textures": "textures/blocks/confluence/diamond_branches"
-		},
-		"confluence:diamond_chain": {
-			"textures": "textures/blocks/confluence/diamond_chain"
 		},
 		"confluence:diamond_sapling": {
 			"textures": "textures/blocks/confluence/diamond_sapling"
@@ -822,9 +783,6 @@
 		},
 		"confluence:dungeon_crate_side": {
 			"textures": "textures/blocks/confluence/dungeon_crate_side"
-		},
-		"confluence:dungeon_door": {
-			"textures": "textures/blocks/confluence/dungeon_door"
 		},
 		"confluence:dungeon_door_bottom": {
 			"textures": "textures/blocks/confluence/dungeon_door_bottom"
@@ -1063,9 +1021,6 @@
 		"confluence:glowing_mushroom_indusium_block": {
 			"textures": "textures/blocks/confluence/glowing_mushroom_indusium_block"
 		},
-		"confluence:glowing_mushroom_indusium_block_display": {
-			"textures": "textures/blocks/confluence/glowing_mushroom_indusium_block_display"
-		},
 		"confluence:glowing_mushroom_light_0": {
 			"textures": "textures/blocks/confluence/glowing_mushroom_light_0"
 		},
@@ -1093,9 +1048,6 @@
 		"confluence:glowing_mushroom_vine_light_1": {
 			"textures": "textures/blocks/confluence/glowing_mushroom_vine_light_1"
 		},
-		"confluence:gold_coin": {
-			"textures": "textures/blocks/confluence/gold_coin"
-		},
 		"confluence:gold_coins": {
 			"textures": "textures/blocks/confluence/gold_coins"
 		},
@@ -1122,9 +1074,6 @@
 		},
 		"confluence:granite_tapered_block_base": {
 			"textures": "textures/blocks/confluence/granite_tapered_block_base"
-		},
-		"confluence:granite_tapered_block_tip_single": {
-			"textures": "textures/blocks/confluence/granite_tapered_block_tip_single"
 		},
 		"confluence:grass_block_side_overlay": {
 			"textures": "textures/blocks/confluence/grass_block_side_overlay"
@@ -1186,9 +1135,6 @@
 		"confluence:hallow_drooping_vine_1": {
 			"textures": "textures/blocks/confluence/hallow_drooping_vine_1"
 		},
-		"confluence:hallow_grass": {
-			"textures": "textures/blocks/confluence/hallow_grass"
-		},
 		"confluence:hallow_grass_0": {
 			"textures": "textures/blocks/confluence/hallow_grass_0"
 		},
@@ -1200,9 +1146,6 @@
 		},
 		"confluence:hallow_tapered_block_base": {
 			"textures": "textures/blocks/confluence/hallow_tapered_block_base"
-		},
-		"confluence:hallow_tapered_block_tip_single": {
-			"textures": "textures/blocks/confluence/hallow_tapered_block_tip_single"
 		},
 		"confluence:hallowed_crate_end": {
 			"textures": "textures/blocks/confluence/hallowed_crate_end"
@@ -1230,9 +1173,6 @@
 		},
 		"confluence:heart_lantern": {
 			"textures": "textures/blocks/confluence/heart_lantern"
-		},
-		"confluence:heart_lantern_item": {
-			"textures": "textures/blocks/confluence/heart_lantern_item"
 		},
 		"confluence:heavy_work_bench": {
 			"textures": "textures/blocks/confluence/heavy_work_bench"
@@ -1276,9 +1216,6 @@
 		"confluence:ice_tapered_block_base": {
 			"textures": "textures/blocks/confluence/ice_tapered_block_base"
 		},
-		"confluence:ice_tapered_block_tip_single": {
-			"textures": "textures/blocks/confluence/ice_tapered_block_tip_single"
-		},
 		"confluence:iron_bricks": {
 			"textures": "textures/blocks/confluence/iron_bricks"
 		},
@@ -1296,9 +1233,6 @@
 		},
 		"confluence:jade_branches": {
 			"textures": "textures/blocks/confluence/jade_branches"
-		},
-		"confluence:jade_chain": {
-			"textures": "textures/blocks/confluence/jade_chain"
 		},
 		"confluence:jade_ore": {
 			"textures": "textures/blocks/confluence/jade_ore"
@@ -1366,9 +1300,6 @@
 		"confluence:lava_moss": {
 			"textures": "textures/blocks/confluence/lava_moss"
 		},
-		"confluence:lava_moss_up_0": {
-			"textures": "textures/blocks/confluence/lava_moss_up_0"
-		},
 		"confluence:lead_anvil": {
 			"textures": "textures/blocks/confluence/lead_anvil"
 		},
@@ -1392,9 +1323,6 @@
 		},
 		"confluence:leaves": {
 			"textures": "textures/blocks/confluence/leaves"
-		},
-		"confluence:life_campfire": {
-			"textures": "textures/blocks/confluence/life_campfire"
 		},
 		"confluence:life_campfire_log": {
 			"textures": "textures/blocks/confluence/life_campfire_log"
@@ -1422,9 +1350,6 @@
 		},
 		"confluence:life_mushroom_indusium_block": {
 			"textures": "textures/blocks/confluence/life_mushroom_indusium_block"
-		},
-		"confluence:life_mushroom_indusium_block_display": {
-			"textures": "textures/blocks/confluence/life_mushroom_indusium_block_display"
 		},
 		"confluence:life_mushroom_pileus_block_top": {
 			"textures": "textures/blocks/confluence/life_mushroom_pileus_block_top"
@@ -1555,38 +1480,8 @@
 		"confluence:marble_tapered_block_base": {
 			"textures": "textures/blocks/confluence/marble_tapered_block_base"
 		},
-		"confluence:marble_tapered_block_tip_single": {
-			"textures": "textures/blocks/confluence/marble_tapered_block_tip_single"
-		},
 		"confluence:marine_gravel": {
 			"textures": "textures/blocks/confluence/marine_gravel"
-		},
-		"confluence:materials_blinkroot": {
-			"textures": "textures/blocks/confluence/materials_blinkroot"
-		},
-		"confluence:materials_crystal_shards": {
-			"textures": "textures/blocks/confluence/materials_crystal_shards"
-		},
-		"confluence:materials_daybloom": {
-			"textures": "textures/blocks/confluence/materials_daybloom"
-		},
-		"confluence:materials_deathweed": {
-			"textures": "textures/blocks/confluence/materials_deathweed"
-		},
-		"confluence:materials_fireblossom": {
-			"textures": "textures/blocks/confluence/materials_fireblossom"
-		},
-		"confluence:materials_jungle_spore": {
-			"textures": "textures/blocks/confluence/materials_jungle_spore"
-		},
-		"confluence:materials_moonglow": {
-			"textures": "textures/blocks/confluence/materials_moonglow"
-		},
-		"confluence:materials_shiverthorn": {
-			"textures": "textures/blocks/confluence/materials_shiverthorn"
-		},
-		"confluence:materials_waterleaf": {
-			"textures": "textures/blocks/confluence/materials_waterleaf"
 		},
 		"confluence:meteorite_block": {
 			"textures": "textures/blocks/confluence/meteorite_block"
@@ -1686,9 +1581,6 @@
 		},
 		"confluence:n_statue": {
 			"textures": "textures/blocks/confluence/n_statue"
-		},
-		"confluence:natures_gift": {
-			"textures": "textures/blocks/confluence/natures_gift"
 		},
 		"confluence:natures_gift_tile": {
 			"textures": "textures/blocks/confluence/natures_gift_tile"
@@ -1816,9 +1708,6 @@
 		"confluence:pine_drooping_vine_body": {
 			"textures": "textures/blocks/confluence/pine_drooping_vine_body"
 		},
-		"confluence:pine_drooping_vine_head": {
-			"textures": "textures/blocks/confluence/pine_drooping_vine_head"
-		},
 		"confluence:pine_leaves": {
 			"textures": "textures/blocks/confluence/pine_leaves"
 		},
@@ -1827,9 +1716,6 @@
 		},
 		"confluence:pine_log_side": {
 			"textures": "textures/blocks/confluence/pine_log_side"
-		},
-		"confluence:pine_needle_handmade_rope_set": {
-			"textures": "textures/blocks/confluence/pine_needle_handmade_rope_set"
 		},
 		"confluence:pine_needle_handmade_rope_set_tile": {
 			"textures": "textures/blocks/confluence/pine_needle_handmade_rope_set_tile"
@@ -1885,9 +1771,6 @@
 		"confluence:platinum_bricks": {
 			"textures": "textures/blocks/confluence/platinum_bricks"
 		},
-		"confluence:platinum_coin": {
-			"textures": "textures/blocks/confluence/platinum_coin"
-		},
 		"confluence:platinum_coins": {
 			"textures": "textures/blocks/confluence/platinum_coins"
 		},
@@ -1909,9 +1792,6 @@
 		"confluence:polished_marble": {
 			"textures": "textures/blocks/confluence/polished_marble"
 		},
-		"confluence:poo": {
-			"textures": "textures/blocks/confluence/poo"
-		},
 		"confluence:poo_block": {
 			"textures": "textures/blocks/confluence/poo_block"
 		},
@@ -1920,9 +1800,6 @@
 		},
 		"confluence:powered_rail": {
 			"textures": "textures/blocks/confluence/powered_rail"
-		},
-		"confluence:powered_rail_on": {
-			"textures": "textures/blocks/confluence/powered_rail_on"
 		},
 		"confluence:pruned_pine_sapling": {
 			"textures": "textures/blocks/confluence/pruned_pine_sapling"
@@ -2029,9 +1906,6 @@
 		"confluence:remains_block_r90": {
 			"textures": "textures/blocks/confluence/remains_block_r90"
 		},
-		"confluence:rope": {
-			"textures": "textures/blocks/confluence/rope"
-		},
 		"confluence:rope_tile": {
 			"textures": "textures/blocks/confluence/rope_tile"
 		},
@@ -2040,9 +1914,6 @@
 		},
 		"confluence:ruby_branches": {
 			"textures": "textures/blocks/confluence/ruby_branches"
-		},
-		"confluence:ruby_chain": {
-			"textures": "textures/blocks/confluence/ruby_chain"
 		},
 		"confluence:ruby_ore": {
 			"textures": "textures/blocks/confluence/ruby_ore"
@@ -2128,9 +1999,6 @@
 		"confluence:sapphire_branches": {
 			"textures": "textures/blocks/confluence/sapphire_branches"
 		},
-		"confluence:sapphire_chain": {
-			"textures": "textures/blocks/confluence/sapphire_chain"
-		},
 		"confluence:sapphire_ore": {
 			"textures": "textures/blocks/confluence/sapphire_ore"
 		},
@@ -2170,9 +2038,6 @@
 		"confluence:shadow_log_side": {
 			"textures": "textures/blocks/confluence/shadow_log_side"
 		},
-		"confluence:shadow_orb": {
-			"textures": "textures/blocks/confluence/shadow_orb"
-		},
 		"confluence:shadow_orb_tile": {
 			"textures": "textures/blocks/confluence/shadow_orb_tile"
 		},
@@ -2203,12 +2068,6 @@
 		"confluence:shiverthorn_stage1": {
 			"textures": "textures/blocks/confluence/shiverthorn_stage1"
 		},
-		"confluence:silk_chain": {
-			"textures": "textures/blocks/confluence/silk_chain"
-		},
-		"confluence:silk_rope": {
-			"textures": "textures/blocks/confluence/silk_rope"
-		},
 		"confluence:silk_rope_tile": {
 			"textures": "textures/blocks/confluence/silk_rope_tile"
 		},
@@ -2220,9 +2079,6 @@
 		},
 		"confluence:silver_bricks": {
 			"textures": "textures/blocks/confluence/silver_bricks"
-		},
-		"confluence:silver_coin": {
-			"textures": "textures/blocks/confluence/silver_coin"
 		},
 		"confluence:silver_coins": {
 			"textures": "textures/blocks/confluence/silver_coins"
@@ -2242,9 +2098,6 @@
 		"confluence:sky_mill": {
 			"textures": "textures/blocks/confluence/sky_mill"
 		},
-		"confluence:skyware_door": {
-			"textures": "textures/blocks/confluence/skyware_door"
-		},
 		"confluence:skyware_door_bottom": {
 			"textures": "textures/blocks/confluence/skyware_door_bottom"
 		},
@@ -2259,9 +2112,6 @@
 		},
 		"confluence:skyware_door_top_r90": {
 			"textures": "textures/blocks/confluence/skyware_door_top_r90"
-		},
-		"confluence:skyware_glass_door": {
-			"textures": "textures/blocks/confluence/skyware_glass_door"
 		},
 		"confluence:skyware_glass_door_bottom": {
 			"textures": "textures/blocks/confluence/skyware_glass_door_bottom"
@@ -2361,9 +2211,6 @@
 		},
 		"confluence:star_in_a_bottle": {
 			"textures": "textures/blocks/confluence/star_in_a_bottle"
-		},
-		"confluence:star_in_a_bottle_item": {
-			"textures": "textures/blocks/confluence/star_in_a_bottle_item"
 		},
 		"confluence:statue_base": {
 			"textures": "textures/blocks/confluence/statue_base"
@@ -2491,17 +2338,11 @@
 		"confluence:topaz_branches": {
 			"textures": "textures/blocks/confluence/topaz_branches"
 		},
-		"confluence:topaz_chain": {
-			"textures": "textures/blocks/confluence/topaz_chain"
-		},
 		"confluence:topaz_ore": {
 			"textures": "textures/blocks/confluence/topaz_ore"
 		},
 		"confluence:topaz_sapling": {
 			"textures": "textures/blocks/confluence/topaz_sapling"
-		},
-		"confluence:traditional_dynasty_door": {
-			"textures": "textures/blocks/confluence/traditional_dynasty_door"
 		},
 		"confluence:traditional_dynasty_door_bottom": {
 			"textures": "textures/blocks/confluence/traditional_dynasty_door_bottom"
@@ -2593,9 +2434,6 @@
 		"confluence:vile_mushroom": {
 			"textures": "textures/blocks/confluence/vile_mushroom"
 		},
-		"confluence:vine_rope": {
-			"textures": "textures/blocks/confluence/vine_rope"
-		},
 		"confluence:vine_rope_tile": {
 			"textures": "textures/blocks/confluence/vine_rope_tile"
 		},
@@ -2604,9 +2442,6 @@
 		},
 		"confluence:waterleaf_stage1": {
 			"textures": "textures/blocks/confluence/waterleaf_stage1"
-		},
-		"confluence:web_rope": {
-			"textures": "textures/blocks/confluence/web_rope"
 		},
 		"confluence:web_rope_tile": {
 			"textures": "textures/blocks/confluence/web_rope_tile"
@@ -2646,9 +2481,6 @@
 		},
 		"confluence:xenon_moss": {
 			"textures": "textures/blocks/confluence/xenon_moss"
-		},
-		"confluence:xenon_moss_up_0": {
-			"textures": "textures/blocks/confluence/xenon_moss_up_0"
 		},
 		"confluence:y_statue": {
 			"textures": "textures/blocks/confluence/y_statue"

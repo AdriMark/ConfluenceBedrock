@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:poo",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stone"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:poo_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:poo.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:poo",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

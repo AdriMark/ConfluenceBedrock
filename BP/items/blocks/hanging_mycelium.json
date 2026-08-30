@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:hanging_mycelium",
+            "menu_category": {
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.flower"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:hanging_mycelium_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:hanging_mycelium.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:hanging_mycelium",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

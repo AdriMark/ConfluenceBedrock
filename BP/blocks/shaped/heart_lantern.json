@@ -3,9 +3,6 @@
     "minecraft:block": {
         "description": {
             "identifier": "confluence:heart_lantern",
-            "menu_category": {
-                "category": "construction"
-            },
             "traits": {
                 "minecraft:placement_direction": {
                     "enabled_states": [
@@ -111,17 +108,6 @@
                     13,
                     6
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:heart_lantern_item",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         },
         "permutations": [

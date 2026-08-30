@@ -3,9 +3,6 @@
     "minecraft:block": {
         "description": {
             "identifier": "confluence:life_mushroom_indusium_block",
-            "menu_category": {
-                "category": "construction"
-            },
             "states": {
                 "confluence:part": [
                     0,
@@ -117,18 +114,7 @@
                     14.782
                 ]
             },
-            "confluence:multiblock": {},
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:life_mushroom_indusium_block_display",
-                        "render_method": "alpha_test"
-                    }
-                }
-            }
+            "confluence:multiblock": {}
         },
         "permutations": [
             {

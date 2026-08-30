@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:xenon_moss",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:xenon_moss_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:xenon_moss.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:xenon_moss",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

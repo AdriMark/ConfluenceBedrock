@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:lava_moss",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:lava_moss"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:lava_moss.name",
@@ -56,17 +53,6 @@
                     16,
                     0.5
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:lava_moss_up_0",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

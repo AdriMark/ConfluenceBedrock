@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:pine_needle_handmade_rope_set",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:pine_needle_handmade_rope_set_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:pine_needle_handmade_rope_set.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:pine_needle_handmade_rope_set",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

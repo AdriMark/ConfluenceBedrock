@@ -2,11 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:ash_grass",
-            "menu_category": {
-                "category": "nature",
-                "group": "minecraft:itemGroup.name.flower"
-            }
+            "identifier": "confluence:ash_grass"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:ash_grass.name",
@@ -44,17 +40,6 @@
                     16,
                     12
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:ash_grass",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

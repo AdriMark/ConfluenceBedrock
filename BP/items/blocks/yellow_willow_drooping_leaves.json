@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:yellow_willow_drooping_leaves",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:yellow_willow_drooping_leaves_icon"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "tile.confluence:yellow_willow_drooping_leaves.name"
+            },
+            "minecraft:block_placer": {
+                "block": "confluence:yellow_willow_drooping_leaves",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

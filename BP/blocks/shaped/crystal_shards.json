@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:crystal_shards",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:crystal_shards"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:crystal_shards.name",
@@ -102,17 +99,6 @@
                     16,
                     15.4892
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:materials_crystal_shards",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

@@ -3,9 +3,6 @@
     "minecraft:block": {
         "description": {
             "identifier": "confluence:star_in_a_bottle",
-            "menu_category": {
-                "category": "construction"
-            },
             "traits": {
                 "minecraft:placement_direction": {
                     "enabled_states": [
@@ -119,17 +116,6 @@
                     11.9687,
                     8
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:star_in_a_bottle_item",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         },
         "permutations": [

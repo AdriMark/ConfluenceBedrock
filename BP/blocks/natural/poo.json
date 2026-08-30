@@ -2,11 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:poo",
-            "menu_category": {
-                "category": "construction",
-                "group": "minecraft:itemGroup.name.stone"
-            }
+            "identifier": "confluence:poo"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:poo.name",
@@ -72,18 +68,7 @@
             "minecraft:tags": [
                 "confluence:shovel",
                 "minecraft:is_shovel_item_destructible"
-            ],
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:poo",
-                        "render_method": "alpha_test"
-                    }
-                }
-            }
+            ]
         }
     }
 }

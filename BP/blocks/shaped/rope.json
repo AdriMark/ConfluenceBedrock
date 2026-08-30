@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:rope",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:rope"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:rope.name",
@@ -56,17 +53,6 @@
                     4,
                     3
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:rope",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

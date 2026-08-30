@@ -2,11 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:hanging_mycelium",
-            "menu_category": {
-                "category": "nature",
-                "group": "minecraft:itemGroup.name.flower"
-            }
+            "identifier": "confluence:hanging_mycelium"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:hanging_mycelium.name",
@@ -49,17 +45,6 @@
                     16,
                     12
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:hanging_mycelium",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

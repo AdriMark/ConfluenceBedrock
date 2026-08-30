@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:crimson_heart",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:crimson_heart"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:crimson_heart.name",
@@ -64,17 +61,6 @@
                     15.0282,
                     7
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:crimson_heart",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }

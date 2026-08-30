@@ -2,10 +2,7 @@
     "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
-            "identifier": "confluence:glowing_mushroom",
-            "menu_category": {
-                "category": "construction"
-            }
+            "identifier": "confluence:glowing_mushroom"
         },
         "components": {
             "minecraft:display_name": "tile.confluence:glowing_mushroom.name",
@@ -60,17 +57,6 @@
                     16,
                     10.1823
                 ]
-            },
-            "minecraft:item_visual": {
-                "geometry": {
-                    "identifier": "geometry.confluence.item_sprite"
-                },
-                "material_instances": {
-                    "*": {
-                        "texture": "confluence:glowing_mushroom_light_0",
-                        "render_method": "alpha_test"
-                    }
-                }
             }
         }
     }
