@@ -1,0 +1,38 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Magic Team",
+			"AdriMark"
+		]
+	},
+	"header": {
+		"name": "ConfluenceBedrock",
+		"description": "",
+		"min_engine_version": [
+			1,
+			26,
+			40
+		],
+		"uuid": "1fbb2e47-33fc-4352-906f-46dfb658ff30",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "0a0052fc-ed3a-4b86-8dbe-c1a870dba49a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"capabilities": [
+		"pbr"
+	]
+}

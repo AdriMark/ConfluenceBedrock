@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_raw_lead_to_lead_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:raw_lead"
+            }
+        ],
+        "input": "confluence:raw_lead",
+        "output": "confluence:lead_ingot"
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.corrupt_drooping_vine",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -10,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                20,
+                                16,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "corrupt_drooping_vine_1"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "corrupt_drooping_vine_1"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.corrupt_drooping_vine_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "corrupt_drooping_vine"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -10,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                20,
+                                16,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "corrupt_drooping_vine"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

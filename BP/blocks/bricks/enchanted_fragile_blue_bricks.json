@@ -1,0 +1,33 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:enchanted_fragile_blue_bricks",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stoneBrick"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:enchanted_fragile_blue_bricks.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:enchanted_blue_bricks",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#1c2232",
+            "minecraft:tags": [
+                "confluence:hammer"
+            ]
+        }
+    }
+}

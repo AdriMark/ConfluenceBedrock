@@ -1,0 +1,109 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:soul_of_fright_in_a_bottle",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:soul_of_fright_in_a_bottle.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.soul_of_fright_in_a_bottle"
+            },
+            "minecraft:material_instances": {
+                "soul_of_fright_in_a_bottle": {
+                    "texture": "confluence:soul_of_fright_in_a_bottle",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:soul_of_fright_in_a_bottle",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:wooden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 1.125
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:stone_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.563
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:copper_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.45
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:golden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.188
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:iron_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.375
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.281
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.25
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_emission": 7,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#dda293",
+            "minecraft:tags": [
+                "confluence:level_1",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -4,
+                    0.0313,
+                    -4
+                ],
+                "size": [
+                    8,
+                    13.9687,
+                    8
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -4,
+                    0.0313,
+                    -4
+                ],
+                "size": [
+                    8,
+                    13.9687,
+                    8
+                ]
+            }
+        }
+    }
+}

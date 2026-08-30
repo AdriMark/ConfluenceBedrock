@@ -1,0 +1,158 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:desert_tall_grass",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "confluence:part": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:desert_tall_grass.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.desert_tall_grass"
+            },
+            "minecraft:material_instances": {
+                "desert_tall_grass_bottom": {
+                    "texture": "confluence:desert_tall_grass_bottom",
+                    "render_method": "alpha_test"
+                },
+                "desert_tall_grass_top": {
+                    "texture": "confluence:desert_tall_grass_top",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:desert_tall_grass_bottom",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#bcbf88",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -7.0711,
+                    0,
+                    -7.0711
+                ],
+                "size": [
+                    14.1421,
+                    16,
+                    14.1421
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7.0711,
+                    0,
+                    -7.0711
+                ],
+                "size": [
+                    14.1421,
+                    16,
+                    14.1421
+                ]
+            },
+            "confluence:multiblock": {},
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.shaped.desert_tall_grass_icon"
+                },
+                "material_instances": {
+                    "desert_tall_grass_bottom": {
+                        "texture": "confluence:desert_tall_grass_bottom",
+                        "render_method": "alpha_test"
+                    },
+                    "desert_tall_grass_top": {
+                        "texture": "confluence:desert_tall_grass_top",
+                        "render_method": "alpha_test"
+                    },
+                    "*": {
+                        "texture": "confluence:desert_tall_grass_bottom",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('confluence:part') == 0",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.desert_tall_grass"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0711,
+                            0,
+                            -7.0711
+                        ],
+                        "size": [
+                            14.1421,
+                            16,
+                            14.1421
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0711,
+                            0,
+                            -7.0711
+                        ],
+                        "size": [
+                            14.1421,
+                            16,
+                            14.1421
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 1",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.desert_tall_grass_part1"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0711,
+                            0,
+                            -7.0711
+                        ],
+                        "size": [
+                            14.1421,
+                            16,
+                            14.1421
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0711,
+                            0,
+                            -7.0711
+                        ],
+                        "size": [
+                            14.1421,
+                            16,
+                            14.1421
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

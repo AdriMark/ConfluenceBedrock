@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:raw_crimtane_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:raw_crimtane_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:raw_crimtane_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:raw_crimtane",
+            "count": 9
+        }
+    }
+}

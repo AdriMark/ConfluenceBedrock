@@ -1,0 +1,2085 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.star_in_a_bottle",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3,
+                                10,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        13,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        2
+                                    ],
+                                    "material_instance": "oak_log"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        2
+                                    ],
+                                    "material_instance": "oak_log"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "oak_log_top"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "oak_log_top"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0,
+                                10,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        2
+                                    ],
+                                    "material_instance": "oak_log"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        2
+                                    ],
+                                    "material_instance": "oak_log"
+                                },
+                                "up": {
+                                    "uv": [
+                                        13,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "oak_log_top"
+                                },
+                                "down": {
+                                    "uv": [
+                                        13,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "oak_log_top"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0,
+                                10,
+                                -3
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        13,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        2
+                                    ],
+                                    "material_instance": "oak_log"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        2
+                                    ],
+                                    "material_instance": "oak_log"
+                                },
+                                "up": {
+                                    "uv": [
+                                        13,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "oak_log_top"
+                                },
+                                "down": {
+                                    "uv": [
+                                        13,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "oak_log_top"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                10,
+                                -3
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        2
+                                    ],
+                                    "material_instance": "oak_log"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        2
+                                    ],
+                                    "material_instance": "oak_log"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "oak_log_top"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "oak_log_top"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1,
+                                6.125,
+                                -0.99
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                1.98
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8.5,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9.25,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        9.75,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.75,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4.5,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.25,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -0.0175,
+                                2.2196,
+                                -0.99
+                            ],
+                            "size": [
+                                2,
+                                3,
+                                1.98
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        9.5,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9.5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.25,
+                                        2.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                0.9825,
+                                3.7196,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1.9825,
+                                2.2196,
+                                -0.99
+                            ],
+                            "size": [
+                                2,
+                                3,
+                                1.98
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2.5,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2.25,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6.25,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.25,
+                                        2.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.25,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                -0.9825,
+                                3.7196,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                4.375,
+                                -1
+                            ],
+                            "size": [
+                                6,
+                                2,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.25,
+                                        4.25
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.25,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        6,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.5,
+                                        8.75
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1.125,
+                                6.5,
+                                -1.125
+                            ],
+                            "size": [
+                                2.25,
+                                1.75,
+                                2.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.5,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.25,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10,
+                                        0.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10,
+                                        1.25
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1.9844,
+                                4.25,
+                                -1.125
+                            ],
+                            "size": [
+                                0.8594,
+                                2.25,
+                                2.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.75,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1.125,
+                                4.25,
+                                -1.125
+                            ],
+                            "size": [
+                                2.25,
+                                2.25,
+                                2.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7.75,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.125,
+                                4.25,
+                                -1.125
+                            ],
+                            "size": [
+                                1.1406,
+                                2.25,
+                                2.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.75,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.25,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        11,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                1.9844,
+                                4.25,
+                                -1.125
+                            ],
+                            "size": [
+                                1.1406,
+                                2.25,
+                                2.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.25,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        11,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        11,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                1.125,
+                                4.25,
+                                -1.125
+                            ],
+                            "size": [
+                                0.8594,
+                                2.25,
+                                2.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11.25,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.5,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.75,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2.1135,
+                                3.5802,
+                                -1.115
+                            ],
+                            "size": [
+                                2.25,
+                                0.25,
+                                2.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11.25,
+                                        0.25
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                -0.9885,
+                                3.7052,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -2.4454,
+                                2.1618,
+                                -1.115
+                            ],
+                            "size": [
+                                2.25,
+                                1.4844,
+                                2.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11.75,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.75,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.5,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        5,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.75,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                -1.3204,
+                                2.904,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1.7757,
+                                3.763,
+                                -1.115
+                            ],
+                            "size": [
+                                2.25,
+                                1.5156,
+                                2.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                -0.6507,
+                                4.5208,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0.1954,
+                                2.1618,
+                                -1.115
+                            ],
+                            "size": [
+                                2.25,
+                                1.4844,
+                                2.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.25,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7.75,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6.5,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.5,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                1.3204,
+                                2.904,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -0.1365,
+                                3.5802,
+                                -1.115
+                            ],
+                            "size": [
+                                2.25,
+                                0.25,
+                                2.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9.25,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.25,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                0.9885,
+                                3.7052,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -0.4743,
+                                3.763,
+                                -1.115
+                            ],
+                            "size": [
+                                2.25,
+                                1.5156,
+                                2.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.5,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                0.6507,
+                                4.5208,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1.625,
+                                7,
+                                -1.625
+                            ],
+                            "size": [
+                                3.25,
+                                1.75,
+                                3.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9.75,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8.25,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6.5,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9.25,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.75,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2.7344,
+                                3.75,
+                                -1.625
+                            ],
+                            "size": [
+                                1.1094,
+                                3.25,
+                                3.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.75,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1.625,
+                                3.75,
+                                -1.625
+                            ],
+                            "size": [
+                                3.25,
+                                3.25,
+                                3.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.5,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.625,
+                                3.75,
+                                -1.625
+                            ],
+                            "size": [
+                                0.8906,
+                                3.25,
+                                3.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7.25,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.25,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.25,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2.7344,
+                                3.75,
+                                -1.625
+                            ],
+                            "size": [
+                                0.8906,
+                                3.25,
+                                3.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.75,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.25,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.5,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                1.625,
+                                3.75,
+                                -1.625
+                            ],
+                            "size": [
+                                1.1094,
+                                3.25,
+                                3.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.75,
+                                        5.25
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0.25,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2.9872,
+                                2.4514,
+                                -1.615
+                            ],
+                            "size": [
+                                3.25,
+                                0.7031,
+                                3.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.25,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.5,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.75,
+                                        1.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                -1.3622,
+                                2.803,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -2.3235,
+                                3.0225,
+                                -1.615
+                            ],
+                            "size": [
+                                3.25,
+                                2.7656,
+                                3.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.5,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        5.5,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                -0.6985,
+                                4.4053,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -3.2712,
+                                1.7266,
+                                -1.615
+                            ],
+                            "size": [
+                                3.25,
+                                0.7813,
+                                3.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11.5,
+                                        6.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.5,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6.25,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.75,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                -1.6462,
+                                2.1173,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -0.9265,
+                                3.0225,
+                                -1.615
+                            ],
+                            "size": [
+                                3.25,
+                                2.7656,
+                                3.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.75,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9.75,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                0.6985,
+                                4.4053,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -0.2628,
+                                2.4514,
+                                -1.615
+                            ],
+                            "size": [
+                                3.25,
+                                0.7031,
+                                3.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.5,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.75,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                1.3622,
+                                2.803,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0.0212,
+                                1.7266,
+                                -1.615
+                            ],
+                            "size": [
+                                3.25,
+                                0.7813,
+                                3.23
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.5,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.75,
+                                        8.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9.25,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.25
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            },
+                            "pivot": [
+                                1.6462,
+                                2.1173,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -4,
+                                0.0313,
+                                -4
+                            ],
+                            "size": [
+                                8,
+                                10,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6.5,
+                                        2.75
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4.25,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2.5
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.75,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        8.75,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "star_in_a_bottle"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

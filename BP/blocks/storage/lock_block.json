@@ -1,0 +1,41 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:lock_block",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stone"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:lock_block.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "confluence:lock_block_other",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "confluence:lock_block_other",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "confluence:lock_block_main",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#716b6b",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ]
+        }
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:heart_lantern",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:heart_lantern.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.heart_lantern"
+            },
+            "minecraft:material_instances": {
+                "heart_lantern": {
+                    "texture": "confluence:heart_lantern",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:heart_lantern",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:wooden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 1.125
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:stone_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.563
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:copper_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.45
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:golden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.188
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:iron_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.375
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.281
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.25
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_emission": 7,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#906763",
+            "minecraft:tags": [
+                "confluence:level_1",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -5.1266,
+                    0,
+                    -3
+                ],
+                "size": [
+                    10.2531,
+                    13,
+                    6
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -5.1266,
+                    0,
+                    -3
+                ],
+                "size": [
+                    10.2531,
+                    13,
+                    6
+                ]
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.item_sprite"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:heart_lantern_item",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.heart_lantern"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -5.1266,
+                            0,
+                            -3
+                        ],
+                        "size": [
+                            10.2531,
+                            13,
+                            6
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -5.1266,
+                            0,
+                            -3
+                        ],
+                        "size": [
+                            10.2531,
+                            13,
+                            6
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.heart_lantern"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -3,
+                            0,
+                            -5.1265
+                        ],
+                        "size": [
+                            6,
+                            13,
+                            10.2531
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -3,
+                            0,
+                            -5.1265
+                        ],
+                        "size": [
+                            6,
+                            13,
+                            10.2531
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.heart_lantern"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -5.1265,
+                            0,
+                            -3
+                        ],
+                        "size": [
+                            10.2531,
+                            13,
+                            6
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -5.1265,
+                            0,
+                            -3
+                        ],
+                        "size": [
+                            10.2531,
+                            13,
+                            6
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.heart_lantern"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -3,
+                            0,
+                            -5.1266
+                        ],
+                        "size": [
+                            6,
+                            13,
+                            10.2531
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -3,
+                            0,
+                            -5.1266
+                        ],
+                        "size": [
+                            6,
+                            13,
+                            10.2531
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

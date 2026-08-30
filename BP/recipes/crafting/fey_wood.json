@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:fey_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:fey_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:fey_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:fey_wood",
+            "count": 3
+        }
+    }
+}

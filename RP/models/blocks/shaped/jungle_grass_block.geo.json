@@ -1,0 +1,111 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.jungle_grass_block",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "mud"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "mud"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "mud"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "mud"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -16
+                                    ],
+                                    "material_instance": "grass_block_top"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -16
+                                    ],
+                                    "material_instance": "mud"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

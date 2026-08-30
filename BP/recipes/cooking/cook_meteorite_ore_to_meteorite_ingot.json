@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_meteorite_ore_to_meteorite_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:meteorite_ore"
+            }
+        ],
+        "input": "confluence:meteorite_ore",
+        "output": "confluence:meteorite_ingot"
+    }
+}

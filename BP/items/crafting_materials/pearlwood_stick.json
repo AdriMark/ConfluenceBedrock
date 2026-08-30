@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:pearlwood_stick",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.crafting_materials"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:pearlwood_stick"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:pearlwood_stick.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

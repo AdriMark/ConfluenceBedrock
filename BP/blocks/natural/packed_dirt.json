@@ -1,0 +1,33 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:packed_dirt",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stone"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:packed_dirt.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:packed_dirt",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 1
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#7d4934",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ]
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:mushroom_path",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:mushroom_path.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.mushroom_path"
+            },
+            "minecraft:material_instances": {
+                "mushroom_path_side": {
+                    "texture": "confluence:mushroom_path_side",
+                    "render_method": "alpha_test"
+                },
+                "mushroom_path_top": {
+                    "texture": "confluence:mushroom_path_top",
+                    "render_method": "alpha_test"
+                },
+                "mud": {
+                    "texture": "confluence:mud",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:mushroom_path_side",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_shovel','minecraft:wooden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 1.125
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_shovel','minecraft:stone_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.563
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_shovel','minecraft:copper_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.45
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_shovel','minecraft:golden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.188
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_shovel','minecraft:iron_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.375
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_shovel','minecraft:diamond_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.281
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_shovel','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.25
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#494172",
+            "minecraft:tags": [
+                "confluence:shovel",
+                "minecraft:is_shovel_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15,
+                    16
+                ]
+            },
+            "minecraft:loot": "loot_tables/blocks/mushroom_path.json"
+        }
+    }
+}

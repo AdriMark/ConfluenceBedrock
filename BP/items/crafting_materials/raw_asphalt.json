@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:raw_asphalt",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.crafting_materials"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:raw_asphalt"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:raw_asphalt.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:tin_ingot_from_raw_tin"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:raw_tin"
+            },
+            {
+                "item": "confluence:raw_tin"
+            },
+            {
+                "item": "confluence:raw_tin"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:raw_tin"
+            }
+        ],
+        "result": {
+            "item": "confluence:tin_ingot"
+        }
+    }
+}

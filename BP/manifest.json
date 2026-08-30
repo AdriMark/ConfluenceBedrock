@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Magic Team",
+			"AdriMark"
+		]
+	},
+	"header": {
+		"name": "ConfluenceBedrock",
+		"description": "",
+		"min_engine_version": [
+			1,
+			26,
+			40
+		],
+		"uuid": "27152b6c-946f-49b7-88cd-0e0a9b26ba71",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "9a9952de-03b7-40be-b4c9-d187212e5d75",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "7a06a09b-0d3b-49ec-be8a-a23cfea7aba0",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0"
+		}
+	]
+}

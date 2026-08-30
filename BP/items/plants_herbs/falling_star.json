@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:falling_star",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.plants_herbs"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:falling_star"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:falling_star.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

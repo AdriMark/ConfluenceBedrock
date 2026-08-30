@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:frozen_gel_block",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stone"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:frozen_gel_block.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:frozen_gel_block",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:friction": 0,
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#42a1b7"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_soul_sand_to_soul_glass"
+        },
+        "tags": [
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:soul_sand"
+            }
+        ],
+        "input": "minecraft:soul_sand",
+        "output": "confluence:soul_glass"
+    }
+}

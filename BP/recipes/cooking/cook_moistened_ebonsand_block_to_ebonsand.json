@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_moistened_ebonsand_block_to_ebonsand"
+        },
+        "tags": [
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:moistened_ebonsand_block"
+            }
+        ],
+        "input": "confluence:moistened_ebonsand_block",
+        "output": "confluence:ebonsand"
+    }
+}

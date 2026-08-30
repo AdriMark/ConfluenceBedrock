@@ -1,0 +1,111 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.rope",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -1.5,
+                                6,
+                                -1.5
+                            ],
+                            "size": [
+                                3,
+                                4,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        4
+                                    ],
+                                    "material_instance": "rope_tile"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        4
+                                    ],
+                                    "material_instance": "rope_tile"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        4
+                                    ],
+                                    "material_instance": "rope_tile"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        4
+                                    ],
+                                    "material_instance": "rope_tile"
+                                },
+                                "up": {
+                                    "uv": [
+                                        14,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        3
+                                    ],
+                                    "material_instance": "rope_tile"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -3
+                                    ],
+                                    "material_instance": "rope_tile"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

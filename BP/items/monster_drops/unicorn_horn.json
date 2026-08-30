@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:unicorn_horn",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.monster_drops"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:unicorn_horn"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:unicorn_horn.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

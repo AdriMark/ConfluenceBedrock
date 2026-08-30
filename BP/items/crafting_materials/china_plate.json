@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:china_plate",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.crafting_materials"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:china_plate"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:china_plate.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

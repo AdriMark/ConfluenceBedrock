@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:glowing_mushroom_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:glowing_mushroom_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:glowing_mushroom_planks"
+            }
+        ],
+        "result": {
+            "item": "confluence:glowing_mushroom_slab",
+            "count": 6
+        }
+    }
+}

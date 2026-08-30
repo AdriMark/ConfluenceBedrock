@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:pearlwood_sword"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "#",
+            "/"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:pearl_planks"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:pearl_planks"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "item": "confluence:pearlwood_sword"
+        }
+    }
+}

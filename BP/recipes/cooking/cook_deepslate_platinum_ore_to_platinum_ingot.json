@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_deepslate_platinum_ore_to_platinum_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:deepslate_platinum_ore"
+            }
+        ],
+        "input": "confluence:deepslate_platinum_ore",
+        "output": "confluence:platinum_ingot"
+    }
+}

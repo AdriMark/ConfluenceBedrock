@@ -1,0 +1,64 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:cursed_flame_block",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:cursed_flame_block.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.cursed_flame_block"
+            },
+            "minecraft:material_instances": {
+                "cursed_flame_block_0": {
+                    "texture": "confluence_cursed_flame_block_0",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence_cursed_flame_block_0",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_emission": 7,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#b1d436",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0.3028,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15.6972,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0.3028,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15.6972,
+                    16
+                ]
+            },
+            "minecraft:loot": "loot_tables/blocks/cursed_flame_block.json"
+        }
+    }
+}

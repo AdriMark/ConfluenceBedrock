@@ -1,0 +1,335 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.yellow_willow_drooping_leaves",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "yellow_willow_drooping_leaves_1"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "yellow_willow_drooping_leaves_1"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -4,
+                                10,
+                                -4
+                            ],
+                            "size": [
+                                8,
+                                6,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        6
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        6
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        6
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        6
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        -8
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4,
+                                16,
+                                -4
+                            ],
+                            "size": [
+                                8,
+                                10,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        10
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        10
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        10
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        10
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        -8
+                                    ],
+                                    "material_instance": "yellow_willow_leaves"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.yellow_willow_drooping_leaves_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "yellow_willow_drooping_leaves"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "yellow_willow_drooping_leaves"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

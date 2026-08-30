@@ -1,0 +1,171 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.cursed_flame_block",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0.0626,
+                                0.4855
+                            ],
+                            "size": [
+                                16,
+                                22.4,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "cursed_flame_block_0"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                11.2626,
+                                0.4855
+                            ],
+                            "rotation": [
+                                22.5,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0.0626,
+                                -0.4855
+                            ],
+                            "size": [
+                                16,
+                                22.4,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "cursed_flame_block_0"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                11.2626,
+                                -0.4855
+                            ],
+                            "rotation": [
+                                -22.5,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                1.9637,
+                                -0.5497,
+                                -8
+                            ],
+                            "size": [
+                                0,
+                                22.4,
+                                16
+                            ],
+                            "uv": {
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "cursed_flame_block_0"
+                                }
+                            },
+                            "pivot": [
+                                1.9637,
+                                10.6503,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1.9637,
+                                -0.5497,
+                                -8
+                            ],
+                            "size": [
+                                0,
+                                22.4,
+                                16
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "cursed_flame_block_0"
+                                }
+                            },
+                            "pivot": [
+                                -1.9637,
+                                10.6503,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                22.5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

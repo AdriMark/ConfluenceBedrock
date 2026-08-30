@@ -1,0 +1,446 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.big_desert_plant",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -13,
+                                0,
+                                -13
+                            ],
+                            "size": [
+                                13,
+                                11,
+                                13
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        6.375
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6.625,
+                                        6.375
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.625
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -13,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                13,
+                                11,
+                                13
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "west": {
+                                    "uv": [
+                                        5,
+                                        6.375
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.25,
+                                        1.625
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.625
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -13
+                            ],
+                            "size": [
+                                13,
+                                11,
+                                13
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        1.625,
+                                        6.375
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "east": {
+                                    "uv": [
+                                        9,
+                                        1.5
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.625,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.625
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                13,
+                                11,
+                                13
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.375,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7.375,
+                                        1.5
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.625,
+                                        1.625
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.625
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                0,
+                                -5
+                            ],
+                            "size": [
+                                10,
+                                11,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        6.375
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7.125,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8.375,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "west": {
+                                    "uv": [
+                                        1.25,
+                                        7.875
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.375
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.625,
+                                        7.875
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.25
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                0,
+                                -2
+                            ],
+                            "size": [
+                                4,
+                                16,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        7.875
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        2
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4,
+                                        7.875
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        2
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.875,
+                                        7.875
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        2
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "west": {
+                                    "uv": [
+                                        5.125,
+                                        7.875
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        2
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.875,
+                                        3.375
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -9,
+                                0,
+                                -9
+                            ],
+                            "size": [
+                                18,
+                                16,
+                                18
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.375,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2.25,
+                                        2
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2.375,
+                                        4.25
+                                    ],
+                                    "uv_size": [
+                                        2.25,
+                                        2
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5.625,
+                                        2.125
+                                    ],
+                                    "uv_size": [
+                                        -2.25,
+                                        2
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "west": {
+                                    "uv": [
+                                        7,
+                                        4.25
+                                    ],
+                                    "uv_size": [
+                                        -2.25,
+                                        2
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.25,
+                                        3.375
+                                    ],
+                                    "uv_size": [
+                                        -2.25,
+                                        2.25
+                                    ],
+                                    "material_instance": "big_desert_plant"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

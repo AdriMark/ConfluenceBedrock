@@ -1,0 +1,677 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.ammo_box",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6,
+                                0.0813,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                6,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        1.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.5,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        1.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "east": {
+                                    "uv": [
+                                        9.5,
+                                        1.5
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        1.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9.5,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        1.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "up": {
+                                    "uv": [
+                                        6.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        3
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -3
+                                    ],
+                                    "material_instance": "ammo_box"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                6.0813,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                3,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.5,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3.5,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                9.0813,
+                                -2.125
+                            ],
+                            "size": [
+                                5,
+                                3,
+                                5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2.5,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.75,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.75,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.25
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "ammo_box"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5.5,
+                                12.0813,
+                                -2.625
+                            ],
+                            "size": [
+                                6,
+                                3,
+                                6
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.5,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "up": {
+                                    "uv": [
+                                        5,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4,
+                                15.0813,
+                                -1.125
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9.5,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9.5,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.25,
+                                        2.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.25,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.25,
+                                        9.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.25,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                0.3313,
+                                4.25
+                            ],
+                            "size": [
+                                14,
+                                9,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.5,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        2.25
+                                    ],
+                                    "material_instance": "ammo_box"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "ammo_box"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3.6606,
+                                0.3477,
+                                -3
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                5
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        13.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        8
+                                    ],
+                                    "material_instance": "arrow_r90"
+                                }
+                            },
+                            "pivot": [
+                                3.6606,
+                                8.3477,
+                                -0.5
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                1.1606,
+                                0.3477,
+                                -0.5
+                            ],
+                            "size": [
+                                5,
+                                16,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        13.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        8
+                                    ],
+                                    "material_instance": "arrow_r90"
+                                }
+                            },
+                            "pivot": [
+                                3.6606,
+                                8.3477,
+                                -0.5
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.8394,
+                                14.8149,
+                                -3
+                            ],
+                            "size": [
+                                5,
+                                0,
+                                5
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        2.5,
+                                        13.5
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "arrow_r270"
+                                }
+                            },
+                            "pivot": [
+                                6.3394,
+                                14.8149,
+                                -0.5
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -22.5
+                            ]
+                        },
+                        {
+                            "origin": [
+                                4.5251,
+                                1.1064,
+                                1
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                5
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        13.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        8
+                                    ],
+                                    "material_instance": "arrow_r90"
+                                }
+                            },
+                            "pivot": [
+                                4.5251,
+                                9.1064,
+                                3.5
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                2.0251,
+                                1.1064,
+                                3.5
+                            ],
+                            "size": [
+                                5,
+                                16,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        13.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        8
+                                    ],
+                                    "material_instance": "arrow_r90"
+                                }
+                            },
+                            "pivot": [
+                                4.5251,
+                                9.1064,
+                                3.5
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                6.9749,
+                                14.0562,
+                                1
+                            ],
+                            "size": [
+                                5,
+                                0,
+                                5
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        2.5,
+                                        13.5
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "arrow_r270"
+                                }
+                            },
+                            "pivot": [
+                                9.4749,
+                                14.0562,
+                                3.5
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -45
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

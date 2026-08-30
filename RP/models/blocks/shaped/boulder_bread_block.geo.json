@@ -1,0 +1,271 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.boulder_bread_block",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8.1,
+                                2,
+                                -10.1
+                            ],
+                            "size": [
+                                16.2,
+                                16.2,
+                                20.2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        10.4
+                                    ],
+                                    "uv_size": [
+                                        3.2,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.4,
+                                        9.6
+                                    ],
+                                    "uv_size": [
+                                        3.2,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4,
+                                        3.2
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.2,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.2,
+                                        4
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.2,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -3.2,
+                                        -4
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8.1,
+                                0,
+                                -8.1
+                            ],
+                            "size": [
+                                16.2,
+                                20.2,
+                                16.2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6.4
+                                    ],
+                                    "uv_size": [
+                                        3.2,
+                                        4
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7.2,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        3.2,
+                                        4
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.2,
+                                        4
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6.4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -3.2,
+                                        4
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9.6,
+                                        11.2
+                                    ],
+                                    "uv_size": [
+                                        -3.2,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.4,
+                                        15.2
+                                    ],
+                                    "uv_size": [
+                                        -3.2,
+                                        -3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -10.1,
+                                2,
+                                -8.1
+                            ],
+                            "size": [
+                                20.2,
+                                16.2,
+                                16.2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12.8,
+                                        12.8
+                                    ],
+                                    "uv_size": [
+                                        -3.2,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        12.8
+                                    ],
+                                    "uv_size": [
+                                        -3.2,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "up": {
+                                    "uv": [
+                                        14.4,
+                                        3.2
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.4,
+                                        9.6
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -3.2
+                                    ],
+                                    "material_instance": "boulder_bread_block"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

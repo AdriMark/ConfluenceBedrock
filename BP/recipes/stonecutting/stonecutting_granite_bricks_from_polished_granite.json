@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_granite_bricks_from_polished_granite"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:polished_granite"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:polished_granite"
+            }
+        ],
+        "result": {
+            "item": "confluence:granite_bricks"
+        }
+    }
+}

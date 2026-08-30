@@ -1,0 +1,389 @@
+{
+	"format_version": "1.26.40",
+	"minecraft:crafting_items_catalog": {
+		"categories": [
+			{
+				"category_name": "equipment",
+				"groups": [
+					{
+						"group_identifier": {
+							"icon": "confluence:platinum_axe",
+							"name": "confluence:itemGroup.name.axe"
+						},
+						"items": [
+							"confluence:copper_axe",
+							"confluence:tin_axe",
+							"confluence:lead_axe",
+							"confluence:silver_axe",
+							"confluence:tungsten_axe",
+							"confluence:golden_axe",
+							"confluence:platinum_axe",
+							"confluence:war_axe_of_the_night",
+							"confluence:blood_lust_cluster",
+							"confluence:cobalt_waraxe",
+							"confluence:palladium_waraxe",
+							"confluence:mythril_waraxe",
+							"confluence:orichalcum_waraxe",
+							"confluence:adamantite_waraxe",
+							"confluence:titanium_waraxe",
+							"confluence:chlorophyte_greataxe"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:platinum_pickaxe",
+							"name": "confluence:itemGroup.name.pickaxe"
+						},
+						"items": [
+							"confluence:cactus_pickaxe",
+							"confluence:copper_pickaxe",
+							"confluence:tin_pickaxe",
+							"confluence:lead_pickaxe",
+							"confluence:silver_pickaxe",
+							"confluence:tungsten_pickaxe",
+							"confluence:golden_pickaxe",
+							"confluence:candy_cane_pickaxe",
+							"confluence:fossil_pickaxe",
+							"confluence:abyssal_pickaxe",
+							"confluence:miasma_pickaxe",
+							"confluence:cold_crystal_pickaxe",
+							"confluence:bone_pickaxe",
+							"confluence:platinum_pickaxe",
+							"confluence:reaver_shark_pickaxe",
+							"confluence:nightmare_pickaxe",
+							"confluence:deathbringer_pickaxe",
+							"confluence:molten_pickaxe",
+							"confluence:cobalt_pickaxe",
+							"confluence:palladium_pickaxe",
+							"confluence:mythril_pickaxe",
+							"confluence:orichalcum_pickaxe",
+							"confluence:adamantite_pickaxe",
+							"confluence:titanium_pickaxe",
+							"confluence:chlorophyte_pickaxe"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:pickaxe_axe",
+							"name": "confluence:itemGroup.name.pickaxe_axe"
+						},
+						"items": [
+							"confluence:pickaxe_axe",
+							"confluence:picksaw"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:titanium_drill",
+							"name": "confluence:itemGroup.name.drill"
+						},
+						"items": [
+							"confluence:cobalt_drill",
+							"confluence:palladium_drill",
+							"confluence:mythril_drill",
+							"confluence:orichalcum_drill",
+							"confluence:adamantite_drill",
+							"confluence:titanium_drill"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:titanium_chainsaw",
+							"name": "confluence:itemGroup.name.chainsaw"
+						},
+						"items": [
+							"confluence:cobalt_chainsaw",
+							"confluence:palladium_chainsaw",
+							"confluence:mythril_chainsaw",
+							"confluence:orichalcum_chainsaw",
+							"confluence:adamantite_chainsaw",
+							"confluence:titanium_chainsaw"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:meteor_hamaxe",
+							"name": "confluence:itemGroup.name.hamaxe"
+						},
+						"items": [
+							"confluence:meteor_hamaxe",
+							"confluence:molten_hamaxe"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:platinum_hammer",
+							"name": "confluence:itemGroup.name.hammer"
+						},
+						"items": [
+							"confluence:wooden_hammer",
+							"confluence:ebonwood_hammer",
+							"confluence:shadewood_hammer",
+							"confluence:ash_wood_hammer",
+							"confluence:pearlwood_hammer",
+							"confluence:copper_hammer",
+							"confluence:tin_hammer",
+							"confluence:iron_hammer",
+							"confluence:lead_hammer",
+							"confluence:silver_hammer",
+							"confluence:tungsten_hammer",
+							"confluence:golden_hammer",
+							"confluence:platinum_hammer",
+							"confluence:the_breaker",
+							"confluence:flesh_grinder",
+							"confluence:rockfish",
+							"confluence:pwnhammer"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:copper_short_sword",
+							"name": "confluence:itemGroup.name.short_swords"
+						},
+						"items": [
+							"confluence:copper_short_sword",
+							"confluence:tin_short_sword",
+							"confluence:iron_short_sword",
+							"confluence:lead_short_sword",
+							"confluence:silver_short_sword",
+							"confluence:tungsten_short_sword",
+							"confluence:golden_short_sword",
+							"confluence:platinum_short_sword",
+							"confluence:gladius"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:cactus_sword",
+							"name": "confluence:itemGroup.name.pre_hardmode_broadswords"
+						},
+						"items": [
+							"confluence:cactus_sword",
+							"confluence:ebonwood_sword",
+							"confluence:shadewood_sword",
+							"confluence:ash_wood_sword",
+							"confluence:pearlwood_sword",
+							"confluence:copper_broadsword",
+							"confluence:tin_broadsword",
+							"confluence:lead_broadsword",
+							"confluence:silver_broadsword",
+							"confluence:tungsten_broadsword",
+							"confluence:golden_broadsword",
+							"confluence:platinum_broadsword",
+							"confluence:fake_sword",
+							"confluence:candy_cane_sword",
+							"confluence:zombie_arm",
+							"confluence:mandible_blade",
+							"confluence:bone_sword",
+							"confluence:stylish_scissors",
+							"confluence:breathing_reed",
+							"confluence:katana",
+							"confluence:terragrim",
+							"confluence:muramasa"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:cobalt_sword",
+							"name": "confluence:itemGroup.name.hardmode_broadswords"
+						},
+						"items": [
+							"confluence:cobalt_sword",
+							"confluence:palladium_sword",
+							"confluence:mythril_sword",
+							"confluence:orichalcum_sword",
+							"confluence:adamantite_sword",
+							"confluence:titanium_sword",
+							"confluence:breaker_blade"
+						]
+					}
+				]
+			},
+			{
+				"category_name": "items",
+				"groups": [
+					{
+						"group_identifier": {
+							"icon": "confluence:platinum_ingot",
+							"name": "confluence:itemGroup.name.metal_materials"
+						},
+						"items": [
+							"confluence:raw_tin",
+							"confluence:tin_ingot",
+							"confluence:tin_nugget",
+							"confluence:raw_lead",
+							"confluence:lead_ingot",
+							"confluence:lead_nugget",
+							"confluence:raw_silver",
+							"confluence:silver_ingot",
+							"confluence:silver_nugget",
+							"confluence:raw_tungsten",
+							"confluence:tungsten_ingot",
+							"confluence:tungsten_nugget",
+							"confluence:raw_platinum",
+							"confluence:platinum_ingot",
+							"confluence:platinum_nugget",
+							"confluence:raw_meteorite",
+							"confluence:meteorite_ingot",
+							"confluence:meteorite_nugget",
+							"confluence:raw_demonite",
+							"confluence:demonite_ingot",
+							"confluence:demonite_nugget",
+							"confluence:raw_crimtane",
+							"confluence:crimtane_ingot",
+							"confluence:crimtane_nugget",
+							"confluence:raw_hellstone",
+							"confluence:hellstone_ingot",
+							"confluence:hellstone_nugget",
+							"confluence:raw_cobalt",
+							"confluence:cobalt_ingot",
+							"confluence:raw_palladium",
+							"confluence:palladium_ingot",
+							"confluence:raw_mythril",
+							"confluence:mythril_ingot",
+							"confluence:raw_orichalcum",
+							"confluence:orichalcum_ingot",
+							"confluence:raw_adamantite",
+							"confluence:adamantite_ingot",
+							"confluence:raw_titanium",
+							"confluence:titanium_ingot",
+							"confluence:raw_chlorophyte",
+							"confluence:chlorophyte_ingot",
+							"confluence:raw_luminite",
+							"confluence:luminite_ingot",
+							"confluence:hallowed_ingot",
+							"confluence:shroomite_ingot",
+							"confluence:spectre_ingot"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:ruby",
+							"name": "confluence:itemGroup.name.natural_materials"
+						},
+						"items": [
+							"confluence:ruby",
+							"confluence:amber",
+							"confluence:topaz",
+							"confluence:jade",
+							"confluence:sapphire",
+							"confluence:amethyst",
+							"confluence:pearl",
+							"confluence:black_pearl",
+							"confluence:pink_pearl",
+							"confluence:cold_crystal",
+							"confluence:opal",
+							"confluence:sturdy_fossil",
+							"confluence:heim",
+							"confluence:gelstone",
+							"confluence:winter_marrow",
+							"confluence:aetherium_shard"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:soul_of_light",
+							"name": "confluence:itemGroup.name.souls_special"
+						},
+						"items": [
+							"confluence:soul_of_light",
+							"confluence:soul_of_night",
+							"confluence:soul_of_flight",
+							"confluence:soul_of_might",
+							"confluence:soul_of_sight",
+							"confluence:soul_of_fright",
+							"confluence:soul_of_voight",
+							"confluence:soul_of_bright"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:lens",
+							"name": "confluence:itemGroup.name.monster_drops"
+						},
+						"items": [
+							"confluence:rotten_chunk",
+							"confluence:worm_tooth",
+							"confluence:vertebra",
+							"confluence:blood_clot_powder",
+							"confluence:rotten_bone",
+							"confluence:filamentous_fin",
+							"confluence:lens",
+							"confluence:black_lens",
+							"confluence:tattered_cloth",
+							"confluence:antlion_mandible",
+							"confluence:stinger",
+							"confluence:man_eater_vine",
+							"confluence:black_ink",
+							"confluence:shark_fin",
+							"confluence:shadow_scale",
+							"confluence:tissue_sample",
+							"confluence:royal_wax",
+							"confluence:gel",
+							"confluence:pink_gel",
+							"confluence:harpy_feather",
+							"confluence:giant_harpy_feather",
+							"confluence:flinx_fur",
+							"confluence:crystal_shards",
+							"confluence:dark_shard",
+							"confluence:light_shard",
+							"confluence:cursed_flame",
+							"confluence:ichor",
+							"confluence:pixie_dust",
+							"confluence:unicorn_horn",
+							"confluence:forbidden_fragment",
+							"confluence:frost_core",
+							"confluence:hook",
+							"confluence:ancient_cloth"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:daybloom",
+							"name": "confluence:itemGroup.name.plants_herbs"
+						},
+						"items": [
+							"confluence:waterleaf",
+							"confluence:fireblossom",
+							"confluence:moonglow",
+							"confluence:blinkroot",
+							"confluence:shiverthorn",
+							"confluence:daybloom",
+							"confluence:deathweed",
+							"confluence:jungle_spore",
+							"confluence:spore_root",
+							"confluence:falling_star",
+							"confluence:star_petals",
+							"confluence:floating_wheat_heads",
+							"confluence:weaving_cloud_cotton"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "confluence:silk",
+							"name": "confluence:itemGroup.name.crafting_materials"
+						},
+						"items": [
+							"confluence:pearlwood_stick",
+							"confluence:aetherium_gold",
+							"confluence:silk",
+							"confluence:raw_asphalt",
+							"confluence:spell_tome",
+							"confluence:china_plate",
+							"confluence:china_bowl",
+							"confluence:empty_bullet",
+							"confluence:explosive_powder",
+							"confluence:gold_dust",
+							"confluence:cog",
+							"confluence:nanites",
+							"confluence:confetti",
+							"confluence:vial_of_venom",
+							"confluence:bell",
+							"confluence:harp"
+						]
+					}
+				]
+			}
+		]
+	}
+}

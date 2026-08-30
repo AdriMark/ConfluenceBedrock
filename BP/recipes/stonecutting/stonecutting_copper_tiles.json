@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_copper_tiles"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:copper_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:copper_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:copper_tiles",
+            "count": 9
+        }
+    }
+}

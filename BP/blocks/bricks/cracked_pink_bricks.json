@@ -1,0 +1,33 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:cracked_pink_bricks",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stoneBrick"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:cracked_pink_bricks.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:cracked_pink_bricks",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#28172a",
+            "minecraft:tags": [
+                "confluence:hammer"
+            ]
+        }
+    }
+}

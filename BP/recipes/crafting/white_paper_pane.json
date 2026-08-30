@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:white_paper_pane"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " S ",
+            "S/S",
+            " S "
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:paper"
+            },
+            "S": {
+                "item": "confluence:dynasty_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:paper"
+            },
+            {
+                "item": "confluence:dynasty_planks"
+            }
+        ],
+        "result": {
+            "item": "confluence:white_paper_pane"
+        }
+    }
+}

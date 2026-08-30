@@ -1,0 +1,106 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.spike",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -10.5,
+                                10.5,
+                                -10.5
+                            ],
+                            "size": [
+                                21,
+                                0,
+                                21
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "spike"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10.5
+                            ],
+                            "size": [
+                                0,
+                                21,
+                                21
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "spike"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -10.5,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                21,
+                                21,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "spike"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

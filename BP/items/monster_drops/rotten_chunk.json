@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:rotten_chunk",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.monster_drops"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:rotten_chunk"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:rotten_chunk.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

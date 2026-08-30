@@ -1,0 +1,82 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:tundra_pot",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:tundra_pot.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.tundra_pot"
+            },
+            "minecraft:material_instances": {
+                "tundra_pot_0": {
+                    "texture": "confluence:tundra_pot_0",
+                    "render_method": "alpha_test"
+                },
+                "tundra_pot_top_0": {
+                    "texture": "confluence:tundra_pot_top_0",
+                    "render_method": "alpha_test"
+                },
+                "tundra_pot_bottom_0": {
+                    "texture": "confluence:tundra_pot_bottom_0",
+                    "render_method": "alpha_test"
+                },
+                "tundra_pot_ice_0": {
+                    "texture": "confluence:tundra_pot_ice_0",
+                    "render_method": "alpha_test"
+                },
+                "tundra_pot_ice_top_0": {
+                    "texture": "confluence:tundra_pot_ice_top_0",
+                    "render_method": "alpha_test"
+                },
+                "tundra_pot_ice_bottom_0": {
+                    "texture": "confluence:tundra_pot_ice_bottom_0",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:tundra_pot_0",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#70658b",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -6.0312,
+                    0,
+                    -6.0312
+                ],
+                "size": [
+                    12.0625,
+                    14.0625,
+                    12.0625
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6.0312,
+                    0,
+                    -6.0312
+                ],
+                "size": [
+                    12.0625,
+                    14.0625,
+                    12.0625
+                ]
+            }
+        }
+    }
+}

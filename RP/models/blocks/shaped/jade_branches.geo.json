@@ -1,0 +1,111 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.jade_branches",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3,
+                                5,
+                                -3
+                            ],
+                            "size": [
+                                6,
+                                6,
+                                6
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        6
+                                    ],
+                                    "material_instance": "jade_branches"
+                                },
+                                "north": {
+                                    "uv": [
+                                        5,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        6
+                                    ],
+                                    "material_instance": "jade_branches"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -6,
+                                        6
+                                    ],
+                                    "material_instance": "jade_branches"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -6,
+                                        6
+                                    ],
+                                    "material_instance": "jade_branches"
+                                },
+                                "up": {
+                                    "uv": [
+                                        5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        -6
+                                    ],
+                                    "material_instance": "jade_branches"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        -6
+                                    ],
+                                    "material_instance": "jade_branches"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

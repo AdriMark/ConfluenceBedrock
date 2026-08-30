@@ -1,0 +1,51 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:crimsandstone",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.sandstone"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:crimsandstone.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "confluence:crimsandstone_top",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "confluence:crimsandstone_top",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "confluence:crimsandstone",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.8,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.133
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.8
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#50454d",
+            "minecraft:tags": [
+                "confluence:level_4",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ]
+        }
+    }
+}

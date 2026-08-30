@@ -1,0 +1,62 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:big_desert_plant",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:big_desert_plant.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.big_desert_plant"
+            },
+            "minecraft:material_instances": {
+                "big_desert_plant": {
+                    "texture": "confluence:big_desert_plant",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:big_desert_plant",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#335e2e",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            }
+        }
+    }
+}

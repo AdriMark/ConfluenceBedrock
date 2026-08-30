@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:sturdy_fossil_block_from_compacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "confluence:sturdy_fossil"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:sturdy_fossil"
+            }
+        ],
+        "result": {
+            "item": "confluence:sturdy_fossil_block"
+        }
+    }
+}

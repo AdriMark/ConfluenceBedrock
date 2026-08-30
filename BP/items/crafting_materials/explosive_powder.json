@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:explosive_powder",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.crafting_materials"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:explosive_powder"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:explosive_powder.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

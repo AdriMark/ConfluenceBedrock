@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:heavy_work_bench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "a",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:crafting_table"
+            },
+            "a": {
+                "item": "confluence:lead_anvil"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:crafting_table"
+            },
+            {
+                "item": "confluence:lead_anvil"
+            }
+        ],
+        "result": {
+            "item": "confluence:heavy_work_bench"
+        }
+    }
+}

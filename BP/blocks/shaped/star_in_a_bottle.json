@@ -1,0 +1,294 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:star_in_a_bottle",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:star_in_a_bottle.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.star_in_a_bottle"
+            },
+            "minecraft:material_instances": {
+                "oak_log": {
+                    "texture": "confluence:oak_log",
+                    "render_method": "alpha_test"
+                },
+                "oak_log_top": {
+                    "texture": "confluence:oak_log_top",
+                    "render_method": "alpha_test"
+                },
+                "star_in_a_bottle": {
+                    "texture": "confluence:star_in_a_bottle",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:oak_log",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:wooden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 1.125
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:stone_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.563
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:copper_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.45
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:golden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.188
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:iron_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.375
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.281
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.25
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_emission": 7,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#6d5533",
+            "minecraft:tags": [
+                "confluence:level_1",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -4,
+                    0.0313,
+                    -4
+                ],
+                "size": [
+                    8,
+                    11.9687,
+                    8
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -4,
+                    0.0313,
+                    -4
+                ],
+                "size": [
+                    8,
+                    11.9687,
+                    8
+                ]
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.item_sprite"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:star_in_a_bottle_item",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.star_in_a_bottle"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0.0313,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            11.9687,
+                            8
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0.0313,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            11.9687,
+                            8
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.star_in_a_bottle"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0.0313,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            11.9687,
+                            8
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0.0313,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            11.9687,
+                            8
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.star_in_a_bottle"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0.0313,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            11.9687,
+                            8
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0.0313,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            11.9687,
+                            8
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.star_in_a_bottle"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0.0313,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            11.9687,
+                            8
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0.0313,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            11.9687,
+                            8
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

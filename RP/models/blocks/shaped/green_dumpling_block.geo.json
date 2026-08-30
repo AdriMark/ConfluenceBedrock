@@ -1,0 +1,180 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.green_dumpling_block",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -2,
+                                0.032,
+                                -2
+                            ],
+                            "size": [
+                                4,
+                                3,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.5
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.5
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        1.5
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        1.5
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0.016,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                0,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        0
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        0
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        0
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        0
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        8
+                                    ],
+                                    "material_instance": "green_dumpling"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

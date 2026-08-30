@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_sanctification_sapphire_ore_to_sapphire"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:sanctification_sapphire_ore"
+            }
+        ],
+        "input": "confluence:sanctification_sapphire_ore",
+        "output": "confluence:sapphire"
+    }
+}

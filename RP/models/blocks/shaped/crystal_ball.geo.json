@@ -1,0 +1,671 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.crystal_ball",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6,
+                                0,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                4,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        1
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8.25,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        1
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11.25,
+                                        1
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        1
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.25,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        1
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        3
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -3
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                1.5,
+                                5
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.75,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.5,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2.75,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4.5,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.5,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                5,
+                                1.5,
+                                5
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.25,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2.25,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                5,
+                                1.5,
+                                -7
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.5,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.75,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.5,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2.75,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                1.5,
+                                -7
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2.25,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2.25,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.5,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.5,
+                                3,
+                                -3.5
+                            ],
+                            "size": [
+                                7,
+                                7,
+                                7
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.5,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.5,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6.5,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6.5,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        -1.75
+                                    ],
+                                    "material_instance": "crystal_ball_r270"
+                                },
+                                "down": {
+                                    "uv": [
+                                        12.5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "crystal_ball_r90"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4,
+                                4.016,
+                                -4
+                            ],
+                            "size": [
+                                8,
+                                6.484,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.75,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        -2.25
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.75,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        -2.25
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        -2.25
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4.75,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        -2.25
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "up": {
+                                    "uv": [
+                                        6.5,
+                                        5.25
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        -1.75
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        5.25
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.625,
+                                4.032,
+                                -3.625
+                            ],
+                            "size": [
+                                7.25,
+                                6.093,
+                                7.25
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.5,
+                                        4.25
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        -2
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.75,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        -2
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.75,
+                                        6.25
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        -2
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4.75,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        -2
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.75,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        -1.75
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "crystal_ball"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

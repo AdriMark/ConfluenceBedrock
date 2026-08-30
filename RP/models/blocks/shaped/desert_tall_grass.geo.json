@@ -1,0 +1,373 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.desert_tall_grass",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "desert_tall_grass_bottom"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "desert_tall_grass_bottom"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.desert_tall_grass_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "desert_tall_grass_top"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -10
+                            ],
+                            "size": [
+                                0,
+                                16,
+                                20
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "desert_tall_grass_top"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.desert_tall_grass_icon",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_p0",
+                    "pivot": [
+                        0,
+                        4,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -5
+                            ],
+                            "size": [
+                                0,
+                                8,
+                                10
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "desert_tall_grass_bottom"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                4,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -5
+                            ],
+                            "size": [
+                                0,
+                                8,
+                                10
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "desert_tall_grass_bottom"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                4,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p1",
+                    "pivot": [
+                        0,
+                        4,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -5
+                            ],
+                            "size": [
+                                0,
+                                8,
+                                10
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "desert_tall_grass_top"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                12,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -5
+                            ],
+                            "size": [
+                                0,
+                                8,
+                                10
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "desert_tall_grass_top"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                12,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

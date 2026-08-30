@@ -1,0 +1,45 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:yellow_pure_glass",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.glass"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:yellow_pure_glass.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.full_cube",
+                "culling": "confluence:culling.pane"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:yellow_pure_glass_connected",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.3
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.3
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#e5e533",
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.full_cube"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:yellow_pure_glass",
+                        "render_method": "blend"
+                    }
+                }
+            },
+            "minecraft:loot": "loot_tables/blocks/yellow_pure_glass.json"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:sword_in_stone",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:sword_in_stone.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.sword_in_stone"
+            },
+            "minecraft:material_instances": {
+                "cobblestone": {
+                    "texture": "confluence:cobblestone",
+                    "render_method": "alpha_test"
+                },
+                "enchanted_sword": {
+                    "texture": "confluence:enchanted_sword",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:cobblestone",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#807f80",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    16,
+                    12
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    16,
+                    12
+                ]
+            }
+        }
+    }
+}

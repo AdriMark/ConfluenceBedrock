@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_silver_bricks"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:silver_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:silver_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:silver_bricks",
+            "count": 9
+        }
+    }
+}

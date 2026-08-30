@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:ebonstone_bricks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:ebonstone"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:ebonstone"
+            }
+        ],
+        "result": {
+            "item": "confluence:ebonstone_bricks"
+        }
+    }
+}

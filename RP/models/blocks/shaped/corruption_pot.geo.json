@@ -1,0 +1,351 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.corruption_pot",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5,
+                                0,
+                                -5
+                            ],
+                            "size": [
+                                10,
+                                1,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8,
+                                        6.6
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.2
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "north": {
+                                    "uv": [
+                                        12,
+                                        6.6
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.2
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8,
+                                        6.6
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        0.2
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "west": {
+                                    "uv": [
+                                        12,
+                                        6.6
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        0.2
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10,
+                                        4.6
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "down": {
+                                    "uv": [
+                                        12,
+                                        6.6
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4,
+                                1,
+                                -4
+                            ],
+                            "size": [
+                                8,
+                                2,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.6,
+                                        8.2
+                                    ],
+                                    "uv_size": [
+                                        1.6,
+                                        0.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.8,
+                                        8.2
+                                    ],
+                                    "uv_size": [
+                                        1.6,
+                                        0.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.6,
+                                        8.2
+                                    ],
+                                    "uv_size": [
+                                        -1.6,
+                                        0.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4.8,
+                                        8.2
+                                    ],
+                                    "uv_size": [
+                                        -1.6,
+                                        0.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.2,
+                                        6.6
+                                    ],
+                                    "uv_size": [
+                                        -1.6,
+                                        1.6
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.8,
+                                        8.2
+                                    ],
+                                    "uv_size": [
+                                        -1.6,
+                                        -1.6
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                3,
+                                -5
+                            ],
+                            "size": [
+                                10,
+                                9,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        4.8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.8
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6,
+                                        4.8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.8
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2,
+                                        4.8
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        1.8
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6,
+                                        4.8
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        1.8
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        2.8
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6,
+                                        4.8
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                12,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                2,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.4,
+                                        2.4
+                                    ],
+                                    "uv_size": [
+                                        2.4,
+                                        0.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7.2,
+                                        2.4
+                                    ],
+                                    "uv_size": [
+                                        2.4,
+                                        0.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2.4,
+                                        2.4
+                                    ],
+                                    "uv_size": [
+                                        -2.4,
+                                        0.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "west": {
+                                    "uv": [
+                                        7.2,
+                                        2.4
+                                    ],
+                                    "uv_size": [
+                                        -2.4,
+                                        0.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4.8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2.4,
+                                        2.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.2,
+                                        2.4
+                                    ],
+                                    "uv_size": [
+                                        -2.4,
+                                        -2.4
+                                    ],
+                                    "material_instance": "corruption_pot"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,432 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:hellforge",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "confluence:part": [
+                    0,
+                    1
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:hellforge.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.hellforge"
+            },
+            "minecraft:material_instances": {
+                "hellforge": {
+                    "texture": "confluence:hellforge",
+                    "render_method": "alpha_test"
+                },
+                "hellforge_lava_anim": {
+                    "texture": "confluence_hellforge_lava_anim",
+                    "render_method": "alpha_test"
+                },
+                "hellforge_lava_anim_r90": {
+                    "texture": "confluence_hellforge_lava_anim_r90",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:hellforge",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.25
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#65332e",
+            "minecraft:tags": [
+                "confluence:level_4",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "confluence:multiblock": {},
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.shaped.hellforge_icon"
+                },
+                "material_instances": {
+                    "hellforge": {
+                        "texture": "confluence:hellforge",
+                        "render_method": "alpha_test"
+                    },
+                    "hellforge_lava_anim": {
+                        "texture": "confluence_hellforge_lava_anim",
+                        "render_method": "alpha_test"
+                    },
+                    "hellforge_lava_anim_r90": {
+                        "texture": "confluence_hellforge_lava_anim_r90",
+                        "render_method": "alpha_test"
+                    },
+                    "*": {
+                        "texture": "confluence:hellforge",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('confluence:part') == 0 && q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.hellforge"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 0 && q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.hellforge"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 0 && q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.hellforge"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 0 && q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.hellforge"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 1 && q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.hellforge_part1"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 1 && q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.hellforge_part1"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 1 && q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.hellforge_part1"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 1 && q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.hellforge_part1"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

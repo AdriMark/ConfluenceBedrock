@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:soul_of_light_in_a_bottle"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "confluence:soul_of_light"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "confluence:soul_of_light"
+            }
+        ],
+        "result": {
+            "item": "confluence:soul_of_light_in_a_bottle"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_pearlstone_bricks_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:pearlstone_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:pearlstone_bricks"
+            }
+        ],
+        "result": {
+            "item": "confluence:pearlstone_bricks_slab",
+            "count": 2
+        }
+    }
+}

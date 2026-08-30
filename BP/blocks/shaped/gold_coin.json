@@ -1,0 +1,484 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:gold_coin",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "confluence:heaps": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:gold_coin.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.gold_coin_heap1"
+            },
+            "minecraft:material_instances": {
+                "gold_coins": {
+                    "texture": "confluence:gold_coins",
+                    "render_method": "alpha_test"
+                },
+                "gold_coins_r270": {
+                    "texture": "confluence:gold_coins_r270",
+                    "render_method": "alpha_test"
+                },
+                "gold_coins_r90": {
+                    "texture": "confluence:gold_coins_r90",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:gold_coins",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#f6c435",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -7.1543,
+                    0,
+                    -8
+                ],
+                "size": [
+                    15.1543,
+                    3,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7.1543,
+                    0,
+                    -8
+                ],
+                "size": [
+                    15.1543,
+                    3,
+                    16
+                ]
+            },
+            "confluence:stackable": {},
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.item_sprite"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:gold_coin",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('confluence:heaps') == 1",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap1"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            3,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            3,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap2"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            4,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            4,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap3"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            4,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            4,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 4",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap4"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            5,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            5,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 5",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap5"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            9,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            9,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 6",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap6"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            11,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.1543,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            15.1543,
+                            11,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 7",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap7"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            11,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            11,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 8",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap8"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            11,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            11,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 9",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap9"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 10",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap10"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 11",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap11"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:heaps') == 12",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.gold_coin_heap12"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

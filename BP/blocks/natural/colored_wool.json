@@ -1,0 +1,33 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:colored_wool",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.wool"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:colored_wool.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence_colored_wool",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.8
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.8
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#83716a",
+            "minecraft:tags": [
+                "minecraft:is_shears_item_destructible"
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_raw_crimtane_to_crimtane_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:raw_crimtane"
+            }
+        ],
+        "input": "confluence:raw_crimtane",
+        "output": "confluence:crimtane_ingot"
+    }
+}

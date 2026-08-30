@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_ruby_ore_to_ruby"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:ruby_ore"
+            }
+        ],
+        "input": "confluence:ruby_ore",
+        "output": "confluence:ruby"
+    }
+}

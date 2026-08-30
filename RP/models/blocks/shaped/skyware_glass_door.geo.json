@@ -1,0 +1,395 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.skyware_glass_door",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        6.5
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -1.5,
+                                0,
+                                -1.5
+                            ],
+                            "size": [
+                                3,
+                                16,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom_r90"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.skyware_glass_door_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        6.5
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -1.5,
+                                0,
+                                -1.5
+                            ],
+                            "size": [
+                                3,
+                                16,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top"
+                                },
+                                "up": {
+                                    "uv": [
+                                        13,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top_r90"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.skyware_glass_door_open0",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                3,
+                                16,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -16
+                                    ],
+                                    "material_instance": "skyware_glass_door_bottom_r90"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.skyware_glass_door_open1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                3,
+                                16,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        16
+                                    ],
+                                    "material_instance": "skyware_glass_door_top_r270"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,631 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.remains_block",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5.2961,
+                                0,
+                                -6.4567
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.5,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.5,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7.5,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        0.5
+                                    ],
+                                    "material_instance": "remains_block_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block_r90"
+                                },
+                                "up": {
+                                    "uv": [
+                                        6.5,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        3
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        8,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -3
+                                    ],
+                                    "material_instance": "remains_block"
+                                }
+                            },
+                            "pivot": [
+                                -4.2961,
+                                1,
+                                -0.4567
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                1,
+                                0,
+                                -6
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7.5,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.5,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        0.5
+                                    ],
+                                    "material_instance": "remains_block_r90"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        3
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -3
+                                    ],
+                                    "material_instance": "remains_block"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                1.3806,
+                                -5.0866
+                            ],
+                            "size": [
+                                2,
+                                12,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        3
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        3
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        3
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        3
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "up": {
+                                    "uv": [
+                                        6.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block"
+                                }
+                            },
+                            "pivot": [
+                                -5,
+                                7.3806,
+                                -4.0866
+                            ],
+                            "rotation": [
+                                -22.5,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                5.8373,
+                                0,
+                                -8.2367
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block_r90"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block_r90"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        0.5
+                                    ],
+                                    "material_instance": "remains_block_r90"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -0.5
+                                    ],
+                                    "material_instance": "remains_block_r270"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -3
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        3
+                                    ],
+                                    "material_instance": "remains_block"
+                                }
+                            },
+                            "pivot": [
+                                6.8373,
+                                1,
+                                -2.2367
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -4,
+                                12.7716,
+                                -8.8519
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "remains_block"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                16.7716,
+                                -4.8519
+                            ],
+                            "rotation": [
+                                22.5,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -3.99,
+                                1.01,
+                                -7.974
+                            ],
+                            "size": [
+                                7.98,
+                                15.98,
+                                3.98
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        4
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        4
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        4
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        4
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        1
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -1
+                                    ],
+                                    "material_instance": "remains_block"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4.01,
+                                0.99,
+                                -7.994
+                            ],
+                            "size": [
+                                8.02,
+                                16.02,
+                                4.02
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        4
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        4
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        4
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        4
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "up": {
+                                    "uv": [
+                                        5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        1
+                                    ],
+                                    "material_instance": "remains_block"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -1
+                                    ],
+                                    "material_instance": "remains_block"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_corruption_lead_ore_to_lead_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:corruption_lead_ore"
+            }
+        ],
+        "input": "confluence:corruption_lead_ore",
+        "output": "confluence:lead_ingot"
+    }
+}

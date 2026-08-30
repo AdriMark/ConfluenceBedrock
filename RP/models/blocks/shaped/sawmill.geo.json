@@ -1,0 +1,1507 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.sawmill",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -11,
+                                14,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        16,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        8
+                                    ],
+                                    "material_instance": "stonecutter_saw"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -11,
+                                6,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -8
+                                    ],
+                                    "material_instance": "stonecutter_saw"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                2,
+                                -7
+                            ],
+                            "size": [
+                                13,
+                                2,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8.5,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.625,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.625,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        -1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                5,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                2,
+                                12,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        6.875
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6.75,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.25,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        2.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                12,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                2,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2,
+                                        6.625
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        2,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                12,
+                                -1
+                            ],
+                            "size": [
+                                13,
+                                2,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4.25,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.sawmill_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5,
+                                2,
+                                -7
+                            ],
+                            "size": [
+                                13,
+                                2,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.5,
+                                        4.75
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.25,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.625,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        -1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                2,
+                                12,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.25,
+                                        6.875
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0.5,
+                                        6.875
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6.75,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.75,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                12,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                2,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.75,
+                                        4.25
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                12,
+                                -1
+                            ],
+                            "size": [
+                                13,
+                                2,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.625,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.25,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                14,
+                                -3.5
+                            ],
+                            "size": [
+                                13,
+                                7,
+                                7
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.625,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        5.625,
+                                        0.875
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0.875,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.875,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        1.75,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.875,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.25,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.25,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        -0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                5,
+                                14,
+                                -0.5
+                            ],
+                            "size": [
+                                3,
+                                7,
+                                1
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.75,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        0.375,
+                                        -0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.125,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        0.375,
+                                        -0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.875,
+                                        6.625
+                                    ],
+                                    "uv_size": [
+                                        -0.125,
+                                        -0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.sawmill_icon",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_p0",
+                    "pivot": [
+                        -2.9714,
+                        3.6571,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                6.4,
+                                0
+                            ],
+                            "size": [
+                                7.3143,
+                                3.6571,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        16,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        8
+                                    ],
+                                    "material_instance": "stonecutter_saw"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                2.7429,
+                                0
+                            ],
+                            "size": [
+                                7.3143,
+                                3.6571,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -8
+                                    ],
+                                    "material_instance": "stonecutter_saw"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6.6286,
+                                0.9143,
+                                -3.2
+                            ],
+                            "size": [
+                                5.9429,
+                                0.9143,
+                                6.4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8.5,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.625,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.625,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        -1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -0.6857,
+                                0,
+                                -3.2
+                            ],
+                            "size": [
+                                0.9143,
+                                5.4857,
+                                6.4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        6.875
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6.75,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.25,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        2.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6.6286,
+                                5.4857,
+                                -3.6571
+                            ],
+                            "size": [
+                                7.3143,
+                                0.9143,
+                                7.3143
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2,
+                                        6.625
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        2,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6.6286,
+                                5.4857,
+                                -0.4571
+                            ],
+                            "size": [
+                                5.9429,
+                                0.9143,
+                                0.9143
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4.25,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p1",
+                    "pivot": [
+                        -2.9714,
+                        3.6571,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                2.0571,
+                                0.9143,
+                                -3.2
+                            ],
+                            "size": [
+                                5.9429,
+                                0.9143,
+                                6.4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.5,
+                                        4.75
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.25,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.625,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        -1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                1.1429,
+                                0,
+                                -3.2
+                            ],
+                            "size": [
+                                0.9143,
+                                5.4857,
+                                6.4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.25,
+                                        6.875
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0.5,
+                                        6.875
+                                    ],
+                                    "uv_size": [
+                                        0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6.75,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.5
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.75,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -1.75
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0.6857,
+                                5.4857,
+                                -3.6571
+                            ],
+                            "size": [
+                                7.3143,
+                                0.9143,
+                                7.3143
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.75,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.75,
+                                        4.25
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2.0571,
+                                5.4857,
+                                -0.4571
+                            ],
+                            "size": [
+                                5.9429,
+                                0.9143,
+                                0.9143
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6.75,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.625,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.25,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2.0571,
+                                6.4,
+                                -1.6
+                            ],
+                            "size": [
+                                5.9429,
+                                3.2,
+                                3.2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.625,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        5.625,
+                                        0.875
+                                    ],
+                                    "uv_size": [
+                                        1.625,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0.875,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.875,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "west": {
+                                    "uv": [
+                                        1.75,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        -0.875,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.25,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.25,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -1.625,
+                                        -0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                6.6286,
+                                6.4,
+                                -0.2286
+                            ],
+                            "size": [
+                                1.3714,
+                                3.2,
+                                0.4571
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.75,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        0.375,
+                                        -0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.125,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        0.375,
+                                        -0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.875,
+                                        6.625
+                                    ],
+                                    "uv_size": [
+                                        -0.125,
+                                        -0.875
+                                    ],
+                                    "material_instance": "sawmill"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

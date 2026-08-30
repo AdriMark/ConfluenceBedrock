@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_tungsten_bricks_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:tungsten_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:tungsten_bricks"
+            }
+        ],
+        "result": {
+            "item": "confluence:tungsten_bricks_slab",
+            "count": 2
+        }
+    }
+}

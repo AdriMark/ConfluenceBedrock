@@ -1,0 +1,111 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.crimsand_layer_block",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                2,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        2
+                                    ],
+                                    "material_instance": "crimsand"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        2
+                                    ],
+                                    "material_instance": "crimsand"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        2
+                                    ],
+                                    "material_instance": "crimsand"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        2
+                                    ],
+                                    "material_instance": "crimsand"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -16
+                                    ],
+                                    "material_instance": "crimsand"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -16
+                                    ],
+                                    "material_instance": "crimsand"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:sapphire_block_from_compacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "confluence:sapphire"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:sapphire"
+            }
+        ],
+        "result": {
+            "item": "confluence:sapphire_block"
+        }
+    }
+}

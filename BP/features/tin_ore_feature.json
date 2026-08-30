@@ -1,0 +1,28 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "confluence:tin_ore_feature"
+        },
+        "count": 10,
+        "replace_rules": [
+            {
+                "places_block": "confluence:tin_ore",
+                "may_replace": [
+                    {
+                        "name": "minecraft:stone"
+                    },
+                    {
+                        "name": "minecraft:granite"
+                    },
+                    {
+                        "name": "minecraft:diorite"
+                    },
+                    {
+                        "name": "minecraft:andesite"
+                    }
+                ]
+            }
+        ]
+    }
+}

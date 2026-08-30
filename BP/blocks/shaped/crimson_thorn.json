@@ -1,0 +1,70 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:crimson_thorn",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:crimson_thorn.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.crimson_thorn"
+            },
+            "minecraft:material_instances": {
+                "crimson_thorn_center": {
+                    "texture": "confluence:crimson_thorn_center",
+                    "render_method": "blend"
+                },
+                "crimson_thorn_center_r270": {
+                    "texture": "confluence:crimson_thorn_center_r270",
+                    "render_method": "blend"
+                },
+                "crimson_thorn_center_r90": {
+                    "texture": "confluence:crimson_thorn_center_r90",
+                    "render_method": "blend"
+                },
+                "*": {
+                    "texture": "confluence:crimson_thorn_center",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#7f4646",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -5,
+                    3,
+                    -5
+                ],
+                "size": [
+                    10,
+                    10,
+                    10
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -5,
+                    3,
+                    -5
+                ],
+                "size": [
+                    10,
+                    10,
+                    10
+                ]
+            }
+        }
+    }
+}

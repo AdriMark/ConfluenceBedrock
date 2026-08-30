@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:chiseled_living_mahogany_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:living_mahogany_slab"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:living_mahogany_slab"
+            }
+        ],
+        "result": {
+            "item": "confluence:chiseled_living_mahogany_planks"
+        }
+    }
+}

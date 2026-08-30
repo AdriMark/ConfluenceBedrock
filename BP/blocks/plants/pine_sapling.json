@@ -1,0 +1,106 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:pine_sapling",
+            "menu_category": {
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.flower"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:pine_sapling.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.cross"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:pine_sapling",
+                    "render_method": "alpha_test",
+                    "face_dimming": false,
+                    "ambient_occlusion": 0
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:wooden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 1.125
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:stone_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.563
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:copper_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.45
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:golden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.188
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:iron_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.375
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:diamond_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.281
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.25
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#273722",
+            "minecraft:tags": [
+                "confluence:axe",
+                "minecraft:is_hatchet_item_destructible"
+            ],
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    16,
+                    12
+                ]
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.item_sprite"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:pine_sapling",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:shadewood_sword",
+            "menu_category": {
+                "category": "equipment",
+                "group": "confluence:itemGroup.name.pre_hardmode_broadswords"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:shadewood_sword"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:shadewood_sword.name"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:damage": 5,
+            "minecraft:durability": {
+                "max_durability": 220
+            },
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 4
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_sword"
+                ]
+            }
+        }
+    }
+}

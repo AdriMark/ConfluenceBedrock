@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:ash_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:ash_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:ash_planks"
+            }
+        ],
+        "result": {
+            "item": "confluence:ash_slab",
+            "count": 6
+        }
+    }
+}

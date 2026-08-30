@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_sanctification_ruby_ore_to_ruby"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:sanctification_ruby_ore"
+            }
+        ],
+        "input": "confluence:sanctification_ruby_ore",
+        "output": "confluence:ruby"
+    }
+}

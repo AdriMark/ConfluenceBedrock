@@ -1,0 +1,50 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:crimson_cattail_block",
+            "menu_category": {
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.flower"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:crimson_cattail_block.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.cross"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:crimson_cattails_body",
+                    "render_method": "alpha_test",
+                    "face_dimming": false,
+                    "ambient_occlusion": 0
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#66373e",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    16,
+                    12
+                ]
+            }
+        }
+    }
+}

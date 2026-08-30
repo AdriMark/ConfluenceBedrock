@@ -1,0 +1,131 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.floating_wheat",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -4,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                0,
+                                15,
+                                16
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "floating_wheat_stage0"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                4,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                0,
+                                15,
+                                16
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "floating_wheat_stage0"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                4
+                            ],
+                            "size": [
+                                16,
+                                15,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ],
+                                    "material_instance": "floating_wheat_stage0"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -4
+                            ],
+                            "size": [
+                                16,
+                                15,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ],
+                                    "material_instance": "floating_wheat_stage0"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

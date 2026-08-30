@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:glowing_mushroom_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:glowing_mushroom_stem_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:glowing_mushroom_stem_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:glowing_mushroom_planks",
+            "count": 4
+        }
+    }
+}

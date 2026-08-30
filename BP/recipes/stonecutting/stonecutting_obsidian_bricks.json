@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_obsidian_bricks"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:obsidian"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:obsidian"
+            }
+        ],
+        "result": {
+            "item": "confluence:obsidian_bricks",
+            "count": 4
+        }
+    }
+}

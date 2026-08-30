@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:platinum_hammer"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#/#",
+            " / "
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:platinum_ingot"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:platinum_ingot"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "item": "confluence:platinum_hammer"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_raw_tungsten_to_tungsten_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:raw_tungsten"
+            }
+        ],
+        "input": "confluence:raw_tungsten",
+        "output": "confluence:tungsten_ingot"
+    }
+}

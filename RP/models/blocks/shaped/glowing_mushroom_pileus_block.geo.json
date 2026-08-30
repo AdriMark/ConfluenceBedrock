@@ -1,0 +1,56 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.glowing_mushroom_pileus_block",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                15.9,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                0,
+                                16
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        -4
+                                    ],
+                                    "material_instance": "glowing_mushroom_pileus_block_top"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

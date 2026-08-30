@@ -1,0 +1,62 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:diamond_branches",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:diamond_branches.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.diamond_branches"
+            },
+            "minecraft:material_instances": {
+                "diamond_branches": {
+                    "texture": "confluence:diamond_branches",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "confluence:diamond_branches",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#667877",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -3,
+                    5,
+                    -3
+                ],
+                "size": [
+                    6,
+                    6,
+                    6
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -3,
+                    5,
+                    -3
+                ],
+                "size": [
+                    6,
+                    6,
+                    6
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:remains_block",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:remains_block.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.remains_block"
+            },
+            "minecraft:material_instances": {
+                "remains_block": {
+                    "texture": "confluence:remains_block",
+                    "render_method": "alpha_test"
+                },
+                "remains_block_r270": {
+                    "texture": "confluence:remains_block_r270",
+                    "render_method": "alpha_test"
+                },
+                "remains_block_r90": {
+                    "texture": "confluence:remains_block_r90",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:remains_block",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#957c78",
+            "minecraft:tags": [
+                "confluence:level_1",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -7.5161,
+                    0,
+                    -8
+                ],
+                "size": [
+                    15.5161,
+                    16,
+                    14
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7.5161,
+                    0,
+                    -8
+                ],
+                "size": [
+                    15.5161,
+                    16,
+                    14
+                ]
+            }
+        }
+    }
+}

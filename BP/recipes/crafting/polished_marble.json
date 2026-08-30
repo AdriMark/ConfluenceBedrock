@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:polished_marble"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:marble"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:marble"
+            }
+        ],
+        "result": {
+            "item": "confluence:polished_marble"
+        }
+    }
+}

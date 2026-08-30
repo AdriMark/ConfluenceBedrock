@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:floating_wheat_bale_from_compacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "confluence:floating_wheat_heads"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:floating_wheat_heads"
+            }
+        ],
+        "result": {
+            "item": "confluence:floating_wheat_bale"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_spore_root_block_to_spore_root"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:spore_root_block"
+            }
+        ],
+        "input": "confluence:spore_root_block",
+        "output": "confluence:spore_root"
+    }
+}

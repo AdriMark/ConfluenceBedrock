@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_opal_ore_to_opal"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:opal_ore"
+            }
+        ],
+        "input": "confluence:opal_ore",
+        "output": "confluence:opal"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_green_brick_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:green_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:green_bricks"
+            }
+        ],
+        "result": {
+            "item": "confluence:green_brick_slab",
+            "count": 2
+        }
+    }
+}

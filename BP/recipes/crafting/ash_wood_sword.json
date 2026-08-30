@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:ash_wood_sword"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "#",
+            "/"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:ash_planks"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:ash_planks"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "item": "confluence:ash_wood_sword"
+        }
+    }
+}

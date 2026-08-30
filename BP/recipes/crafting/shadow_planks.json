@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:shadow_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:shadow_log"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:shadow_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:shadow_planks",
+            "count": 4
+        }
+    }
+}

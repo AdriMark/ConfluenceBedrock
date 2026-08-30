@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:spooky_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:spooky_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:spooky_planks"
+            }
+        ],
+        "result": {
+            "item": "confluence:spooky_slab",
+            "count": 6
+        }
+    }
+}

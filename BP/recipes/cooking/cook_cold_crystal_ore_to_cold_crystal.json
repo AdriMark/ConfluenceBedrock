@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_cold_crystal_ore_to_cold_crystal"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:cold_crystal_ore"
+            }
+        ],
+        "input": "confluence:cold_crystal_ore",
+        "output": "confluence:cold_crystal"
+    }
+}

@@ -1,0 +1,738 @@
+{
+	"resource_pack_name": "ConfluenceBedrock",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"confluence:copper_short_sword": {
+			"textures": "textures/items/copper_short_sword"
+		},
+		"confluence:gel": {
+			"textures": "textures/items/confluence/gel"
+		},
+		"confluence:tin_short_sword": {
+			"textures": "textures/items/tin_short_sword"
+		},
+		"confluence:iron_short_sword": {
+			"textures": "textures/items/iron_short_sword"
+		},
+		"confluence:lead_short_sword": {
+			"textures": "textures/items/lead_short_sword"
+		},
+		"confluence:silver_short_sword": {
+			"textures": "textures/items/silver_short_sword"
+		},
+		"confluence:tungsten_short_sword": {
+			"textures": "textures/items/tungsten_short_sword"
+		},
+		"confluence:golden_short_sword": {
+			"textures": "textures/items/golden_short_sword"
+		},
+		"confluence:platinum_short_sword": {
+			"textures": "textures/items/platinum_short_sword"
+		},
+		"confluence:breathing_reed": {
+			"textures": "textures/items/breathing_reed"
+		},
+		"confluence:gladius": {
+			"textures": "textures/items/gladius"
+		},
+		"confluence:cactus_sword": {
+			"textures": "textures/items/cactus_sword"
+		},
+		"confluence:ebonwood_sword": {
+			"textures": "textures/items/ebonwood_sword"
+		},
+		"confluence:shadewood_sword": {
+			"textures": "textures/items/shadewood_sword"
+		},
+		"confluence:ash_wood_sword": {
+			"textures": "textures/items/ash_wood_sword"
+		},
+		"confluence:pearlwood_sword": {
+			"textures": "textures/items/pearlwood_sword"
+		},
+		"confluence:copper_broadsword": {
+			"textures": "textures/items/copper_broadsword"
+		},
+		"confluence:tin_broadsword": {
+			"textures": "textures/items/tin_broadsword"
+		},
+		"confluence:lead_broadsword": {
+			"textures": "textures/items/lead_broadsword"
+		},
+		"confluence:silver_broadsword": {
+			"textures": "textures/items/silver_broadsword"
+		},
+		"confluence:tungsten_broadsword": {
+			"textures": "textures/items/tungsten_broadsword"
+		},
+		"confluence:golden_broadsword": {
+			"textures": "textures/items/golden_broadsword"
+		},
+		"confluence:platinum_broadsword": {
+			"textures": "textures/items/platinum_broadsword"
+		},
+		"confluence:muramasa": {
+			"textures": "textures/items/muramasa"
+		},
+		"confluence:cobalt_sword": {
+			"textures": "textures/items/cobalt_sword"
+		},
+		"confluence:palladium_sword": {
+			"textures": "textures/items/palladium_sword"
+		},
+		"confluence:mythril_sword": {
+			"textures": "textures/items/mythril_sword"
+		},
+		"confluence:orichalcum_sword": {
+			"textures": "textures/items/orichalcum_sword"
+		},
+		"confluence:adamantite_sword": {
+			"textures": "textures/items/adamantite_sword"
+		},
+		"confluence:titanium_sword": {
+			"textures": "textures/items/titanium_sword"
+		},
+		"confluence:fake_sword": {
+			"textures": "textures/items/fake_sword"
+		},
+		"confluence:candy_cane_sword": {
+			"textures": "textures/items/candy_cane_sword"
+		},
+		"confluence:zombie_arm": {
+			"textures": "textures/items/zombie_arm"
+		},
+		"confluence:mandible_blade": {
+			"textures": "textures/items/mandible_blade"
+		},
+		"confluence:bone_sword": {
+			"textures": "textures/items/bone_sword"
+		},
+		"confluence:stylish_scissors": {
+			"textures": "textures/items/stylish_scissors"
+		},
+		"confluence:katana": {
+			"textures": "textures/items/katana"
+		},
+		"confluence:terragrim": {
+			"textures": "textures/items/terragrim"
+		},
+		"confluence:breaker_blade": {
+			"textures": "textures/items/breaker_blade"
+		},
+		"confluence:adamantite_ingot": {
+			"textures": "textures/items/confluence/adamantite_ingot"
+		},
+		"confluence:amber": {
+			"textures": "textures/items/confluence/amber"
+		},
+		"confluence:amethyst": {
+			"textures": "textures/items/confluence/amethyst"
+		},
+		"confluence:chlorophyte_ingot": {
+			"textures": "textures/items/confluence/chlorophyte_ingot"
+		},
+		"confluence:cobalt_ingot": {
+			"textures": "textures/items/confluence/cobalt_ingot"
+		},
+		"confluence:cold_crystal": {
+			"textures": "textures/items/confluence/cold_crystal"
+		},
+		"confluence:crimtane_ingot": {
+			"textures": "textures/items/confluence/crimtane_ingot"
+		},
+		"confluence:crimtane_nugget": {
+			"textures": "textures/items/confluence/crimtane_nugget"
+		},
+		"confluence:demonite_ingot": {
+			"textures": "textures/items/confluence/demonite_ingot"
+		},
+		"confluence:demonite_nugget": {
+			"textures": "textures/items/confluence/demonite_nugget"
+		},
+		"confluence:gelstone": {
+			"textures": "textures/items/confluence/gelstone"
+		},
+		"confluence:hallowed_ingot": {
+			"textures": "textures/items/confluence/hallowed_ingot"
+		},
+		"confluence:hellstone_ingot": {
+			"textures": "textures/items/confluence/hellstone_ingot"
+		},
+		"confluence:hellstone_nugget": {
+			"textures": "textures/items/confluence/hellstone_nugget"
+		},
+		"confluence:jade": {
+			"textures": "textures/items/confluence/jade"
+		},
+		"confluence:lead_ingot": {
+			"textures": "textures/items/confluence/lead_ingot"
+		},
+		"confluence:lead_nugget": {
+			"textures": "textures/items/confluence/lead_nugget"
+		},
+		"confluence:luminite_ingot": {
+			"textures": "textures/items/confluence/luminite_ingot"
+		},
+		"confluence:meteorite_ingot": {
+			"textures": "textures/items/confluence/meteorite_ingot"
+		},
+		"confluence:meteorite_nugget": {
+			"textures": "textures/items/confluence/meteorite_nugget"
+		},
+		"confluence:mythril_ingot": {
+			"textures": "textures/items/confluence/mythril_ingot"
+		},
+		"confluence:opal": {
+			"textures": "textures/items/confluence/opal"
+		},
+		"confluence:orichalcum_ingot": {
+			"textures": "textures/items/confluence/orichalcum_ingot"
+		},
+		"confluence:palladium_ingot": {
+			"textures": "textures/items/confluence/palladium_ingot"
+		},
+		"confluence:platinum_ingot": {
+			"textures": "textures/items/confluence/platinum_ingot"
+		},
+		"confluence:platinum_nugget": {
+			"textures": "textures/items/confluence/platinum_nugget"
+		},
+		"confluence:raw_adamantite": {
+			"textures": "textures/items/confluence/raw_adamantite"
+		},
+		"confluence:raw_chlorophyte": {
+			"textures": "textures/items/confluence/raw_chlorophyte"
+		},
+		"confluence:raw_cobalt": {
+			"textures": "textures/items/confluence/raw_cobalt"
+		},
+		"confluence:raw_crimtane": {
+			"textures": "textures/items/confluence/raw_crimtane"
+		},
+		"confluence:raw_demonite": {
+			"textures": "textures/items/confluence/raw_demonite"
+		},
+		"confluence:raw_hellstone": {
+			"textures": "textures/items/confluence/raw_hellstone"
+		},
+		"confluence:raw_lead": {
+			"textures": "textures/items/confluence/raw_lead"
+		},
+		"confluence:raw_luminite": {
+			"textures": "textures/items/confluence/raw_luminite"
+		},
+		"confluence:raw_meteorite": {
+			"textures": "textures/items/confluence/raw_meteorite"
+		},
+		"confluence:raw_mythril": {
+			"textures": "textures/items/confluence/raw_mythril"
+		},
+		"confluence:raw_orichalcum": {
+			"textures": "textures/items/confluence/raw_orichalcum"
+		},
+		"confluence:raw_palladium": {
+			"textures": "textures/items/confluence/raw_palladium"
+		},
+		"confluence:raw_platinum": {
+			"textures": "textures/items/confluence/raw_platinum"
+		},
+		"confluence:raw_silver": {
+			"textures": "textures/items/confluence/raw_silver"
+		},
+		"confluence:raw_tin": {
+			"textures": "textures/items/confluence/raw_tin"
+		},
+		"confluence:raw_titanium": {
+			"textures": "textures/items/confluence/raw_titanium"
+		},
+		"confluence:raw_tungsten": {
+			"textures": "textures/items/confluence/raw_tungsten"
+		},
+		"confluence:ruby": {
+			"textures": "textures/items/confluence/ruby"
+		},
+		"confluence:sapphire": {
+			"textures": "textures/items/confluence/sapphire"
+		},
+		"confluence:shroomite_ingot": {
+			"textures": "textures/items/confluence/shroomite_ingot"
+		},
+		"confluence:silver_ingot": {
+			"textures": "textures/items/confluence/silver_ingot"
+		},
+		"confluence:silver_nugget": {
+			"textures": "textures/items/confluence/silver_nugget"
+		},
+		"confluence:spectre_ingot": {
+			"textures": "textures/items/confluence/spectre_ingot"
+		},
+		"confluence:spore_root": {
+			"textures": "textures/items/confluence/spore_root"
+		},
+		"confluence:sturdy_fossil": {
+			"textures": "textures/items/confluence/sturdy_fossil"
+		},
+		"confluence:tin_ingot": {
+			"textures": "textures/items/confluence/tin_ingot"
+		},
+		"confluence:tin_nugget": {
+			"textures": "textures/items/confluence/tin_nugget"
+		},
+		"confluence:titanium_ingot": {
+			"textures": "textures/items/confluence/titanium_ingot"
+		},
+		"confluence:topaz": {
+			"textures": "textures/items/confluence/topaz"
+		},
+		"confluence:tungsten_ingot": {
+			"textures": "textures/items/confluence/tungsten_ingot"
+		},
+		"confluence:tungsten_nugget": {
+			"textures": "textures/items/confluence/tungsten_nugget"
+		},
+		"confluence:winter_marrow": {
+			"textures": "textures/items/confluence/winter_marrow"
+		},
+		"confluence:aetherium_gold": {
+			"textures": "textures/items/confluence/aetherium_gold"
+		},
+		"confluence:aetherium_shard": {
+			"textures": "textures/items/confluence/aetherium_shard"
+		},
+		"confluence:ancient_cloth": {
+			"textures": "textures/items/confluence/ancient_cloth"
+		},
+		"confluence:antlion_mandible": {
+			"textures": "textures/items/confluence/antlion_mandible"
+		},
+		"confluence:bell": {
+			"textures": "textures/items/confluence/bell"
+		},
+		"confluence:black_ink": {
+			"textures": "textures/items/confluence/black_ink"
+		},
+		"confluence:black_lens": {
+			"textures": "textures/items/confluence/black_lens"
+		},
+		"confluence:black_pearl": {
+			"textures": "textures/items/confluence/black_pearl"
+		},
+		"confluence:blinkroot": {
+			"textures": "textures/items/confluence/blinkroot"
+		},
+		"confluence:blood_clot_powder": {
+			"textures": "textures/items/confluence/blood_clot_powder"
+		},
+		"confluence:china_bowl": {
+			"textures": "textures/items/confluence/china_bowl"
+		},
+		"confluence:china_plate": {
+			"textures": "textures/items/confluence/china_plate"
+		},
+		"confluence:cog": {
+			"textures": "textures/items/confluence/cog"
+		},
+		"confluence:confetti": {
+			"textures": "textures/items/confluence/confetti"
+		},
+		"confluence:crystal_shards": {
+			"textures": "textures/items/confluence/crystal_shards"
+		},
+		"confluence:cursed_flame": {
+			"textures": "textures/items/confluence/cursed_flame"
+		},
+		"confluence:dark_shard": {
+			"textures": "textures/items/confluence/dark_shard"
+		},
+		"confluence:daybloom": {
+			"textures": "textures/items/confluence/daybloom"
+		},
+		"confluence:deathweed": {
+			"textures": "textures/items/confluence/deathweed"
+		},
+		"confluence:empty_bullet": {
+			"textures": "textures/items/confluence/empty_bullet"
+		},
+		"confluence:explosive_powder": {
+			"textures": "textures/items/confluence/explosive_powder"
+		},
+		"confluence:falling_star": {
+			"textures": "textures/items/confluence/falling_star"
+		},
+		"confluence:filamentous_fin": {
+			"textures": "textures/items/confluence/filamentous_fin"
+		},
+		"confluence:fireblossom": {
+			"textures": "textures/items/confluence/fireblossom"
+		},
+		"confluence:flinx_fur": {
+			"textures": "textures/items/confluence/flinx_fur"
+		},
+		"confluence:floating_wheat_heads": {
+			"textures": "textures/items/confluence/floating_wheat_heads"
+		},
+		"confluence:forbidden_fragment": {
+			"textures": "textures/items/confluence/forbidden_fragment"
+		},
+		"confluence:frost_core": {
+			"textures": "textures/items/confluence/frost_core"
+		},
+		"confluence:giant_harpy_feather": {
+			"textures": "textures/items/confluence/giant_harpy_feather"
+		},
+		"confluence:gold_dust": {
+			"textures": "textures/items/confluence/gold_dust"
+		},
+		"confluence:harp": {
+			"textures": "textures/items/confluence/harp"
+		},
+		"confluence:harpy_feather": {
+			"textures": "textures/items/confluence/harpy_feather"
+		},
+		"confluence:heim": {
+			"textures": "textures/items/confluence/heim"
+		},
+		"confluence:hook": {
+			"textures": "textures/items/confluence/hook"
+		},
+		"confluence:ichor": {
+			"textures": "textures/items/confluence/ichor"
+		},
+		"confluence:jungle_spore": {
+			"textures": "textures/items/confluence/jungle_spore"
+		},
+		"confluence:lens": {
+			"textures": "textures/items/confluence/lens"
+		},
+		"confluence:light_shard": {
+			"textures": "textures/items/confluence/light_shard"
+		},
+		"confluence:man_eater_vine": {
+			"textures": "textures/items/confluence/man_eater_vine"
+		},
+		"confluence:moonglow": {
+			"textures": "textures/items/confluence/moonglow"
+		},
+		"confluence:nanites": {
+			"textures": "textures/items/confluence/nanites"
+		},
+		"confluence:pearl": {
+			"textures": "textures/items/confluence/pearl"
+		},
+		"confluence:pearlwood_stick": {
+			"textures": "textures/items/confluence/pearlwood_stick"
+		},
+		"confluence:pink_gel": {
+			"textures": "textures/items/confluence/pink_gel"
+		},
+		"confluence:pink_pearl": {
+			"textures": "textures/items/confluence/pink_pearl"
+		},
+		"confluence:pixie_dust": {
+			"textures": "textures/items/confluence/pixie_dust"
+		},
+		"confluence:raw_asphalt": {
+			"textures": "textures/items/confluence/raw_asphalt"
+		},
+		"confluence:rotten_bone": {
+			"textures": "textures/items/confluence/rotten_bone"
+		},
+		"confluence:rotten_chunk": {
+			"textures": "textures/items/confluence/rotten_chunk"
+		},
+		"confluence:royal_wax": {
+			"textures": "textures/items/confluence/royal_wax"
+		},
+		"confluence:shadow_scale": {
+			"textures": "textures/items/confluence/shadow_scale"
+		},
+		"confluence:shark_fin": {
+			"textures": "textures/items/confluence/shark_fin"
+		},
+		"confluence:shiverthorn": {
+			"textures": "textures/items/confluence/shiverthorn"
+		},
+		"confluence:silk": {
+			"textures": "textures/items/confluence/silk"
+		},
+		"confluence:soul_of_bright": {
+			"textures": "textures/items/confluence/soul_of_bright"
+		},
+		"confluence:soul_of_flight": {
+			"textures": "textures/items/confluence/soul_of_flight"
+		},
+		"confluence:soul_of_fright": {
+			"textures": "textures/items/confluence/soul_of_fright"
+		},
+		"confluence:soul_of_light": {
+			"textures": "textures/items/confluence/soul_of_light"
+		},
+		"confluence:soul_of_might": {
+			"textures": "textures/items/confluence/soul_of_might"
+		},
+		"confluence:soul_of_night": {
+			"textures": "textures/items/confluence/soul_of_night"
+		},
+		"confluence:soul_of_sight": {
+			"textures": "textures/items/confluence/soul_of_sight"
+		},
+		"confluence:soul_of_voight": {
+			"textures": "textures/items/confluence/soul_of_voight"
+		},
+		"confluence:spell_tome": {
+			"textures": "textures/items/confluence/spell_tome"
+		},
+		"confluence:star_petals": {
+			"textures": "textures/items/confluence/star_petals"
+		},
+		"confluence:stinger": {
+			"textures": "textures/items/confluence/stinger"
+		},
+		"confluence:tattered_cloth": {
+			"textures": "textures/items/confluence/tattered_cloth"
+		},
+		"confluence:tissue_sample": {
+			"textures": "textures/items/confluence/tissue_sample"
+		},
+		"confluence:unicorn_horn": {
+			"textures": "textures/items/confluence/unicorn_horn"
+		},
+		"confluence:vertebra": {
+			"textures": "textures/items/confluence/vertebra"
+		},
+		"confluence:vial_of_venom": {
+			"textures": "textures/items/confluence/vial_of_venom"
+		},
+		"confluence:waterleaf": {
+			"textures": "textures/items/confluence/waterleaf"
+		},
+		"confluence:weaving_cloud_cotton": {
+			"textures": "textures/items/confluence/weaving_cloud_cotton"
+		},
+		"confluence:worm_tooth": {
+			"textures": "textures/items/confluence/worm_tooth"
+		},
+		"confluence:abyssal_pickaxe": {
+			"textures": "textures/items/confluence/abyssal_pickaxe"
+		},
+		"confluence:adamantite_chainsaw": {
+			"textures": "textures/items/confluence/adamantite_chainsaw"
+		},
+		"confluence:adamantite_drill": {
+			"textures": "textures/items/confluence/adamantite_drill"
+		},
+		"confluence:adamantite_pickaxe": {
+			"textures": "textures/items/confluence/adamantite_pickaxe"
+		},
+		"confluence:adamantite_waraxe": {
+			"textures": "textures/items/confluence/adamantite_waraxe"
+		},
+		"confluence:ash_wood_hammer": {
+			"textures": "textures/items/confluence/ash_wood_hammer"
+		},
+		"confluence:blood_lust_cluster": {
+			"textures": "textures/items/confluence/blood_lust_cluster"
+		},
+		"confluence:bone_pickaxe": {
+			"textures": "textures/items/confluence/bone_pickaxe"
+		},
+		"confluence:cactus_pickaxe": {
+			"textures": "textures/items/confluence/cactus_pickaxe"
+		},
+		"confluence:candy_cane_pickaxe": {
+			"textures": "textures/items/confluence/candy_cane_pickaxe"
+		},
+		"confluence:chlorophyte_greataxe": {
+			"textures": "textures/items/confluence/chlorophyte_greataxe"
+		},
+		"confluence:chlorophyte_pickaxe": {
+			"textures": "textures/items/confluence/chlorophyte_pickaxe"
+		},
+		"confluence:cobalt_chainsaw": {
+			"textures": "textures/items/confluence/cobalt_chainsaw"
+		},
+		"confluence:cobalt_drill": {
+			"textures": "textures/items/confluence/cobalt_drill"
+		},
+		"confluence:cobalt_pickaxe": {
+			"textures": "textures/items/confluence/cobalt_pickaxe"
+		},
+		"confluence:cobalt_waraxe": {
+			"textures": "textures/items/confluence/cobalt_waraxe"
+		},
+		"confluence:cold_crystal_pickaxe": {
+			"textures": "textures/items/confluence/cold_crystal_pickaxe"
+		},
+		"confluence:copper_axe": {
+			"textures": "textures/items/confluence/copper_axe"
+		},
+		"confluence:copper_hammer": {
+			"textures": "textures/items/confluence/copper_hammer"
+		},
+		"confluence:copper_pickaxe": {
+			"textures": "textures/items/confluence/copper_pickaxe"
+		},
+		"confluence:deathbringer_pickaxe": {
+			"textures": "textures/items/confluence/deathbringer_pickaxe"
+		},
+		"confluence:ebonwood_hammer": {
+			"textures": "textures/items/confluence/ebonwood_hammer"
+		},
+		"confluence:flesh_grinder": {
+			"textures": "textures/items/confluence/flesh_grinder"
+		},
+		"confluence:fossil_pickaxe": {
+			"textures": "textures/items/confluence/fossil_pickaxe"
+		},
+		"confluence:golden_axe": {
+			"textures": "textures/items/confluence/golden_axe"
+		},
+		"confluence:golden_hammer": {
+			"textures": "textures/items/confluence/golden_hammer"
+		},
+		"confluence:golden_pickaxe": {
+			"textures": "textures/items/confluence/golden_pickaxe"
+		},
+		"confluence:iron_hammer": {
+			"textures": "textures/items/confluence/iron_hammer"
+		},
+		"confluence:lead_axe": {
+			"textures": "textures/items/confluence/lead_axe"
+		},
+		"confluence:lead_hammer": {
+			"textures": "textures/items/confluence/lead_hammer"
+		},
+		"confluence:lead_pickaxe": {
+			"textures": "textures/items/confluence/lead_pickaxe"
+		},
+		"confluence:meteor_hamaxe": {
+			"textures": "textures/items/confluence/meteor_hamaxe"
+		},
+		"confluence:miasma_pickaxe": {
+			"textures": "textures/items/confluence/miasma_pickaxe"
+		},
+		"confluence:molten_hamaxe": {
+			"textures": "textures/items/confluence/molten_hamaxe"
+		},
+		"confluence:molten_pickaxe": {
+			"textures": "textures/items/confluence/molten_pickaxe"
+		},
+		"confluence:mythril_chainsaw": {
+			"textures": "textures/items/confluence/mythril_chainsaw"
+		},
+		"confluence:mythril_drill": {
+			"textures": "textures/items/confluence/mythril_drill"
+		},
+		"confluence:mythril_pickaxe": {
+			"textures": "textures/items/confluence/mythril_pickaxe"
+		},
+		"confluence:mythril_waraxe": {
+			"textures": "textures/items/confluence/mythril_waraxe"
+		},
+		"confluence:nightmare_pickaxe": {
+			"textures": "textures/items/confluence/nightmare_pickaxe"
+		},
+		"confluence:orichalcum_chainsaw": {
+			"textures": "textures/items/confluence/orichalcum_chainsaw"
+		},
+		"confluence:orichalcum_drill": {
+			"textures": "textures/items/confluence/orichalcum_drill"
+		},
+		"confluence:orichalcum_pickaxe": {
+			"textures": "textures/items/confluence/orichalcum_pickaxe"
+		},
+		"confluence:orichalcum_waraxe": {
+			"textures": "textures/items/confluence/orichalcum_waraxe"
+		},
+		"confluence:palladium_chainsaw": {
+			"textures": "textures/items/confluence/palladium_chainsaw"
+		},
+		"confluence:palladium_drill": {
+			"textures": "textures/items/confluence/palladium_drill"
+		},
+		"confluence:palladium_pickaxe": {
+			"textures": "textures/items/confluence/palladium_pickaxe"
+		},
+		"confluence:palladium_waraxe": {
+			"textures": "textures/items/confluence/palladium_waraxe"
+		},
+		"confluence:pearlwood_hammer": {
+			"textures": "textures/items/confluence/pearlwood_hammer"
+		},
+		"confluence:pickaxe_axe": {
+			"textures": "textures/items/confluence/pickaxe_axe"
+		},
+		"confluence:picksaw": {
+			"textures": "textures/items/confluence/picksaw"
+		},
+		"confluence:platinum_axe": {
+			"textures": "textures/items/confluence/platinum_axe"
+		},
+		"confluence:platinum_hammer": {
+			"textures": "textures/items/confluence/platinum_hammer"
+		},
+		"confluence:platinum_pickaxe": {
+			"textures": "textures/items/confluence/platinum_pickaxe"
+		},
+		"confluence:pwnhammer": {
+			"textures": "textures/items/confluence/pwnhammer"
+		},
+		"confluence:reaver_shark_pickaxe": {
+			"textures": "textures/items/confluence/reaver_shark_pickaxe"
+		},
+		"confluence:rockfish": {
+			"textures": "textures/items/confluence/rockfish"
+		},
+		"confluence:shadewood_hammer": {
+			"textures": "textures/items/confluence/shadewood_hammer"
+		},
+		"confluence:silver_axe": {
+			"textures": "textures/items/confluence/silver_axe"
+		},
+		"confluence:silver_hammer": {
+			"textures": "textures/items/confluence/silver_hammer"
+		},
+		"confluence:silver_pickaxe": {
+			"textures": "textures/items/confluence/silver_pickaxe"
+		},
+		"confluence:the_breaker": {
+			"textures": "textures/items/confluence/the_breaker"
+		},
+		"confluence:tin_axe": {
+			"textures": "textures/items/confluence/tin_axe"
+		},
+		"confluence:tin_hammer": {
+			"textures": "textures/items/confluence/tin_hammer"
+		},
+		"confluence:tin_pickaxe": {
+			"textures": "textures/items/confluence/tin_pickaxe"
+		},
+		"confluence:titanium_chainsaw": {
+			"textures": "textures/items/confluence/titanium_chainsaw"
+		},
+		"confluence:titanium_drill": {
+			"textures": "textures/items/confluence/titanium_drill"
+		},
+		"confluence:titanium_pickaxe": {
+			"textures": "textures/items/confluence/titanium_pickaxe"
+		},
+		"confluence:titanium_waraxe": {
+			"textures": "textures/items/confluence/titanium_waraxe"
+		},
+		"confluence:tungsten_axe": {
+			"textures": "textures/items/confluence/tungsten_axe"
+		},
+		"confluence:tungsten_hammer": {
+			"textures": "textures/items/confluence/tungsten_hammer"
+		},
+		"confluence:tungsten_pickaxe": {
+			"textures": "textures/items/confluence/tungsten_pickaxe"
+		},
+		"confluence:war_axe_of_the_night": {
+			"textures": "textures/items/confluence/war_axe_of_the_night"
+		},
+		"confluence:wooden_hammer": {
+			"textures": "textures/items/confluence/wooden_hammer"
+		}
+	}
+}

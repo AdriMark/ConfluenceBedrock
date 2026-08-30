@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:cold_crystal_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:cold_crystal_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:cold_crystal_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:cold_crystal",
+            "count": 9
+        }
+    }
+}

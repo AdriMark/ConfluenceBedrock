@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:red_candy_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#/#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:sugar"
+            },
+            "/": {
+                "item": "minecraft:red_dye"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:red_dye"
+            }
+        ],
+        "result": {
+            "item": "confluence:red_candy_block",
+            "count": 8
+        }
+    }
+}

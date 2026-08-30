@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:silver_nugget_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:silver_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:silver_ingot"
+            }
+        ],
+        "result": {
+            "item": "confluence:silver_nugget",
+            "count": 9
+        }
+    }
+}

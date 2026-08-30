@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:yellow_willow_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:yellow_willow_log"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:yellow_willow_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:yellow_willow_planks",
+            "count": 4
+        }
+    }
+}

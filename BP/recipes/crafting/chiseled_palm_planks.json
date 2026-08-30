@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:chiseled_palm_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:palm_slab"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:palm_slab"
+            }
+        ],
+        "result": {
+            "item": "confluence:chiseled_palm_planks"
+        }
+    }
+}

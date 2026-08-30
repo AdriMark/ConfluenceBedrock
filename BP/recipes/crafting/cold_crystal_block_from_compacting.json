@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:cold_crystal_block_from_compacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "confluence:cold_crystal"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:cold_crystal"
+            }
+        ],
+        "result": {
+            "item": "confluence:cold_crystal_block"
+        }
+    }
+}

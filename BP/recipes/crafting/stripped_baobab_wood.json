@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:stripped_baobab_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:stripped_baobab_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:stripped_baobab_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:stripped_baobab_wood",
+            "count": 3
+        }
+    }
+}

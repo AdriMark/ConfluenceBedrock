@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:silver_ingot_from_raw_silver"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:raw_silver"
+            },
+            {
+                "item": "confluence:raw_silver"
+            },
+            {
+                "item": "confluence:raw_silver"
+            },
+            {
+                "item": "confluence:raw_silver"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:raw_silver"
+            }
+        ],
+        "result": {
+            "item": "confluence:silver_ingot"
+        }
+    }
+}

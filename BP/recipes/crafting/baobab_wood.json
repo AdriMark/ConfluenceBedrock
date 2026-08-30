@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:baobab_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:baobab_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:baobab_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:baobab_wood",
+            "count": 3
+        }
+    }
+}

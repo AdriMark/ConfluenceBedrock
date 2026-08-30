@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:dark_shard",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.monster_drops"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:dark_shard"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:dark_shard.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

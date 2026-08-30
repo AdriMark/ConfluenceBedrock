@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:ebony_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:ebony_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:ebony_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:ebony_wood",
+            "count": 3
+        }
+    }
+}

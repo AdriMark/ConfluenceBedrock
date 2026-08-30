@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_marble_column_from_marble"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:marble"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:marble"
+            }
+        ],
+        "result": {
+            "item": "confluence:marble_column"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:pine_needle_handmade_rope_set",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:pine_needle_handmade_rope_set.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.pine_needle_handmade_rope_set"
+            },
+            "minecraft:material_instances": {
+                "pine_needle_handmade_rope_set_tile": {
+                    "texture": "confluence:pine_needle_handmade_rope_set_tile",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:pine_needle_handmade_rope_set_tile",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#514e30",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -1.5,
+                    6,
+                    -1.5
+                ],
+                "size": [
+                    3,
+                    4,
+                    3
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -1.5,
+                    6,
+                    -1.5
+                ],
+                "size": [
+                    3,
+                    4,
+                    3
+                ]
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.item_sprite"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:pine_needle_handmade_rope_set",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        }
+    }
+}

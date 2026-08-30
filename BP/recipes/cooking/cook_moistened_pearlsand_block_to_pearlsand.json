@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_moistened_pearlsand_block_to_pearlsand"
+        },
+        "tags": [
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:moistened_pearlsand_block"
+            }
+        ],
+        "input": "confluence:moistened_pearlsand_block",
+        "output": "confluence:pearlsand"
+    }
+}

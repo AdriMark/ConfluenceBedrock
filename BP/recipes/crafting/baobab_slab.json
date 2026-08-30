@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:baobab_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:baobab_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:baobab_planks"
+            }
+        ],
+        "result": {
+            "item": "confluence:baobab_slab",
+            "count": 6
+        }
+    }
+}

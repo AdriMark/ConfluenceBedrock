@@ -1,0 +1,36 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:deepslate_adamantite_ore",
+            "menu_category": {
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.ore"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:deepslate_adamantite_ore.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:deepslate_adamantite_ore",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#763e51",
+            "minecraft:tags": [
+                "confluence:level_7",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:loot": "loot_tables/blocks/deepslate_adamantite_ore.json"
+        }
+    }
+}

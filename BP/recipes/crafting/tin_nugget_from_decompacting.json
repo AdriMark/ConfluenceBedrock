@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:tin_nugget_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:tin_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:tin_ingot"
+            }
+        ],
+        "result": {
+            "item": "confluence:tin_nugget",
+            "count": 9
+        }
+    }
+}

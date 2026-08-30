@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_raw_platinum_to_platinum_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:raw_platinum"
+            }
+        ],
+        "input": "confluence:raw_platinum",
+        "output": "confluence:platinum_ingot"
+    }
+}

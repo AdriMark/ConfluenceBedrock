@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:lead_nugget_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:lead_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:lead_ingot"
+            }
+        ],
+        "result": {
+            "item": "confluence:lead_nugget",
+            "count": 9
+        }
+    }
+}

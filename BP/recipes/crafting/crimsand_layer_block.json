@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:crimsand_layer_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:crimsand"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:crimsand"
+            }
+        ],
+        "result": {
+            "item": "confluence:crimsand_layer_block",
+            "count": 6
+        }
+    }
+}

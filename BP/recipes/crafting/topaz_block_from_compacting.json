@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:topaz_block_from_compacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "confluence:topaz"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:topaz"
+            }
+        ],
+        "result": {
+            "item": "confluence:topaz_block"
+        }
+    }
+}

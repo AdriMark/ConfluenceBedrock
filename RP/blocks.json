@@ -1,0 +1,2173 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"confluence:a_statue": {
+		"sound": "stone"
+	},
+	"confluence:adamantite_forge": {
+		"sound": "stone"
+	},
+	"confluence:aetherium_block": {
+		"sound": "amethyst_block"
+	},
+	"confluence:aetherium_bricks": {
+		"sound": "stone"
+	},
+	"confluence:aetherium_cauldron": {
+		"sound": "stone"
+	},
+	"confluence:alchemy_table": {
+		"sound": "stone"
+	},
+	"confluence:amber_block": {
+		"sound": "stone"
+	},
+	"confluence:amber_branches": {
+		"sound": "stone"
+	},
+	"confluence:amber_chain": {
+		"sound": "stone"
+	},
+	"confluence:amber_ore": {
+		"sound": "stone"
+	},
+	"confluence:amber_sapling": {
+		"sound": "stone"
+	},
+	"confluence:amethyst_block": {
+		"sound": "stone"
+	},
+	"confluence:amethyst_branches": {
+		"sound": "stone"
+	},
+	"confluence:amethyst_chain": {
+		"sound": "stone"
+	},
+	"confluence:amethyst_ore": {
+		"sound": "stone"
+	},
+	"confluence:amethyst_sapling": {
+		"sound": "stone"
+	},
+	"confluence:ammo_box": {
+		"sound": "stone"
+	},
+	"confluence:andesite_casing": {
+		"sound": "stone"
+	},
+	"confluence:anvil_statue": {
+		"sound": "stone"
+	},
+	"confluence:ash_block": {
+		"sound": "sand"
+	},
+	"confluence:ash_branches": {
+		"sound": "stone"
+	},
+	"confluence:ash_grass": {
+		"sound": "stone"
+	},
+	"confluence:ash_grass_block": {
+		"sound": "stone"
+	},
+	"confluence:ash_hellstone": {
+		"sound": "stone"
+	},
+	"confluence:ash_log": {
+		"sound": "wood"
+	},
+	"confluence:ash_path": {
+		"sound": "stone"
+	},
+	"confluence:ash_planks": {
+		"sound": "wood"
+	},
+	"confluence:ash_slab": {
+		"sound": "wood"
+	},
+	"confluence:ash_stairs": {
+		"sound": "wood"
+	},
+	"confluence:ash_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:ash_wood": {
+		"sound": "wood"
+	},
+	"confluence:asphalt_block": {
+		"sound": "stone"
+	},
+	"confluence:azure_crate": {
+		"sound": "stone"
+	},
+	"confluence:b_statue": {
+		"sound": "stone"
+	},
+	"confluence:baobab_leaves": {
+		"sound": "grass"
+	},
+	"confluence:baobab_log": {
+		"sound": "wood"
+	},
+	"confluence:baobab_planks": {
+		"sound": "wood"
+	},
+	"confluence:baobab_slab": {
+		"sound": "wood"
+	},
+	"confluence:baobab_stairs": {
+		"sound": "wood"
+	},
+	"confluence:baobab_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:baobab_wood": {
+		"sound": "wood"
+	},
+	"confluence:bewitching_table": {
+		"sound": "stone"
+	},
+	"confluence:big_desert_plant": {
+		"sound": "stone"
+	},
+	"confluence:black_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:blinking_royal_shimmerlily": {
+		"sound": "stone"
+	},
+	"confluence:blinkroot": {
+		"sound": "stone"
+	},
+	"confluence:blue_brick_column": {
+		"sound": "stone"
+	},
+	"confluence:blue_brick_slab": {
+		"sound": "stone"
+	},
+	"confluence:blue_brick_stairs": {
+		"sound": "stone"
+	},
+	"confluence:blue_bricks": {
+		"sound": "stone"
+	},
+	"confluence:blue_gel_block": {
+		"sound": "slime"
+	},
+	"confluence:blue_ice_bricks": {
+		"sound": "glass"
+	},
+	"confluence:blue_ice_bricks_slab": {
+		"sound": "glass"
+	},
+	"confluence:blue_ice_bricks_stairs": {
+		"sound": "glass"
+	},
+	"confluence:blue_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:bone_chain": {
+		"sound": "stone"
+	},
+	"confluence:boreal_crate": {
+		"sound": "stone"
+	},
+	"confluence:boulder_bread_block": {
+		"sound": "stone"
+	},
+	"confluence:bouncy_cloud_block": {
+		"sound": "snow"
+	},
+	"confluence:bramble_crate": {
+		"sound": "stone"
+	},
+	"confluence:brown_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:c_statue": {
+		"sound": "stone"
+	},
+	"confluence:cattail_block": {
+		"sound": "grass"
+	},
+	"confluence:cauldron": {
+		"sound": "stone"
+	},
+	"confluence:chipped_lead_anvil": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_ash_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_baobab_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_blue_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_copper_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_dynasty_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_ebony_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_fey_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_golden_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_granite_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_green_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_iron_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_lead_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_living_mahogany_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_living_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_marble_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_oak_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_obsidian_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_palm_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_pearl_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_pine_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_pink_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_platinum_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_shadow_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_silver_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_spruce_planks": {
+		"sound": "wood"
+	},
+	"confluence:chiseled_tin_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_tungsten_bricks": {
+		"sound": "stone"
+	},
+	"confluence:chiseled_yellow_willow_planks": {
+		"sound": "wood"
+	},
+	"confluence:chlorophyte_ore": {
+		"sound": "stone"
+	},
+	"confluence:christmas_pine_door": {
+		"sound": "stone"
+	},
+	"confluence:christmas_pine_trapdoor": {
+		"sound": "stone"
+	},
+	"confluence:cloud_block": {
+		"sound": "snow"
+	},
+	"confluence:cloudweaver": {
+		"sound": "stone"
+	},
+	"confluence:cobbled_crimstone": {
+		"sound": "stone"
+	},
+	"confluence:cobbled_ebonstone": {
+		"sound": "stone"
+	},
+	"confluence:cobbled_pearlstone": {
+		"sound": "stone"
+	},
+	"confluence:cold_crystal_block": {
+		"sound": "metal"
+	},
+	"confluence:cold_crystal_ore": {
+		"sound": "glass"
+	},
+	"confluence:colored_carpet": {
+		"sound": "cloth"
+	},
+	"confluence:colored_wool": {
+		"sound": "cloth"
+	},
+	"confluence:cooking_pot": {
+		"sound": "stone"
+	},
+	"confluence:copper_bricks": {
+		"sound": "stone"
+	},
+	"confluence:copper_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:copper_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:copper_coin": {
+		"sound": "stone"
+	},
+	"confluence:copper_tiles": {
+		"sound": "stone"
+	},
+	"confluence:corrupt_cactus": {
+		"sound": "stone"
+	},
+	"confluence:corrupt_crate": {
+		"sound": "stone"
+	},
+	"confluence:corrupt_drooping_vine": {
+		"sound": "stone"
+	},
+	"confluence:corrupt_grass": {
+		"sound": "stone"
+	},
+	"confluence:corrupt_grass_block": {
+		"sound": "stone"
+	},
+	"confluence:corrupt_jungle_grass_block": {
+		"sound": "stone"
+	},
+	"confluence:corrupt_tapered_block": {
+		"sound": "stone"
+	},
+	"confluence:corruption_amber_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_amethyst_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_coal_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_copper_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_crimtane_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_demonite_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_diamond_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_emerald_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_gold_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_iron_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_jade_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_lapis_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_lead_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_platinum_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_pot": {
+		"sound": "stone"
+	},
+	"confluence:corruption_redstone_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:corruption_ruby_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_sapphire_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_silver_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_thorn": {
+		"sound": "stone"
+	},
+	"confluence:corruption_tin_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_topaz_ore": {
+		"sound": "stone"
+	},
+	"confluence:corruption_tungsten_ore": {
+		"sound": "stone"
+	},
+	"confluence:cracked_blue_bricks": {
+		"sound": "stone"
+	},
+	"confluence:cracked_granite_bricks": {
+		"sound": "stone"
+	},
+	"confluence:cracked_green_bricks": {
+		"sound": "stone"
+	},
+	"confluence:cracked_marble_bricks": {
+		"sound": "stone"
+	},
+	"confluence:cracked_pink_bricks": {
+		"sound": "stone"
+	},
+	"confluence:crimsand": {
+		"sound": "sand"
+	},
+	"confluence:crimsand_layer_block": {
+		"sound": "stone"
+	},
+	"confluence:crimsandstone": {
+		"sound": "stone"
+	},
+	"confluence:crimson_altar": {
+		"sound": "stone"
+	},
+	"confluence:crimson_cactus": {
+		"sound": "stone"
+	},
+	"confluence:crimson_cattail_block": {
+		"sound": "grass"
+	},
+	"confluence:crimson_crate": {
+		"sound": "stone"
+	},
+	"confluence:crimson_drooping_vine": {
+		"sound": "stone"
+	},
+	"confluence:crimson_grass": {
+		"sound": "stone"
+	},
+	"confluence:crimson_grass_block": {
+		"sound": "stone"
+	},
+	"confluence:crimson_heart": {
+		"sound": "stone"
+	},
+	"confluence:crimson_jungle_grass_block": {
+		"sound": "stone"
+	},
+	"confluence:crimson_pot": {
+		"sound": "stone"
+	},
+	"confluence:crimson_tapered_block": {
+		"sound": "stone"
+	},
+	"confluence:crimson_thorn": {
+		"sound": "stone"
+	},
+	"confluence:crimstone": {
+		"sound": "stone"
+	},
+	"confluence:crimstone_bricks": {
+		"sound": "stone"
+	},
+	"confluence:crimstone_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:crimstone_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:crimtane_block": {
+		"sound": "stone"
+	},
+	"confluence:crimtane_ore": {
+		"sound": "stone"
+	},
+	"confluence:crimtane_ore_bricks": {
+		"sound": "stone"
+	},
+	"confluence:crimtane_ore_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:crimtane_ore_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:crispy_honey_block": {
+		"sound": "stone"
+	},
+	"confluence:cross_statue": {
+		"sound": "stone"
+	},
+	"confluence:crystal_ball": {
+		"sound": "amethyst_block"
+	},
+	"confluence:crystal_block": {
+		"sound": "amethyst_block"
+	},
+	"confluence:crystal_shards": {
+		"sound": "stone"
+	},
+	"confluence:cursed_flame_block": {
+		"sound": "cloth"
+	},
+	"confluence:cyan_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:d_statue": {
+		"sound": "stone"
+	},
+	"confluence:damaged_lead_anvil": {
+		"sound": "stone"
+	},
+	"confluence:dark_aetherium_block": {
+		"sound": "amethyst_block"
+	},
+	"confluence:daybloom": {
+		"sound": "stone"
+	},
+	"confluence:deathweed": {
+		"sound": "stone"
+	},
+	"confluence:deepslate_adamantite_ore": {
+		"sound": "stone"
+	},
+	"confluence:deepslate_amethyst_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_cobalt_ore": {
+		"sound": "stone"
+	},
+	"confluence:deepslate_crimtane_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_demonite_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_jade_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_lead_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_mythril_ore": {
+		"sound": "stone"
+	},
+	"confluence:deepslate_orichalcum_ore": {
+		"sound": "stone"
+	},
+	"confluence:deepslate_palladium_ore": {
+		"sound": "stone"
+	},
+	"confluence:deepslate_platinum_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_ruby_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_sapphire_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_silver_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_tin_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_titanium_ore": {
+		"sound": "stone"
+	},
+	"confluence:deepslate_topaz_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:deepslate_tungsten_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:defiled_crate": {
+		"sound": "stone"
+	},
+	"confluence:demon_altar": {
+		"sound": "stone"
+	},
+	"confluence:demonite_block": {
+		"sound": "stone"
+	},
+	"confluence:demonite_ore": {
+		"sound": "stone"
+	},
+	"confluence:demonite_ore_bricks": {
+		"sound": "stone"
+	},
+	"confluence:demonite_ore_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:demonite_ore_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:desert_fossil": {
+		"sound": "stone"
+	},
+	"confluence:desert_grass": {
+		"sound": "stone"
+	},
+	"confluence:desert_tall_grass": {
+		"sound": "stone"
+	},
+	"confluence:desert_tapered_block": {
+		"sound": "stone"
+	},
+	"confluence:diamond_branches": {
+		"sound": "stone"
+	},
+	"confluence:diamond_chain": {
+		"sound": "stone"
+	},
+	"confluence:diamond_sapling": {
+		"sound": "stone"
+	},
+	"confluence:diatomaceous": {
+		"sound": "sand"
+	},
+	"confluence:disc_block": {
+		"sound": "stone"
+	},
+	"confluence:divine_crate": {
+		"sound": "stone"
+	},
+	"confluence:dungeon_crate": {
+		"sound": "stone"
+	},
+	"confluence:dungeon_door": {
+		"sound": "stone"
+	},
+	"confluence:dungeon_pot": {
+		"sound": "stone"
+	},
+	"confluence:dye_vat": {
+		"sound": "stone"
+	},
+	"confluence:dynasty_log": {
+		"sound": "wood"
+	},
+	"confluence:dynasty_planks": {
+		"sound": "wood"
+	},
+	"confluence:dynasty_slab": {
+		"sound": "wood"
+	},
+	"confluence:dynasty_stairs": {
+		"sound": "wood"
+	},
+	"confluence:dynasty_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:dynasty_wood": {
+		"sound": "wood"
+	},
+	"confluence:e_statue": {
+		"sound": "stone"
+	},
+	"confluence:ebonsand": {
+		"sound": "sand"
+	},
+	"confluence:ebonsand_layer_block": {
+		"sound": "stone"
+	},
+	"confluence:ebonsandstone": {
+		"sound": "stone"
+	},
+	"confluence:ebonstone": {
+		"sound": "stone"
+	},
+	"confluence:ebonstone_bricks": {
+		"sound": "stone"
+	},
+	"confluence:ebonstone_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:ebonstone_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:ebony_cattail_block": {
+		"sound": "grass"
+	},
+	"confluence:ebony_leaves": {
+		"sound": "grass"
+	},
+	"confluence:ebony_log": {
+		"sound": "wood"
+	},
+	"confluence:ebony_planks": {
+		"sound": "wood"
+	},
+	"confluence:ebony_slab": {
+		"sound": "wood"
+	},
+	"confluence:ebony_stairs": {
+		"sound": "wood"
+	},
+	"confluence:ebony_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:ebony_wood": {
+		"sound": "wood"
+	},
+	"confluence:enchanted_blue_bricks": {
+		"sound": "stone"
+	},
+	"confluence:enchanted_fragile_blue_bricks": {
+		"sound": "stone"
+	},
+	"confluence:evaporative_cloud_block": {
+		"sound": "snow"
+	},
+	"confluence:ever_powered_rail": {
+		"sound": "stone"
+	},
+	"confluence:exclamation_mark_statue": {
+		"sound": "stone"
+	},
+	"confluence:f_statue": {
+		"sound": "stone"
+	},
+	"confluence:fey_log": {
+		"sound": "wood"
+	},
+	"confluence:fey_planks": {
+		"sound": "wood"
+	},
+	"confluence:fey_slab": {
+		"sound": "wood"
+	},
+	"confluence:fey_stairs": {
+		"sound": "wood"
+	},
+	"confluence:fey_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:fey_wood": {
+		"sound": "wood"
+	},
+	"confluence:fireblossom": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_amber_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_amethyst_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_coal_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_copper_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_crimtane_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_demonite_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_diamond_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_emerald_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_gold_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_iron_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_jade_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_lapis_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_lead_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_platinum_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_redstone_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:fleshification_ruby_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_sapphire_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_silver_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_tin_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_topaz_ore": {
+		"sound": "stone"
+	},
+	"confluence:fleshification_tungsten_ore": {
+		"sound": "stone"
+	},
+	"confluence:flinx_fur_block": {
+		"sound": "cloth"
+	},
+	"confluence:flinx_fur_carpet": {
+		"sound": "cloth"
+	},
+	"confluence:floating_wheat": {
+		"sound": "stone"
+	},
+	"confluence:floating_wheat_bale": {
+		"sound": "snow"
+	},
+	"confluence:forest_drooping_vine": {
+		"sound": "stone"
+	},
+	"confluence:forest_pot": {
+		"sound": "stone"
+	},
+	"confluence:frozen_crate": {
+		"sound": "stone"
+	},
+	"confluence:frozen_gel_block": {
+		"sound": "slime"
+	},
+	"confluence:g_statue": {
+		"sound": "stone"
+	},
+	"confluence:gelatin_crystal": {
+		"sound": "stone"
+	},
+	"confluence:gelstone_block": {
+		"sound": "metal"
+	},
+	"confluence:gelstone_ore": {
+		"sound": "stone"
+	},
+	"confluence:gilded_marble": {
+		"sound": "stone"
+	},
+	"confluence:glowing_mushroom": {
+		"sound": "stone"
+	},
+	"confluence:glowing_mushroom_cattail_block": {
+		"sound": "grass"
+	},
+	"confluence:glowing_mushroom_indusium_block": {
+		"sound": "stone"
+	},
+	"confluence:glowing_mushroom_pileus_block": {
+		"sound": "wood"
+	},
+	"confluence:glowing_mushroom_planks": {
+		"sound": "wood"
+	},
+	"confluence:glowing_mushroom_slab": {
+		"sound": "wood"
+	},
+	"confluence:glowing_mushroom_stairs": {
+		"sound": "wood"
+	},
+	"confluence:glowing_mushroom_stem_block": {
+		"sound": "wood"
+	},
+	"confluence:glowing_mushroom_vine": {
+		"sound": "stone"
+	},
+	"confluence:gold_coin": {
+		"sound": "stone"
+	},
+	"confluence:golden_bricks": {
+		"sound": "stone"
+	},
+	"confluence:golden_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:golden_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:golden_crate": {
+		"sound": "stone"
+	},
+	"confluence:granite": {
+		"sound": "stone"
+	},
+	"confluence:granite_bricks": {
+		"sound": "stone"
+	},
+	"confluence:granite_column": {
+		"sound": "stone"
+	},
+	"confluence:granite_tapered_block": {
+		"sound": "stone"
+	},
+	"confluence:gravitation_trap": {
+		"sound": "stone"
+	},
+	"confluence:gray_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:green_brick_column": {
+		"sound": "stone"
+	},
+	"confluence:green_brick_slab": {
+		"sound": "stone"
+	},
+	"confluence:green_brick_stairs": {
+		"sound": "stone"
+	},
+	"confluence:green_bricks": {
+		"sound": "stone"
+	},
+	"confluence:green_candy_block": {
+		"sound": "stone"
+	},
+	"confluence:green_dumpling_block": {
+		"sound": "stone"
+	},
+	"confluence:green_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:h_statue": {
+		"sound": "stone"
+	},
+	"confluence:hallow_cactus": {
+		"sound": "stone"
+	},
+	"confluence:hallow_cattail_block": {
+		"sound": "grass"
+	},
+	"confluence:hallow_drooping_vine": {
+		"sound": "stone"
+	},
+	"confluence:hallow_grass": {
+		"sound": "stone"
+	},
+	"confluence:hallow_grass_block": {
+		"sound": "stone"
+	},
+	"confluence:hallow_tapered_block": {
+		"sound": "stone"
+	},
+	"confluence:hallowed_crate": {
+		"sound": "stone"
+	},
+	"confluence:hanging_mycelium": {
+		"sound": "stone"
+	},
+	"confluence:hardened_crimsand_block": {
+		"sound": "stone"
+	},
+	"confluence:hardened_ebonsand_block": {
+		"sound": "stone"
+	},
+	"confluence:hardened_pearlsand_block": {
+		"sound": "stone"
+	},
+	"confluence:hardened_red_sand_block": {
+		"sound": "stone"
+	},
+	"confluence:hardened_sand_block": {
+		"sound": "stone"
+	},
+	"confluence:heart_lantern": {
+		"sound": "stone"
+	},
+	"confluence:heavy_work_bench": {
+		"sound": "stone"
+	},
+	"confluence:hellforge": {
+		"sound": "stone"
+	},
+	"confluence:hellstone": {
+		"sound": "stone"
+	},
+	"confluence:hellstone_block": {
+		"sound": "stone"
+	},
+	"confluence:hellstone_bricks": {
+		"sound": "stone"
+	},
+	"confluence:hellstone_crate": {
+		"sound": "stone"
+	},
+	"confluence:hematic_crate": {
+		"sound": "stone"
+	},
+	"confluence:honey_cauldron": {
+		"sound": "stone"
+	},
+	"confluence:i_statue": {
+		"sound": "stone"
+	},
+	"confluence:ice_tapered_block": {
+		"sound": "stone"
+	},
+	"confluence:iron_bricks": {
+		"sound": "stone"
+	},
+	"confluence:iron_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:iron_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:iron_crate": {
+		"sound": "stone"
+	},
+	"confluence:j_statue": {
+		"sound": "stone"
+	},
+	"confluence:jade_block": {
+		"sound": "stone"
+	},
+	"confluence:jade_branches": {
+		"sound": "stone"
+	},
+	"confluence:jade_chain": {
+		"sound": "stone"
+	},
+	"confluence:jade_ore": {
+		"sound": "stone"
+	},
+	"confluence:jade_sapling": {
+		"sound": "stone"
+	},
+	"confluence:jungle_cattail_block": {
+		"sound": "grass"
+	},
+	"confluence:jungle_crate": {
+		"sound": "stone"
+	},
+	"confluence:jungle_drooping_vine": {
+		"sound": "stone"
+	},
+	"confluence:jungle_grass_block": {
+		"sound": "stone"
+	},
+	"confluence:jungle_hive_block": {
+		"sound": "stone"
+	},
+	"confluence:jungle_path": {
+		"sound": "stone"
+	},
+	"confluence:jungle_pot": {
+		"sound": "stone"
+	},
+	"confluence:jungle_rose": {
+		"sound": "stone"
+	},
+	"confluence:jungle_spore": {
+		"sound": "stone"
+	},
+	"confluence:jungle_thorn": {
+		"sound": "stone"
+	},
+	"confluence:k_statue": {
+		"sound": "stone"
+	},
+	"confluence:keg": {
+		"sound": "stone"
+	},
+	"confluence:l_statue": {
+		"sound": "stone"
+	},
+	"confluence:larva": {
+		"sound": "stone"
+	},
+	"confluence:lava_moss": {
+		"sound": "stone"
+	},
+	"confluence:lead_anvil": {
+		"sound": "stone"
+	},
+	"confluence:lead_block": {
+		"sound": "metal"
+	},
+	"confluence:lead_bricks": {
+		"sound": "stone"
+	},
+	"confluence:lead_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:lead_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:lead_ore": {
+		"sound": "stone"
+	},
+	"confluence:life_campfire": {
+		"sound": "stone"
+	},
+	"confluence:life_crystal_block": {
+		"sound": "stone"
+	},
+	"confluence:life_fruit": {
+		"sound": "stone"
+	},
+	"confluence:life_mushroom": {
+		"sound": "stone"
+	},
+	"confluence:life_mushroom_indusium_block": {
+		"sound": "stone"
+	},
+	"confluence:life_mushroom_pileus_block": {
+		"sound": "wood"
+	},
+	"confluence:life_mushroom_stem_block": {
+		"sound": "wood"
+	},
+	"confluence:light_blue_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:light_gray_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:lihzahrd_pot": {
+		"sound": "stone"
+	},
+	"confluence:lime_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:living_leaves": {
+		"sound": "grass"
+	},
+	"confluence:living_log": {
+		"sound": "wood"
+	},
+	"confluence:living_mahogany_leaves": {
+		"sound": "grass"
+	},
+	"confluence:living_mahogany_log": {
+		"sound": "wood"
+	},
+	"confluence:living_mahogany_planks": {
+		"sound": "wood"
+	},
+	"confluence:living_mahogany_slab": {
+		"sound": "wood"
+	},
+	"confluence:living_mahogany_stairs": {
+		"sound": "wood"
+	},
+	"confluence:living_mahogany_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:living_mahogany_wood": {
+		"sound": "wood"
+	},
+	"confluence:living_planks": {
+		"sound": "wood"
+	},
+	"confluence:living_slab": {
+		"sound": "wood"
+	},
+	"confluence:living_stairs": {
+		"sound": "wood"
+	},
+	"confluence:living_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:living_wood": {
+		"sound": "wood"
+	},
+	"confluence:lock_block": {
+		"sound": "stone"
+	},
+	"confluence:loom": {
+		"sound": "stone"
+	},
+	"confluence:lost_paper": {
+		"sound": "stone"
+	},
+	"confluence:m_statue": {
+		"sound": "stone"
+	},
+	"confluence:magenta_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:magic_mail_box": {
+		"sound": "stone"
+	},
+	"confluence:malachite_paper_pane": {
+		"sound": "wood"
+	},
+	"confluence:malachite_paper_pane_lamp": {
+		"sound": "wood"
+	},
+	"confluence:marble": {
+		"sound": "stone"
+	},
+	"confluence:marble_bricks": {
+		"sound": "stone"
+	},
+	"confluence:marble_cave_pot": {
+		"sound": "stone"
+	},
+	"confluence:marble_chessboard_bricks": {
+		"sound": "stone"
+	},
+	"confluence:marble_column": {
+		"sound": "stone"
+	},
+	"confluence:marble_eternal_chessboard_bricks": {
+		"sound": "stone"
+	},
+	"confluence:marble_small_bricks": {
+		"sound": "stone"
+	},
+	"confluence:marble_tapered_block": {
+		"sound": "stone"
+	},
+	"confluence:marine_gravel": {
+		"sound": "sand"
+	},
+	"confluence:meteorite_block": {
+		"sound": "stone"
+	},
+	"confluence:meteorite_bricks": {
+		"sound": "stone"
+	},
+	"confluence:meteorite_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:meteorite_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:meteorite_ore": {
+		"sound": "stone"
+	},
+	"confluence:mirage_crate": {
+		"sound": "stone"
+	},
+	"confluence:moistened_crimsand_block": {
+		"sound": "stone"
+	},
+	"confluence:moistened_ebonsand_block": {
+		"sound": "stone"
+	},
+	"confluence:moistened_pearlsand_block": {
+		"sound": "stone"
+	},
+	"confluence:moistened_red_sand_block": {
+		"sound": "stone"
+	},
+	"confluence:moistened_sand_block": {
+		"sound": "stone"
+	},
+	"confluence:moon_plate": {
+		"sound": "stone"
+	},
+	"confluence:moon_plate_slab": {
+		"sound": "stone"
+	},
+	"confluence:moon_plate_stairs": {
+		"sound": "stone"
+	},
+	"confluence:moonglow": {
+		"sound": "stone"
+	},
+	"confluence:mural_block": {
+		"sound": "stone"
+	},
+	"confluence:mushroom_grass_block": {
+		"sound": "stone"
+	},
+	"confluence:mushroom_path": {
+		"sound": "stone"
+	},
+	"confluence:mycelial_dirt": {
+		"sound": "stone"
+	},
+	"confluence:mythril_anvil": {
+		"sound": "stone"
+	},
+	"confluence:mythril_crate": {
+		"sound": "stone"
+	},
+	"confluence:n0_statue": {
+		"sound": "stone"
+	},
+	"confluence:n1_statue": {
+		"sound": "stone"
+	},
+	"confluence:n2_statue": {
+		"sound": "stone"
+	},
+	"confluence:n3_statue": {
+		"sound": "stone"
+	},
+	"confluence:n4_statue": {
+		"sound": "stone"
+	},
+	"confluence:n5_statue": {
+		"sound": "stone"
+	},
+	"confluence:n6_statue": {
+		"sound": "stone"
+	},
+	"confluence:n7_statue": {
+		"sound": "stone"
+	},
+	"confluence:n8_statue": {
+		"sound": "stone"
+	},
+	"confluence:n9_statue": {
+		"sound": "stone"
+	},
+	"confluence:n_statue": {
+		"sound": "stone"
+	},
+	"confluence:natures_gift": {
+		"sound": "stone"
+	},
+	"confluence:o_statue": {
+		"sound": "stone"
+	},
+	"confluence:oasis_crate": {
+		"sound": "stone"
+	},
+	"confluence:obsidian_bricks": {
+		"sound": "stone"
+	},
+	"confluence:obsidian_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:obsidian_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:obsidian_crate": {
+		"sound": "stone"
+	},
+	"confluence:obsidian_small_bricks": {
+		"sound": "stone"
+	},
+	"confluence:ocean_crate": {
+		"sound": "stone"
+	},
+	"confluence:opal_block": {
+		"sound": "metal"
+	},
+	"confluence:opal_ore": {
+		"sound": "stone"
+	},
+	"confluence:orange_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:orichalcum_anvil": {
+		"sound": "stone"
+	},
+	"confluence:p_statue": {
+		"sound": "stone"
+	},
+	"confluence:packed_dirt": {
+		"sound": "stone"
+	},
+	"confluence:packed_ice_bricks": {
+		"sound": "glass"
+	},
+	"confluence:packed_ice_bricks_slab": {
+		"sound": "glass"
+	},
+	"confluence:packed_ice_bricks_stairs": {
+		"sound": "glass"
+	},
+	"confluence:palm_leaves": {
+		"sound": "grass"
+	},
+	"confluence:palm_log": {
+		"sound": "wood"
+	},
+	"confluence:palm_planks": {
+		"sound": "wood"
+	},
+	"confluence:palm_slab": {
+		"sound": "wood"
+	},
+	"confluence:palm_stairs": {
+		"sound": "wood"
+	},
+	"confluence:palm_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:palm_wood": {
+		"sound": "wood"
+	},
+	"confluence:pearl_leaves": {
+		"sound": "grass"
+	},
+	"confluence:pearl_log": {
+		"sound": "wood"
+	},
+	"confluence:pearl_planks": {
+		"sound": "wood"
+	},
+	"confluence:pearl_slab": {
+		"sound": "wood"
+	},
+	"confluence:pearl_stairs": {
+		"sound": "wood"
+	},
+	"confluence:pearl_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:pearl_wood": {
+		"sound": "wood"
+	},
+	"confluence:pearlsand": {
+		"sound": "sand"
+	},
+	"confluence:pearlsand_layer_block": {
+		"sound": "stone"
+	},
+	"confluence:pearlsandstone": {
+		"sound": "stone"
+	},
+	"confluence:pearlstone": {
+		"sound": "stone"
+	},
+	"confluence:pearlstone_bricks": {
+		"sound": "stone"
+	},
+	"confluence:pearlstone_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:pearlstone_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:pearlwood_crate": {
+		"sound": "stone"
+	},
+	"confluence:period_statue": {
+		"sound": "stone"
+	},
+	"confluence:piggy_bank": {
+		"sound": "stone"
+	},
+	"confluence:pine_drooping_vine": {
+		"sound": "stone"
+	},
+	"confluence:pine_leaves": {
+		"sound": "grass"
+	},
+	"confluence:pine_log": {
+		"sound": "wood"
+	},
+	"confluence:pine_needle_handmade_rope_set": {
+		"sound": "grass"
+	},
+	"confluence:pine_planks": {
+		"sound": "wood"
+	},
+	"confluence:pine_sapling": {
+		"sound": "stone"
+	},
+	"confluence:pine_slab": {
+		"sound": "wood"
+	},
+	"confluence:pine_stairs": {
+		"sound": "wood"
+	},
+	"confluence:pine_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:pine_wood": {
+		"sound": "wood"
+	},
+	"confluence:pink_brick_column": {
+		"sound": "stone"
+	},
+	"confluence:pink_brick_slab": {
+		"sound": "stone"
+	},
+	"confluence:pink_brick_stairs": {
+		"sound": "stone"
+	},
+	"confluence:pink_bricks": {
+		"sound": "stone"
+	},
+	"confluence:pink_gel_block": {
+		"sound": "slime"
+	},
+	"confluence:pink_ice": {
+		"sound": "stone"
+	},
+	"confluence:pink_packed_ice": {
+		"sound": "glass"
+	},
+	"confluence:pink_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:plantera_thorn": {
+		"sound": "stone"
+	},
+	"confluence:platinum_block": {
+		"sound": "metal"
+	},
+	"confluence:platinum_bricks": {
+		"sound": "stone"
+	},
+	"confluence:platinum_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:platinum_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:platinum_coin": {
+		"sound": "stone"
+	},
+	"confluence:platinum_ore": {
+		"sound": "stone"
+	},
+	"confluence:pneumatic_trap": {
+		"sound": "stone"
+	},
+	"confluence:polished_granite": {
+		"sound": "stone"
+	},
+	"confluence:polished_marble": {
+		"sound": "stone"
+	},
+	"confluence:poo": {
+		"sound": "stone"
+	},
+	"confluence:poo_block": {
+		"sound": "stone"
+	},
+	"confluence:pot_statue": {
+		"sound": "stone"
+	},
+	"confluence:pruned_pine_sapling": {
+		"sound": "stone"
+	},
+	"confluence:pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:purple_ice": {
+		"sound": "stone"
+	},
+	"confluence:purple_packed_ice": {
+		"sound": "glass"
+	},
+	"confluence:purple_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:pyramid_pot": {
+		"sound": "stone"
+	},
+	"confluence:q_statue": {
+		"sound": "stone"
+	},
+	"confluence:question_mark_statue": {
+		"sound": "stone"
+	},
+	"confluence:r_statue": {
+		"sound": "stone"
+	},
+	"confluence:rain_cloud_block": {
+		"sound": "snow"
+	},
+	"confluence:raw_crimtane_block": {
+		"sound": "metal"
+	},
+	"confluence:raw_demonite_block": {
+		"sound": "metal"
+	},
+	"confluence:raw_hellstone_block": {
+		"sound": "stone"
+	},
+	"confluence:raw_lead_block": {
+		"sound": "stone"
+	},
+	"confluence:raw_meteorite_block": {
+		"sound": "stone"
+	},
+	"confluence:raw_platinum_block": {
+		"sound": "stone"
+	},
+	"confluence:raw_silver_block": {
+		"sound": "stone"
+	},
+	"confluence:raw_tin_block": {
+		"sound": "stone"
+	},
+	"confluence:raw_tungsten_block": {
+		"sound": "stone"
+	},
+	"confluence:red_candy_block": {
+		"sound": "stone"
+	},
+	"confluence:red_ice": {
+		"sound": "stone"
+	},
+	"confluence:red_packed_ice": {
+		"sound": "glass"
+	},
+	"confluence:red_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:red_sand_amber_ore": {
+		"sound": "stone"
+	},
+	"confluence:red_sand_layer_block": {
+		"sound": "stone"
+	},
+	"confluence:remains_block": {
+		"sound": "stone"
+	},
+	"confluence:rope": {
+		"sound": "cloth"
+	},
+	"confluence:ruby_block": {
+		"sound": "stone"
+	},
+	"confluence:ruby_branches": {
+		"sound": "stone"
+	},
+	"confluence:ruby_chain": {
+		"sound": "stone"
+	},
+	"confluence:ruby_ore": {
+		"sound": "stone"
+	},
+	"confluence:ruby_sapling": {
+		"sound": "stone"
+	},
+	"confluence:s_statue": {
+		"sound": "stone"
+	},
+	"confluence:safe": {
+		"sound": "metal"
+	},
+	"confluence:sanctification_amber_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_amethyst_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_coal_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_copper_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_crimtane_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_demonite_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_diamond_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_emerald_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_gold_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_iron_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_jade_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_lapis_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_lead_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_platinum_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_redstone_ore": {
+		"sound": "deepslate"
+	},
+	"confluence:sanctification_ruby_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_sapphire_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_silver_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_tin_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_topaz_ore": {
+		"sound": "stone"
+	},
+	"confluence:sanctification_tungsten_ore": {
+		"sound": "stone"
+	},
+	"confluence:sand_layer_block": {
+		"sound": "stone"
+	},
+	"confluence:sapphire_block": {
+		"sound": "stone"
+	},
+	"confluence:sapphire_branches": {
+		"sound": "stone"
+	},
+	"confluence:sapphire_chain": {
+		"sound": "stone"
+	},
+	"confluence:sapphire_ore": {
+		"sound": "stone"
+	},
+	"confluence:sapphire_sapling": {
+		"sound": "stone"
+	},
+	"confluence:savanna_crate": {
+		"sound": "stone"
+	},
+	"confluence:sawmill": {
+		"sound": "stone"
+	},
+	"confluence:sculk_trap": {
+		"sound": "stone"
+	},
+	"confluence:seaside_crate": {
+		"sound": "stone"
+	},
+	"confluence:shadow_leaves": {
+		"sound": "grass"
+	},
+	"confluence:shadow_log": {
+		"sound": "wood"
+	},
+	"confluence:shadow_orb": {
+		"sound": "stone"
+	},
+	"confluence:shadow_planks": {
+		"sound": "wood"
+	},
+	"confluence:shadow_slab": {
+		"sound": "wood"
+	},
+	"confluence:shadow_stairs": {
+		"sound": "wood"
+	},
+	"confluence:shadow_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:shadow_wood": {
+		"sound": "wood"
+	},
+	"confluence:sharpening_station": {
+		"sound": "stone"
+	},
+	"confluence:shimmer_drooping_vine": {
+		"sound": "stone"
+	},
+	"confluence:shimmer_drooping_vine_plant": {
+		"sound": "stone"
+	},
+	"confluence:shimmer_trap": {
+		"sound": "stone"
+	},
+	"confluence:shiverthorn": {
+		"sound": "stone"
+	},
+	"confluence:silk_chain": {
+		"sound": "stone"
+	},
+	"confluence:silk_rope": {
+		"sound": "cloth"
+	},
+	"confluence:silt_block": {
+		"sound": "sand"
+	},
+	"confluence:silver_block": {
+		"sound": "metal"
+	},
+	"confluence:silver_bricks": {
+		"sound": "stone"
+	},
+	"confluence:silver_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:silver_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:silver_coin": {
+		"sound": "stone"
+	},
+	"confluence:silver_ore": {
+		"sound": "stone"
+	},
+	"confluence:sky_crate": {
+		"sound": "stone"
+	},
+	"confluence:sky_mill": {
+		"sound": "stone"
+	},
+	"confluence:skyware_door": {
+		"sound": "stone"
+	},
+	"confluence:skyware_glass_door": {
+		"sound": "stone"
+	},
+	"confluence:slush": {
+		"sound": "sand"
+	},
+	"confluence:smooth_obsidian": {
+		"sound": "stone"
+	},
+	"confluence:snow_bricks": {
+		"sound": "stone"
+	},
+	"confluence:snow_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:snow_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:snow_cloud_block": {
+		"sound": "snow"
+	},
+	"confluence:solidifier": {
+		"sound": "stone"
+	},
+	"confluence:soul_glass": {
+		"sound": "glass"
+	},
+	"confluence:soul_of_bright_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:soul_of_flight_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:soul_of_fright_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:soul_of_light_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:soul_of_might_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:soul_of_night_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:soul_of_sight_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:soul_of_voight_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:spider_nest_pot": {
+		"sound": "stone"
+	},
+	"confluence:spike": {
+		"sound": "stone"
+	},
+	"confluence:spooky_planks": {
+		"sound": "wood"
+	},
+	"confluence:spooky_slab": {
+		"sound": "wood"
+	},
+	"confluence:spooky_stairs": {
+		"sound": "wood"
+	},
+	"confluence:spore_root_block": {
+		"sound": "stone"
+	},
+	"confluence:star_cloud_block": {
+		"sound": "snow"
+	},
+	"confluence:star_in_a_bottle": {
+		"sound": "stone"
+	},
+	"confluence:stellar_blossom": {
+		"sound": "stone"
+	},
+	"confluence:stockade_crate": {
+		"sound": "stone"
+	},
+	"confluence:stony_log": {
+		"sound": "stone"
+	},
+	"confluence:stripped_ash_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_ash_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_baobab_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_baobab_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_dynasty_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_dynasty_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_ebony_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_ebony_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_fey_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_fey_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_living_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_living_mahogany_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_living_mahogany_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_living_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_palm_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_palm_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_pearl_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_pearl_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_pine_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_pine_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_shadow_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_shadow_wood": {
+		"sound": "wood"
+	},
+	"confluence:stripped_yellow_willow_log": {
+		"sound": "wood"
+	},
+	"confluence:stripped_yellow_willow_wood": {
+		"sound": "wood"
+	},
+	"confluence:sturdy_fossil_block": {
+		"sound": "metal"
+	},
+	"confluence:sun_plate": {
+		"sound": "stone"
+	},
+	"confluence:sun_plate_slab": {
+		"sound": "stone"
+	},
+	"confluence:sun_plate_stairs": {
+		"sound": "stone"
+	},
+	"confluence:sword_in_stone": {
+		"sound": "stone"
+	},
+	"confluence:t_statue": {
+		"sound": "stone"
+	},
+	"confluence:thin_honey_block": {
+		"sound": "slime"
+	},
+	"confluence:thin_ice_block": {
+		"sound": "stone"
+	},
+	"confluence:tin_block": {
+		"sound": "copper"
+	},
+	"confluence:tin_bricks": {
+		"sound": "stone"
+	},
+	"confluence:tin_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:tin_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:tin_ore": {
+		"sound": "stone"
+	},
+	"confluence:tin_tiles": {
+		"sound": "stone"
+	},
+	"confluence:titanium_crate": {
+		"sound": "stone"
+	},
+	"confluence:titanium_forge": {
+		"sound": "stone"
+	},
+	"confluence:topaz_block": {
+		"sound": "stone"
+	},
+	"confluence:topaz_branches": {
+		"sound": "stone"
+	},
+	"confluence:topaz_chain": {
+		"sound": "stone"
+	},
+	"confluence:topaz_ore": {
+		"sound": "stone"
+	},
+	"confluence:topaz_sapling": {
+		"sound": "stone"
+	},
+	"confluence:traditional_dynasty_door": {
+		"sound": "stone"
+	},
+	"confluence:tuff_booth": {
+		"sound": "stone"
+	},
+	"confluence:tundra_pot": {
+		"sound": "stone"
+	},
+	"confluence:tungsten_block": {
+		"sound": "metal"
+	},
+	"confluence:tungsten_bricks": {
+		"sound": "stone"
+	},
+	"confluence:tungsten_bricks_slab": {
+		"sound": "stone"
+	},
+	"confluence:tungsten_bricks_stairs": {
+		"sound": "stone"
+	},
+	"confluence:tungsten_ore": {
+		"sound": "stone"
+	},
+	"confluence:u_statue": {
+		"sound": "stone"
+	},
+	"confluence:underground_desert_pot": {
+		"sound": "stone"
+	},
+	"confluence:underworld_pot": {
+		"sound": "stone"
+	},
+	"confluence:v_statue": {
+		"sound": "stone"
+	},
+	"confluence:vicious_mushroom": {
+		"sound": "stone"
+	},
+	"confluence:vile_mushroom": {
+		"sound": "stone"
+	},
+	"confluence:vine_rope": {
+		"sound": "grass"
+	},
+	"confluence:w_statue": {
+		"sound": "stone"
+	},
+	"confluence:waterleaf": {
+		"sound": "stone"
+	},
+	"confluence:weather_vane": {
+		"sound": "stone"
+	},
+	"confluence:web_rope": {
+		"sound": "cloth"
+	},
+	"confluence:white_paper_pane": {
+		"sound": "wood"
+	},
+	"confluence:white_paper_pane_lamp": {
+		"sound": "wood"
+	},
+	"confluence:white_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:wild_crate": {
+		"sound": "stone"
+	},
+	"confluence:winter_marrow_block": {
+		"sound": "stone"
+	},
+	"confluence:wood_stone_slatted_blocks": {
+		"sound": "wood"
+	},
+	"confluence:wooden_crate": {
+		"sound": "stone"
+	},
+	"confluence:x_statue": {
+		"sound": "stone"
+	},
+	"confluence:xenon_moss": {
+		"sound": "stone"
+	},
+	"confluence:y_statue": {
+		"sound": "stone"
+	},
+	"confluence:yellow_pure_glass": {
+		"sound": "glass"
+	},
+	"confluence:yellow_willow_drooping_leaves": {
+		"sound": "stone"
+	},
+	"confluence:yellow_willow_leaves": {
+		"sound": "grass"
+	},
+	"confluence:yellow_willow_log": {
+		"sound": "wood"
+	},
+	"confluence:yellow_willow_planks": {
+		"sound": "wood"
+	},
+	"confluence:yellow_willow_slab": {
+		"sound": "wood"
+	},
+	"confluence:yellow_willow_stairs": {
+		"sound": "wood"
+	},
+	"confluence:yellow_willow_trapdoor": {
+		"sound": "wood"
+	},
+	"confluence:yellow_willow_wood": {
+		"sound": "wood"
+	},
+	"confluence:z_statue": {
+		"sound": "stone"
+	}
+}

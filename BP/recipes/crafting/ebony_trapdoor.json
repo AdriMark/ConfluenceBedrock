@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:ebony_trapdoor"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:ebony_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:ebony_planks"
+            }
+        ],
+        "result": {
+            "item": "confluence:ebony_trapdoor",
+            "count": 2
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_winter_marrow_block_to_winter_marrow"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:winter_marrow_block"
+            }
+        ],
+        "input": "confluence:winter_marrow_block",
+        "output": "confluence:winter_marrow"
+    }
+}

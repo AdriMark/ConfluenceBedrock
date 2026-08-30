@@ -1,0 +1,271 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.jungle_thorn",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5,
+                                3,
+                                -3
+                            ],
+                            "size": [
+                                10,
+                                10,
+                                6
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        -4
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        -4
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                3,
+                                -5
+                            ],
+                            "size": [
+                                6,
+                                10,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "east": {
+                                    "uv": [
+                                        13,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "west": {
+                                    "uv": [
+                                        13,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center_r270"
+                                },
+                                "down": {
+                                    "uv": [
+                                        16,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -10
+                                    ],
+                                    "material_instance": "jungle_thorn_center_r90"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                5,
+                                -5
+                            ],
+                            "size": [
+                                10,
+                                6,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        4
+                                    ],
+                                    "material_instance": "jungle_thorn_center_r90"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        -4
+                                    ],
+                                    "material_instance": "jungle_thorn_center_r270"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        4
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        -4
+                                    ],
+                                    "material_instance": "jungle_thorn_center"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center_r270"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        10
+                                    ],
+                                    "material_instance": "jungle_thorn_center_r270"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

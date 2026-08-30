@@ -1,0 +1,3447 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.adamantite_forge",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                14,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        1.875
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8.125,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.125,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                6
+                            ],
+                            "size": [
+                                10,
+                                4,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9.125,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.75,
+                                        6.375
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14.25,
+                                        8.875
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.875,
+                                        10.375
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8.4187,
+                                4,
+                                5.1048
+                            ],
+                            "size": [
+                                11,
+                                12,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        6
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                -2.9187,
+                                10,
+                                5.1048
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8.4187,
+                                4,
+                                0.8952
+                            ],
+                            "size": [
+                                11,
+                                12,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        6
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                -2.9187,
+                                10,
+                                0.8952
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                4,
+                                -2
+                            ],
+                            "size": [
+                                10,
+                                12,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.125,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.25,
+                                        10.625
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                4,
+                                6
+                            ],
+                            "size": [
+                                10,
+                                12,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.625,
+                                        13.125
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.875,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1.4079,
+                                11.8827,
+                                -8.01
+                            ],
+                            "size": [
+                                8.545,
+                                6.02,
+                                0.01
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        9.5,
+                                        12.125
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        0.0012
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            },
+                            "pivot": [
+                                2.8646,
+                                14.8927,
+                                -8.005
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1.4079,
+                                11.8827,
+                                -8
+                            ],
+                            "size": [
+                                8.545,
+                                6.02,
+                                14.01
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8.25,
+                                        12.125
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.75,
+                                        0.0012
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        1.7488
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            },
+                            "pivot": [
+                                2.8646,
+                                14.8927,
+                                -0.995
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                14,
+                                -8
+                            ],
+                            "size": [
+                                10,
+                                2,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.125,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.75,
+                                        9.375
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2,
+                                14,
+                                -8
+                            ],
+                            "size": [
+                                6,
+                                2,
+                                9
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        12.25,
+                                        8.875
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        12.375,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12.875,
+                                        3.875
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8.4187,
+                                16,
+                                5.1048
+                            ],
+                            "size": [
+                                11,
+                                1,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                -2.9187,
+                                16.5,
+                                5.1048
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8.4187,
+                                16,
+                                0.8952
+                            ],
+                            "size": [
+                                11,
+                                1,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                -2.9187,
+                                16.5,
+                                0.8952
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                16,
+                                -2
+                            ],
+                            "size": [
+                                10,
+                                1,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.125,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5.5,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        11.75,
+                                        6.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                16,
+                                6
+                            ],
+                            "size": [
+                                10,
+                                1,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.625,
+                                        14.625
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.375,
+                                        13.625
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2,
+                                16,
+                                -8
+                            ],
+                            "size": [
+                                6,
+                                6,
+                                9
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        12.25,
+                                        9.125
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        12.375,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12.875,
+                                        4.125
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.625,
+                                        9.375
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        1.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                16,
+                                -8
+                            ],
+                            "size": [
+                                10,
+                                7,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.125,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.75,
+                                        9.625
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.625,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.adamantite_forge_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                3,
+                                6,
+                                -7
+                            ],
+                            "size": [
+                                4,
+                                10,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.75,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11.625,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0.5,
+                                        13.125
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.625,
+                                        13.875
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.875,
+                                        14.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.adamantite_forge_part2",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                14,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.125,
+                                        1.875
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6.375,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.125,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                0,
+                                6
+                            ],
+                            "size": [
+                                10,
+                                4,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.625,
+                                        13.125
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9.5,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.875,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                4,
+                                6
+                            ],
+                            "size": [
+                                10,
+                                12,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.75,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        13.5,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.875,
+                                        11.125
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2.5813,
+                                4,
+                                5.1048
+                            ],
+                            "size": [
+                                11,
+                                12,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        6
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                2.9187,
+                                10,
+                                5.1048
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                4,
+                                -2
+                            ],
+                            "size": [
+                                10,
+                                12,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.75,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.25,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9.5,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2.5813,
+                                4,
+                                0.8952
+                            ],
+                            "size": [
+                                11,
+                                12,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        6
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                2.9187,
+                                10,
+                                0.8952
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -7.1372,
+                                11.8827,
+                                -8.01
+                            ],
+                            "size": [
+                                8.545,
+                                6.02,
+                                0.01
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        2.5,
+                                        12.25
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.75,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        0.0012
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            },
+                            "pivot": [
+                                -2.8647,
+                                14.8927,
+                                -8.005
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -7.1372,
+                                11.8827,
+                                -8
+                            ],
+                            "size": [
+                                8.545,
+                                6.02,
+                                14.01
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        12.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.75,
+                                        7.0012
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        1.7488
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            },
+                            "pivot": [
+                                -2.8647,
+                                14.8927,
+                                -0.995
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                14,
+                                -8
+                            ],
+                            "size": [
+                                10,
+                                2,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.875,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        9.375
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                14,
+                                -8
+                            ],
+                            "size": [
+                                6,
+                                2,
+                                9
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        13,
+                                        8.875
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        13.125,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.75,
+                                        3.875
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                16,
+                                6
+                            ],
+                            "size": [
+                                10,
+                                1,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.75,
+                                        5.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        13.5,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        14.875,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2.5813,
+                                16,
+                                5.1048
+                            ],
+                            "size": [
+                                11,
+                                1,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                2.9187,
+                                16.5,
+                                5.1048
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                16,
+                                -2
+                            ],
+                            "size": [
+                                10,
+                                1,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.75,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.25,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.625,
+                                        11.875
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2.5813,
+                                16,
+                                0.8952
+                            ],
+                            "size": [
+                                11,
+                                1,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                2.9187,
+                                16.5,
+                                0.8952
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                16,
+                                -8
+                            ],
+                            "size": [
+                                6,
+                                6,
+                                9
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        13,
+                                        9.125
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        13.125,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.75,
+                                        4.125
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.875,
+                                        9.375
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        1.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                16,
+                                -8
+                            ],
+                            "size": [
+                                10,
+                                7,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.5,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.875,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        9.625
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.625,
+                                        5.625
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.adamantite_forge_part3",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -7,
+                                6,
+                                -7
+                            ],
+                            "size": [
+                                4,
+                                10,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        12.25,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        13.125
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.125,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.125,
+                                        13.875
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.375,
+                                        14.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.adamantite_forge_icon",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_p0",
+                    "pivot": [
+                        -4,
+                        4,
+                        0.0025
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -3.9975
+                            ],
+                            "size": [
+                                8,
+                                7,
+                                7
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        1.875
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8.125,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.125,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                3.0025
+                            ],
+                            "size": [
+                                5,
+                                2,
+                                1
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9.125,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.75,
+                                        6.375
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14.25,
+                                        8.875
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.875,
+                                        10.375
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8.2093,
+                                2,
+                                2.5549
+                            ],
+                            "size": [
+                                5.5,
+                                6,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        6
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                -5.4593,
+                                5,
+                                2.5549
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8.2093,
+                                2,
+                                0.4501
+                            ],
+                            "size": [
+                                5.5,
+                                6,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        6
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                -5.4593,
+                                5,
+                                0.4501
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                2,
+                                -0.9975
+                            ],
+                            "size": [
+                                5,
+                                6,
+                                5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.125,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.25,
+                                        10.625
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                2,
+                                3.0025
+                            ],
+                            "size": [
+                                5,
+                                6,
+                                1
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.625,
+                                        13.125
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.875,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4.7039,
+                                5.9413,
+                                -4.0025
+                            ],
+                            "size": [
+                                4.2725,
+                                3.01,
+                                0.005
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        9.5,
+                                        12.125
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        0.0012
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            },
+                            "pivot": [
+                                -2.5677,
+                                7.4463,
+                                -4
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -4.7039,
+                                5.9413,
+                                -3.9975
+                            ],
+                            "size": [
+                                4.2725,
+                                3.01,
+                                7.005
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8.25,
+                                        12.125
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.75,
+                                        0.0012
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        1.7488
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            },
+                            "pivot": [
+                                -2.5677,
+                                7.4463,
+                                -0.495
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                -45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                7,
+                                -3.9975
+                            ],
+                            "size": [
+                                5,
+                                1,
+                                7
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.125,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.75,
+                                        9.375
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                7,
+                                -3.9975
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                4.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        12.25,
+                                        8.875
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        12.375,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12.875,
+                                        3.875
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8.2093,
+                                8,
+                                2.5549
+                            ],
+                            "size": [
+                                5.5,
+                                0.5,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                -5.4593,
+                                8.25,
+                                2.5549
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8.2093,
+                                8,
+                                0.4501
+                            ],
+                            "size": [
+                                5.5,
+                                0.5,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                -5.4593,
+                                8.25,
+                                0.4501
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -0.9975
+                            ],
+                            "size": [
+                                5,
+                                0.5,
+                                5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.125,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5.5,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        11.75,
+                                        6.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                3.0025
+                            ],
+                            "size": [
+                                5,
+                                0.5,
+                                1
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.625,
+                                        14.625
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.375,
+                                        13.625
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                8,
+                                -3.9975
+                            ],
+                            "size": [
+                                3,
+                                3,
+                                4.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        12.25,
+                                        9.125
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        12.375,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12.875,
+                                        4.125
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.625,
+                                        9.375
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        1.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -3.9975
+                            ],
+                            "size": [
+                                5,
+                                3.5,
+                                7
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.125,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.75,
+                                        9.625
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.625,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p1",
+                    "pivot": [
+                        -4,
+                        4,
+                        0.0025
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -2.5,
+                                11,
+                                -3.4975
+                            ],
+                            "size": [
+                                2,
+                                5,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.75,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11.625,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0.5,
+                                        13.125
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.625,
+                                        13.875
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.875,
+                                        14.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p2",
+                    "pivot": [
+                        -4,
+                        4,
+                        0.0025
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -3.9975
+                            ],
+                            "size": [
+                                8,
+                                7,
+                                7
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.125,
+                                        1.875
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6.375,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.125,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3,
+                                0,
+                                3.0025
+                            ],
+                            "size": [
+                                5,
+                                2,
+                                1
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.625,
+                                        13.125
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9.5,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.875,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3,
+                                2,
+                                3.0025
+                            ],
+                            "size": [
+                                5,
+                                6,
+                                1
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.75,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        13.5,
+                                        11.5
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        14.875,
+                                        11.125
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2.7093,
+                                2,
+                                2.5549
+                            ],
+                            "size": [
+                                5.5,
+                                6,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        6
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                5.4593,
+                                5,
+                                2.5549
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3,
+                                2,
+                                -0.9975
+                            ],
+                            "size": [
+                                5,
+                                6,
+                                5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.75,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.25,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9.5,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2.7093,
+                                2,
+                                0.4501
+                            ],
+                            "size": [
+                                5.5,
+                                6,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        6
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                5.4593,
+                                5,
+                                0.4501
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0.4314,
+                                5.9413,
+                                -4.0025
+                            ],
+                            "size": [
+                                4.2725,
+                                3.01,
+                                0.005
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        2.5,
+                                        12.25
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.75,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        0.0012
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            },
+                            "pivot": [
+                                2.5676,
+                                7.4463,
+                                -4
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0.4314,
+                                5.9413,
+                                -3.9975
+                            ],
+                            "size": [
+                                4.2725,
+                                3.01,
+                                7.005
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        12.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.75,
+                                        7.0012
+                                    ],
+                                    "uv_size": [
+                                        -1.125,
+                                        1.7488
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            },
+                            "pivot": [
+                                2.5676,
+                                7.4463,
+                                -0.495
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                45
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3,
+                                7,
+                                -3.9975
+                            ],
+                            "size": [
+                                5,
+                                1,
+                                7
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.875,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        9.375
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0,
+                                7,
+                                -3.9975
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                4.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        13,
+                                        8.875
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        13.125,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.75,
+                                        3.875
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3,
+                                8,
+                                3.0025
+                            ],
+                            "size": [
+                                5,
+                                0.5,
+                                1
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.75,
+                                        5.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        13.5,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        14.875,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2.7093,
+                                8,
+                                2.5549
+                            ],
+                            "size": [
+                                5.5,
+                                0.5,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                5.4593,
+                                8.25,
+                                2.5549
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3,
+                                8,
+                                -0.9975
+                            ],
+                            "size": [
+                                5,
+                                0.5,
+                                5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.75,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.25,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.625,
+                                        11.875
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2.7093,
+                                8,
+                                0.4501
+                            ],
+                            "size": [
+                                5.5,
+                                0.5,
+                                0
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge_flame"
+                                }
+                            },
+                            "pivot": [
+                                5.4593,
+                                8.25,
+                                0.4501
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -3.9975
+                            ],
+                            "size": [
+                                3,
+                                3,
+                                4.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        13,
+                                        9.125
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        13.125,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.75,
+                                        4.125
+                                    ],
+                                    "uv_size": [
+                                        1.125,
+                                        0.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.875,
+                                        9.375
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        1.125
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3,
+                                8,
+                                -3.9975
+                            ],
+                            "size": [
+                                5,
+                                3.5,
+                                7
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.5,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.875,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        9.625
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        0.875
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.625,
+                                        5.625
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.75
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p3",
+                    "pivot": [
+                        -4,
+                        4,
+                        0.0025
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                0.5,
+                                11,
+                                -3.4975
+                            ],
+                            "size": [
+                                2,
+                                5,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "north": {
+                                    "uv": [
+                                        12.25,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        13.125
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.125,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        1.25
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.125,
+                                        13.875
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.375,
+                                        14.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "adamantite_forge"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

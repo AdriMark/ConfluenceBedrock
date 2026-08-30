@@ -1,0 +1,78 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:honey_cauldron",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:honey_cauldron.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.honey_cauldron"
+            },
+            "minecraft:material_instances": {
+                "cauldron_side": {
+                    "texture": "confluence:cauldron_side",
+                    "render_method": "alpha_test"
+                },
+                "cauldron_top": {
+                    "texture": "confluence:cauldron_top",
+                    "render_method": "alpha_test"
+                },
+                "cauldron_inner": {
+                    "texture": "confluence:cauldron_inner",
+                    "render_method": "alpha_test"
+                },
+                "cauldron_bottom": {
+                    "texture": "confluence:cauldron_bottom",
+                    "render_method": "alpha_test"
+                },
+                "honey_still": {
+                    "texture": "confluence_honey_still",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:cauldron_side",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#4a494b",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:ash_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:ash_log"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:ash_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:ash_planks",
+            "count": 4
+        }
+    }
+}

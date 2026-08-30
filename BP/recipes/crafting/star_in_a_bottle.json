@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:star_in_a_bottle"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "confluence:falling_star"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "confluence:falling_star"
+            }
+        ],
+        "result": {
+            "item": "confluence:star_in_a_bottle"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_sanctification_demonite_ore_to_demonite_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:sanctification_demonite_ore"
+            }
+        ],
+        "input": "confluence:sanctification_demonite_ore",
+        "output": "confluence:demonite_ingot"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "confluence:gelstone_ore_feature"
+        },
+        "count": 8,
+        "replace_rules": [
+            {
+                "places_block": "confluence:gelstone_ore",
+                "may_replace": [
+                    {
+                        "name": "minecraft:mud"
+                    },
+                    {
+                        "name": "minecraft:clay"
+                    },
+                    {
+                        "name": "minecraft:stone"
+                    }
+                ]
+            }
+        ]
+    }
+}

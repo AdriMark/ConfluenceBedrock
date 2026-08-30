@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:wooden_hammer"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#/#",
+            " / "
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:yellow_willow_planks"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:yellow_willow_planks"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "item": "confluence:wooden_hammer"
+        }
+    }
+}

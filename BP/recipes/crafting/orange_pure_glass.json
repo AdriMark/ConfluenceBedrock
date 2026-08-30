@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:orange_pure_glass"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#/#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:pure_glass"
+            },
+            "/": {
+                "item": "minecraft:orange_dye"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:pure_glass"
+            },
+            {
+                "item": "minecraft:orange_dye"
+            }
+        ],
+        "result": {
+            "item": "confluence:orange_pure_glass",
+            "count": 8
+        }
+    }
+}

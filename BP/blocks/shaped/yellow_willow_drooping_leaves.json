@@ -1,0 +1,154 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:yellow_willow_drooping_leaves",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "confluence:part": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:yellow_willow_drooping_leaves.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.yellow_willow_drooping_leaves"
+            },
+            "minecraft:material_instances": {
+                "yellow_willow_leaves": {
+                    "texture": "confluence:yellow_willow_leaves",
+                    "render_method": "alpha_test"
+                },
+                "yellow_willow_drooping_leaves_1": {
+                    "texture": "confluence:yellow_willow_drooping_leaves_1",
+                    "render_method": "alpha_test"
+                },
+                "yellow_willow_drooping_leaves": {
+                    "texture": "confluence:yellow_willow_drooping_leaves",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:yellow_willow_leaves",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#b78855",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -7.0711,
+                    0,
+                    -7.0711
+                ],
+                "size": [
+                    14.1421,
+                    16,
+                    14.1421
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7.0711,
+                    0,
+                    -7.0711
+                ],
+                "size": [
+                    14.1421,
+                    16,
+                    14.1421
+                ]
+            },
+            "confluence:multiblock": {},
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.item_sprite"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:yellow_willow_drooping_leaves_1",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('confluence:part') == 0",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.yellow_willow_drooping_leaves"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0711,
+                            0,
+                            -7.0711
+                        ],
+                        "size": [
+                            14.1421,
+                            16,
+                            14.1421
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0711,
+                            0,
+                            -7.0711
+                        ],
+                        "size": [
+                            14.1421,
+                            16,
+                            14.1421
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:part') == 1",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.shaped.yellow_willow_drooping_leaves_part1"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0711,
+                            0,
+                            -7.0711
+                        ],
+                        "size": [
+                            14.1421,
+                            16,
+                            14.1421
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0711,
+                            0,
+                            -7.0711
+                        ],
+                        "size": [
+                            14.1421,
+                            16,
+                            14.1421
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

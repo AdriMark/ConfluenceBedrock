@@ -1,0 +1,1663 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:demonite_ore_bricks_stairs",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stairs"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:vertical_half"
+                    ]
+                },
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:corner_and_cardinal_direction"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:demonite_ore_bricks_stairs.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.stairs_item"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:demonite_ore_bricks",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:wooden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 1.125
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:stone_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.563
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:copper_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.45
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:golden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.188
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:iron_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.375
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.281
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.25
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#4d367c",
+            "minecraft:tags": [
+                "confluence:hammer",
+                "confluence:level_1",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.stairs_item"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:demonite_ore_bricks",
+                        "render_method": "opaque"
+                    }
+                }
+            },
+            "minecraft:loot": "loot_tables/blocks/demonite_ore_bricks_stairs.json"
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_none_north_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_left_north_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_right_north_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_left_north_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_right_north_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_none_east_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_left_east_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_right_east_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_left_east_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_right_east_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_none_south_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_left_south_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_right_south_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_left_south_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_right_south_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_none_west_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_left_west_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_right_west_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_left_west_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_right_west_bottom"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_none_north_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_left_north_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_right_north_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_left_north_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_right_north_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_none_east_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_left_east_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_right_east_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_left_east_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_right_east_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_none_south_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_left_south_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_right_south_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_left_south_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_right_south_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_none_west_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_left_west_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_outer_right_west_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_left_west_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.stairs_inner_right_west_top"
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

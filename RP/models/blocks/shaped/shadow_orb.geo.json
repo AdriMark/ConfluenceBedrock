@@ -1,0 +1,271 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.shadow_orb",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6,
+                                2,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                12,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5.25,
+                                2.75,
+                                -5.25
+                            ],
+                            "size": [
+                                10.5,
+                                10.5,
+                                10.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        -3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3,
+                                        3
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                3,
+                                -5
+                            ],
+                            "size": [
+                                10,
+                                10,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5.5,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "west": {
+                                    "uv": [
+                                        5.5,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.5,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                },
+                                "down": {
+                                    "uv": [
+                                        8,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        -2.5
+                                    ],
+                                    "material_instance": "shadow_orb_tile"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

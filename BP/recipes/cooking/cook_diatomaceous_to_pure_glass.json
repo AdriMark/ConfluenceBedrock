@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_diatomaceous_to_pure_glass"
+        },
+        "tags": [
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:diatomaceous"
+            }
+        ],
+        "input": "confluence:diatomaceous",
+        "output": "confluence:pure_glass"
+    }
+}

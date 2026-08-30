@@ -1,0 +1,62 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:floating_wheat",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:floating_wheat.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.floating_wheat"
+            },
+            "minecraft:material_instances": {
+                "floating_wheat_stage0": {
+                    "texture": "confluence:floating_wheat_stage0",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:floating_wheat_stage0",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#bd6e5e",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15,
+                    16
+                ]
+            }
+        }
+    }
+}

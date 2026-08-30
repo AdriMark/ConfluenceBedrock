@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:dynasty_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:dynasty_log"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:dynasty_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:dynasty_planks",
+            "count": 4
+        }
+    }
+}

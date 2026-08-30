@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_tin_ore_to_tin_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:tin_ore"
+            }
+        ],
+        "input": "confluence:tin_ore",
+        "output": "confluence:tin_ingot"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:polished_granite"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:granite"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:granite"
+            }
+        ],
+        "result": {
+            "item": "confluence:polished_granite"
+        }
+    }
+}

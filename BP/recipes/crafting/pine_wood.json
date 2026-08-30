@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:pine_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:pine_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:pine_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:pine_wood",
+            "count": 3
+        }
+    }
+}

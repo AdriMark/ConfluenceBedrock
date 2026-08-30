@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:falling_star"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:star_petals"
+            },
+            {
+                "item": "confluence:star_petals"
+            },
+            {
+                "item": "confluence:star_petals"
+            },
+            {
+                "item": "confluence:star_petals"
+            },
+            {
+                "item": "confluence:star_petals"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:star_petals"
+            }
+        ],
+        "result": {
+            "item": "confluence:falling_star"
+        }
+    }
+}

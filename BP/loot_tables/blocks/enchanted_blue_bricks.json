@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_all": [
+                        "confluence:is_hammer"
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "confluence:enchanted_blue_bricks",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

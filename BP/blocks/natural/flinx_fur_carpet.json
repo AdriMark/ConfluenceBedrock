@@ -1,0 +1,60 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:flinx_fur_carpet",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.woolCarpet"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:flinx_fur_carpet.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.carpet"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:flinx_fur_block",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.1
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.1
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:flammable": {
+                "catch_chance_modifier": 5,
+                "destroy_chance_modifier": 20
+            },
+            "minecraft:map_color": "#e9c3e1",
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    1,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    1,
+                    16
+                ]
+            }
+        }
+    }
+}

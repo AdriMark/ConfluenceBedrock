@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_sanctification_amethyst_ore_to_amethyst"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:sanctification_amethyst_ore"
+            }
+        ],
+        "input": "confluence:sanctification_amethyst_ore",
+        "output": "confluence:amethyst"
+    }
+}

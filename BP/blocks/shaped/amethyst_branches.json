@@ -1,0 +1,62 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:amethyst_branches",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:amethyst_branches.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.amethyst_branches"
+            },
+            "minecraft:material_instances": {
+                "amethyst_branches": {
+                    "texture": "confluence:amethyst_branches",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "confluence:amethyst_branches",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#706479",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -3,
+                    5,
+                    -3
+                ],
+                "size": [
+                    6,
+                    6,
+                    6
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -3,
+                    5,
+                    -3
+                ],
+                "size": [
+                    6,
+                    6,
+                    6
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "confluence:cold_crystal_ore_feature"
+        },
+        "count": 8,
+        "replace_rules": [
+            {
+                "places_block": "confluence:cold_crystal_ore",
+                "may_replace": [
+                    {
+                        "name": "minecraft:packed_ice"
+                    },
+                    {
+                        "name": "minecraft:snow"
+                    }
+                ]
+            }
+        ]
+    }
+}

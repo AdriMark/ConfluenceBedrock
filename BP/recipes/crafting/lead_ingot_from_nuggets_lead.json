@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:lead_ingot_from_nuggets_lead"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SSS",
+            "SSS",
+            "SSS"
+        ],
+        "key": {
+            "S": {
+                "item": "confluence:lead_nugget"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:lead_nugget"
+            }
+        ],
+        "result": {
+            "item": "confluence:lead_ingot"
+        }
+    }
+}

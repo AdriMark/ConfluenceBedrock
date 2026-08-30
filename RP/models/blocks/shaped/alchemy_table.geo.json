@@ -1,0 +1,3861 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.alchemy_table",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                3,
+                                -6
+                            ],
+                            "size": [
+                                11,
+                                9,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.5,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        2.75,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        2.75,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                3,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.25,
+                                        8.75
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        13.75,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                12,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                4,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.25,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14.25,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                5,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                7,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.alchemy_table_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_0",
+                    "pivot": [
+                        2.5,
+                        7.5,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3,
+                                3,
+                                -6
+                            ],
+                            "size": [
+                                11,
+                                9,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.5,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        2.75,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        2.75,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -180,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_1",
+                    "pivot": [
+                        1,
+                        1.5,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                3,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.25,
+                                        8.75
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        13.75,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -180,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_2",
+                    "pivot": [
+                        0,
+                        14,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                12,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                4,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.25,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14.25,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -180,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_3",
+                    "pivot": [
+                        0,
+                        8.5,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                5,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                7,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -180,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.alchemy_table_part2",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -1,
+                                0.016,
+                                -5
+                            ],
+                            "size": [
+                                6,
+                                2,
+                                6
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.5,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2.75,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.5,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2,
+                                1,
+                                -5
+                            ],
+                            "size": [
+                                0,
+                                4,
+                                6
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -6,
+                                        4
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                }
+                            },
+                            "pivot": [
+                                2,
+                                3,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1,
+                                1,
+                                -2
+                            ],
+                            "size": [
+                                6,
+                                4,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        4
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                }
+                            },
+                            "pivot": [
+                                2,
+                                3,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                2,
+                                0,
+                                -9
+                            ],
+                            "size": [
+                                0,
+                                11,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        3.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        -3.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                2,
+                                5.5,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                2,
+                                0,
+                                -9
+                            ],
+                            "size": [
+                                0,
+                                11,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        3.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        -3.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                2,
+                                5.5,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1,
+                                7,
+                                -5
+                            ],
+                            "size": [
+                                6,
+                                6,
+                                6
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        7.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9.5,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                2,
+                                10,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -0.5,
+                                7.25,
+                                -4.5
+                            ],
+                            "size": [
+                                5,
+                                4,
+                                5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9.5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2.75,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2.75,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.25,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        5.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                2,
+                                9.25,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8.5433,
+                                11,
+                                -1.2039
+                            ],
+                            "size": [
+                                10,
+                                3,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11.5,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.75,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        11.5,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        -0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -3.5433,
+                                12.5,
+                                0.2961
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -10,
+                                4,
+                                0
+                            ],
+                            "size": [
+                                4,
+                                4,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8.75,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8.75,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.75,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        11.25,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        -1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -8,
+                                6,
+                                2
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -11,
+                                0,
+                                -1
+                            ],
+                            "size": [
+                                6,
+                                4,
+                                6
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        9.25,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.75,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.5,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -8,
+                                2,
+                                2
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -10.5,
+                                0.5,
+                                -0.5
+                            ],
+                            "size": [
+                                5,
+                                3,
+                                5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7.5,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.75,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.25,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.25
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -8,
+                                2,
+                                2
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                3,
+                                4,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.75,
+                                        8.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11.5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.5,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        5.75,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.alchemy_table_part3",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3.25,
+                                6,
+                                -3
+                            ],
+                            "size": [
+                                2,
+                                6,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        6
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        6
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        6
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        6
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        -2
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        -2
+                                    ],
+                                    "material_instance": "candle"
+                                }
+                            },
+                            "pivot": [
+                                -2.25,
+                                9,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -2.25,
+                                12,
+                                -2.5
+                            ],
+                            "size": [
+                                0,
+                                1,
+                                1
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        1,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        0
+                                    ],
+                                    "material_instance": "candle_r90"
+                                }
+                            },
+                            "pivot": [
+                                -2.25,
+                                12.5,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -2.75,
+                                12,
+                                -2
+                            ],
+                            "size": [
+                                1,
+                                1,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        0
+                                    ],
+                                    "material_instance": "candle"
+                                }
+                            },
+                            "pivot": [
+                                -2.25,
+                                12.5,
+                                -2
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6.25,
+                                -1.4372,
+                                -5.4546
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -2.25,
+                                2.5628,
+                                -1.4546
+                            ],
+                            "rotation": [
+                                -22.5,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6.25,
+                                -1.4372,
+                                -5.4546
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -2.25,
+                                2.5628,
+                                -1.4546
+                            ],
+                            "rotation": [
+                                -22.5,
+                                0,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.alchemy_table_icon",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_p0",
+                    "pivot": [
+                        -2.5953,
+                        3.5318,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6.127,
+                                1.3244,
+                                -2.6488
+                            ],
+                            "size": [
+                                4.8562,
+                                3.9732,
+                                5.2976
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.5,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        2.75,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        2.75,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6.127,
+                                0,
+                                -3.0903
+                            ],
+                            "size": [
+                                6.1806,
+                                1.3244,
+                                6.1806
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.25,
+                                        8.75
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        13.75,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6.127,
+                                5.2976,
+                                -3.5318
+                            ],
+                            "size": [
+                                7.0635,
+                                1.7659,
+                                7.0635
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.25,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14.25,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6.127,
+                                2.2073,
+                                -3.5318
+                            ],
+                            "size": [
+                                7.0635,
+                                3.0903,
+                                7.0635
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_0_p1",
+                    "pivot": [
+                        -1.4916,
+                        3.311,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -10.9832,
+                                1.3244,
+                                -2.6488
+                            ],
+                            "size": [
+                                4.8562,
+                                3.9732,
+                                5.2976
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        7.5,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        2.75,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        2.75,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -3,
+                                        2.25
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -180,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_1_p1",
+                    "pivot": [
+                        -2.1538,
+                        0.6622,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -12.3076,
+                                0,
+                                -3.0903
+                            ],
+                            "size": [
+                                6.1806,
+                                1.3244,
+                                6.1806
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.25,
+                                        8.75
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        13.75,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.5,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -180,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_2_p1",
+                    "pivot": [
+                        -2.5953,
+                        6.1806,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -13.1905,
+                                5.2976,
+                                -3.5318
+                            ],
+                            "size": [
+                                7.0635,
+                                1.7659,
+                                7.0635
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.25,
+                                        5.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.25,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14.25,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        1
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -180,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_3_p1",
+                    "pivot": [
+                        -2.5953,
+                        3.7525,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -13.1905,
+                                2.2073,
+                                -3.5318
+                            ],
+                            "size": [
+                                7.0635,
+                                3.0903,
+                                7.0635
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        1.75
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "alchemy_table"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -180,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_p2",
+                    "pivot": [
+                        -2.5953,
+                        3.5318,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3.0367,
+                                7.0706,
+                                -2.2073
+                            ],
+                            "size": [
+                                2.6488,
+                                0.8829,
+                                2.6488
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.5,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        7.75
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2.75,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8.5,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.5,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1.7123,
+                                7.505,
+                                -2.2073
+                            ],
+                            "size": [
+                                0,
+                                1.7659,
+                                2.6488
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -6,
+                                        4
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                }
+                            },
+                            "pivot": [
+                                -1.7123,
+                                8.3879,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -3.0367,
+                                7.505,
+                                -0.8829
+                            ],
+                            "size": [
+                                2.6488,
+                                1.7659,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        4
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "campfire_fire"
+                                }
+                            },
+                            "pivot": [
+                                -1.7123,
+                                8.3879,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1.7123,
+                                7.0635,
+                                -3.9732
+                            ],
+                            "size": [
+                                0,
+                                4.8562,
+                                6.1806
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        3.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        -3.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -1.7123,
+                                9.4916,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1.7123,
+                                7.0635,
+                                -3.9732
+                            ],
+                            "size": [
+                                0,
+                                4.8562,
+                                6.1806
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        2.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        3.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        -3.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -1.7123,
+                                9.4916,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -3.0367,
+                                10.1538,
+                                -2.2073
+                            ],
+                            "size": [
+                                2.6488,
+                                2.6488,
+                                2.6488
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        7.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9.5,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -1.7123,
+                                11.4782,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -2.816,
+                                10.2642,
+                                -1.9866
+                            ],
+                            "size": [
+                                2.2073,
+                                1.7659,
+                                2.2073
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9.5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2.75,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2.75,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.25,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        5.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -1.7123,
+                                11.1471,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6.3669,
+                                11.9197,
+                                -0.5315
+                            ],
+                            "size": [
+                                4.4147,
+                                1.3244,
+                                1.3244
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11.5,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.75,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        11.5,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        -0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -4.1595,
+                                12.5819,
+                                0.1307
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -7.0099,
+                                8.8294,
+                                0
+                            ],
+                            "size": [
+                                1.7659,
+                                1.7659,
+                                1.7659
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8.75,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8.75,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.75,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        11.25,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        -1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -6.127,
+                                9.7123,
+                                0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -7.4514,
+                                7.0635,
+                                -0.4415
+                            ],
+                            "size": [
+                                2.6488,
+                                1.7659,
+                                2.6488
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        1.5,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        9.25,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.75,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.5,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.5
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -6.127,
+                                7.9464,
+                                0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -7.2307,
+                                7.2842,
+                                -0.2207
+                            ],
+                            "size": [
+                                2.2073,
+                                1.3244,
+                                2.2073
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7.5,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.75,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.25,
+                                        2.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        1.25
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -1.25
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                -6.127,
+                                7.9464,
+                                0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6.127,
+                                7.0635,
+                                -3.0903
+                            ],
+                            "size": [
+                                1.3244,
+                                1.7659,
+                                1.3244
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2.75,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.75,
+                                        8.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        11.5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        11.5,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        1
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        5.75,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        6.5,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p3",
+                    "pivot": [
+                        -2.5953,
+                        3.5318,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                3.0335,
+                                9.7123,
+                                -1.3244
+                            ],
+                            "size": [
+                                0.8829,
+                                2.6488,
+                                0.8829
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        6
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        6
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        6
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        6
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        -2
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        -2
+                                    ],
+                                    "material_instance": "candle"
+                                }
+                            },
+                            "pivot": [
+                                3.4749,
+                                11.0367,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                -22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.4749,
+                                12.3611,
+                                -1.1037
+                            ],
+                            "size": [
+                                0,
+                                0.4415,
+                                0.4415
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        1,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        0
+                                    ],
+                                    "material_instance": "candle_r90"
+                                }
+                            },
+                            "pivot": [
+                                3.4749,
+                                12.5819,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.2542,
+                                12.3611,
+                                -0.8829
+                            ],
+                            "size": [
+                                0.4415,
+                                0.4415,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "candle"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        0,
+                                        0
+                                    ],
+                                    "material_instance": "candle"
+                                }
+                            },
+                            "pivot": [
+                                3.4749,
+                                12.5819,
+                                -0.8829
+                            ],
+                            "rotation": [
+                                0,
+                                22.5,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                1.7091,
+                                6.429,
+                                -2.408
+                            ],
+                            "size": [
+                                3.5318,
+                                3.5318,
+                                3.5318
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                3.4749,
+                                8.1949,
+                                -0.6422
+                            ],
+                            "rotation": [
+                                -22.5,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                1.7091,
+                                6.429,
+                                -2.408
+                            ],
+                            "size": [
+                                3.5318,
+                                3.5318,
+                                3.5318
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "items_on_alchemy_table"
+                                }
+                            },
+                            "pivot": [
+                                3.4749,
+                                8.1949,
+                                -0.6422
+                            ],
+                            "rotation": [
+                                -22.5,
+                                0,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

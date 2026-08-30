@@ -1,0 +1,122 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:life_mushroom_stem_block",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stone"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:life_mushroom_stem_block.name",
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block",
+                "uv_lock": true
+            },
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "confluence:life_mushroom_stem_block_top",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "confluence:life_mushroom_stem_block_top",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "confluence:life_mushroom_stem_block_side",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:wooden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.15
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:stone_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.075
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:copper_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.06
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:golden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.025
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:iron_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.05
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:diamond_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.038
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_axe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.033
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.2
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#dca675",
+            "minecraft:tags": [
+                "confluence:axe",
+                "minecraft:is_hatchet_item_destructible"
+            ]
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east' || q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            90
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:orichalcum_drill",
+            "menu_category": {
+                "category": "equipment",
+                "group": "confluence:itemGroup.name.drill"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:orichalcum_drill"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:orichalcum_drill.name"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:damage": 18,
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "confluence:orichalcum_ingot"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 16
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_pickaxe",
+                    "confluence:is_tool",
+                    "confluence:tool_level_7",
+                    "minecraft:netherite_tier"
+                ]
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('confluence:pickaxe') && !q.any_tag('confluence:level_8','confluence:level_9')"
+                        },
+                        "speed": 34
+                    },
+                    {
+                        "block": {
+                            "tags": "!q.any_tag('confluence:pickaxe','confluence:axe','confluence:hammer','confluence:shovel','confluence:hoe') && q.any_tag('stone','metal','is_pickaxe_item_destructible','minecraft:is_pickaxe_item_destructible','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable')"
+                        },
+                        "speed": 34
+                    }
+                ]
+            }
+        }
+    }
+}

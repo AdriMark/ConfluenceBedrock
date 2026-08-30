@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:meteorite_ingot_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:meteorite_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:meteorite_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:meteorite_ingot",
+            "count": 9
+        }
+    }
+}

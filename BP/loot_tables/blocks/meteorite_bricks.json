@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_any": [
+                        "confluence:is_hammer",
+                        "minecraft:is_pickaxe"
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "confluence:meteorite_bricks",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:adamantite_chainsaw",
+            "menu_category": {
+                "category": "equipment",
+                "group": "confluence:itemGroup.name.chainsaw"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:adamantite_chainsaw"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:adamantite_chainsaw.name"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:damage": 25,
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "confluence:adamantite_ingot"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "slot": "axe",
+                "value": 17
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_axe",
+                    "confluence:is_tool",
+                    "confluence:tool_level_7",
+                    "minecraft:netherite_tier"
+                ]
+            },
+            "confluence:stripper": {},
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('confluence:axe') && !q.any_tag('confluence:level_8','confluence:level_9')"
+                        },
+                        "speed": 35
+                    },
+                    {
+                        "block": {
+                            "tags": "!q.any_tag('confluence:pickaxe','confluence:axe','confluence:hammer','confluence:shovel','confluence:hoe') && q.any_tag('wood','is_hatchet_item_destructible','minecraft:is_hatchet_item_destructible')"
+                        },
+                        "speed": 35
+                    }
+                ]
+            }
+        }
+    }
+}

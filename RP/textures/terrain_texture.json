@@ -1,0 +1,2687 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "ConfluenceBedrock",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"confluence:a_statue": {
+			"textures": "textures/blocks/confluence/a_statue"
+		},
+		"confluence:adamantite_forge": {
+			"textures": "textures/blocks/confluence/adamantite_forge"
+		},
+		"confluence_adamantite_forge_flame": {
+			"textures": "textures/blocks/confluence/adamantite_forge_flame"
+		},
+		"confluence:aetherium_block": {
+			"textures": "textures/blocks/confluence/aetherium_block"
+		},
+		"confluence:aetherium_bricks": {
+			"textures": "textures/blocks/confluence/aetherium_bricks"
+		},
+		"confluence:alchemy_table": {
+			"textures": "textures/blocks/confluence/alchemy_table"
+		},
+		"confluence:amber_block": {
+			"textures": "textures/blocks/confluence/amber_block"
+		},
+		"confluence:amber_branches": {
+			"textures": "textures/blocks/confluence/amber_branches"
+		},
+		"confluence:amber_chain": {
+			"textures": "textures/blocks/confluence/amber_chain"
+		},
+		"confluence:amber_ore": {
+			"textures": "textures/blocks/confluence/amber_ore"
+		},
+		"confluence:amber_sapling": {
+			"textures": "textures/blocks/confluence/amber_sapling"
+		},
+		"confluence:amethyst_block": {
+			"textures": "textures/blocks/confluence/amethyst_block"
+		},
+		"confluence:amethyst_branches": {
+			"textures": "textures/blocks/confluence/amethyst_branches"
+		},
+		"confluence:amethyst_chain": {
+			"textures": "textures/blocks/confluence/amethyst_chain"
+		},
+		"confluence:amethyst_ore": {
+			"textures": "textures/blocks/confluence/amethyst_ore"
+		},
+		"confluence:amethyst_sapling": {
+			"textures": "textures/blocks/confluence/amethyst_sapling"
+		},
+		"confluence:ammo_box": {
+			"textures": "textures/blocks/confluence/ammo_box"
+		},
+		"confluence:andesite_casing": {
+			"textures": "textures/blocks/confluence/andesite_casing"
+		},
+		"confluence:anvil_statue": {
+			"textures": "textures/blocks/confluence/anvil_statue"
+		},
+		"confluence:anvil_statue_r270": {
+			"textures": "textures/blocks/confluence/anvil_statue_r270"
+		},
+		"confluence:anvil_statue_r90": {
+			"textures": "textures/blocks/confluence/anvil_statue_r90"
+		},
+		"confluence:arrow_r270": {
+			"textures": "textures/blocks/confluence/arrow_r270"
+		},
+		"confluence:arrow_r90": {
+			"textures": "textures/blocks/confluence/arrow_r90"
+		},
+		"confluence:ash_block": {
+			"textures": "textures/blocks/confluence/ash_block"
+		},
+		"confluence:ash_grass": {
+			"textures": "textures/blocks/confluence/ash_grass"
+		},
+		"confluence:ash_grass_0": {
+			"textures": "textures/blocks/confluence/ash_grass_0"
+		},
+		"confluence:ash_grass_block_side": {
+			"textures": "textures/blocks/confluence/ash_grass_block_side"
+		},
+		"confluence:ash_grass_block_top": {
+			"textures": "textures/blocks/confluence/ash_grass_block_top"
+		},
+		"confluence:ash_hellstone": {
+			"textures": "textures/blocks/confluence/ash_hellstone"
+		},
+		"confluence:ash_log_end": {
+			"textures": "textures/blocks/confluence/ash_log_end"
+		},
+		"confluence:ash_log_side": {
+			"textures": "textures/blocks/confluence/ash_log_side"
+		},
+		"confluence:ash_path_side": {
+			"textures": "textures/blocks/confluence/ash_path_side"
+		},
+		"confluence:ash_path_top": {
+			"textures": "textures/blocks/confluence/ash_path_top"
+		},
+		"confluence:ash_planks": {
+			"textures": "textures/blocks/confluence/ash_planks"
+		},
+		"confluence:ash_trapdoor": {
+			"textures": "textures/blocks/confluence/ash_trapdoor"
+		},
+		"confluence:asphalt_block": {
+			"textures": "textures/blocks/confluence/asphalt_block"
+		},
+		"confluence:azure_crate": {
+			"textures": "textures/blocks/confluence/azure_crate"
+		},
+		"confluence:b_statue": {
+			"textures": "textures/blocks/confluence/b_statue"
+		},
+		"confluence:baobab_leaves": {
+			"textures": "textures/blocks/confluence/baobab_leaves"
+		},
+		"confluence:baobab_log_end": {
+			"textures": "textures/blocks/confluence/baobab_log_end"
+		},
+		"confluence:baobab_log_side": {
+			"textures": "textures/blocks/confluence/baobab_log_side"
+		},
+		"confluence:baobab_planks": {
+			"textures": "textures/blocks/confluence/baobab_planks"
+		},
+		"confluence:baobab_trapdoor": {
+			"textures": "textures/blocks/confluence/baobab_trapdoor"
+		},
+		"confluence:bewitching_table": {
+			"textures": "textures/blocks/confluence/bewitching_table"
+		},
+		"confluence:big_desert_plant": {
+			"textures": "textures/blocks/confluence/big_desert_plant"
+		},
+		"confluence:black_pure_glass": {
+			"textures": "textures/blocks/confluence/black_pure_glass"
+		},
+		"confluence:black_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/black_pure_glass_connected"
+		},
+		"confluence:blinking_royal_shimmerlily": {
+			"textures": "textures/blocks/confluence/blinking_royal_shimmerlily"
+		},
+		"confluence:blinkroot_stage1": {
+			"textures": "textures/blocks/confluence/blinkroot_stage1"
+		},
+		"confluence:blue_brick": {
+			"textures": "textures/blocks/confluence/blue_brick"
+		},
+		"confluence:blue_brick_column_end": {
+			"textures": "textures/blocks/confluence/blue_brick_column_end"
+		},
+		"confluence:blue_brick_column_side": {
+			"textures": "textures/blocks/confluence/blue_brick_column_side"
+		},
+		"confluence:blue_bricks": {
+			"textures": "textures/blocks/confluence/blue_bricks"
+		},
+		"confluence:blue_gel_block": {
+			"textures": "textures/blocks/confluence/blue_gel_block"
+		},
+		"confluence:blue_ice_bricks": {
+			"textures": "textures/blocks/confluence/blue_ice_bricks"
+		},
+		"confluence:blue_pure_glass": {
+			"textures": "textures/blocks/confluence/blue_pure_glass"
+		},
+		"confluence:blue_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/blue_pure_glass_connected"
+		},
+		"confluence:bone_chain": {
+			"textures": "textures/blocks/confluence/bone_chain"
+		},
+		"confluence:boreal_crate_bottom": {
+			"textures": "textures/blocks/confluence/boreal_crate_bottom"
+		},
+		"confluence:boreal_crate_side": {
+			"textures": "textures/blocks/confluence/boreal_crate_side"
+		},
+		"confluence:boreal_crate_top": {
+			"textures": "textures/blocks/confluence/boreal_crate_top"
+		},
+		"confluence:boulder_bread_block": {
+			"textures": "textures/blocks/confluence/boulder_bread_block"
+		},
+		"confluence:bouncy_cloud_block": {
+			"textures": "textures/blocks/confluence/bouncy_cloud_block"
+		},
+		"confluence:bramble_crate_end": {
+			"textures": "textures/blocks/confluence/bramble_crate_end"
+		},
+		"confluence:bramble_crate_side": {
+			"textures": "textures/blocks/confluence/bramble_crate_side"
+		},
+		"confluence:brown_pure_glass": {
+			"textures": "textures/blocks/confluence/brown_pure_glass"
+		},
+		"confluence:brown_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/brown_pure_glass_connected"
+		},
+		"confluence:c_statue": {
+			"textures": "textures/blocks/confluence/c_statue"
+		},
+		"confluence_campfire_fire": {
+			"textures": "textures/blocks/confluence/campfire_fire"
+		},
+		"confluence:candle": {
+			"textures": "textures/blocks/confluence/candle"
+		},
+		"confluence:candle_r90": {
+			"textures": "textures/blocks/confluence/candle_r90"
+		},
+		"confluence:cattails_body": {
+			"textures": "textures/blocks/confluence/cattails_body"
+		},
+		"confluence:cauldron": {
+			"textures": "textures/blocks/confluence/cauldron"
+		},
+		"confluence:cauldron_bottom": {
+			"textures": "textures/blocks/confluence/cauldron_bottom"
+		},
+		"confluence:cauldron_inner": {
+			"textures": "textures/blocks/confluence/cauldron_inner"
+		},
+		"confluence:cauldron_side": {
+			"textures": "textures/blocks/confluence/cauldron_side"
+		},
+		"confluence:cauldron_top": {
+			"textures": "textures/blocks/confluence/cauldron_top"
+		},
+		"confluence:chain": {
+			"textures": "textures/blocks/confluence/chain"
+		},
+		"confluence:chain_amber_chain": {
+			"textures": "textures/blocks/confluence/chain_amber_chain"
+		},
+		"confluence:chain_amethyst_chain": {
+			"textures": "textures/blocks/confluence/chain_amethyst_chain"
+		},
+		"confluence:chain_bone_chain": {
+			"textures": "textures/blocks/confluence/chain_bone_chain"
+		},
+		"confluence:chain_diamond_chain": {
+			"textures": "textures/blocks/confluence/chain_diamond_chain"
+		},
+		"confluence:chain_jade_chain": {
+			"textures": "textures/blocks/confluence/chain_jade_chain"
+		},
+		"confluence:chain_ruby_chain": {
+			"textures": "textures/blocks/confluence/chain_ruby_chain"
+		},
+		"confluence:chain_sapphire_chain": {
+			"textures": "textures/blocks/confluence/chain_sapphire_chain"
+		},
+		"confluence:chain_silk_chain": {
+			"textures": "textures/blocks/confluence/chain_silk_chain"
+		},
+		"confluence:chain_topaz_chain": {
+			"textures": "textures/blocks/confluence/chain_topaz_chain"
+		},
+		"confluence:chipped_lead_anvil_top": {
+			"textures": "textures/blocks/confluence/chipped_lead_anvil_top"
+		},
+		"confluence:chiseled_ash_planks": {
+			"textures": "textures/blocks/confluence/chiseled_ash_planks"
+		},
+		"confluence:chiseled_baobab_planks": {
+			"textures": "textures/blocks/confluence/chiseled_baobab_planks"
+		},
+		"confluence:chiseled_blue_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_blue_bricks"
+		},
+		"confluence:chiseled_copper_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_copper_bricks"
+		},
+		"confluence:chiseled_dynasty_planks": {
+			"textures": "textures/blocks/confluence/chiseled_dynasty_planks"
+		},
+		"confluence:chiseled_ebony_planks": {
+			"textures": "textures/blocks/confluence/chiseled_ebony_planks"
+		},
+		"confluence:chiseled_fey_planks": {
+			"textures": "textures/blocks/confluence/chiseled_fey_planks"
+		},
+		"confluence:chiseled_golden_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_golden_bricks"
+		},
+		"confluence:chiseled_granite_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_granite_bricks"
+		},
+		"confluence:chiseled_green_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_green_bricks"
+		},
+		"confluence:chiseled_iron_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_iron_bricks"
+		},
+		"confluence:chiseled_lead_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_lead_bricks"
+		},
+		"confluence:chiseled_living_mahogany_planks": {
+			"textures": "textures/blocks/confluence/chiseled_living_mahogany_planks"
+		},
+		"confluence:chiseled_living_planks": {
+			"textures": "textures/blocks/confluence/chiseled_living_planks"
+		},
+		"confluence:chiseled_marble_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_marble_bricks"
+		},
+		"confluence:chiseled_oak_planks": {
+			"textures": "textures/blocks/confluence/chiseled_oak_planks"
+		},
+		"confluence:chiseled_obsidian_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_obsidian_bricks"
+		},
+		"confluence:chiseled_palm_planks": {
+			"textures": "textures/blocks/confluence/chiseled_palm_planks"
+		},
+		"confluence:chiseled_pearl_planks": {
+			"textures": "textures/blocks/confluence/chiseled_pearl_planks"
+		},
+		"confluence:chiseled_pine_planks": {
+			"textures": "textures/blocks/confluence/chiseled_pine_planks"
+		},
+		"confluence:chiseled_pink_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_pink_bricks"
+		},
+		"confluence:chiseled_platinum_bricks_end": {
+			"textures": "textures/blocks/confluence/chiseled_platinum_bricks_end"
+		},
+		"confluence:chiseled_platinum_bricks_side": {
+			"textures": "textures/blocks/confluence/chiseled_platinum_bricks_side"
+		},
+		"confluence:chiseled_shadow_planks": {
+			"textures": "textures/blocks/confluence/chiseled_shadow_planks"
+		},
+		"confluence:chiseled_silver_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_silver_bricks"
+		},
+		"confluence:chiseled_spruce_planks_side": {
+			"textures": "textures/blocks/confluence/chiseled_spruce_planks_side"
+		},
+		"confluence:chiseled_spruce_planks_top": {
+			"textures": "textures/blocks/confluence/chiseled_spruce_planks_top"
+		},
+		"confluence:chiseled_tin_bricks": {
+			"textures": "textures/blocks/confluence/chiseled_tin_bricks"
+		},
+		"confluence:chiseled_tungsten_bricks_side": {
+			"textures": "textures/blocks/confluence/chiseled_tungsten_bricks_side"
+		},
+		"confluence:chiseled_yellow_willow_planks": {
+			"textures": "textures/blocks/confluence/chiseled_yellow_willow_planks"
+		},
+		"confluence:chlorophyte_ore": {
+			"textures": "textures/blocks/confluence/chlorophyte_ore"
+		},
+		"confluence:christmas_pine_door": {
+			"textures": "textures/blocks/confluence/christmas_pine_door"
+		},
+		"confluence:christmas_pine_door_bottom": {
+			"textures": "textures/blocks/confluence/christmas_pine_door_bottom"
+		},
+		"confluence:christmas_pine_door_bottom_r90": {
+			"textures": "textures/blocks/confluence/christmas_pine_door_bottom_r90"
+		},
+		"confluence:christmas_pine_door_top": {
+			"textures": "textures/blocks/confluence/christmas_pine_door_top"
+		},
+		"confluence:christmas_pine_door_top_r270": {
+			"textures": "textures/blocks/confluence/christmas_pine_door_top_r270"
+		},
+		"confluence:christmas_pine_door_top_r90": {
+			"textures": "textures/blocks/confluence/christmas_pine_door_top_r90"
+		},
+		"confluence:christmas_pine_trapdoor": {
+			"textures": "textures/blocks/confluence/christmas_pine_trapdoor"
+		},
+		"confluence:cloud_block": {
+			"textures": "textures/blocks/confluence/cloud_block"
+		},
+		"confluence:cloudweaver_stage0": {
+			"textures": "textures/blocks/confluence/cloudweaver_stage0"
+		},
+		"confluence:cobbled_crimstone": {
+			"textures": "textures/blocks/confluence/cobbled_crimstone"
+		},
+		"confluence:cobbled_ebonstone": {
+			"textures": "textures/blocks/confluence/cobbled_ebonstone"
+		},
+		"confluence:cobbled_pearlstone": {
+			"textures": "textures/blocks/confluence/cobbled_pearlstone"
+		},
+		"confluence:cobblestone": {
+			"textures": "textures/blocks/confluence/cobblestone"
+		},
+		"confluence:cold_crystal_block": {
+			"textures": "textures/blocks/confluence/cold_crystal_block"
+		},
+		"confluence:cold_crystal_ore": {
+			"textures": "textures/blocks/confluence/cold_crystal_ore"
+		},
+		"confluence_colored_wool": {
+			"textures": "textures/blocks/confluence/colored_wool"
+		},
+		"confluence:cooking_pot": {
+			"textures": "textures/blocks/confluence/cooking_pot"
+		},
+		"confluence:copper_bricks": {
+			"textures": "textures/blocks/confluence/copper_bricks"
+		},
+		"confluence:copper_coin": {
+			"textures": "textures/blocks/confluence/copper_coin"
+		},
+		"confluence:copper_coins": {
+			"textures": "textures/blocks/confluence/copper_coins"
+		},
+		"confluence:copper_coins_r270": {
+			"textures": "textures/blocks/confluence/copper_coins_r270"
+		},
+		"confluence:copper_coins_r90": {
+			"textures": "textures/blocks/confluence/copper_coins_r90"
+		},
+		"confluence:copper_tiles": {
+			"textures": "textures/blocks/confluence/copper_tiles"
+		},
+		"confluence:corrupt_cactus_bottom": {
+			"textures": "textures/blocks/confluence/corrupt_cactus_bottom"
+		},
+		"confluence:corrupt_cactus_side": {
+			"textures": "textures/blocks/confluence/corrupt_cactus_side"
+		},
+		"confluence:corrupt_cactus_top": {
+			"textures": "textures/blocks/confluence/corrupt_cactus_top"
+		},
+		"confluence:corrupt_crate": {
+			"textures": "textures/blocks/confluence/corrupt_crate"
+		},
+		"confluence:corrupt_drooping_vine": {
+			"textures": "textures/blocks/confluence/corrupt_drooping_vine"
+		},
+		"confluence:corrupt_drooping_vine_1": {
+			"textures": "textures/blocks/confluence/corrupt_drooping_vine_1"
+		},
+		"confluence:corrupt_grass": {
+			"textures": "textures/blocks/confluence/corrupt_grass"
+		},
+		"confluence:corrupt_grass_0": {
+			"textures": "textures/blocks/confluence/corrupt_grass_0"
+		},
+		"confluence:corrupt_grass_block_side": {
+			"textures": "textures/blocks/confluence/corrupt_grass_block_side"
+		},
+		"confluence:corrupt_grass_block_top": {
+			"textures": "textures/blocks/confluence/corrupt_grass_block_top"
+		},
+		"confluence:corrupt_jungle_grass_block": {
+			"textures": "textures/blocks/confluence/corrupt_jungle_grass_block"
+		},
+		"confluence:corrupt_tapered_block_base": {
+			"textures": "textures/blocks/confluence/corrupt_tapered_block_base"
+		},
+		"confluence:corrupt_tapered_block_tip_single": {
+			"textures": "textures/blocks/confluence/corrupt_tapered_block_tip_single"
+		},
+		"confluence:corruption_amber_ore": {
+			"textures": "textures/blocks/confluence/corruption_amber_ore"
+		},
+		"confluence:corruption_amethyst_ore": {
+			"textures": "textures/blocks/confluence/corruption_amethyst_ore"
+		},
+		"confluence:corruption_coal_ore": {
+			"textures": "textures/blocks/confluence/corruption_coal_ore"
+		},
+		"confluence:corruption_copper_ore": {
+			"textures": "textures/blocks/confluence/corruption_copper_ore"
+		},
+		"confluence:corruption_crimtane_ore": {
+			"textures": "textures/blocks/confluence/corruption_crimtane_ore"
+		},
+		"confluence:corruption_demonite_ore": {
+			"textures": "textures/blocks/confluence/corruption_demonite_ore"
+		},
+		"confluence:corruption_diamond_ore": {
+			"textures": "textures/blocks/confluence/corruption_diamond_ore"
+		},
+		"confluence:corruption_emerald_ore": {
+			"textures": "textures/blocks/confluence/corruption_emerald_ore"
+		},
+		"confluence:corruption_gold_ore": {
+			"textures": "textures/blocks/confluence/corruption_gold_ore"
+		},
+		"confluence:corruption_iron_ore": {
+			"textures": "textures/blocks/confluence/corruption_iron_ore"
+		},
+		"confluence:corruption_jade_ore": {
+			"textures": "textures/blocks/confluence/corruption_jade_ore"
+		},
+		"confluence:corruption_lapis_ore": {
+			"textures": "textures/blocks/confluence/corruption_lapis_ore"
+		},
+		"confluence:corruption_lead_ore": {
+			"textures": "textures/blocks/confluence/corruption_lead_ore"
+		},
+		"confluence:corruption_platinum_ore": {
+			"textures": "textures/blocks/confluence/corruption_platinum_ore"
+		},
+		"confluence:corruption_pot": {
+			"textures": "textures/blocks/confluence/corruption_pot"
+		},
+		"confluence:corruption_redstone_ore": {
+			"textures": "textures/blocks/confluence/corruption_redstone_ore"
+		},
+		"confluence:corruption_ruby_ore": {
+			"textures": "textures/blocks/confluence/corruption_ruby_ore"
+		},
+		"confluence:corruption_sapphire_ore": {
+			"textures": "textures/blocks/confluence/corruption_sapphire_ore"
+		},
+		"confluence:corruption_silver_ore": {
+			"textures": "textures/blocks/confluence/corruption_silver_ore"
+		},
+		"confluence:corruption_thorn_center": {
+			"textures": "textures/blocks/confluence/corruption_thorn_center"
+		},
+		"confluence:corruption_thorn_center_r270": {
+			"textures": "textures/blocks/confluence/corruption_thorn_center_r270"
+		},
+		"confluence:corruption_thorn_center_r90": {
+			"textures": "textures/blocks/confluence/corruption_thorn_center_r90"
+		},
+		"confluence:corruption_tin_ore": {
+			"textures": "textures/blocks/confluence/corruption_tin_ore"
+		},
+		"confluence:corruption_topaz_ore": {
+			"textures": "textures/blocks/confluence/corruption_topaz_ore"
+		},
+		"confluence:corruption_tungsten_ore": {
+			"textures": "textures/blocks/confluence/corruption_tungsten_ore"
+		},
+		"confluence:cracked_blue_bricks": {
+			"textures": "textures/blocks/confluence/cracked_blue_bricks"
+		},
+		"confluence:cracked_granite_bricks": {
+			"textures": "textures/blocks/confluence/cracked_granite_bricks"
+		},
+		"confluence:cracked_green_bricks": {
+			"textures": "textures/blocks/confluence/cracked_green_bricks"
+		},
+		"confluence:cracked_marble_bricks": {
+			"textures": "textures/blocks/confluence/cracked_marble_bricks"
+		},
+		"confluence:cracked_pink_bricks": {
+			"textures": "textures/blocks/confluence/cracked_pink_bricks"
+		},
+		"confluence:crimsand": {
+			"textures": "textures/blocks/confluence/crimsand"
+		},
+		"confluence:crimsandstone": {
+			"textures": "textures/blocks/confluence/crimsandstone"
+		},
+		"confluence:crimsandstone_top": {
+			"textures": "textures/blocks/confluence/crimsandstone_top"
+		},
+		"confluence:crimson_altar": {
+			"textures": "textures/blocks/confluence/crimson_altar"
+		},
+		"confluence:crimson_cactus_bottom": {
+			"textures": "textures/blocks/confluence/crimson_cactus_bottom"
+		},
+		"confluence:crimson_cactus_side": {
+			"textures": "textures/blocks/confluence/crimson_cactus_side"
+		},
+		"confluence:crimson_cactus_top": {
+			"textures": "textures/blocks/confluence/crimson_cactus_top"
+		},
+		"confluence:crimson_cattails_body": {
+			"textures": "textures/blocks/confluence/crimson_cattails_body"
+		},
+		"confluence:crimson_crate": {
+			"textures": "textures/blocks/confluence/crimson_crate"
+		},
+		"confluence:crimson_drooping_vine": {
+			"textures": "textures/blocks/confluence/crimson_drooping_vine"
+		},
+		"confluence:crimson_drooping_vine_1": {
+			"textures": "textures/blocks/confluence/crimson_drooping_vine_1"
+		},
+		"confluence:crimson_grass": {
+			"textures": "textures/blocks/confluence/crimson_grass"
+		},
+		"confluence:crimson_grass_0": {
+			"textures": "textures/blocks/confluence/crimson_grass_0"
+		},
+		"confluence:crimson_grass_block_side": {
+			"textures": "textures/blocks/confluence/crimson_grass_block_side"
+		},
+		"confluence:crimson_grass_block_top": {
+			"textures": "textures/blocks/confluence/crimson_grass_block_top"
+		},
+		"confluence:crimson_heart": {
+			"textures": "textures/blocks/confluence/crimson_heart"
+		},
+		"confluence:crimson_heart_1": {
+			"textures": "textures/blocks/confluence/crimson_heart_1"
+		},
+		"confluence:crimson_heart_r90": {
+			"textures": "textures/blocks/confluence/crimson_heart_r90"
+		},
+		"confluence:crimson_heart_tile": {
+			"textures": "textures/blocks/confluence/crimson_heart_tile"
+		},
+		"confluence:crimson_jungle_grass_block": {
+			"textures": "textures/blocks/confluence/crimson_jungle_grass_block"
+		},
+		"confluence:crimson_pot_0": {
+			"textures": "textures/blocks/confluence/crimson_pot_0"
+		},
+		"confluence:crimson_tapered_block_base": {
+			"textures": "textures/blocks/confluence/crimson_tapered_block_base"
+		},
+		"confluence:crimson_tapered_block_tip_single": {
+			"textures": "textures/blocks/confluence/crimson_tapered_block_tip_single"
+		},
+		"confluence:crimson_thorn_center": {
+			"textures": "textures/blocks/confluence/crimson_thorn_center"
+		},
+		"confluence:crimson_thorn_center_r270": {
+			"textures": "textures/blocks/confluence/crimson_thorn_center_r270"
+		},
+		"confluence:crimson_thorn_center_r90": {
+			"textures": "textures/blocks/confluence/crimson_thorn_center_r90"
+		},
+		"confluence:crimstone": {
+			"textures": "textures/blocks/confluence/crimstone"
+		},
+		"confluence:crimstone_bricks": {
+			"textures": "textures/blocks/confluence/crimstone_bricks"
+		},
+		"confluence:crimtane_block": {
+			"textures": "textures/blocks/confluence/crimtane_block"
+		},
+		"confluence:crimtane_ore": {
+			"textures": "textures/blocks/confluence/crimtane_ore"
+		},
+		"confluence:crimtane_ore_bricks": {
+			"textures": "textures/blocks/confluence/crimtane_ore_bricks"
+		},
+		"confluence:crispy_honey_block": {
+			"textures": "textures/blocks/confluence/crispy_honey_block"
+		},
+		"confluence:cross_statue": {
+			"textures": "textures/blocks/confluence/cross_statue"
+		},
+		"confluence:crystal_ball": {
+			"textures": "textures/blocks/confluence/crystal_ball"
+		},
+		"confluence:crystal_ball_r270": {
+			"textures": "textures/blocks/confluence/crystal_ball_r270"
+		},
+		"confluence:crystal_ball_r90": {
+			"textures": "textures/blocks/confluence/crystal_ball_r90"
+		},
+		"confluence:crystal_block": {
+			"textures": "textures/blocks/confluence/crystal_block"
+		},
+		"confluence:crystal_shards_big": {
+			"textures": "textures/blocks/confluence/crystal_shards_big"
+		},
+		"confluence_cursed_flame_block_0": {
+			"textures": "textures/blocks/confluence/cursed_flame_block_0"
+		},
+		"confluence:cyan_pure_glass": {
+			"textures": "textures/blocks/confluence/cyan_pure_glass"
+		},
+		"confluence:cyan_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/cyan_pure_glass_connected"
+		},
+		"confluence:d_statue": {
+			"textures": "textures/blocks/confluence/d_statue"
+		},
+		"confluence:damaged_lead_anvil_top": {
+			"textures": "textures/blocks/confluence/damaged_lead_anvil_top"
+		},
+		"confluence:dark_aetherium_block": {
+			"textures": "textures/blocks/confluence/dark_aetherium_block"
+		},
+		"confluence:daybloom_stage1": {
+			"textures": "textures/blocks/confluence/daybloom_stage1"
+		},
+		"confluence:deathweed_stage1": {
+			"textures": "textures/blocks/confluence/deathweed_stage1"
+		},
+		"confluence:deepslate": {
+			"textures": "textures/blocks/confluence/deepslate"
+		},
+		"confluence:deepslate_adamantite_ore": {
+			"textures": "textures/blocks/confluence/deepslate_adamantite_ore"
+		},
+		"confluence:deepslate_amethyst_ore": {
+			"textures": "textures/blocks/confluence/deepslate_amethyst_ore"
+		},
+		"confluence:deepslate_cobalt_ore": {
+			"textures": "textures/blocks/confluence/deepslate_cobalt_ore"
+		},
+		"confluence:deepslate_crimtane_ore": {
+			"textures": "textures/blocks/confluence/deepslate_crimtane_ore"
+		},
+		"confluence:deepslate_demonite_ore": {
+			"textures": "textures/blocks/confluence/deepslate_demonite_ore"
+		},
+		"confluence:deepslate_jade_ore": {
+			"textures": "textures/blocks/confluence/deepslate_jade_ore"
+		},
+		"confluence:deepslate_lead_ore": {
+			"textures": "textures/blocks/confluence/deepslate_lead_ore"
+		},
+		"confluence:deepslate_mythril_ore": {
+			"textures": "textures/blocks/confluence/deepslate_mythril_ore"
+		},
+		"confluence:deepslate_orichalcum_ore": {
+			"textures": "textures/blocks/confluence/deepslate_orichalcum_ore"
+		},
+		"confluence:deepslate_palladium_ore": {
+			"textures": "textures/blocks/confluence/deepslate_palladium_ore"
+		},
+		"confluence:deepslate_platinum_ore": {
+			"textures": "textures/blocks/confluence/deepslate_platinum_ore"
+		},
+		"confluence:deepslate_ruby_ore": {
+			"textures": "textures/blocks/confluence/deepslate_ruby_ore"
+		},
+		"confluence:deepslate_sapphire_ore": {
+			"textures": "textures/blocks/confluence/deepslate_sapphire_ore"
+		},
+		"confluence:deepslate_silver_ore": {
+			"textures": "textures/blocks/confluence/deepslate_silver_ore"
+		},
+		"confluence:deepslate_tin_ore": {
+			"textures": "textures/blocks/confluence/deepslate_tin_ore"
+		},
+		"confluence:deepslate_titanium_ore": {
+			"textures": "textures/blocks/confluence/deepslate_titanium_ore"
+		},
+		"confluence:deepslate_top": {
+			"textures": "textures/blocks/confluence/deepslate_top"
+		},
+		"confluence:deepslate_topaz_ore": {
+			"textures": "textures/blocks/confluence/deepslate_topaz_ore"
+		},
+		"confluence:deepslate_tungsten_ore": {
+			"textures": "textures/blocks/confluence/deepslate_tungsten_ore"
+		},
+		"confluence:defiled_crate": {
+			"textures": "textures/blocks/confluence/defiled_crate"
+		},
+		"confluence:demon_altar": {
+			"textures": "textures/blocks/confluence/demon_altar"
+		},
+		"confluence:demonite_block": {
+			"textures": "textures/blocks/confluence/demonite_block"
+		},
+		"confluence:demonite_ore": {
+			"textures": "textures/blocks/confluence/demonite_ore"
+		},
+		"confluence:demonite_ore_bricks": {
+			"textures": "textures/blocks/confluence/demonite_ore_bricks"
+		},
+		"confluence:desert_fossil": {
+			"textures": "textures/blocks/confluence/desert_fossil"
+		},
+		"confluence:desert_grass": {
+			"textures": "textures/blocks/confluence/desert_grass"
+		},
+		"confluence:desert_tall_grass_bottom": {
+			"textures": "textures/blocks/confluence/desert_tall_grass_bottom"
+		},
+		"confluence:desert_tall_grass_top": {
+			"textures": "textures/blocks/confluence/desert_tall_grass_top"
+		},
+		"confluence:desert_tapered_block_base": {
+			"textures": "textures/blocks/confluence/desert_tapered_block_base"
+		},
+		"confluence:desert_tapered_block_tip_single": {
+			"textures": "textures/blocks/confluence/desert_tapered_block_tip_single"
+		},
+		"confluence:diamond_branches": {
+			"textures": "textures/blocks/confluence/diamond_branches"
+		},
+		"confluence:diamond_chain": {
+			"textures": "textures/blocks/confluence/diamond_chain"
+		},
+		"confluence:diamond_sapling": {
+			"textures": "textures/blocks/confluence/diamond_sapling"
+		},
+		"confluence:diatomaceous": {
+			"textures": "textures/blocks/confluence/diatomaceous"
+		},
+		"confluence:dirt": {
+			"textures": "textures/blocks/confluence/dirt"
+		},
+		"confluence:dirt_path_top": {
+			"textures": "textures/blocks/confluence/dirt_path_top"
+		},
+		"confluence:disc_block": {
+			"textures": "textures/blocks/confluence/disc_block"
+		},
+		"confluence:divine_crate_end": {
+			"textures": "textures/blocks/confluence/divine_crate_end"
+		},
+		"confluence:divine_crate_side": {
+			"textures": "textures/blocks/confluence/divine_crate_side"
+		},
+		"confluence:dungeon_crate_end": {
+			"textures": "textures/blocks/confluence/dungeon_crate_end"
+		},
+		"confluence:dungeon_crate_side": {
+			"textures": "textures/blocks/confluence/dungeon_crate_side"
+		},
+		"confluence:dungeon_door": {
+			"textures": "textures/blocks/confluence/dungeon_door"
+		},
+		"confluence:dungeon_door_bottom": {
+			"textures": "textures/blocks/confluence/dungeon_door_bottom"
+		},
+		"confluence:dungeon_door_bottom_r90": {
+			"textures": "textures/blocks/confluence/dungeon_door_bottom_r90"
+		},
+		"confluence:dungeon_door_top": {
+			"textures": "textures/blocks/confluence/dungeon_door_top"
+		},
+		"confluence:dungeon_door_top_r270": {
+			"textures": "textures/blocks/confluence/dungeon_door_top_r270"
+		},
+		"confluence:dungeon_door_top_r90": {
+			"textures": "textures/blocks/confluence/dungeon_door_top_r90"
+		},
+		"confluence:dungeon_pot_0": {
+			"textures": "textures/blocks/confluence/dungeon_pot_0"
+		},
+		"confluence:dye_vat": {
+			"textures": "textures/blocks/confluence/dye_vat"
+		},
+		"confluence_dye_vat_anim": {
+			"textures": "textures/blocks/confluence/dye_vat_anim"
+		},
+		"confluence:dynasty_log_end": {
+			"textures": "textures/blocks/confluence/dynasty_log_end"
+		},
+		"confluence:dynasty_log_side": {
+			"textures": "textures/blocks/confluence/dynasty_log_side"
+		},
+		"confluence:dynasty_planks": {
+			"textures": "textures/blocks/confluence/dynasty_planks"
+		},
+		"confluence:dynasty_trapdoor": {
+			"textures": "textures/blocks/confluence/dynasty_trapdoor"
+		},
+		"confluence:e_statue": {
+			"textures": "textures/blocks/confluence/e_statue"
+		},
+		"confluence:ebonsand": {
+			"textures": "textures/blocks/confluence/ebonsand"
+		},
+		"confluence:ebonsandstone": {
+			"textures": "textures/blocks/confluence/ebonsandstone"
+		},
+		"confluence:ebonsandstone_top": {
+			"textures": "textures/blocks/confluence/ebonsandstone_top"
+		},
+		"confluence:ebonstone": {
+			"textures": "textures/blocks/confluence/ebonstone"
+		},
+		"confluence:ebonstone_bricks": {
+			"textures": "textures/blocks/confluence/ebonstone_bricks"
+		},
+		"confluence:ebony_cattails_body": {
+			"textures": "textures/blocks/confluence/ebony_cattails_body"
+		},
+		"confluence:ebony_leaves": {
+			"textures": "textures/blocks/confluence/ebony_leaves"
+		},
+		"confluence:ebony_log_end": {
+			"textures": "textures/blocks/confluence/ebony_log_end"
+		},
+		"confluence:ebony_log_side": {
+			"textures": "textures/blocks/confluence/ebony_log_side"
+		},
+		"confluence:ebony_planks": {
+			"textures": "textures/blocks/confluence/ebony_planks"
+		},
+		"confluence:ebony_trapdoor": {
+			"textures": "textures/blocks/confluence/ebony_trapdoor"
+		},
+		"confluence:enchanted_blue_bricks": {
+			"textures": "textures/blocks/confluence/enchanted_blue_bricks"
+		},
+		"confluence:enchanted_sword": {
+			"textures": "textures/blocks/confluence/enchanted_sword"
+		},
+		"confluence:evaporative_cloud_block": {
+			"textures": "textures/blocks/confluence/evaporative_cloud_block"
+		},
+		"confluence:exclamation_mark_statue": {
+			"textures": "textures/blocks/confluence/exclamation_mark_statue"
+		},
+		"confluence:f_statue": {
+			"textures": "textures/blocks/confluence/f_statue"
+		},
+		"confluence:fey_log_end": {
+			"textures": "textures/blocks/confluence/fey_log_end"
+		},
+		"confluence:fey_log_side": {
+			"textures": "textures/blocks/confluence/fey_log_side"
+		},
+		"confluence:fey_planks": {
+			"textures": "textures/blocks/confluence/fey_planks"
+		},
+		"confluence:fey_trapdoor": {
+			"textures": "textures/blocks/confluence/fey_trapdoor"
+		},
+		"confluence:fireblossom_stage1": {
+			"textures": "textures/blocks/confluence/fireblossom_stage1"
+		},
+		"confluence:fleshification_amber_ore": {
+			"textures": "textures/blocks/confluence/fleshification_amber_ore"
+		},
+		"confluence:fleshification_amethyst_ore": {
+			"textures": "textures/blocks/confluence/fleshification_amethyst_ore"
+		},
+		"confluence:fleshification_coal_ore": {
+			"textures": "textures/blocks/confluence/fleshification_coal_ore"
+		},
+		"confluence:fleshification_copper_ore": {
+			"textures": "textures/blocks/confluence/fleshification_copper_ore"
+		},
+		"confluence:fleshification_crimtane_ore": {
+			"textures": "textures/blocks/confluence/fleshification_crimtane_ore"
+		},
+		"confluence:fleshification_demonite_ore": {
+			"textures": "textures/blocks/confluence/fleshification_demonite_ore"
+		},
+		"confluence:fleshification_diamond_ore": {
+			"textures": "textures/blocks/confluence/fleshification_diamond_ore"
+		},
+		"confluence:fleshification_emerald_ore": {
+			"textures": "textures/blocks/confluence/fleshification_emerald_ore"
+		},
+		"confluence:fleshification_gold_ore": {
+			"textures": "textures/blocks/confluence/fleshification_gold_ore"
+		},
+		"confluence:fleshification_iron_ore": {
+			"textures": "textures/blocks/confluence/fleshification_iron_ore"
+		},
+		"confluence:fleshification_jade_ore": {
+			"textures": "textures/blocks/confluence/fleshification_jade_ore"
+		},
+		"confluence:fleshification_lapis_ore": {
+			"textures": "textures/blocks/confluence/fleshification_lapis_ore"
+		},
+		"confluence:fleshification_lead_ore": {
+			"textures": "textures/blocks/confluence/fleshification_lead_ore"
+		},
+		"confluence:fleshification_platinum_ore": {
+			"textures": "textures/blocks/confluence/fleshification_platinum_ore"
+		},
+		"confluence:fleshification_redstone_ore": {
+			"textures": "textures/blocks/confluence/fleshification_redstone_ore"
+		},
+		"confluence:fleshification_ruby_ore": {
+			"textures": "textures/blocks/confluence/fleshification_ruby_ore"
+		},
+		"confluence:fleshification_sapphire_ore": {
+			"textures": "textures/blocks/confluence/fleshification_sapphire_ore"
+		},
+		"confluence:fleshification_silver_ore": {
+			"textures": "textures/blocks/confluence/fleshification_silver_ore"
+		},
+		"confluence:fleshification_tin_ore": {
+			"textures": "textures/blocks/confluence/fleshification_tin_ore"
+		},
+		"confluence:fleshification_topaz_ore": {
+			"textures": "textures/blocks/confluence/fleshification_topaz_ore"
+		},
+		"confluence:fleshification_tungsten_ore": {
+			"textures": "textures/blocks/confluence/fleshification_tungsten_ore"
+		},
+		"confluence:flinx_fur_block": {
+			"textures": "textures/blocks/confluence/flinx_fur_block"
+		},
+		"confluence:floating_wheat_bale_bottom": {
+			"textures": "textures/blocks/confluence/floating_wheat_bale_bottom"
+		},
+		"confluence:floating_wheat_bale_side": {
+			"textures": "textures/blocks/confluence/floating_wheat_bale_side"
+		},
+		"confluence:floating_wheat_bale_top": {
+			"textures": "textures/blocks/confluence/floating_wheat_bale_top"
+		},
+		"confluence:floating_wheat_stage0": {
+			"textures": "textures/blocks/confluence/floating_wheat_stage0"
+		},
+		"confluence:forest_drooping_vine": {
+			"textures": "textures/blocks/confluence/forest_drooping_vine"
+		},
+		"confluence:forest_drooping_vine_1": {
+			"textures": "textures/blocks/confluence/forest_drooping_vine_1"
+		},
+		"confluence:forest_pot_0": {
+			"textures": "textures/blocks/confluence/forest_pot_0"
+		},
+		"confluence:forest_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/forest_pot_bottom_0"
+		},
+		"confluence:forest_pot_top_0": {
+			"textures": "textures/blocks/confluence/forest_pot_top_0"
+		},
+		"confluence:frozen_crate_bottom": {
+			"textures": "textures/blocks/confluence/frozen_crate_bottom"
+		},
+		"confluence:frozen_crate_side": {
+			"textures": "textures/blocks/confluence/frozen_crate_side"
+		},
+		"confluence:frozen_crate_top": {
+			"textures": "textures/blocks/confluence/frozen_crate_top"
+		},
+		"confluence:frozen_gel_block": {
+			"textures": "textures/blocks/confluence/frozen_gel_block"
+		},
+		"confluence:g_statue": {
+			"textures": "textures/blocks/confluence/g_statue"
+		},
+		"confluence:gelatin_crystal": {
+			"textures": "textures/blocks/confluence/gelatin_crystal"
+		},
+		"confluence_gelatin_crystals_animation": {
+			"textures": "textures/blocks/confluence/gelatin_crystals_animation"
+		},
+		"confluence:gelstone_block": {
+			"textures": "textures/blocks/confluence/gelstone_block"
+		},
+		"confluence:gelstone_ore": {
+			"textures": "textures/blocks/confluence/gelstone_ore"
+		},
+		"confluence:gilded_marble": {
+			"textures": "textures/blocks/confluence/gilded_marble"
+		},
+		"confluence:glowing_mushroom_0": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_0"
+		},
+		"confluence:glowing_mushroom_cattails_body": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_cattails_body"
+		},
+		"confluence:glowing_mushroom_cattails_body_light": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_cattails_body_light"
+		},
+		"confluence:glowing_mushroom_indusium_block": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_indusium_block"
+		},
+		"confluence:glowing_mushroom_indusium_block_display": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_indusium_block_display"
+		},
+		"confluence:glowing_mushroom_light_0": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_light_0"
+		},
+		"confluence:glowing_mushroom_pileus_block_top": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_pileus_block_top"
+		},
+		"confluence:glowing_mushroom_planks": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_planks"
+		},
+		"confluence:glowing_mushroom_stem_block_side": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_stem_block_side"
+		},
+		"confluence:glowing_mushroom_stem_block_top": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_stem_block_top"
+		},
+		"confluence:glowing_mushroom_vine": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_vine"
+		},
+		"confluence:glowing_mushroom_vine_1": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_vine_1"
+		},
+		"confluence:glowing_mushroom_vine_light": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_vine_light"
+		},
+		"confluence:glowing_mushroom_vine_light_1": {
+			"textures": "textures/blocks/confluence/glowing_mushroom_vine_light_1"
+		},
+		"confluence:gold_coin": {
+			"textures": "textures/blocks/confluence/gold_coin"
+		},
+		"confluence:gold_coins": {
+			"textures": "textures/blocks/confluence/gold_coins"
+		},
+		"confluence:gold_coins_r270": {
+			"textures": "textures/blocks/confluence/gold_coins_r270"
+		},
+		"confluence:gold_coins_r90": {
+			"textures": "textures/blocks/confluence/gold_coins_r90"
+		},
+		"confluence:golden_bricks": {
+			"textures": "textures/blocks/confluence/golden_bricks"
+		},
+		"confluence:golden_crate": {
+			"textures": "textures/blocks/confluence/golden_crate"
+		},
+		"confluence:granite": {
+			"textures": "textures/blocks/confluence/granite"
+		},
+		"confluence:granite_bricks": {
+			"textures": "textures/blocks/confluence/granite_bricks"
+		},
+		"confluence:granite_column": {
+			"textures": "textures/blocks/confluence/granite_column"
+		},
+		"confluence:granite_tapered_block_base": {
+			"textures": "textures/blocks/confluence/granite_tapered_block_base"
+		},
+		"confluence:granite_tapered_block_tip_single": {
+			"textures": "textures/blocks/confluence/granite_tapered_block_tip_single"
+		},
+		"confluence:grass_block_side_overlay": {
+			"textures": "textures/blocks/confluence/grass_block_side_overlay"
+		},
+		"confluence:grass_block_top": {
+			"textures": "textures/blocks/confluence/grass_block_top"
+		},
+		"confluence:gravitation_trap": {
+			"textures": "textures/blocks/confluence/gravitation_trap"
+		},
+		"confluence:gray_pure_glass": {
+			"textures": "textures/blocks/confluence/gray_pure_glass"
+		},
+		"confluence:gray_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/gray_pure_glass_connected"
+		},
+		"confluence:green_brick": {
+			"textures": "textures/blocks/confluence/green_brick"
+		},
+		"confluence:green_brick_column_end": {
+			"textures": "textures/blocks/confluence/green_brick_column_end"
+		},
+		"confluence:green_brick_column_side": {
+			"textures": "textures/blocks/confluence/green_brick_column_side"
+		},
+		"confluence:green_bricks": {
+			"textures": "textures/blocks/confluence/green_bricks"
+		},
+		"confluence:green_candy_block": {
+			"textures": "textures/blocks/confluence/green_candy_block"
+		},
+		"confluence:green_dumpling": {
+			"textures": "textures/blocks/confluence/green_dumpling"
+		},
+		"confluence:green_pure_glass": {
+			"textures": "textures/blocks/confluence/green_pure_glass"
+		},
+		"confluence:green_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/green_pure_glass_connected"
+		},
+		"confluence:h_statue": {
+			"textures": "textures/blocks/confluence/h_statue"
+		},
+		"confluence:hallow_cactus_bottom": {
+			"textures": "textures/blocks/confluence/hallow_cactus_bottom"
+		},
+		"confluence:hallow_cactus_side": {
+			"textures": "textures/blocks/confluence/hallow_cactus_side"
+		},
+		"confluence:hallow_cactus_top": {
+			"textures": "textures/blocks/confluence/hallow_cactus_top"
+		},
+		"confluence:hallow_cattails_body": {
+			"textures": "textures/blocks/confluence/hallow_cattails_body"
+		},
+		"confluence:hallow_drooping_vine": {
+			"textures": "textures/blocks/confluence/hallow_drooping_vine"
+		},
+		"confluence:hallow_drooping_vine_1": {
+			"textures": "textures/blocks/confluence/hallow_drooping_vine_1"
+		},
+		"confluence:hallow_grass": {
+			"textures": "textures/blocks/confluence/hallow_grass"
+		},
+		"confluence:hallow_grass_0": {
+			"textures": "textures/blocks/confluence/hallow_grass_0"
+		},
+		"confluence:hallow_grass_block_side": {
+			"textures": "textures/blocks/confluence/hallow_grass_block_side"
+		},
+		"confluence:hallow_grass_block_top": {
+			"textures": "textures/blocks/confluence/hallow_grass_block_top"
+		},
+		"confluence:hallow_tapered_block_base": {
+			"textures": "textures/blocks/confluence/hallow_tapered_block_base"
+		},
+		"confluence:hallow_tapered_block_tip_single": {
+			"textures": "textures/blocks/confluence/hallow_tapered_block_tip_single"
+		},
+		"confluence:hallowed_crate_end": {
+			"textures": "textures/blocks/confluence/hallowed_crate_end"
+		},
+		"confluence:hallowed_crate_side": {
+			"textures": "textures/blocks/confluence/hallowed_crate_side"
+		},
+		"confluence:hanging_mycelium": {
+			"textures": "textures/blocks/confluence/hanging_mycelium"
+		},
+		"confluence:hardened_crimsand_block": {
+			"textures": "textures/blocks/confluence/hardened_crimsand_block"
+		},
+		"confluence:hardened_ebonsand_block": {
+			"textures": "textures/blocks/confluence/hardened_ebonsand_block"
+		},
+		"confluence:hardened_pearlsand_block": {
+			"textures": "textures/blocks/confluence/hardened_pearlsand_block"
+		},
+		"confluence:hardened_red_sand_block": {
+			"textures": "textures/blocks/confluence/hardened_red_sand_block"
+		},
+		"confluence:hardened_sand_block": {
+			"textures": "textures/blocks/confluence/hardened_sand_block"
+		},
+		"confluence:heart_lantern": {
+			"textures": "textures/blocks/confluence/heart_lantern"
+		},
+		"confluence:heart_lantern_item": {
+			"textures": "textures/blocks/confluence/heart_lantern_item"
+		},
+		"confluence:heavy_work_bench": {
+			"textures": "textures/blocks/confluence/heavy_work_bench"
+		},
+		"confluence:hellforge": {
+			"textures": "textures/blocks/confluence/hellforge"
+		},
+		"confluence_hellforge_lava_anim": {
+			"textures": "textures/blocks/confluence/hellforge_lava_anim"
+		},
+		"confluence_hellforge_lava_anim_r90": {
+			"textures": "textures/blocks/confluence/hellforge_lava_anim_r90"
+		},
+		"confluence:hellstone": {
+			"textures": "textures/blocks/confluence/hellstone"
+		},
+		"confluence:hellstone_block": {
+			"textures": "textures/blocks/confluence/hellstone_block"
+		},
+		"confluence:hellstone_bricks": {
+			"textures": "textures/blocks/confluence/hellstone_bricks"
+		},
+		"confluence:hellstone_crate_end": {
+			"textures": "textures/blocks/confluence/hellstone_crate_end"
+		},
+		"confluence:hellstone_crate_side": {
+			"textures": "textures/blocks/confluence/hellstone_crate_side"
+		},
+		"confluence:hematic_crate": {
+			"textures": "textures/blocks/confluence/hematic_crate"
+		},
+		"confluence:honey_block_bottom": {
+			"textures": "textures/blocks/confluence/honey_block_bottom"
+		},
+		"confluence_honey_still": {
+			"textures": "textures/blocks/confluence/honey_still"
+		},
+		"confluence:i_statue": {
+			"textures": "textures/blocks/confluence/i_statue"
+		},
+		"confluence:ice_tapered_block_base": {
+			"textures": "textures/blocks/confluence/ice_tapered_block_base"
+		},
+		"confluence:ice_tapered_block_tip_single": {
+			"textures": "textures/blocks/confluence/ice_tapered_block_tip_single"
+		},
+		"confluence:iron_bricks": {
+			"textures": "textures/blocks/confluence/iron_bricks"
+		},
+		"confluence:iron_crate": {
+			"textures": "textures/blocks/confluence/iron_crate"
+		},
+		"confluence:items_on_alchemy_table": {
+			"textures": "textures/blocks/confluence/items_on_alchemy_table"
+		},
+		"confluence:j_statue": {
+			"textures": "textures/blocks/confluence/j_statue"
+		},
+		"confluence:jade_block": {
+			"textures": "textures/blocks/confluence/jade_block"
+		},
+		"confluence:jade_branches": {
+			"textures": "textures/blocks/confluence/jade_branches"
+		},
+		"confluence:jade_chain": {
+			"textures": "textures/blocks/confluence/jade_chain"
+		},
+		"confluence:jade_ore": {
+			"textures": "textures/blocks/confluence/jade_ore"
+		},
+		"confluence:jade_sapling": {
+			"textures": "textures/blocks/confluence/jade_sapling"
+		},
+		"confluence:jungle_cattails_body": {
+			"textures": "textures/blocks/confluence/jungle_cattails_body"
+		},
+		"confluence:jungle_crate_end": {
+			"textures": "textures/blocks/confluence/jungle_crate_end"
+		},
+		"confluence:jungle_crate_side": {
+			"textures": "textures/blocks/confluence/jungle_crate_side"
+		},
+		"confluence:jungle_drooping_vine": {
+			"textures": "textures/blocks/confluence/jungle_drooping_vine"
+		},
+		"confluence:jungle_drooping_vine_1": {
+			"textures": "textures/blocks/confluence/jungle_drooping_vine_1"
+		},
+		"confluence:jungle_hive_block": {
+			"textures": "textures/blocks/confluence/jungle_hive_block"
+		},
+		"confluence:jungle_path_side": {
+			"textures": "textures/blocks/confluence/jungle_path_side"
+		},
+		"confluence:jungle_pot_0": {
+			"textures": "textures/blocks/confluence/jungle_pot_0"
+		},
+		"confluence:jungle_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/jungle_pot_bottom_0"
+		},
+		"confluence:jungle_pot_top_0": {
+			"textures": "textures/blocks/confluence/jungle_pot_top_0"
+		},
+		"confluence:jungle_rose": {
+			"textures": "textures/blocks/confluence/jungle_rose"
+		},
+		"confluence:jungle_spore_tile": {
+			"textures": "textures/blocks/confluence/jungle_spore_tile"
+		},
+		"confluence:jungle_thorn_center": {
+			"textures": "textures/blocks/confluence/jungle_thorn_center"
+		},
+		"confluence:jungle_thorn_center_r270": {
+			"textures": "textures/blocks/confluence/jungle_thorn_center_r270"
+		},
+		"confluence:jungle_thorn_center_r90": {
+			"textures": "textures/blocks/confluence/jungle_thorn_center_r90"
+		},
+		"confluence:k_statue": {
+			"textures": "textures/blocks/confluence/k_statue"
+		},
+		"confluence:keg": {
+			"textures": "textures/blocks/confluence/keg"
+		},
+		"confluence:l_statue": {
+			"textures": "textures/blocks/confluence/l_statue"
+		},
+		"confluence:larva": {
+			"textures": "textures/blocks/confluence/larva"
+		},
+		"confluence:lava_moss": {
+			"textures": "textures/blocks/confluence/lava_moss"
+		},
+		"confluence:lava_moss_up_0": {
+			"textures": "textures/blocks/confluence/lava_moss_up_0"
+		},
+		"confluence:lead_anvil": {
+			"textures": "textures/blocks/confluence/lead_anvil"
+		},
+		"confluence:lead_anvil_r270": {
+			"textures": "textures/blocks/confluence/lead_anvil_r270"
+		},
+		"confluence:lead_anvil_r90": {
+			"textures": "textures/blocks/confluence/lead_anvil_r90"
+		},
+		"confluence:lead_anvil_top": {
+			"textures": "textures/blocks/confluence/lead_anvil_top"
+		},
+		"confluence:lead_block": {
+			"textures": "textures/blocks/confluence/lead_block"
+		},
+		"confluence:lead_bricks": {
+			"textures": "textures/blocks/confluence/lead_bricks"
+		},
+		"confluence:lead_ore": {
+			"textures": "textures/blocks/confluence/lead_ore"
+		},
+		"confluence:leaves": {
+			"textures": "textures/blocks/confluence/leaves"
+		},
+		"confluence:life_campfire": {
+			"textures": "textures/blocks/confluence/life_campfire"
+		},
+		"confluence:life_campfire_log": {
+			"textures": "textures/blocks/confluence/life_campfire_log"
+		},
+		"confluence:life_campfire_log_r90": {
+			"textures": "textures/blocks/confluence/life_campfire_log_r90"
+		},
+		"confluence:life_crystal_block": {
+			"textures": "textures/blocks/confluence/life_crystal_block"
+		},
+		"confluence:life_fruit_0": {
+			"textures": "textures/blocks/confluence/life_fruit_0"
+		},
+		"confluence:life_fruit_r270": {
+			"textures": "textures/blocks/confluence/life_fruit_r270"
+		},
+		"confluence:life_fruit_r90": {
+			"textures": "textures/blocks/confluence/life_fruit_r90"
+		},
+		"confluence:life_fruit_tile": {
+			"textures": "textures/blocks/confluence/life_fruit_tile"
+		},
+		"confluence:life_mushroom": {
+			"textures": "textures/blocks/confluence/life_mushroom"
+		},
+		"confluence:life_mushroom_indusium_block": {
+			"textures": "textures/blocks/confluence/life_mushroom_indusium_block"
+		},
+		"confluence:life_mushroom_indusium_block_display": {
+			"textures": "textures/blocks/confluence/life_mushroom_indusium_block_display"
+		},
+		"confluence:life_mushroom_pileus_block_top": {
+			"textures": "textures/blocks/confluence/life_mushroom_pileus_block_top"
+		},
+		"confluence:life_mushroom_stem_block_side": {
+			"textures": "textures/blocks/confluence/life_mushroom_stem_block_side"
+		},
+		"confluence:life_mushroom_stem_block_top": {
+			"textures": "textures/blocks/confluence/life_mushroom_stem_block_top"
+		},
+		"confluence:light_blue_pure_glass": {
+			"textures": "textures/blocks/confluence/light_blue_pure_glass"
+		},
+		"confluence:light_blue_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/light_blue_pure_glass_connected"
+		},
+		"confluence:light_gray_pure_glass": {
+			"textures": "textures/blocks/confluence/light_gray_pure_glass"
+		},
+		"confluence:light_gray_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/light_gray_pure_glass_connected"
+		},
+		"confluence:lihzahrd_pot_0": {
+			"textures": "textures/blocks/confluence/lihzahrd_pot_0"
+		},
+		"confluence:lihzahrd_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/lihzahrd_pot_bottom_0"
+		},
+		"confluence:lihzahrd_pot_face_0": {
+			"textures": "textures/blocks/confluence/lihzahrd_pot_face_0"
+		},
+		"confluence:lihzahrd_pot_top_0": {
+			"textures": "textures/blocks/confluence/lihzahrd_pot_top_0"
+		},
+		"confluence:lime_pure_glass": {
+			"textures": "textures/blocks/confluence/lime_pure_glass"
+		},
+		"confluence:lime_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/lime_pure_glass_connected"
+		},
+		"confluence:living_leaves": {
+			"textures": "textures/blocks/confluence/living_leaves"
+		},
+		"confluence:living_log_end": {
+			"textures": "textures/blocks/confluence/living_log_end"
+		},
+		"confluence:living_log_side": {
+			"textures": "textures/blocks/confluence/living_log_side"
+		},
+		"confluence:living_mahogany_leaves": {
+			"textures": "textures/blocks/confluence/living_mahogany_leaves"
+		},
+		"confluence:living_mahogany_log_end": {
+			"textures": "textures/blocks/confluence/living_mahogany_log_end"
+		},
+		"confluence:living_mahogany_log_side": {
+			"textures": "textures/blocks/confluence/living_mahogany_log_side"
+		},
+		"confluence:living_mahogany_planks": {
+			"textures": "textures/blocks/confluence/living_mahogany_planks"
+		},
+		"confluence:living_mahogany_trapdoor": {
+			"textures": "textures/blocks/confluence/living_mahogany_trapdoor"
+		},
+		"confluence:living_planks": {
+			"textures": "textures/blocks/confluence/living_planks"
+		},
+		"confluence:living_trapdoor": {
+			"textures": "textures/blocks/confluence/living_trapdoor"
+		},
+		"confluence:lock_block_main": {
+			"textures": "textures/blocks/confluence/lock_block_main"
+		},
+		"confluence:lock_block_other": {
+			"textures": "textures/blocks/confluence/lock_block_other"
+		},
+		"confluence:loom": {
+			"textures": "textures/blocks/confluence/loom"
+		},
+		"confluence:lost_paper_r90": {
+			"textures": "textures/blocks/confluence/lost_paper_r90"
+		},
+		"confluence:m_statue": {
+			"textures": "textures/blocks/confluence/m_statue"
+		},
+		"confluence:magenta_pure_glass": {
+			"textures": "textures/blocks/confluence/magenta_pure_glass"
+		},
+		"confluence:magenta_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/magenta_pure_glass_connected"
+		},
+		"confluence:malachite_paper_pane": {
+			"textures": "textures/blocks/confluence/malachite_paper_pane"
+		},
+		"confluence:malachite_paper_pane_lamp": {
+			"textures": "textures/blocks/confluence/malachite_paper_pane_lamp"
+		},
+		"confluence:marble": {
+			"textures": "textures/blocks/confluence/marble"
+		},
+		"confluence:marble_bricks": {
+			"textures": "textures/blocks/confluence/marble_bricks"
+		},
+		"confluence:marble_cave_pot_0": {
+			"textures": "textures/blocks/confluence/marble_cave_pot_0"
+		},
+		"confluence:marble_cave_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/marble_cave_pot_bottom_0"
+		},
+		"confluence:marble_cave_pot_handle_0": {
+			"textures": "textures/blocks/confluence/marble_cave_pot_handle_0"
+		},
+		"confluence:marble_cave_pot_top_0": {
+			"textures": "textures/blocks/confluence/marble_cave_pot_top_0"
+		},
+		"confluence:marble_chessboard_bricks": {
+			"textures": "textures/blocks/confluence/marble_chessboard_bricks"
+		},
+		"confluence:marble_column": {
+			"textures": "textures/blocks/confluence/marble_column"
+		},
+		"confluence:marble_eternal_chessboard_bricks": {
+			"textures": "textures/blocks/confluence/marble_eternal_chessboard_bricks"
+		},
+		"confluence:marble_small_bricks": {
+			"textures": "textures/blocks/confluence/marble_small_bricks"
+		},
+		"confluence:marble_tapered_block_base": {
+			"textures": "textures/blocks/confluence/marble_tapered_block_base"
+		},
+		"confluence:marble_tapered_block_tip_single": {
+			"textures": "textures/blocks/confluence/marble_tapered_block_tip_single"
+		},
+		"confluence:marine_gravel": {
+			"textures": "textures/blocks/confluence/marine_gravel"
+		},
+		"confluence:materials_blinkroot": {
+			"textures": "textures/blocks/confluence/materials_blinkroot"
+		},
+		"confluence:materials_crystal_shards": {
+			"textures": "textures/blocks/confluence/materials_crystal_shards"
+		},
+		"confluence:materials_daybloom": {
+			"textures": "textures/blocks/confluence/materials_daybloom"
+		},
+		"confluence:materials_deathweed": {
+			"textures": "textures/blocks/confluence/materials_deathweed"
+		},
+		"confluence:materials_fireblossom": {
+			"textures": "textures/blocks/confluence/materials_fireblossom"
+		},
+		"confluence:materials_jungle_spore": {
+			"textures": "textures/blocks/confluence/materials_jungle_spore"
+		},
+		"confluence:materials_moonglow": {
+			"textures": "textures/blocks/confluence/materials_moonglow"
+		},
+		"confluence:materials_shiverthorn": {
+			"textures": "textures/blocks/confluence/materials_shiverthorn"
+		},
+		"confluence:materials_waterleaf": {
+			"textures": "textures/blocks/confluence/materials_waterleaf"
+		},
+		"confluence:meteorite_block": {
+			"textures": "textures/blocks/confluence/meteorite_block"
+		},
+		"confluence:meteorite_bricks": {
+			"textures": "textures/blocks/confluence/meteorite_bricks"
+		},
+		"confluence:meteorite_ore": {
+			"textures": "textures/blocks/confluence/meteorite_ore"
+		},
+		"confluence:mirage_crate_end": {
+			"textures": "textures/blocks/confluence/mirage_crate_end"
+		},
+		"confluence:mirage_crate_side": {
+			"textures": "textures/blocks/confluence/mirage_crate_side"
+		},
+		"confluence:moistened_crimsand_block": {
+			"textures": "textures/blocks/confluence/moistened_crimsand_block"
+		},
+		"confluence:moistened_ebonsand_block": {
+			"textures": "textures/blocks/confluence/moistened_ebonsand_block"
+		},
+		"confluence:moistened_pearlsand_block": {
+			"textures": "textures/blocks/confluence/moistened_pearlsand_block"
+		},
+		"confluence:moistened_red_sand_block_0": {
+			"textures": "textures/blocks/confluence/moistened_red_sand_block_0"
+		},
+		"confluence:moistened_sand_block_0": {
+			"textures": "textures/blocks/confluence/moistened_sand_block_0"
+		},
+		"confluence:moon_plate": {
+			"textures": "textures/blocks/confluence/moon_plate"
+		},
+		"confluence:moonglow_stage1": {
+			"textures": "textures/blocks/confluence/moonglow_stage1"
+		},
+		"confluence:mud": {
+			"textures": "textures/blocks/confluence/mud"
+		},
+		"confluence:mural_block": {
+			"textures": "textures/blocks/confluence/mural_block"
+		},
+		"confluence:mushroom_grass_block_side": {
+			"textures": "textures/blocks/confluence/mushroom_grass_block_side"
+		},
+		"confluence:mushroom_grass_block_side_mud": {
+			"textures": "textures/blocks/confluence/mushroom_grass_block_side_mud"
+		},
+		"confluence:mushroom_grass_block_top": {
+			"textures": "textures/blocks/confluence/mushroom_grass_block_top"
+		},
+		"confluence:mushroom_path_side": {
+			"textures": "textures/blocks/confluence/mushroom_path_side"
+		},
+		"confluence:mushroom_path_top": {
+			"textures": "textures/blocks/confluence/mushroom_path_top"
+		},
+		"confluence:mycelial_dirt": {
+			"textures": "textures/blocks/confluence/mycelial_dirt"
+		},
+		"confluence:mythril_anvil": {
+			"textures": "textures/blocks/confluence/mythril_anvil"
+		},
+		"confluence:mythril_crate": {
+			"textures": "textures/blocks/confluence/mythril_crate"
+		},
+		"confluence:n0_statue": {
+			"textures": "textures/blocks/confluence/n0_statue"
+		},
+		"confluence:n1_statue": {
+			"textures": "textures/blocks/confluence/n1_statue"
+		},
+		"confluence:n2_statue": {
+			"textures": "textures/blocks/confluence/n2_statue"
+		},
+		"confluence:n3_statue": {
+			"textures": "textures/blocks/confluence/n3_statue"
+		},
+		"confluence:n4_statue": {
+			"textures": "textures/blocks/confluence/n4_statue"
+		},
+		"confluence:n5_statue": {
+			"textures": "textures/blocks/confluence/n5_statue"
+		},
+		"confluence:n6_statue": {
+			"textures": "textures/blocks/confluence/n6_statue"
+		},
+		"confluence:n7_statue": {
+			"textures": "textures/blocks/confluence/n7_statue"
+		},
+		"confluence:n8_statue": {
+			"textures": "textures/blocks/confluence/n8_statue"
+		},
+		"confluence:n9_statue": {
+			"textures": "textures/blocks/confluence/n9_statue"
+		},
+		"confluence:n_statue": {
+			"textures": "textures/blocks/confluence/n_statue"
+		},
+		"confluence:natures_gift": {
+			"textures": "textures/blocks/confluence/natures_gift"
+		},
+		"confluence:natures_gift_tile": {
+			"textures": "textures/blocks/confluence/natures_gift_tile"
+		},
+		"confluence:o_statue": {
+			"textures": "textures/blocks/confluence/o_statue"
+		},
+		"confluence:oak_log": {
+			"textures": "textures/blocks/confluence/oak_log"
+		},
+		"confluence:oak_log_r270": {
+			"textures": "textures/blocks/confluence/oak_log_r270"
+		},
+		"confluence:oak_log_r90": {
+			"textures": "textures/blocks/confluence/oak_log_r90"
+		},
+		"confluence:oak_log_top": {
+			"textures": "textures/blocks/confluence/oak_log_top"
+		},
+		"confluence:oasis_crate_end": {
+			"textures": "textures/blocks/confluence/oasis_crate_end"
+		},
+		"confluence:oasis_crate_side": {
+			"textures": "textures/blocks/confluence/oasis_crate_side"
+		},
+		"confluence:obsidian_bricks": {
+			"textures": "textures/blocks/confluence/obsidian_bricks"
+		},
+		"confluence:obsidian_crate_end": {
+			"textures": "textures/blocks/confluence/obsidian_crate_end"
+		},
+		"confluence:obsidian_crate_side": {
+			"textures": "textures/blocks/confluence/obsidian_crate_side"
+		},
+		"confluence:obsidian_small_bricks": {
+			"textures": "textures/blocks/confluence/obsidian_small_bricks"
+		},
+		"confluence:ocean_crate_end": {
+			"textures": "textures/blocks/confluence/ocean_crate_end"
+		},
+		"confluence:ocean_crate_side": {
+			"textures": "textures/blocks/confluence/ocean_crate_side"
+		},
+		"confluence:opal_block": {
+			"textures": "textures/blocks/confluence/opal_block"
+		},
+		"confluence:opal_ore": {
+			"textures": "textures/blocks/confluence/opal_ore"
+		},
+		"confluence:orange_pure_glass": {
+			"textures": "textures/blocks/confluence/orange_pure_glass"
+		},
+		"confluence:orange_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/orange_pure_glass_connected"
+		},
+		"confluence:orichalcum_anvil": {
+			"textures": "textures/blocks/confluence/orichalcum_anvil"
+		},
+		"confluence:p_statue": {
+			"textures": "textures/blocks/confluence/p_statue"
+		},
+		"confluence:packed_dirt": {
+			"textures": "textures/blocks/confluence/packed_dirt"
+		},
+		"confluence:packed_ice_bricks": {
+			"textures": "textures/blocks/confluence/packed_ice_bricks"
+		},
+		"confluence:palm_leaves_side": {
+			"textures": "textures/blocks/confluence/palm_leaves_side"
+		},
+		"confluence:palm_leaves_top": {
+			"textures": "textures/blocks/confluence/palm_leaves_top"
+		},
+		"confluence:palm_log_end": {
+			"textures": "textures/blocks/confluence/palm_log_end"
+		},
+		"confluence:palm_log_side": {
+			"textures": "textures/blocks/confluence/palm_log_side"
+		},
+		"confluence:palm_planks": {
+			"textures": "textures/blocks/confluence/palm_planks"
+		},
+		"confluence:palm_trapdoor": {
+			"textures": "textures/blocks/confluence/palm_trapdoor"
+		},
+		"confluence:pearl_leaves": {
+			"textures": "textures/blocks/confluence/pearl_leaves"
+		},
+		"confluence:pearl_log_end": {
+			"textures": "textures/blocks/confluence/pearl_log_end"
+		},
+		"confluence:pearl_log_side": {
+			"textures": "textures/blocks/confluence/pearl_log_side"
+		},
+		"confluence:pearl_planks": {
+			"textures": "textures/blocks/confluence/pearl_planks"
+		},
+		"confluence:pearl_trapdoor": {
+			"textures": "textures/blocks/confluence/pearl_trapdoor"
+		},
+		"confluence:pearlsand": {
+			"textures": "textures/blocks/confluence/pearlsand"
+		},
+		"confluence:pearlsandstone": {
+			"textures": "textures/blocks/confluence/pearlsandstone"
+		},
+		"confluence:pearlsandstone_top": {
+			"textures": "textures/blocks/confluence/pearlsandstone_top"
+		},
+		"confluence:pearlstone": {
+			"textures": "textures/blocks/confluence/pearlstone"
+		},
+		"confluence:pearlstone_bricks": {
+			"textures": "textures/blocks/confluence/pearlstone_bricks"
+		},
+		"confluence:pearlwood_crate": {
+			"textures": "textures/blocks/confluence/pearlwood_crate"
+		},
+		"confluence:period_statue": {
+			"textures": "textures/blocks/confluence/period_statue"
+		},
+		"confluence:piggy_bank": {
+			"textures": "textures/blocks/confluence/piggy_bank"
+		},
+		"confluence:pine_drooping_vine_body": {
+			"textures": "textures/blocks/confluence/pine_drooping_vine_body"
+		},
+		"confluence:pine_drooping_vine_head": {
+			"textures": "textures/blocks/confluence/pine_drooping_vine_head"
+		},
+		"confluence:pine_leaves": {
+			"textures": "textures/blocks/confluence/pine_leaves"
+		},
+		"confluence:pine_log_end": {
+			"textures": "textures/blocks/confluence/pine_log_end"
+		},
+		"confluence:pine_log_side": {
+			"textures": "textures/blocks/confluence/pine_log_side"
+		},
+		"confluence:pine_needle_handmade_rope_set": {
+			"textures": "textures/blocks/confluence/pine_needle_handmade_rope_set"
+		},
+		"confluence:pine_needle_handmade_rope_set_tile": {
+			"textures": "textures/blocks/confluence/pine_needle_handmade_rope_set_tile"
+		},
+		"confluence:pine_planks": {
+			"textures": "textures/blocks/confluence/pine_planks"
+		},
+		"confluence:pine_sapling": {
+			"textures": "textures/blocks/confluence/pine_sapling"
+		},
+		"confluence:pine_trapdoor": {
+			"textures": "textures/blocks/confluence/pine_trapdoor"
+		},
+		"confluence:pink_brick": {
+			"textures": "textures/blocks/confluence/pink_brick"
+		},
+		"confluence:pink_brick_column_end": {
+			"textures": "textures/blocks/confluence/pink_brick_column_end"
+		},
+		"confluence:pink_brick_column_side": {
+			"textures": "textures/blocks/confluence/pink_brick_column_side"
+		},
+		"confluence:pink_bricks": {
+			"textures": "textures/blocks/confluence/pink_bricks"
+		},
+		"confluence:pink_gel_block": {
+			"textures": "textures/blocks/confluence/pink_gel_block"
+		},
+		"confluence:pink_ice": {
+			"textures": "textures/blocks/confluence/pink_ice"
+		},
+		"confluence:pink_packed_ice": {
+			"textures": "textures/blocks/confluence/pink_packed_ice"
+		},
+		"confluence:pink_pure_glass": {
+			"textures": "textures/blocks/confluence/pink_pure_glass"
+		},
+		"confluence:pink_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/pink_pure_glass_connected"
+		},
+		"confluence:plantera_thorn_center": {
+			"textures": "textures/blocks/confluence/plantera_thorn_center"
+		},
+		"confluence:plantera_thorn_center_r270": {
+			"textures": "textures/blocks/confluence/plantera_thorn_center_r270"
+		},
+		"confluence:plantera_thorn_center_r90": {
+			"textures": "textures/blocks/confluence/plantera_thorn_center_r90"
+		},
+		"confluence:platinum_block": {
+			"textures": "textures/blocks/confluence/platinum_block"
+		},
+		"confluence:platinum_bricks": {
+			"textures": "textures/blocks/confluence/platinum_bricks"
+		},
+		"confluence:platinum_coin": {
+			"textures": "textures/blocks/confluence/platinum_coin"
+		},
+		"confluence:platinum_coins": {
+			"textures": "textures/blocks/confluence/platinum_coins"
+		},
+		"confluence:platinum_coins_r270": {
+			"textures": "textures/blocks/confluence/platinum_coins_r270"
+		},
+		"confluence:platinum_coins_r90": {
+			"textures": "textures/blocks/confluence/platinum_coins_r90"
+		},
+		"confluence:platinum_ore": {
+			"textures": "textures/blocks/confluence/platinum_ore"
+		},
+		"confluence:pneumatic_trap": {
+			"textures": "textures/blocks/confluence/pneumatic_trap"
+		},
+		"confluence:polished_granite": {
+			"textures": "textures/blocks/confluence/polished_granite"
+		},
+		"confluence:polished_marble": {
+			"textures": "textures/blocks/confluence/polished_marble"
+		},
+		"confluence:poo": {
+			"textures": "textures/blocks/confluence/poo"
+		},
+		"confluence:poo_block": {
+			"textures": "textures/blocks/confluence/poo_block"
+		},
+		"confluence:poo_tile": {
+			"textures": "textures/blocks/confluence/poo_tile"
+		},
+		"confluence:powered_rail": {
+			"textures": "textures/blocks/confluence/powered_rail"
+		},
+		"confluence:powered_rail_on": {
+			"textures": "textures/blocks/confluence/powered_rail_on"
+		},
+		"confluence:pruned_pine_sapling": {
+			"textures": "textures/blocks/confluence/pruned_pine_sapling"
+		},
+		"confluence:pure_glass": {
+			"textures": "textures/blocks/confluence/pure_glass"
+		},
+		"confluence:pure_glass_connected": {
+			"textures": "textures/blocks/confluence/pure_glass_connected"
+		},
+		"confluence:purple_ice": {
+			"textures": "textures/blocks/confluence/purple_ice"
+		},
+		"confluence:purple_packed_ice": {
+			"textures": "textures/blocks/confluence/purple_packed_ice"
+		},
+		"confluence:purple_pure_glass": {
+			"textures": "textures/blocks/confluence/purple_pure_glass"
+		},
+		"confluence:purple_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/purple_pure_glass_connected"
+		},
+		"confluence:pyramid_pot_0": {
+			"textures": "textures/blocks/confluence/pyramid_pot_0"
+		},
+		"confluence:pyramid_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/pyramid_pot_bottom_0"
+		},
+		"confluence:pyramid_pot_face_0": {
+			"textures": "textures/blocks/confluence/pyramid_pot_face_0"
+		},
+		"confluence:pyramid_pot_handle_0": {
+			"textures": "textures/blocks/confluence/pyramid_pot_handle_0"
+		},
+		"confluence:pyramid_pot_top_0": {
+			"textures": "textures/blocks/confluence/pyramid_pot_top_0"
+		},
+		"confluence:q_statue": {
+			"textures": "textures/blocks/confluence/q_statue"
+		},
+		"confluence:question_mark_statue": {
+			"textures": "textures/blocks/confluence/question_mark_statue"
+		},
+		"confluence:r_statue": {
+			"textures": "textures/blocks/confluence/r_statue"
+		},
+		"confluence:rain_cloud_block": {
+			"textures": "textures/blocks/confluence/rain_cloud_block"
+		},
+		"confluence:raw_crimtane_block": {
+			"textures": "textures/blocks/confluence/raw_crimtane_block"
+		},
+		"confluence:raw_demonite_block": {
+			"textures": "textures/blocks/confluence/raw_demonite_block"
+		},
+		"confluence:raw_hellstone_block": {
+			"textures": "textures/blocks/confluence/raw_hellstone_block"
+		},
+		"confluence:raw_lead_block": {
+			"textures": "textures/blocks/confluence/raw_lead_block"
+		},
+		"confluence:raw_meteorite_block": {
+			"textures": "textures/blocks/confluence/raw_meteorite_block"
+		},
+		"confluence:raw_platinum_block": {
+			"textures": "textures/blocks/confluence/raw_platinum_block"
+		},
+		"confluence:raw_silver_block": {
+			"textures": "textures/blocks/confluence/raw_silver_block"
+		},
+		"confluence:raw_tin_block": {
+			"textures": "textures/blocks/confluence/raw_tin_block"
+		},
+		"confluence:raw_tungsten_block": {
+			"textures": "textures/blocks/confluence/raw_tungsten_block"
+		},
+		"confluence:red_candy_block": {
+			"textures": "textures/blocks/confluence/red_candy_block"
+		},
+		"confluence:red_ice": {
+			"textures": "textures/blocks/confluence/red_ice"
+		},
+		"confluence:red_packed_ice": {
+			"textures": "textures/blocks/confluence/red_packed_ice"
+		},
+		"confluence:red_pure_glass": {
+			"textures": "textures/blocks/confluence/red_pure_glass"
+		},
+		"confluence:red_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/red_pure_glass_connected"
+		},
+		"confluence:red_sand": {
+			"textures": "textures/blocks/confluence/red_sand"
+		},
+		"confluence:red_sand_amber_ore": {
+			"textures": "textures/blocks/confluence/red_sand_amber_ore"
+		},
+		"confluence:remains_block": {
+			"textures": "textures/blocks/confluence/remains_block"
+		},
+		"confluence:remains_block_r270": {
+			"textures": "textures/blocks/confluence/remains_block_r270"
+		},
+		"confluence:remains_block_r90": {
+			"textures": "textures/blocks/confluence/remains_block_r90"
+		},
+		"confluence:rope": {
+			"textures": "textures/blocks/confluence/rope"
+		},
+		"confluence:rope_tile": {
+			"textures": "textures/blocks/confluence/rope_tile"
+		},
+		"confluence:ruby_block": {
+			"textures": "textures/blocks/confluence/ruby_block"
+		},
+		"confluence:ruby_branches": {
+			"textures": "textures/blocks/confluence/ruby_branches"
+		},
+		"confluence:ruby_chain": {
+			"textures": "textures/blocks/confluence/ruby_chain"
+		},
+		"confluence:ruby_ore": {
+			"textures": "textures/blocks/confluence/ruby_ore"
+		},
+		"confluence:ruby_sapling": {
+			"textures": "textures/blocks/confluence/ruby_sapling"
+		},
+		"confluence:s_statue": {
+			"textures": "textures/blocks/confluence/s_statue"
+		},
+		"confluence:safe": {
+			"textures": "textures/blocks/confluence/safe"
+		},
+		"confluence:sanctification_amber_ore": {
+			"textures": "textures/blocks/confluence/sanctification_amber_ore"
+		},
+		"confluence:sanctification_amethyst_ore": {
+			"textures": "textures/blocks/confluence/sanctification_amethyst_ore"
+		},
+		"confluence:sanctification_coal_ore": {
+			"textures": "textures/blocks/confluence/sanctification_coal_ore"
+		},
+		"confluence:sanctification_copper_ore": {
+			"textures": "textures/blocks/confluence/sanctification_copper_ore"
+		},
+		"confluence:sanctification_crimtane_ore": {
+			"textures": "textures/blocks/confluence/sanctification_crimtane_ore"
+		},
+		"confluence:sanctification_demonite_ore": {
+			"textures": "textures/blocks/confluence/sanctification_demonite_ore"
+		},
+		"confluence:sanctification_diamond_ore": {
+			"textures": "textures/blocks/confluence/sanctification_diamond_ore"
+		},
+		"confluence:sanctification_emerald_ore": {
+			"textures": "textures/blocks/confluence/sanctification_emerald_ore"
+		},
+		"confluence:sanctification_gold_ore": {
+			"textures": "textures/blocks/confluence/sanctification_gold_ore"
+		},
+		"confluence:sanctification_iron_ore": {
+			"textures": "textures/blocks/confluence/sanctification_iron_ore"
+		},
+		"confluence:sanctification_jade_ore": {
+			"textures": "textures/blocks/confluence/sanctification_jade_ore"
+		},
+		"confluence:sanctification_lapis_ore": {
+			"textures": "textures/blocks/confluence/sanctification_lapis_ore"
+		},
+		"confluence:sanctification_lead_ore": {
+			"textures": "textures/blocks/confluence/sanctification_lead_ore"
+		},
+		"confluence:sanctification_platinum_ore": {
+			"textures": "textures/blocks/confluence/sanctification_platinum_ore"
+		},
+		"confluence:sanctification_redstone_ore": {
+			"textures": "textures/blocks/confluence/sanctification_redstone_ore"
+		},
+		"confluence:sanctification_ruby_ore": {
+			"textures": "textures/blocks/confluence/sanctification_ruby_ore"
+		},
+		"confluence:sanctification_sapphire_ore": {
+			"textures": "textures/blocks/confluence/sanctification_sapphire_ore"
+		},
+		"confluence:sanctification_silver_ore": {
+			"textures": "textures/blocks/confluence/sanctification_silver_ore"
+		},
+		"confluence:sanctification_tin_ore": {
+			"textures": "textures/blocks/confluence/sanctification_tin_ore"
+		},
+		"confluence:sanctification_topaz_ore": {
+			"textures": "textures/blocks/confluence/sanctification_topaz_ore"
+		},
+		"confluence:sanctification_tungsten_ore": {
+			"textures": "textures/blocks/confluence/sanctification_tungsten_ore"
+		},
+		"confluence:sand": {
+			"textures": "textures/blocks/confluence/sand"
+		},
+		"confluence:sapphire_block": {
+			"textures": "textures/blocks/confluence/sapphire_block"
+		},
+		"confluence:sapphire_branches": {
+			"textures": "textures/blocks/confluence/sapphire_branches"
+		},
+		"confluence:sapphire_chain": {
+			"textures": "textures/blocks/confluence/sapphire_chain"
+		},
+		"confluence:sapphire_ore": {
+			"textures": "textures/blocks/confluence/sapphire_ore"
+		},
+		"confluence:sapphire_sapling": {
+			"textures": "textures/blocks/confluence/sapphire_sapling"
+		},
+		"confluence:savanna_crate_end": {
+			"textures": "textures/blocks/confluence/savanna_crate_end"
+		},
+		"confluence:savanna_crate_side": {
+			"textures": "textures/blocks/confluence/savanna_crate_side"
+		},
+		"confluence:sawmill": {
+			"textures": "textures/blocks/confluence/sawmill"
+		},
+		"confluence:sculk_catalyst_bottom": {
+			"textures": "textures/blocks/confluence/sculk_catalyst_bottom"
+		},
+		"confluence:sculk_trap_side": {
+			"textures": "textures/blocks/confluence/sculk_trap_side"
+		},
+		"confluence:sculk_trap_top": {
+			"textures": "textures/blocks/confluence/sculk_trap_top"
+		},
+		"confluence:seaside_crate_end": {
+			"textures": "textures/blocks/confluence/seaside_crate_end"
+		},
+		"confluence:seaside_crate_side": {
+			"textures": "textures/blocks/confluence/seaside_crate_side"
+		},
+		"confluence:shadow_leaves": {
+			"textures": "textures/blocks/confluence/shadow_leaves"
+		},
+		"confluence:shadow_log_end": {
+			"textures": "textures/blocks/confluence/shadow_log_end"
+		},
+		"confluence:shadow_log_side": {
+			"textures": "textures/blocks/confluence/shadow_log_side"
+		},
+		"confluence:shadow_orb": {
+			"textures": "textures/blocks/confluence/shadow_orb"
+		},
+		"confluence:shadow_orb_tile": {
+			"textures": "textures/blocks/confluence/shadow_orb_tile"
+		},
+		"confluence:shadow_planks": {
+			"textures": "textures/blocks/confluence/shadow_planks"
+		},
+		"confluence:shadow_trapdoor": {
+			"textures": "textures/blocks/confluence/shadow_trapdoor"
+		},
+		"confluence:sharpening_station": {
+			"textures": "textures/blocks/confluence/sharpening_station"
+		},
+		"confluence:shimmer_cauldron_background": {
+			"textures": "textures/blocks/confluence/shimmer_cauldron_background"
+		},
+		"confluence:shimmer_drooping_vine": {
+			"textures": "textures/blocks/confluence/shimmer_drooping_vine"
+		},
+		"confluence:shimmer_drooping_vine_plant": {
+			"textures": "textures/blocks/confluence/shimmer_drooping_vine_plant"
+		},
+		"confluence_shimmer_still": {
+			"textures": "textures/blocks/confluence/shimmer_still"
+		},
+		"confluence:shimmer_trap": {
+			"textures": "textures/blocks/confluence/shimmer_trap"
+		},
+		"confluence:shiverthorn_stage1": {
+			"textures": "textures/blocks/confluence/shiverthorn_stage1"
+		},
+		"confluence:silk_chain": {
+			"textures": "textures/blocks/confluence/silk_chain"
+		},
+		"confluence:silk_rope": {
+			"textures": "textures/blocks/confluence/silk_rope"
+		},
+		"confluence:silk_rope_tile": {
+			"textures": "textures/blocks/confluence/silk_rope_tile"
+		},
+		"confluence:silt_block": {
+			"textures": "textures/blocks/confluence/silt_block"
+		},
+		"confluence:silver_block": {
+			"textures": "textures/blocks/confluence/silver_block"
+		},
+		"confluence:silver_bricks": {
+			"textures": "textures/blocks/confluence/silver_bricks"
+		},
+		"confluence:silver_coin": {
+			"textures": "textures/blocks/confluence/silver_coin"
+		},
+		"confluence:silver_coins": {
+			"textures": "textures/blocks/confluence/silver_coins"
+		},
+		"confluence:silver_coins_r270": {
+			"textures": "textures/blocks/confluence/silver_coins_r270"
+		},
+		"confluence:silver_coins_r90": {
+			"textures": "textures/blocks/confluence/silver_coins_r90"
+		},
+		"confluence:silver_ore": {
+			"textures": "textures/blocks/confluence/silver_ore"
+		},
+		"confluence:sky_crate": {
+			"textures": "textures/blocks/confluence/sky_crate"
+		},
+		"confluence:sky_mill": {
+			"textures": "textures/blocks/confluence/sky_mill"
+		},
+		"confluence:skyware_door": {
+			"textures": "textures/blocks/confluence/skyware_door"
+		},
+		"confluence:skyware_door_bottom": {
+			"textures": "textures/blocks/confluence/skyware_door_bottom"
+		},
+		"confluence:skyware_door_bottom_r90": {
+			"textures": "textures/blocks/confluence/skyware_door_bottom_r90"
+		},
+		"confluence:skyware_door_top": {
+			"textures": "textures/blocks/confluence/skyware_door_top"
+		},
+		"confluence:skyware_door_top_r270": {
+			"textures": "textures/blocks/confluence/skyware_door_top_r270"
+		},
+		"confluence:skyware_door_top_r90": {
+			"textures": "textures/blocks/confluence/skyware_door_top_r90"
+		},
+		"confluence:skyware_glass_door": {
+			"textures": "textures/blocks/confluence/skyware_glass_door"
+		},
+		"confluence:skyware_glass_door_bottom": {
+			"textures": "textures/blocks/confluence/skyware_glass_door_bottom"
+		},
+		"confluence:skyware_glass_door_bottom_r90": {
+			"textures": "textures/blocks/confluence/skyware_glass_door_bottom_r90"
+		},
+		"confluence:skyware_glass_door_top": {
+			"textures": "textures/blocks/confluence/skyware_glass_door_top"
+		},
+		"confluence:skyware_glass_door_top_r270": {
+			"textures": "textures/blocks/confluence/skyware_glass_door_top_r270"
+		},
+		"confluence:skyware_glass_door_top_r90": {
+			"textures": "textures/blocks/confluence/skyware_glass_door_top_r90"
+		},
+		"confluence:slush": {
+			"textures": "textures/blocks/confluence/slush"
+		},
+		"confluence:smooth_obsidian_side": {
+			"textures": "textures/blocks/confluence/smooth_obsidian_side"
+		},
+		"confluence:smooth_obsidian_top": {
+			"textures": "textures/blocks/confluence/smooth_obsidian_top"
+		},
+		"confluence:snow_bricks": {
+			"textures": "textures/blocks/confluence/snow_bricks"
+		},
+		"confluence:snow_cloud_block": {
+			"textures": "textures/blocks/confluence/snow_cloud_block"
+		},
+		"confluence:solidifier": {
+			"textures": "textures/blocks/confluence/solidifier"
+		},
+		"confluence_solidifier_light": {
+			"textures": "textures/blocks/confluence/solidifier_light"
+		},
+		"confluence:soul_glass": {
+			"textures": "textures/blocks/confluence/soul_glass"
+		},
+		"confluence:soul_of_bright_in_a_bottle": {
+			"textures": "textures/blocks/confluence/soul_of_bright_in_a_bottle"
+		},
+		"confluence:soul_of_flight_in_a_bottle": {
+			"textures": "textures/blocks/confluence/soul_of_flight_in_a_bottle"
+		},
+		"confluence:soul_of_fright_in_a_bottle": {
+			"textures": "textures/blocks/confluence/soul_of_fright_in_a_bottle"
+		},
+		"confluence:soul_of_light_in_a_bottle": {
+			"textures": "textures/blocks/confluence/soul_of_light_in_a_bottle"
+		},
+		"confluence:soul_of_might_in_a_bottle": {
+			"textures": "textures/blocks/confluence/soul_of_might_in_a_bottle"
+		},
+		"confluence:soul_of_night_in_a_bottle": {
+			"textures": "textures/blocks/confluence/soul_of_night_in_a_bottle"
+		},
+		"confluence:soul_of_sight_in_a_bottle": {
+			"textures": "textures/blocks/confluence/soul_of_sight_in_a_bottle"
+		},
+		"confluence:soul_of_voight_in_a_bottle": {
+			"textures": "textures/blocks/confluence/soul_of_voight_in_a_bottle"
+		},
+		"confluence:spider_nest_pot_0": {
+			"textures": "textures/blocks/confluence/spider_nest_pot_0"
+		},
+		"confluence:spider_nest_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/spider_nest_pot_bottom_0"
+		},
+		"confluence:spider_nest_pot_bottom_net_0": {
+			"textures": "textures/blocks/confluence/spider_nest_pot_bottom_net_0"
+		},
+		"confluence:spider_nest_pot_net_0": {
+			"textures": "textures/blocks/confluence/spider_nest_pot_net_0"
+		},
+		"confluence:spider_nest_pot_string_0": {
+			"textures": "textures/blocks/confluence/spider_nest_pot_string_0"
+		},
+		"confluence:spider_nest_pot_top_0": {
+			"textures": "textures/blocks/confluence/spider_nest_pot_top_0"
+		},
+		"confluence:spider_nest_pot_top_net_0": {
+			"textures": "textures/blocks/confluence/spider_nest_pot_top_net_0"
+		},
+		"confluence:spike": {
+			"textures": "textures/blocks/confluence/spike"
+		},
+		"confluence:spooky_planks": {
+			"textures": "textures/blocks/confluence/spooky_planks"
+		},
+		"confluence:spore_root_block": {
+			"textures": "textures/blocks/confluence/spore_root_block"
+		},
+		"confluence:star_cloud_block": {
+			"textures": "textures/blocks/confluence/star_cloud_block"
+		},
+		"confluence:star_in_a_bottle": {
+			"textures": "textures/blocks/confluence/star_in_a_bottle"
+		},
+		"confluence:star_in_a_bottle_item": {
+			"textures": "textures/blocks/confluence/star_in_a_bottle_item"
+		},
+		"confluence:statue_base": {
+			"textures": "textures/blocks/confluence/statue_base"
+		},
+		"confluence:stellar_blossom_stage0": {
+			"textures": "textures/blocks/confluence/stellar_blossom_stage0"
+		},
+		"confluence:stockade_crate_end": {
+			"textures": "textures/blocks/confluence/stockade_crate_end"
+		},
+		"confluence:stockade_crate_side": {
+			"textures": "textures/blocks/confluence/stockade_crate_side"
+		},
+		"confluence_stonecutter_saw": {
+			"textures": "textures/blocks/confluence/stonecutter_saw"
+		},
+		"confluence:stony_log_end": {
+			"textures": "textures/blocks/confluence/stony_log_end"
+		},
+		"confluence:stony_log_side": {
+			"textures": "textures/blocks/confluence/stony_log_side"
+		},
+		"confluence:stripped_ash_log_end": {
+			"textures": "textures/blocks/confluence/stripped_ash_log_end"
+		},
+		"confluence:stripped_ash_log_side": {
+			"textures": "textures/blocks/confluence/stripped_ash_log_side"
+		},
+		"confluence:stripped_baobab_log_end": {
+			"textures": "textures/blocks/confluence/stripped_baobab_log_end"
+		},
+		"confluence:stripped_baobab_log_side": {
+			"textures": "textures/blocks/confluence/stripped_baobab_log_side"
+		},
+		"confluence:stripped_dynasty_log_end": {
+			"textures": "textures/blocks/confluence/stripped_dynasty_log_end"
+		},
+		"confluence:stripped_dynasty_log_side": {
+			"textures": "textures/blocks/confluence/stripped_dynasty_log_side"
+		},
+		"confluence:stripped_ebony_log_end": {
+			"textures": "textures/blocks/confluence/stripped_ebony_log_end"
+		},
+		"confluence:stripped_ebony_log_side": {
+			"textures": "textures/blocks/confluence/stripped_ebony_log_side"
+		},
+		"confluence:stripped_fey_log_end": {
+			"textures": "textures/blocks/confluence/stripped_fey_log_end"
+		},
+		"confluence:stripped_fey_log_side": {
+			"textures": "textures/blocks/confluence/stripped_fey_log_side"
+		},
+		"confluence:stripped_living_log_end": {
+			"textures": "textures/blocks/confluence/stripped_living_log_end"
+		},
+		"confluence:stripped_living_log_side": {
+			"textures": "textures/blocks/confluence/stripped_living_log_side"
+		},
+		"confluence:stripped_living_mahogany_log_end": {
+			"textures": "textures/blocks/confluence/stripped_living_mahogany_log_end"
+		},
+		"confluence:stripped_living_mahogany_log_side": {
+			"textures": "textures/blocks/confluence/stripped_living_mahogany_log_side"
+		},
+		"confluence:stripped_palm_log_end": {
+			"textures": "textures/blocks/confluence/stripped_palm_log_end"
+		},
+		"confluence:stripped_palm_log_side": {
+			"textures": "textures/blocks/confluence/stripped_palm_log_side"
+		},
+		"confluence:stripped_pearl_log_end": {
+			"textures": "textures/blocks/confluence/stripped_pearl_log_end"
+		},
+		"confluence:stripped_pearl_log_side": {
+			"textures": "textures/blocks/confluence/stripped_pearl_log_side"
+		},
+		"confluence:stripped_pine_log_end": {
+			"textures": "textures/blocks/confluence/stripped_pine_log_end"
+		},
+		"confluence:stripped_pine_log_side": {
+			"textures": "textures/blocks/confluence/stripped_pine_log_side"
+		},
+		"confluence:stripped_shadow_log_end": {
+			"textures": "textures/blocks/confluence/stripped_shadow_log_end"
+		},
+		"confluence:stripped_shadow_log_side": {
+			"textures": "textures/blocks/confluence/stripped_shadow_log_side"
+		},
+		"confluence:stripped_yellow_willow_log_end": {
+			"textures": "textures/blocks/confluence/stripped_yellow_willow_log_end"
+		},
+		"confluence:stripped_yellow_willow_log_side": {
+			"textures": "textures/blocks/confluence/stripped_yellow_willow_log_side"
+		},
+		"confluence:sturdy_fossil_block": {
+			"textures": "textures/blocks/confluence/sturdy_fossil_block"
+		},
+		"confluence:sun_plate": {
+			"textures": "textures/blocks/confluence/sun_plate"
+		},
+		"confluence:t_statue": {
+			"textures": "textures/blocks/confluence/t_statue"
+		},
+		"confluence:thin_ice_block": {
+			"textures": "textures/blocks/confluence/thin_ice_block"
+		},
+		"confluence:tin_block": {
+			"textures": "textures/blocks/confluence/tin_block"
+		},
+		"confluence:tin_bricks": {
+			"textures": "textures/blocks/confluence/tin_bricks"
+		},
+		"confluence:tin_ore": {
+			"textures": "textures/blocks/confluence/tin_ore"
+		},
+		"confluence:tin_tiles": {
+			"textures": "textures/blocks/confluence/tin_tiles"
+		},
+		"confluence:titanium_crate": {
+			"textures": "textures/blocks/confluence/titanium_crate"
+		},
+		"confluence:topaz_block": {
+			"textures": "textures/blocks/confluence/topaz_block"
+		},
+		"confluence:topaz_branches": {
+			"textures": "textures/blocks/confluence/topaz_branches"
+		},
+		"confluence:topaz_chain": {
+			"textures": "textures/blocks/confluence/topaz_chain"
+		},
+		"confluence:topaz_ore": {
+			"textures": "textures/blocks/confluence/topaz_ore"
+		},
+		"confluence:topaz_sapling": {
+			"textures": "textures/blocks/confluence/topaz_sapling"
+		},
+		"confluence:traditional_dynasty_door": {
+			"textures": "textures/blocks/confluence/traditional_dynasty_door"
+		},
+		"confluence:traditional_dynasty_door_bottom": {
+			"textures": "textures/blocks/confluence/traditional_dynasty_door_bottom"
+		},
+		"confluence:traditional_dynasty_door_bottom_r90": {
+			"textures": "textures/blocks/confluence/traditional_dynasty_door_bottom_r90"
+		},
+		"confluence:traditional_dynasty_door_top": {
+			"textures": "textures/blocks/confluence/traditional_dynasty_door_top"
+		},
+		"confluence:traditional_dynasty_door_top_r270": {
+			"textures": "textures/blocks/confluence/traditional_dynasty_door_top_r270"
+		},
+		"confluence:traditional_dynasty_door_top_r90": {
+			"textures": "textures/blocks/confluence/traditional_dynasty_door_top_r90"
+		},
+		"confluence:tuff_booth": {
+			"textures": "textures/blocks/confluence/tuff_booth"
+		},
+		"confluence:tuff_booth_r270": {
+			"textures": "textures/blocks/confluence/tuff_booth_r270"
+		},
+		"confluence:tuff_booth_r90": {
+			"textures": "textures/blocks/confluence/tuff_booth_r90"
+		},
+		"confluence:tundra_pot_0": {
+			"textures": "textures/blocks/confluence/tundra_pot_0"
+		},
+		"confluence:tundra_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/tundra_pot_bottom_0"
+		},
+		"confluence:tundra_pot_ice_0": {
+			"textures": "textures/blocks/confluence/tundra_pot_ice_0"
+		},
+		"confluence:tundra_pot_ice_bottom_0": {
+			"textures": "textures/blocks/confluence/tundra_pot_ice_bottom_0"
+		},
+		"confluence:tundra_pot_ice_top_0": {
+			"textures": "textures/blocks/confluence/tundra_pot_ice_top_0"
+		},
+		"confluence:tundra_pot_top_0": {
+			"textures": "textures/blocks/confluence/tundra_pot_top_0"
+		},
+		"confluence:tungsten_block": {
+			"textures": "textures/blocks/confluence/tungsten_block"
+		},
+		"confluence:tungsten_bricks": {
+			"textures": "textures/blocks/confluence/tungsten_bricks"
+		},
+		"confluence:tungsten_ore": {
+			"textures": "textures/blocks/confluence/tungsten_ore"
+		},
+		"confluence:u_statue": {
+			"textures": "textures/blocks/confluence/u_statue"
+		},
+		"confluence:underground_desert_pot_0": {
+			"textures": "textures/blocks/confluence/underground_desert_pot_0"
+		},
+		"confluence:underground_desert_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/underground_desert_pot_bottom_0"
+		},
+		"confluence:underground_desert_pot_handle_0": {
+			"textures": "textures/blocks/confluence/underground_desert_pot_handle_0"
+		},
+		"confluence:underground_desert_pot_handle_0_r270": {
+			"textures": "textures/blocks/confluence/underground_desert_pot_handle_0_r270"
+		},
+		"confluence:underground_desert_pot_handle_0_r90": {
+			"textures": "textures/blocks/confluence/underground_desert_pot_handle_0_r90"
+		},
+		"confluence:underground_desert_pot_top_0": {
+			"textures": "textures/blocks/confluence/underground_desert_pot_top_0"
+		},
+		"confluence:underworld_pot_0": {
+			"textures": "textures/blocks/confluence/underworld_pot_0"
+		},
+		"confluence:underworld_pot_bottom_0": {
+			"textures": "textures/blocks/confluence/underworld_pot_bottom_0"
+		},
+		"confluence:underworld_pot_top_0": {
+			"textures": "textures/blocks/confluence/underworld_pot_top_0"
+		},
+		"confluence:v_statue": {
+			"textures": "textures/blocks/confluence/v_statue"
+		},
+		"confluence:vicious_mushroom": {
+			"textures": "textures/blocks/confluence/vicious_mushroom"
+		},
+		"confluence:vile_mushroom": {
+			"textures": "textures/blocks/confluence/vile_mushroom"
+		},
+		"confluence:vine_rope": {
+			"textures": "textures/blocks/confluence/vine_rope"
+		},
+		"confluence:vine_rope_tile": {
+			"textures": "textures/blocks/confluence/vine_rope_tile"
+		},
+		"confluence:w_statue": {
+			"textures": "textures/blocks/confluence/w_statue"
+		},
+		"confluence:waterleaf_stage1": {
+			"textures": "textures/blocks/confluence/waterleaf_stage1"
+		},
+		"confluence:web_rope": {
+			"textures": "textures/blocks/confluence/web_rope"
+		},
+		"confluence:web_rope_tile": {
+			"textures": "textures/blocks/confluence/web_rope_tile"
+		},
+		"confluence:white_paper_pane": {
+			"textures": "textures/blocks/confluence/white_paper_pane"
+		},
+		"confluence:white_paper_pane_lamp": {
+			"textures": "textures/blocks/confluence/white_paper_pane_lamp"
+		},
+		"confluence:white_pure_glass": {
+			"textures": "textures/blocks/confluence/white_pure_glass"
+		},
+		"confluence:white_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/white_pure_glass_connected"
+		},
+		"confluence:wild_crate_end": {
+			"textures": "textures/blocks/confluence/wild_crate_end"
+		},
+		"confluence:wild_crate_side": {
+			"textures": "textures/blocks/confluence/wild_crate_side"
+		},
+		"confluence:winter_marrow_block": {
+			"textures": "textures/blocks/confluence/winter_marrow_block"
+		},
+		"confluence:wood_stone_slatted_blocks": {
+			"textures": "textures/blocks/confluence/wood_stone_slatted_blocks"
+		},
+		"confluence:wood_stone_slatted_blocks_top": {
+			"textures": "textures/blocks/confluence/wood_stone_slatted_blocks_top"
+		},
+		"confluence:wooden_crate": {
+			"textures": "textures/blocks/confluence/wooden_crate"
+		},
+		"confluence:x_statue": {
+			"textures": "textures/blocks/confluence/x_statue"
+		},
+		"confluence:xenon_moss": {
+			"textures": "textures/blocks/confluence/xenon_moss"
+		},
+		"confluence:xenon_moss_up_0": {
+			"textures": "textures/blocks/confluence/xenon_moss_up_0"
+		},
+		"confluence:y_statue": {
+			"textures": "textures/blocks/confluence/y_statue"
+		},
+		"confluence:yellow_pure_glass": {
+			"textures": "textures/blocks/confluence/yellow_pure_glass"
+		},
+		"confluence:yellow_pure_glass_connected": {
+			"textures": "textures/blocks/confluence/yellow_pure_glass_connected"
+		},
+		"confluence:yellow_willow_drooping_leaves": {
+			"textures": "textures/blocks/confluence/yellow_willow_drooping_leaves"
+		},
+		"confluence:yellow_willow_drooping_leaves_1": {
+			"textures": "textures/blocks/confluence/yellow_willow_drooping_leaves_1"
+		},
+		"confluence:yellow_willow_leaves": {
+			"textures": "textures/blocks/confluence/yellow_willow_leaves"
+		},
+		"confluence:yellow_willow_log_end": {
+			"textures": "textures/blocks/confluence/yellow_willow_log_end"
+		},
+		"confluence:yellow_willow_log_side": {
+			"textures": "textures/blocks/confluence/yellow_willow_log_side"
+		},
+		"confluence:yellow_willow_planks": {
+			"textures": "textures/blocks/confluence/yellow_willow_planks"
+		},
+		"confluence:yellow_willow_trapdoor": {
+			"textures": "textures/blocks/confluence/yellow_willow_trapdoor"
+		},
+		"confluence:z_statue": {
+			"textures": "textures/blocks/confluence/z_statue"
+		}
+	}
+}

@@ -1,0 +1,151 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:blue_brick_slab",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.slab"
+            },
+            "states": {
+                "confluence:double": [
+                    false,
+                    true
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:vertical_half"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:blue_brick_slab.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.slab_bottom"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:blue_brick",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.333
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#1f2733",
+            "minecraft:tags": [
+                "confluence:hammer",
+                "confluence:level_5",
+                "confluence:pickaxe",
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "confluence:slab": {},
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.slab_bottom"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:blue_brick",
+                        "render_method": "opaque"
+                    }
+                }
+            },
+            "minecraft:loot": "loot_tables/blocks/blue_brick_slab.json"
+        },
+        "permutations": [
+            {
+                "condition": "!q.block_state('confluence:double') && q.block_state('minecraft:vertical_half') == 'bottom'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.slab_bottom"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "!q.block_state('confluence:double') && q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.confluence.slab_top"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            8,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            8,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('confluence:double')",
+                "components": {
+                    "minecraft:geometry": "minecraft:geometry.full_block",
+                    "minecraft:collision_box": true,
+                    "minecraft:selection_box": true,
+                    "minecraft:light_dampening": 15,
+                    "minecraft:redstone_conductivity": {
+                        "redstone_conductor": true
+                    },
+                    "minecraft:loot": "loot_tables/blocks/blue_brick_slab_double.json"
+                }
+            }
+        ]
+    }
+}

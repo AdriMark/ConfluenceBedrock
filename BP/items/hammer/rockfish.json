@@ -1,0 +1,48 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:rockfish",
+            "menu_category": {
+                "category": "equipment",
+                "group": "confluence:itemGroup.name.hammer"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:rockfish"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:rockfish.name"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:damage": 13,
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 10
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "confluence:is_hammer",
+                    "confluence:is_tool",
+                    "confluence:tool_level_9",
+                    "minecraft:netherite_tier"
+                ]
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('confluence:hammer')"
+                        },
+                        "speed": 9
+                    }
+                ]
+            }
+        }
+    }
+}

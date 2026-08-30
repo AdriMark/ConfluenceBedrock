@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:living_mahogany_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:living_mahogany_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:living_mahogany_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:living_mahogany_wood",
+            "count": 3
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:floating_wheat_bale",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stone"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:floating_wheat_bale.name",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "confluence:floating_wheat_bale_top",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "confluence:floating_wheat_bale_bottom",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "confluence:floating_wheat_bale_side",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.3,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_hoe','minecraft:wooden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.225
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_hoe','minecraft:stone_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.112
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_hoe','minecraft:copper_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.09
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_hoe','minecraft:golden_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.038
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_hoe','minecraft:iron_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.075
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_hoe','minecraft:diamond_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.056
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_hoe','minecraft:netherite_tier') && !q.any_tag('confluence:is_tool')"
+                        },
+                        "destroy_speed": 0.05
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#978c95",
+            "minecraft:tags": [
+                "confluence:hoe",
+                "minecraft:is_hoe_item_destructible"
+            ]
+        }
+    }
+}

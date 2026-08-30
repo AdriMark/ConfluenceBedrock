@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:crimtane_nugget_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:crimtane_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:crimtane_ingot"
+            }
+        ],
+        "result": {
+            "item": "confluence:crimtane_nugget",
+            "count": 9
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:ruby_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:ruby_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:ruby_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:ruby",
+            "count": 9
+        }
+    }
+}

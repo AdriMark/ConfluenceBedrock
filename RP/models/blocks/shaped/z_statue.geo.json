@@ -1,0 +1,1627 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.z_statue",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                7,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                3,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        15,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        15.5,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        8,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                3,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                4,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        11.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                3,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        15,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        15,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.z_statue_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -7,
+                                3,
+                                -2
+                            ],
+                            "size": [
+                                5,
+                                6,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.6667,
+                                        5.3333
+                                    ],
+                                    "uv_size": [
+                                        1.6667,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        1.6667,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.6667,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6,
+                                        7.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.6667,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -1.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3.3333,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.6667,
+                                        -1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                1,
+                                -2
+                            ],
+                            "size": [
+                                4,
+                                5,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.3333,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.6667,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.6667,
+                                        1.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.6667,
+                                        4.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.3333,
+                                        10.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        -1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                1,
+                                -2
+                            ],
+                            "size": [
+                                1,
+                                2,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        0.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8.3333,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        0.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.6667,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.6667,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4.3333,
+                                        9.6667
+                                    ],
+                                    "uv_size": [
+                                        -0.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.6667,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.3333,
+                                        -1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2,
+                                4,
+                                -2
+                            ],
+                            "size": [
+                                1,
+                                2,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10,
+                                        9.6667
+                                    ],
+                                    "uv_size": [
+                                        0.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2.6667,
+                                        10.3333
+                                    ],
+                                    "uv_size": [
+                                        0.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4,
+                                        9.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10,
+                                        9.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.6667,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -0.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                2,
+                                -2,
+                                -2
+                            ],
+                            "size": [
+                                5,
+                                6,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.6667,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        1.6667,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.3333,
+                                        5.3333
+                                    ],
+                                    "uv_size": [
+                                        1.6667,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7.3333,
+                                        7.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.6667,
+                                        7.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.3333,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        -1.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                9,
+                                -2
+                            ],
+                            "size": [
+                                14,
+                                5,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4.6667,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        1.6667
+                                    ],
+                                    "uv_size": [
+                                        4.6667,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.6667,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9.3333,
+                                        5.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9.3333,
+                                        2.6667
+                                    ],
+                                    "uv_size": [
+                                        -4.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9.3333,
+                                        5.3333
+                                    ],
+                                    "uv_size": [
+                                        -4.6667,
+                                        -1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                -6,
+                                -2
+                            ],
+                            "size": [
+                                14,
+                                4,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        3.3333
+                                    ],
+                                    "uv_size": [
+                                        4.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        4.6667
+                                    ],
+                                    "uv_size": [
+                                        4.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.6667,
+                                        3.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9.3333,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.z_statue_icon",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_p0",
+                    "pivot": [
+                        0,
+                        4.2667,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -4.2667,
+                                3.7333,
+                                -4.2667
+                            ],
+                            "size": [
+                                8.5333,
+                                1.6,
+                                8.5333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        15,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        15.5,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        8,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.7333,
+                                1.6,
+                                -3.7333
+                            ],
+                            "size": [
+                                7.4667,
+                                2.1333,
+                                7.4667
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        11.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4.2667,
+                                0,
+                                -4.2667
+                            ],
+                            "size": [
+                                8.5333,
+                                1.6,
+                                8.5333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        15,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        15,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p1",
+                    "pivot": [
+                        0,
+                        4.2667,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3.7333,
+                                10.1333,
+                                -1.0667
+                            ],
+                            "size": [
+                                2.6667,
+                                3.2,
+                                2.1333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.6667,
+                                        5.3333
+                                    ],
+                                    "uv_size": [
+                                        1.6667,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        1.6667,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.6667,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6,
+                                        7.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.6667,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -1.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3.3333,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.6667,
+                                        -1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1.0667,
+                                9.0667,
+                                -1.0667
+                            ],
+                            "size": [
+                                2.1333,
+                                2.6667,
+                                2.1333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.3333,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.6667,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.6667,
+                                        1.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.6667,
+                                        4.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.3333,
+                                        10.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        -1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1.6,
+                                9.0667,
+                                -1.0667
+                            ],
+                            "size": [
+                                0.5333,
+                                1.0667,
+                                2.1333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        0.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8.3333,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        0.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.6667,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.6667,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4.3333,
+                                        9.6667
+                                    ],
+                                    "uv_size": [
+                                        -0.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4.6667,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -0.3333,
+                                        -1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                1.0667,
+                                10.6667,
+                                -1.0667
+                            ],
+                            "size": [
+                                0.5333,
+                                1.0667,
+                                2.1333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10,
+                                        9.6667
+                                    ],
+                                    "uv_size": [
+                                        0.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2.6667,
+                                        10.3333
+                                    ],
+                                    "uv_size": [
+                                        0.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4,
+                                        9.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10,
+                                        9.6667
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        0.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.6667,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        -0.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                1.0667,
+                                7.4667,
+                                -1.0667
+                            ],
+                            "size": [
+                                2.6667,
+                                3.2,
+                                2.1333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.6667,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        1.6667,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6.3333,
+                                        5.3333
+                                    ],
+                                    "uv_size": [
+                                        1.6667,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        7.3333,
+                                        7.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.6667,
+                                        7.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        2
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.3333,
+                                        7
+                                    ],
+                                    "uv_size": [
+                                        -1.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.7333,
+                                13.3333,
+                                -1.0667
+                            ],
+                            "size": [
+                                7.4667,
+                                2.6667,
+                                2.1333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4.6667,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        1.6667
+                                    ],
+                                    "uv_size": [
+                                        4.6667,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        4.6667,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9.3333,
+                                        5.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.6667
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9.3333,
+                                        2.6667
+                                    ],
+                                    "uv_size": [
+                                        -4.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9.3333,
+                                        5.3333
+                                    ],
+                                    "uv_size": [
+                                        -4.6667,
+                                        -1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.7333,
+                                5.3333,
+                                -1.0667
+                            ],
+                            "size": [
+                                7.4667,
+                                2.1333,
+                                2.1333
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        3.3333
+                                    ],
+                                    "uv_size": [
+                                        4.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        4.6667
+                                    ],
+                                    "uv_size": [
+                                        4.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.6667,
+                                        3.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "west": {
+                                    "uv": [
+                                        6,
+                                        9.3333
+                                    ],
+                                    "uv_size": [
+                                        -1.3333,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                },
+                                "up": {
+                                    "uv": [
+                                        9.3333,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4.6667,
+                                        1.3333
+                                    ],
+                                    "material_instance": "z_statue"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

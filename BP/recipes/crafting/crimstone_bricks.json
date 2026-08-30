@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:crimstone_bricks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:crimstone"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:crimstone"
+            }
+        ],
+        "result": {
+            "item": "confluence:crimstone_bricks"
+        }
+    }
+}

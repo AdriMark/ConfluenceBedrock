@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:gelstone_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:gelstone_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:gelstone_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:gelstone",
+            "count": 9
+        }
+    }
+}

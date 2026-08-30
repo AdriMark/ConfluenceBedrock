@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_amber_ore_to_amber"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:amber_ore"
+            }
+        ],
+        "input": "confluence:amber_ore",
+        "output": "confluence:amber"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:shadow_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:shadow_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:shadow_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:shadow_wood",
+            "count": 3
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:lava_moss",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:lava_moss.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.lava_moss"
+            },
+            "minecraft:material_instances": {
+                "lava_moss": {
+                    "texture": "confluence:lava_moss",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:lava_moss",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.2
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#ee6e24",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    7.5
+                ],
+                "size": [
+                    16,
+                    16,
+                    0.5
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    7.5
+                ],
+                "size": [
+                    16,
+                    16,
+                    0.5
+                ]
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.item_sprite"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:lava_moss_up_0",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        }
+    }
+}

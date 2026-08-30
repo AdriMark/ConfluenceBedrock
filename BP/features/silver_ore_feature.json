@@ -1,0 +1,39 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "confluence:silver_ore_feature"
+        },
+        "count": 6,
+        "replace_rules": [
+            {
+                "places_block": "confluence:silver_ore",
+                "may_replace": [
+                    {
+                        "name": "minecraft:stone"
+                    },
+                    {
+                        "name": "minecraft:granite"
+                    },
+                    {
+                        "name": "minecraft:diorite"
+                    },
+                    {
+                        "name": "minecraft:andesite"
+                    }
+                ]
+            },
+            {
+                "places_block": "confluence:deepslate_silver_ore",
+                "may_replace": [
+                    {
+                        "name": "minecraft:deepslate"
+                    },
+                    {
+                        "name": "minecraft:tuff"
+                    }
+                ]
+            }
+        ]
+    }
+}

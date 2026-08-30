@@ -1,0 +1,64 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/confluence/adamantite_forge_flame",
+        "atlas_tile": "confluence_adamantite_forge_flame",
+        "ticks_per_frame": 2
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/campfire_fire",
+        "atlas_tile": "confluence_campfire_fire",
+        "ticks_per_frame": 2
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/colored_wool",
+        "atlas_tile": "confluence_colored_wool",
+        "ticks_per_frame": 22,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/cursed_flame_block_0",
+        "atlas_tile": "confluence_cursed_flame_block_0",
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/dye_vat_anim",
+        "atlas_tile": "confluence_dye_vat_anim",
+        "ticks_per_frame": 2,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/gelatin_crystals_animation",
+        "atlas_tile": "confluence_gelatin_crystals_animation",
+        "ticks_per_frame": 3
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/hellforge_lava_anim",
+        "atlas_tile": "confluence_hellforge_lava_anim",
+        "ticks_per_frame": 4
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/hellforge_lava_anim_r90",
+        "atlas_tile": "confluence_hellforge_lava_anim_r90",
+        "ticks_per_frame": 4
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/honey_still",
+        "atlas_tile": "confluence_honey_still",
+        "ticks_per_frame": 3
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/shimmer_still",
+        "atlas_tile": "confluence_shimmer_still",
+        "ticks_per_frame": 2
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/solidifier_light",
+        "atlas_tile": "confluence_solidifier_light",
+        "ticks_per_frame": 2
+    },
+    {
+        "flipbook_texture": "textures/blocks/confluence/stonecutter_saw",
+        "atlas_tile": "confluence_stonecutter_saw",
+        "ticks_per_frame": 1
+    }
+]

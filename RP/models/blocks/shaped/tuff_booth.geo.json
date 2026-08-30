@@ -1,0 +1,771 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.tuff_booth",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -7,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                3,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.75,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9.5,
+                                        10.75
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14.25,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8.75,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7.75,
+                                        7.25
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                3,
+                                -5
+                            ],
+                            "size": [
+                                10,
+                                10,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.25,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        9.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.5,
+                                        2.75
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2.5,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        2.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "down": {
+                                    "uv": [
+                                        12.25,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -2.5,
+                                        -2.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                13,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                3,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.25,
+                                        10.25
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.75,
+                                        1
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14.75,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -2,
+                                9,
+                                -9
+                            ],
+                            "size": [
+                                4,
+                                4,
+                                18
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14.25,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -4.5,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14.25,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        -4.5,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.75,
+                                        8.5
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        4.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5,
+                                        14.75
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        -4.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                11,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -9,
+                                9,
+                                -2
+                            ],
+                            "size": [
+                                18,
+                                4,
+                                4
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        9.75,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        4.5,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        9.75,
+                                        9.5
+                                    ],
+                                    "uv_size": [
+                                        4.5,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        9,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        -1,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        13,
+                                        13.25
+                                    ],
+                                    "uv_size": [
+                                        -4.5,
+                                        -1
+                                    ],
+                                    "material_instance": "tuff_booth_r270"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.75,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        -4.5,
+                                        1
+                                    ],
+                                    "material_instance": "tuff_booth_r90"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                11,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                3,
+                                -7
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10.75,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        12.75,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9.75,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                4,
+                                3,
+                                -7
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        8.75,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.75,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.25,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9,
+                                        12.5
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                4,
+                                3,
+                                4
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12.75,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        10.75,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.25,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                3,
+                                4
+                            ],
+                            "size": [
+                                3,
+                                2,
+                                3
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11.75,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "north": {
+                                    "uv": [
+                                        8.75,
+                                        6.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "east": {
+                                    "uv": [
+                                        10,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "west": {
+                                    "uv": [
+                                        12,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        0.75,
+                                        0.5
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        -0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                },
+                                "down": {
+                                    "uv": [
+                                        9.75,
+                                        11.75
+                                    ],
+                                    "uv_size": [
+                                        -0.75,
+                                        0.75
+                                    ],
+                                    "material_instance": "tuff_booth"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

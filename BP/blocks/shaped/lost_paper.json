@@ -1,0 +1,62 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:lost_paper",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:lost_paper.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.lost_paper"
+            },
+            "minecraft:material_instances": {
+                "lost_paper_r90": {
+                    "texture": "confluence:lost_paper_r90",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:lost_paper_r90",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#988a7f",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -6.4536,
+                    0,
+                    -7.2654
+                ],
+                "size": [
+                    12.9071,
+                    0.5,
+                    14.5307
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6.4536,
+                    0,
+                    -7.2654
+                ],
+                "size": [
+                    12.9071,
+                    0.5,
+                    14.5307
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:hellstone_nugget",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.metal_materials"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:hellstone_nugget"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:hellstone_nugget.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

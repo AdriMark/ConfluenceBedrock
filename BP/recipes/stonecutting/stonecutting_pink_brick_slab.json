@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_pink_brick_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:pink_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:pink_bricks"
+            }
+        ],
+        "result": {
+            "item": "confluence:pink_brick_slab",
+            "count": 2
+        }
+    }
+}

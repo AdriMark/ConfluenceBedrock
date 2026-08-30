@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:platinum_ingot_from_decompacting"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:platinum_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:platinum_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:platinum_ingot",
+            "count": 9
+        }
+    }
+}

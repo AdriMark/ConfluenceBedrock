@@ -1,0 +1,61 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:platinum_hammer",
+            "menu_category": {
+                "category": "equipment",
+                "group": "confluence:itemGroup.name.hammer"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:platinum_hammer"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:platinum_hammer.name"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:damage": 10,
+            "minecraft:durability": {
+                "max_durability": 1661
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "confluence:platinum_ingot"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 11
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "confluence:is_hammer",
+                    "confluence:is_tool",
+                    "confluence:tool_level_3",
+                    "minecraft:diamond_tier"
+                ]
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('confluence:hammer') && !q.any_tag('confluence:level_4','confluence:level_5','confluence:level_6','confluence:level_7','confluence:level_8','confluence:level_9')"
+                        },
+                        "speed": 10
+                    }
+                ]
+            }
+        }
+    }
+}

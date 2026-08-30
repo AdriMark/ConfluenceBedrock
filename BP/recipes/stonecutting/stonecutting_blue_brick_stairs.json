@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_blue_brick_stairs"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:blue_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:blue_bricks"
+            }
+        ],
+        "result": {
+            "item": "confluence:blue_brick_stairs"
+        }
+    }
+}

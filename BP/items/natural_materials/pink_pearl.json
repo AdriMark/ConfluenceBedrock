@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:pink_pearl",
+            "menu_category": {
+                "category": "items",
+                "group": "confluence:itemGroup.name.natural_materials"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:pink_pearl"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:pink_pearl.name"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

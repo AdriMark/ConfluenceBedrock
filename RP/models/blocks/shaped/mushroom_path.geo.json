@@ -1,0 +1,111 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.mushroom_path",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                15,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        1
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        15
+                                    ],
+                                    "material_instance": "mushroom_path_side"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        1
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        15
+                                    ],
+                                    "material_instance": "mushroom_path_side"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        1
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        15
+                                    ],
+                                    "material_instance": "mushroom_path_side"
+                                },
+                                "west": {
+                                    "uv": [
+                                        16,
+                                        1
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        15
+                                    ],
+                                    "material_instance": "mushroom_path_side"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -16
+                                    ],
+                                    "material_instance": "mushroom_path_top"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -16
+                                    ],
+                                    "material_instance": "mud"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

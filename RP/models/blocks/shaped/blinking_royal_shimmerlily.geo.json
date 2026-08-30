@@ -1,0 +1,1645 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.blinking_royal_shimmerlily",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                -1,
+                                -8
+                            ],
+                            "size": [
+                                13,
+                                3,
+                                13
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.25,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.25,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        -3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                -1.01,
+                                -8
+                            ],
+                            "size": [
+                                15,
+                                0,
+                                15
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.75,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        3.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                13,
+                                0,
+                                13
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.25,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.blinking_royal_shimmerlily_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                -1,
+                                -5
+                            ],
+                            "size": [
+                                13,
+                                3,
+                                13
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.25,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        -3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                -1.01,
+                                -7
+                            ],
+                            "size": [
+                                15,
+                                0,
+                                15
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        3.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -5
+                            ],
+                            "size": [
+                                13,
+                                0,
+                                13
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.blinking_royal_shimmerlily_part2",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5,
+                                -1,
+                                -8
+                            ],
+                            "size": [
+                                13,
+                                3,
+                                13
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.25,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        -3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                -1.01,
+                                -8
+                            ],
+                            "size": [
+                                15,
+                                0,
+                                15
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        3.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                13,
+                                0,
+                                13
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.blinking_royal_shimmerlily_part3",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5,
+                                -1,
+                                -5
+                            ],
+                            "size": [
+                                13,
+                                3,
+                                13
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        3.25,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3.75,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        -3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                -1.01,
+                                -7
+                            ],
+                            "size": [
+                                15,
+                                0,
+                                15
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        3.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                0,
+                                -5
+                            ],
+                            "size": [
+                                13,
+                                0,
+                                13
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.75,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.blinking_royal_shimmerlily_icon",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_p0",
+                    "pivot": [
+                        -4,
+                        4.505,
+                        4
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0.005,
+                                0
+                            ],
+                            "size": [
+                                6.5,
+                                1.5,
+                                6.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.25,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "down": {
+                                    "uv": [
+                                        10.25,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        -3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                7.5,
+                                0,
+                                7.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.75,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        3.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0.505,
+                                0
+                            ],
+                            "size": [
+                                6.5,
+                                0,
+                                6.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        10.25,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p1",
+                    "pivot": [
+                        -4,
+                        4.505,
+                        4
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0.005,
+                                -6.5
+                            ],
+                            "size": [
+                                6.5,
+                                1.5,
+                                6.5
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.25,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        -3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -7.5
+                            ],
+                            "size": [
+                                7.5,
+                                0,
+                                7.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        3.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0.505,
+                                -6.5
+                            ],
+                            "size": [
+                                6.5,
+                                0,
+                                6.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p2",
+                    "pivot": [
+                        -4,
+                        4.505,
+                        4
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                1.5,
+                                0.005,
+                                0
+                            ],
+                            "size": [
+                                6.5,
+                                1.5,
+                                6.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.25,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "down": {
+                                    "uv": [
+                                        7,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        -3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0.5,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                7.5,
+                                0,
+                                7.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        3.75
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        3.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                1.5,
+                                0.505,
+                                0
+                            ],
+                            "size": [
+                                6.5,
+                                0,
+                                6.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        7,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_p3",
+                    "pivot": [
+                        -4,
+                        4.505,
+                        4
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                1.5,
+                                0.005,
+                                -6.5
+                            ],
+                            "size": [
+                                6.5,
+                                1.5,
+                                6.5
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        3.25,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3.75,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        -3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                0.5,
+                                0,
+                                -7.5
+                            ],
+                            "size": [
+                                7.5,
+                                0,
+                                7.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.75,
+                                        3.75
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                1.5,
+                                0.505,
+                                -6.5
+                            ],
+                            "size": [
+                                6.5,
+                                0,
+                                6.5
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        0
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.75,
+                                        3.25
+                                    ],
+                                    "uv_size": [
+                                        3.25,
+                                        3.25
+                                    ],
+                                    "material_instance": "blinking_royal_shimmerlily"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

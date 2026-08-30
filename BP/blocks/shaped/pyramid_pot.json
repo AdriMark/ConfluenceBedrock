@@ -1,0 +1,78 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:pyramid_pot",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:pyramid_pot.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.pyramid_pot"
+            },
+            "minecraft:material_instances": {
+                "pyramid_pot_face_0": {
+                    "texture": "confluence:pyramid_pot_face_0",
+                    "render_method": "alpha_test"
+                },
+                "pyramid_pot_0": {
+                    "texture": "confluence:pyramid_pot_0",
+                    "render_method": "alpha_test"
+                },
+                "pyramid_pot_top_0": {
+                    "texture": "confluence:pyramid_pot_top_0",
+                    "render_method": "alpha_test"
+                },
+                "pyramid_pot_bottom_0": {
+                    "texture": "confluence:pyramid_pot_bottom_0",
+                    "render_method": "alpha_test"
+                },
+                "pyramid_pot_handle_0": {
+                    "texture": "confluence:pyramid_pot_handle_0",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:pyramid_pot_face_0",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#723c0e",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -5
+                ],
+                "size": [
+                    14,
+                    15,
+                    10
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -5
+                ],
+                "size": [
+                    14,
+                    15,
+                    10
+                ]
+            }
+        }
+    }
+}

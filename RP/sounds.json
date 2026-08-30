@@ -1,0 +1,526 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"confluence:blue_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:green_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:pink_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:purple_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:jungle_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:ice_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:swamp_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:tropic_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:green_dumpling_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:desert_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:yellow_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:red_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"confluence:dungeon_slime": {
+				"events": {
+					"ambient": "",
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.slime.attack"
+					},
+					"death": "mob.slime.death",
+					"hurt": "mob.slime.hurt",
+					"slime_landing": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			}
+		}
+	}
+}

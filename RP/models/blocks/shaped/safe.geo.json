@@ -1,0 +1,351 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.safe",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -7,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                15,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.875
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "north": {
+                                    "uv": [
+                                        5.25,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        1.75,
+                                        1.875
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.75,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.875
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "west": {
+                                    "uv": [
+                                        5.25,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.875
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        1.75
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "down": {
+                                    "uv": [
+                                        5.25,
+                                        1.75
+                                    ],
+                                    "uv_size": [
+                                        -1.75,
+                                        -1.75
+                                    ],
+                                    "material_instance": "safe"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                2,
+                                -5
+                            ],
+                            "size": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4.25,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        -1.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        -1.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1.5,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4.25,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -1.5,
+                                        -1.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1.5,
+                                        3.625
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.5
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "down": {
+                                    "uv": [
+                                        2.75,
+                                        5.125
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        -1.5
+                                    ],
+                                    "material_instance": "safe"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -5,
+                                2,
+                                6
+                            ],
+                            "size": [
+                                10,
+                                11,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        5.5,
+                                        0.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "north": {
+                                    "uv": [
+                                        7,
+                                        0.25
+                                    ],
+                                    "uv_size": [
+                                        1.25,
+                                        1.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "east": {
+                                    "uv": [
+                                        5.5,
+                                        0.25
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "west": {
+                                    "uv": [
+                                        7,
+                                        0.25
+                                    ],
+                                    "uv_size": [
+                                        -0.25,
+                                        1.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "up": {
+                                    "uv": [
+                                        6.75,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        0.25
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "down": {
+                                    "uv": [
+                                        8,
+                                        0.25
+                                    ],
+                                    "uv_size": [
+                                        -1.25,
+                                        -0.25
+                                    ],
+                                    "material_instance": "safe"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4.5,
+                                6,
+                                8
+                            ],
+                            "size": [
+                                3,
+                                3,
+                                1
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.125,
+                                        0.125
+                                    ],
+                                    "uv_size": [
+                                        0.375,
+                                        0.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0.625,
+                                        0.125
+                                    ],
+                                    "uv_size": [
+                                        0.375,
+                                        0.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0.125,
+                                        0.125
+                                    ],
+                                    "uv_size": [
+                                        -0.125,
+                                        0.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0.625,
+                                        0.125
+                                    ],
+                                    "uv_size": [
+                                        -0.125,
+                                        0.375
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "up": {
+                                    "uv": [
+                                        0.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -0.375,
+                                        0.125
+                                    ],
+                                    "material_instance": "safe"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0.875,
+                                        0.125
+                                    ],
+                                    "uv_size": [
+                                        -0.375,
+                                        -0.125
+                                    ],
+                                    "material_instance": "safe"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:fey_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:fey_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:fey_planks"
+            }
+        ],
+        "result": {
+            "item": "confluence:fey_slab",
+            "count": 6
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.weather_vane",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -1,
+                                0,
+                                -1
+                            ],
+                            "size": [
+                                2,
+                                13,
+                                2
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        3.25
+                                    ],
+                                    "material_instance": "chain"
+                                },
+                                "north": {
+                                    "uv": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "uv_size": [
+                                        0.5,
+                                        3.25
+                                    ],
+                                    "material_instance": "chain"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        3.25
+                                    ],
+                                    "material_instance": "chain"
+                                },
+                                "west": {
+                                    "uv": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        3.25
+                                    ],
+                                    "material_instance": "chain"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        0.5
+                                    ],
+                                    "material_instance": "chain"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1.5,
+                                        0.5
+                                    ],
+                                    "uv_size": [
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "material_instance": "chain"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_crimtane_ore_bricks"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:crimtane_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:crimtane_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:crimtane_ore_bricks",
+            "count": 9
+        }
+    }
+}

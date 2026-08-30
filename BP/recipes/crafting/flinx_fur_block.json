@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:flinx_fur_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:flinx_fur"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:flinx_fur"
+            }
+        ],
+        "result": {
+            "item": "confluence:flinx_fur_block",
+            "count": 20
+        }
+    }
+}

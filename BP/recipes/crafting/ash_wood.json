@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:ash_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:ash_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:ash_log"
+            }
+        ],
+        "result": {
+            "item": "confluence:ash_wood",
+            "count": 3
+        }
+    }
+}

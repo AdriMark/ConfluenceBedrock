@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:stonecutting_chiseled_golden_bricks"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:gold_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:gold_block"
+            }
+        ],
+        "result": {
+            "item": "confluence:chiseled_golden_bricks",
+            "count": 9
+        }
+    }
+}

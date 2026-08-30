@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:chiseled_yellow_willow_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:yellow_willow_slab"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:yellow_willow_slab"
+            }
+        ],
+        "result": {
+            "item": "confluence:chiseled_yellow_willow_planks"
+        }
+    }
+}

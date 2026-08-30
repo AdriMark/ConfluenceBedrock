@@ -1,0 +1,70 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:jungle_thorn",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:jungle_thorn.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.jungle_thorn"
+            },
+            "minecraft:material_instances": {
+                "jungle_thorn_center": {
+                    "texture": "confluence:jungle_thorn_center",
+                    "render_method": "alpha_test"
+                },
+                "jungle_thorn_center_r270": {
+                    "texture": "confluence:jungle_thorn_center_r270",
+                    "render_method": "alpha_test"
+                },
+                "jungle_thorn_center_r90": {
+                    "texture": "confluence:jungle_thorn_center_r90",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:jungle_thorn_center",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#613928",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -5,
+                    3,
+                    -5
+                ],
+                "size": [
+                    10,
+                    10,
+                    10
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -5,
+                    3,
+                    -5
+                ],
+                "size": [
+                    10,
+                    10,
+                    10
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_deepslate_crimtane_ore_to_crimtane_ingot"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:deepslate_crimtane_ore"
+            }
+        ],
+        "input": "confluence:deepslate_crimtane_ore",
+        "output": "confluence:crimtane_ingot"
+    }
+}

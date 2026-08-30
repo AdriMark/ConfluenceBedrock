@@ -1,0 +1,351 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.tundra_pot",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5,
+                                0.0312,
+                                -5
+                            ],
+                            "size": [
+                                10,
+                                13,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        13
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        13
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "east": {
+                                    "uv": [
+                                        13,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        13
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "west": {
+                                    "uv": [
+                                        13,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        13
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        -10
+                                    ],
+                                    "material_instance": "tundra_pot_top_0"
+                                },
+                                "down": {
+                                    "uv": [
+                                        3,
+                                        13
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        -10
+                                    ],
+                                    "material_instance": "tundra_pot_bottom_0"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                1.0312,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                9,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        9
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        9
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        9
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        9
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        -12
+                                    ],
+                                    "material_instance": "tundra_pot_top_0"
+                                },
+                                "down": {
+                                    "uv": [
+                                        2,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        -12
+                                    ],
+                                    "material_instance": "tundra_pot_bottom_0"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                12.0312,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                2,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        2
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        2
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        2
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        2
+                                    ],
+                                    "material_instance": "tundra_pot_0"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        -12
+                                    ],
+                                    "material_instance": "tundra_pot_top_0"
+                                },
+                                "down": {
+                                    "uv": [
+                                        2,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        -12
+                                    ],
+                                    "material_instance": "tundra_pot_bottom_0"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6.0312,
+                                0,
+                                -6.0312
+                            ],
+                            "size": [
+                                12.0625,
+                                14.0625,
+                                12.0625
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        14
+                                    ],
+                                    "material_instance": "tundra_pot_ice_0"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        14
+                                    ],
+                                    "material_instance": "tundra_pot_ice_0"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        14
+                                    ],
+                                    "material_instance": "tundra_pot_ice_0"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        14
+                                    ],
+                                    "material_instance": "tundra_pot_ice_0"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        -12
+                                    ],
+                                    "material_instance": "tundra_pot_ice_top_0"
+                                },
+                                "down": {
+                                    "uv": [
+                                        2,
+                                        14
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        -12
+                                    ],
+                                    "material_instance": "tundra_pot_ice_bottom_0"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

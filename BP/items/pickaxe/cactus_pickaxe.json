@@ -1,0 +1,57 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "confluence:cactus_pickaxe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "confluence:itemGroup.name.pickaxe"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "confluence:cactus_pickaxe"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.confluence:cactus_pickaxe.name"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:damage": 4,
+            "minecraft:durability": {
+                "max_durability": 220
+            },
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 4
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_pickaxe",
+                    "confluence:is_tool",
+                    "confluence:tool_level_1",
+                    "minecraft:iron_tier"
+                ]
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('confluence:pickaxe') && !q.any_tag('confluence:level_2','confluence:level_3','confluence:level_4','confluence:level_5','confluence:level_6','confluence:level_7','confluence:level_8','confluence:level_9')"
+                        },
+                        "speed": 4
+                    },
+                    {
+                        "block": {
+                            "tags": "!q.any_tag('confluence:pickaxe','confluence:axe','confluence:hammer','confluence:shovel','confluence:hoe') && q.any_tag('stone','metal','is_pickaxe_item_destructible','minecraft:is_pickaxe_item_destructible','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable')"
+                        },
+                        "speed": 4
+                    }
+                ]
+            }
+        }
+    }
+}

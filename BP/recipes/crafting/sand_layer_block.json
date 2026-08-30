@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:sand_layer_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:sand"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:sand"
+            }
+        ],
+        "result": {
+            "item": "confluence:sand_layer_block",
+            "count": 6
+        }
+    }
+}

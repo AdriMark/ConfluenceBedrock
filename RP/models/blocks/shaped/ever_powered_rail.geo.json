@@ -1,0 +1,71 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.ever_powered_rail",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        9,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                9,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                0,
+                                16
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        16
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        -16
+                                    ],
+                                    "material_instance": "powered_rail"
+                                }
+                            },
+                            "pivot": [
+                                0,
+                                9,
+                                0
+                            ],
+                            "rotation": [
+                                -45,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}

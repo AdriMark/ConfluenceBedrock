@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "confluence:shadow_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "confluence:shadow_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "confluence:shadow_planks"
+            }
+        ],
+        "result": {
+            "item": "confluence:shadow_slab",
+            "count": 6
+        }
+    }
+}

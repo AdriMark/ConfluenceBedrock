@@ -1,0 +1,36 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:red_ice",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stone"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:red_ice.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.full_cube",
+                "culling": "confluence:culling.pane"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "confluence:red_ice",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#df8788",
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ]
+        }
+    }
+}

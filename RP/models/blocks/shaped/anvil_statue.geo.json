@@ -1,0 +1,1225 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.anvil_statue",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                7,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                3,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        15,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        15.5,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        8,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -7,
+                                3,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                4,
+                                14
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        11.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                3,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        15,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        15,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.anvil_statue_part1",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_0",
+                    "pivot": [
+                        0,
+                        -4,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6,
+                                -6,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                4,
+                                12
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        4
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        4
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        4
+                                    ],
+                                    "material_instance": "anvil_statue_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        4
+                                    ],
+                                    "material_instance": "anvil_statue_r90"
+                                },
+                                "up": {
+                                    "uv": [
+                                        14,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        12
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_1",
+                    "pivot": [
+                        0,
+                        -1.5,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -4,
+                                -2,
+                                -5
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                10
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        1
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        1
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        13,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        1
+                                    ],
+                                    "material_instance": "anvil_statue_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        1
+                                    ],
+                                    "material_instance": "anvil_statue_r90"
+                                },
+                                "up": {
+                                    "uv": [
+                                        12,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        10
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_2",
+                    "pivot": [
+                        0,
+                        1.5,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -2,
+                                -1,
+                                -4
+                            ],
+                            "size": [
+                                4,
+                                5,
+                                8
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        5
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        5
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        5
+                                    ],
+                                    "material_instance": "anvil_statue_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        5
+                                    ],
+                                    "material_instance": "anvil_statue_r90"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_3",
+                    "pivot": [
+                        0,
+                        7,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5,
+                                4,
+                                -8
+                            ],
+                            "size": [
+                                10,
+                                6,
+                                16
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        6
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        6
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        6
+                                    ],
+                                    "material_instance": "anvil_statue_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        6
+                                    ],
+                                    "material_instance": "anvil_statue_r90"
+                                },
+                                "up": {
+                                    "uv": [
+                                        13,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        16
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        13,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        16
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.confluence.shaped.anvil_statue_icon",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root_p0",
+                    "pivot": [
+                        0,
+                        4.9231,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -4.9231,
+                                4.3077,
+                                -4.9231
+                            ],
+                            "size": [
+                                9.8462,
+                                1.8462,
+                                9.8462
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        11,
+                                        10.5
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11.5,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        15,
+                                        11.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        15.5,
+                                        0.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        8,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        8,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4.3077,
+                                1.8462,
+                                -4.3077
+                            ],
+                            "size": [
+                                8.6154,
+                                2.4615,
+                                8.6154
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        10.5,
+                                        5.5
+                                    ],
+                                    "uv_size": [
+                                        3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        4.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        14,
+                                        6.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        1
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        3.5,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        3.5
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        11.5,
+                                        3.5
+                                    ],
+                                    "uv_size": [
+                                        -3.5,
+                                        -3.5
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -4.9231,
+                                0,
+                                -4.9231
+                            ],
+                            "size": [
+                                9.8462,
+                                1.8462,
+                                9.8462
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        10.5,
+                                        7.5
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "north": {
+                                    "uv": [
+                                        11,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "east": {
+                                    "uv": [
+                                        15,
+                                        8.25
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "west": {
+                                    "uv": [
+                                        15,
+                                        9.75
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        0.75
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "up": {
+                                    "uv": [
+                                        4,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        4
+                                    ],
+                                    "material_instance": "statue_base"
+                                },
+                                "down": {
+                                    "uv": [
+                                        4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        -4
+                                    ],
+                                    "material_instance": "statue_base"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "root_0_p1",
+                    "pivot": [
+                        0,
+                        -2.4615,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3.6923,
+                                6.1538,
+                                -3.6923
+                            ],
+                            "size": [
+                                7.3846,
+                                2.4615,
+                                7.3846
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        4
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        4
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        4
+                                    ],
+                                    "material_instance": "anvil_statue_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        4
+                                    ],
+                                    "material_instance": "anvil_statue_r90"
+                                },
+                                "up": {
+                                    "uv": [
+                                        14,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -12,
+                                        12
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_1_p1",
+                    "pivot": [
+                        0,
+                        -0.9231,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -2.4615,
+                                8.6154,
+                                -3.0769
+                            ],
+                            "size": [
+                                4.9231,
+                                0.6154,
+                                6.1538
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        4,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        1
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        4,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        1
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        13,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        1
+                                    ],
+                                    "material_instance": "anvil_statue_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        3,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        1
+                                    ],
+                                    "material_instance": "anvil_statue_r90"
+                                },
+                                "up": {
+                                    "uv": [
+                                        12,
+                                        3
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        10
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_2_p1",
+                    "pivot": [
+                        0,
+                        0.9231,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -1.2308,
+                                9.2308,
+                                -2.4615
+                            ],
+                            "size": [
+                                2.4615,
+                                3.0769,
+                                4.9231
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        6,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        5
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        6,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        5
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        12,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        -8,
+                                        5
+                                    ],
+                                    "material_instance": "anvil_statue_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        4,
+                                        5
+                                    ],
+                                    "uv_size": [
+                                        8,
+                                        5
+                                    ],
+                                    "material_instance": "anvil_statue_r90"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                },
+                {
+                    "name": "root_3_p1",
+                    "pivot": [
+                        0,
+                        4.3077,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3.0769,
+                                12.3077,
+                                -4.9231
+                            ],
+                            "size": [
+                                6.1538,
+                                3.6923,
+                                9.8462
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        6
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "north": {
+                                    "uv": [
+                                        3,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        10,
+                                        6
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "east": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        6
+                                    ],
+                                    "material_instance": "anvil_statue_r270"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        6
+                                    ],
+                                    "material_instance": "anvil_statue_r90"
+                                },
+                                "up": {
+                                    "uv": [
+                                        13,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        16
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                },
+                                "down": {
+                                    "uv": [
+                                        13,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -10,
+                                        16
+                                    ],
+                                    "material_instance": "anvil_statue"
+                                }
+                            }
+                        }
+                    ],
+                    "rotation": [
+                        0,
+                        -270,
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}

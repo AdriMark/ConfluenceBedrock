@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "confluence:pine_needle_handmade_rope_set"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "confluence:pine_drooping_vine"
+            },
+            {
+                "item": "confluence:pine_drooping_vine"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "confluence:pine_drooping_vine"
+            }
+        ],
+        "result": {
+            "item": "confluence:pine_needle_handmade_rope_set"
+        }
+    }
+}

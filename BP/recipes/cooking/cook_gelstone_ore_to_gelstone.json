@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_gelstone_ore_to_gelstone"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:gelstone_ore"
+            }
+        ],
+        "input": "confluence:gelstone_ore",
+        "output": "confluence:gelstone"
+    }
+}

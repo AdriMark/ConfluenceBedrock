@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "confluence:cook_deepslate_topaz_ore_to_topaz"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace"
+        ],
+        "unlock": [
+            {
+                "item": "confluence:deepslate_topaz_ore"
+            }
+        ],
+        "input": "confluence:deepslate_topaz_ore",
+        "output": "confluence:topaz"
+    }
+}

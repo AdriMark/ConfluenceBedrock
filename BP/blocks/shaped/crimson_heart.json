@@ -1,0 +1,81 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "confluence:crimson_heart",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.confluence:crimson_heart.name",
+            "minecraft:geometry": {
+                "identifier": "geometry.confluence.shaped.crimson_heart"
+            },
+            "minecraft:material_instances": {
+                "crimson_heart_tile": {
+                    "texture": "confluence:crimson_heart_tile",
+                    "render_method": "alpha_test"
+                },
+                "crimson_heart_r90": {
+                    "texture": "confluence:crimson_heart_r90",
+                    "render_method": "alpha_test"
+                },
+                "crimson_heart_1": {
+                    "texture": "confluence:crimson_heart_1",
+                    "render_method": "alpha_test"
+                },
+                "*": {
+                    "texture": "confluence:crimson_heart_tile",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#c9777f",
+            "minecraft:tags": [
+                "confluence:hammer"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -7.0282,
+                    0.9718,
+                    -3.5
+                ],
+                "size": [
+                    15.0282,
+                    15.0282,
+                    7
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7.0282,
+                    0.9718,
+                    -3.5
+                ],
+                "size": [
+                    15.0282,
+                    15.0282,
+                    7
+                ]
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.confluence.item_sprite"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "confluence:crimson_heart",
+                        "render_method": "alpha_test"
+                    }
+                }
+            }
+        }
+    }
+}
