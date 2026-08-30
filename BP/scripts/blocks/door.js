@@ -4,6 +4,7 @@ const COMPONENT_ID = "confluence:door";
 const OPEN_STATE = "confluence:open";
 const FACING_STATE = "minecraft:cardinal_direction";
 
+/** @type { (block: import("@minecraft/server").Block) => import("@minecraft/server").Block[] } */
 function halves(block) {
 	const offsets = MULTIBLOCK_PARTS[block.typeId];
 	if (!offsets) return [block];
@@ -22,6 +23,7 @@ function halves(block) {
 		degrees = 0;
 	}
 
+	/** @type { (offset: [number, number, number]) => [number, number, number] } */
 	const turn = (offset) => {
 		const [x, y, z] = offset;
 		switch (((degrees % 360) + 360) % 360) {
@@ -49,6 +51,7 @@ function halves(block) {
 }
 
 // Door Toggle
+/** @type { (blockComponentRegistry: import("@minecraft/server").BlockComponentRegistry) => void } */
 export function registerDoor(blockComponentRegistry) {
 	blockComponentRegistry.registerCustomComponent(COMPONENT_ID, {
 		onPlayerInteract(event) {

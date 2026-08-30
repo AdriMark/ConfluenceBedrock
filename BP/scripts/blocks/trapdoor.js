@@ -1,6 +1,7 @@
 const COMPONENT_ID = "confluence:trapdoor";
 const OPEN_STATE = "confluence:open";
 
+/** @type { (blockComponentRegistry: import("@minecraft/server").BlockComponentRegistry) => void } */
 export function registerTrapdoor(blockComponentRegistry) {
 	blockComponentRegistry.registerCustomComponent(COMPONENT_ID, {
 		onPlayerInteract(event) {

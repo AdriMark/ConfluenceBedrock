@@ -7,6 +7,7 @@ const CLASS_TAGS = ["pickaxe", "axe", "hammer", "shovel", "hoe"];
 const MAX_LEVEL = 9;
 const MESSAGE = "confluence.mining.needs_power";
 
+/** @type { (permutation: import("@minecraft/server").BlockPermutation, typeId: string) => number } */
 function blockLevel(permutation, typeId) {
 	for (let level = MAX_LEVEL; level >= 2; level--) {
 		if (permutation.hasTag(LEVEL_TAG + level)) return level;
@@ -14,6 +15,7 @@ function blockLevel(permutation, typeId) {
 	return VANILLA_BLOCK_LEVELS[typeId] ?? 0;
 }
 
+/** @type { (permutation: import("@minecraft/server").BlockPermutation) => string[] } */
 function blockClasses(permutation) {
 	const out = [];
 	for (const name of CLASS_TAGS) {
@@ -22,6 +24,7 @@ function blockClasses(permutation) {
 	return out;
 }
 
+/** @type { (itemStack: import("@minecraft/server").ItemStack | undefined) => number } */
 function toolLevel(itemStack) {
 	if (!itemStack) return 0;
 
@@ -34,6 +37,7 @@ function toolLevel(itemStack) {
 	return 0;
 }
 
+/** @type { (itemStack: import("@minecraft/server").ItemStack | undefined) => string[] } */
 function toolClasses(itemStack) {
 	if (!itemStack) return [];
 
@@ -46,6 +50,7 @@ function toolClasses(itemStack) {
 	return out;
 }
 
+/** @type { (player: import("@minecraft/server").Player) => import("@minecraft/server").ItemStack | undefined } */
 function heldItem(player) {
 	try {
 		const container = player.getComponent("minecraft:inventory")?.container;
@@ -56,6 +61,7 @@ function heldItem(player) {
 	}
 }
 
+/** @type { (player: import("@minecraft/server").Player) => boolean } */
 function isCreative(player) {
 	try {
 		return String(player.getGameMode()).toLowerCase() === "creative";
@@ -64,6 +70,7 @@ function isCreative(player) {
 	}
 }
 
+/** @type { (permutation: import("@minecraft/server").BlockPermutation, itemStack: import("@minecraft/server").ItemStack | undefined) => boolean } */
 function canHarvest(permutation, itemStack) {
 	const wanted = blockClasses(permutation);
 	if (!wanted.length) return true;
@@ -75,6 +82,7 @@ function canHarvest(permutation, itemStack) {
 	return false;
 }
 
+/** @type { (player: import("@minecraft/server").Player, block: import("@minecraft/server").Block, itemStack: import("@minecraft/server").ItemStack | undefined) => number } */	
 function shortfall(player, block, itemStack) {
 	if (isCreative(player)) return 0;
 
@@ -91,6 +99,7 @@ function shortfall(player, block, itemStack) {
 	return level;
 }
 
+/** @type { (player: import("@minecraft/server").Player, level: number) => void } */
 function tellRequired(player, level) {
 	const required = LEVEL_MIN_POWER[level];
 	system.run(() => {
