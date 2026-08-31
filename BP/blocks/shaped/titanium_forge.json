@@ -503,26 +503,26 @@
                     },
                     "minecraft:collision_box": {
                         "origin": [
-                            -7.02,
+                            -8,
                             7.7291,
-                            -0.0283
+                            -7.02
                         ],
                         "size": [
-                            6.04,
+                            8.0283,
                             7.1276,
-                            8.0283
+                            6.04
                         ]
                     },
                     "minecraft:selection_box": {
                         "origin": [
-                            -7.02,
+                            -8,
                             7.7291,
-                            -0.0283
+                            -7.02
                         ],
                         "size": [
-                            6.04,
+                            8.0283,
                             7.1276,
-                            8.0283
+                            6.04
                         ]
                     },
                     "minecraft:transformation": {
@@ -542,9 +542,9 @@
                     },
                     "minecraft:collision_box": {
                         "origin": [
-                            -0.0283,
+                            -8,
                             7.7291,
-                            0.98
+                            -7.02
                         ],
                         "size": [
                             8.0283,
@@ -554,9 +554,9 @@
                     },
                     "minecraft:selection_box": {
                         "origin": [
-                            -0.0283,
+                            -8,
                             7.7291,
-                            0.98
+                            -7.02
                         ],
                         "size": [
                             8.0283,
@@ -581,26 +581,26 @@
                     },
                     "minecraft:collision_box": {
                         "origin": [
-                            0.98,
+                            -8,
                             7.7291,
-                            -8
+                            -7.02
                         ],
                         "size": [
-                            6.04,
+                            8.0283,
                             7.1276,
-                            8.0283
+                            6.04
                         ]
                     },
                     "minecraft:selection_box": {
                         "origin": [
-                            0.98,
+                            -8,
                             7.7291,
-                            -8
+                            -7.02
                         ],
                         "size": [
-                            6.04,
+                            8.0283,
                             7.1276,
-                            8.0283
+                            6.04
                         ]
                     },
                     "minecraft:transformation": {

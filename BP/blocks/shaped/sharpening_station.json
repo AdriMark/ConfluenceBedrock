@@ -159,26 +159,26 @@
                     },
                     "minecraft:collision_box": {
                         "origin": [
-                            -6,
+                            -8,
                             0,
-                            -8
+                            -6
                         ],
                         "size": [
-                            12,
+                            16,
                             14,
-                            16
+                            12
                         ]
                     },
                     "minecraft:selection_box": {
                         "origin": [
-                            -6,
+                            -8,
                             0,
-                            -8
+                            -6
                         ],
                         "size": [
-                            12,
+                            16,
                             14,
-                            16
+                            12
                         ]
                     },
                     "minecraft:transformation": {
@@ -237,26 +237,26 @@
                     },
                     "minecraft:collision_box": {
                         "origin": [
-                            -6,
+                            -8,
                             0,
-                            -8
+                            -6
                         ],
                         "size": [
-                            12,
+                            16,
                             14,
-                            16
+                            12
                         ]
                     },
                     "minecraft:selection_box": {
                         "origin": [
-                            -6,
+                            -8,
                             0,
-                            -8
+                            -6
                         ],
                         "size": [
-                            12,
+                            16,
                             14,
-                            16
+                            12
                         ]
                     },
                     "minecraft:transformation": {
